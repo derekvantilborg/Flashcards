@@ -1,0 +1,6002 @@
+[
+{
+"fr": "être",
+"en": "to be",
+"nl": "zijn",
+"say": "être"
+},
+{
+"fr": "avoir",
+"en": "to have",
+"nl": "hebben",
+"say": "avoir"
+},
+{
+"fr": "faire",
+"en": "to do, to make",
+"nl": "doen, maken",
+"say": "faire"
+},
+{
+"fr": "aller",
+"en": "to go",
+"nl": "gaan",
+"say": "aller"
+},
+{
+"fr": "dire",
+"en": "to say, to tell",
+"nl": "zeggen",
+"say": "dire"
+},
+{
+"fr": "pouvoir",
+"en": "can, to be able to",
+"nl": "kunnen",
+"say": "pouvoir"
+},
+{
+"fr": "vouloir",
+"en": "to want",
+"nl": "willen",
+"say": "vouloir"
+},
+{
+"fr": "bien",
+"en": "well (adverb)",
+"nl": "goed (bijwoord)",
+"say": "bien"
+},
+{
+"fr": "savoir",
+"en": "to know (a fact)",
+"nl": "weten",
+"say": "savoir"
+},
+{
+"fr": "voir",
+"en": "to see",
+"nl": "zien",
+"say": "voir"
+},
+{
+"fr": "tout / toute",
+"en": "all, everything",
+"nl": "alles, al",
+"say": "tout, toute"
+},
+{
+"fr": "devoir",
+"en": "must, to have to",
+"nl": "moeten",
+"say": "devoir"
+},
+{
+"fr": "venir",
+"en": "to come",
+"nl": "komen",
+"say": "venir"
+},
+{
+"fr": "un / une",
+"en": "one",
+"nl": "een (1)",
+"say": "un, une"
+},
+{
+"fr": "deux",
+"en": "two",
+"nl": "twee",
+"say": "deux"
+},
+{
+"fr": "trois",
+"en": "three",
+"nl": "drie",
+"say": "trois"
+},
+{
+"fr": "prendre",
+"en": "to take",
+"nl": "nemen",
+"say": "prendre"
+},
+{
+"fr": "ici",
+"en": "here",
+"nl": "hier",
+"say": "ici"
+},
+{
+"fr": "où",
+"en": "where",
+"nl": "waar (welke plaats?)",
+"say": "où"
+},
+{
+"fr": "quand",
+"en": "when",
+"nl": "wanneer",
+"say": "quand"
+},
+{
+"fr": "qui",
+"en": "who",
+"nl": "wie",
+"say": "qui"
+},
+{
+"fr": "quoi",
+"en": "what",
+"nl": "wat",
+"say": "quoi"
+},
+{
+"fr": "n'importe quoi",
+"en": "nonsense; anything",
+"nl": "onzin; wat dan ook",
+"say": "n'importe quoi"
+},
+{
+"fr": "suivre",
+"en": "to follow",
+"nl": "volgen",
+"say": "suivre"
+},
+{
+"fr": "parler",
+"en": "to speak, to talk",
+"nl": "spreken, praten",
+"say": "parler"
+},
+{
+"fr": "falloir (il faut)",
+"en": "to be necessary (il faut = you must)",
+"nl": "nodig zijn (il faut = het moet)",
+"say": "falloir"
+},
+{
+"fr": "la chose",
+"en": "thing",
+"nl": "ding",
+"say": "la chose"
+},
+{
+"fr": "qu'est-ce que c'est ?",
+"en": "what is it?",
+"nl": "wat is het?",
+"say": "qu'est-ce que c'est"
+},
+{
+"fr": "croire",
+"en": "to believe",
+"nl": "geloven",
+"say": "croire"
+},
+{
+"fr": "je ne sais pas",
+"en": "I don't know",
+"nl": "ik weet het niet",
+"say": "je ne sais pas"
+},
+{
+"fr": "très",
+"en": "very",
+"nl": "erg, zeer",
+"say": "très"
+},
+{
+"fr": "aussi",
+"en": "also, too",
+"nl": "ook",
+"say": "aussi"
+},
+{
+"fr": "mais",
+"en": "but",
+"nl": "maar",
+"say": "mais"
+},
+{
+"fr": "parce que",
+"en": "because",
+"nl": "omdat",
+"say": "parce que"
+},
+{
+"fr": "passer",
+"en": "to pass, to spend (time)",
+"nl": "voorbijgaan, doorbrengen (tijd)",
+"say": "passer"
+},
+{
+"fr": "encore",
+"en": "again, still",
+"nl": "nog, opnieuw",
+"say": "encore"
+},
+{
+"fr": "aimer",
+"en": "to love, to like",
+"nl": "houden van, graag hebben",
+"say": "aimer"
+},
+{
+"fr": "petit / petite",
+"en": "small, little",
+"nl": "klein",
+"say": "petit, petite"
+},
+{
+"fr": "jamais",
+"en": "never",
+"nl": "nooit",
+"say": "jamais"
+},
+{
+"fr": "bon / bonne",
+"en": "good (adjective)",
+"nl": "goed (bijvoeglijk)",
+"say": "bon, bonne"
+},
+{
+"fr": "penser",
+"en": "to think",
+"nl": "denken",
+"say": "penser"
+},
+{
+"fr": "l'homme (m)",
+"en": "man",
+"nl": "man",
+"say": "l'homme"
+},
+{
+"fr": "quatre",
+"en": "four",
+"nl": "vier",
+"say": "quatre"
+},
+{
+"fr": "cinq",
+"en": "five",
+"nl": "vijf",
+"say": "cinq"
+},
+{
+"fr": "trouver",
+"en": "to find",
+"nl": "vinden",
+"say": "trouver"
+},
+{
+"fr": "le jour",
+"en": "day",
+"nl": "dag",
+"say": "le jour"
+},
+{
+"fr": "laisser",
+"en": "to let, to leave (something)",
+"nl": "laten",
+"say": "laisser"
+},
+{
+"fr": "le temps",
+"en": "time, weather",
+"nl": "tijd, weer",
+"say": "le temps"
+},
+{
+"fr": "regarder",
+"en": "to look at, to watch",
+"nl": "kijken naar",
+"say": "regarder"
+},
+{
+"fr": "attendre",
+"en": "to wait",
+"nl": "wachten",
+"say": "attendre"
+},
+{
+"fr": "même",
+"en": "same, even",
+"nl": "zelfde, zelfs",
+"say": "même"
+},
+{
+"fr": "donner",
+"en": "to give",
+"nl": "geven",
+"say": "donner"
+},
+{
+"fr": "toujours",
+"en": "always, still",
+"nl": "altijd, nog steeds",
+"say": "toujours"
+},
+{
+"fr": "arriver",
+"en": "to arrive, to happen",
+"nl": "aankomen, gebeuren",
+"say": "arriver"
+},
+{
+"fr": "mettre",
+"en": "to put",
+"nl": "zetten, leggen",
+"say": "mettre"
+},
+{
+"fr": "la femme",
+"en": "woman, wife",
+"nl": "vrouw",
+"say": "la femme"
+},
+{
+"fr": "avec",
+"en": "with",
+"nl": "met",
+"say": "avec"
+},
+{
+"fr": "sans",
+"en": "without",
+"nl": "zonder",
+"say": "sans"
+},
+{
+"fr": "pour",
+"en": "for",
+"nl": "voor (iemand, iets)",
+"say": "pour"
+},
+{
+"fr": "chez",
+"en": "at (someone's place)",
+"nl": "bij (iemand thuis)",
+"say": "chez"
+},
+{
+"fr": "sur",
+"en": "on",
+"nl": "op",
+"say": "sur"
+},
+{
+"fr": "sous",
+"en": "under",
+"nl": "onder",
+"say": "sous"
+},
+{
+"fr": "ou",
+"en": "or",
+"nl": "of",
+"say": "ou"
+},
+{
+"fr": "les fois",
+"en": "time (once, twice...)",
+"nl": "keer",
+"say": "les fois"
+},
+{
+"fr": "la vie",
+"en": "life",
+"nl": "het leven",
+"say": "la vie"
+},
+{
+"fr": "un peu",
+"en": "a little",
+"nl": "een beetje",
+"say": "un peu"
+},
+{
+"fr": "demander",
+"en": "to ask",
+"nl": "vragen",
+"say": "demander"
+},
+{
+"fr": "rester",
+"en": "to stay",
+"nl": "blijven",
+"say": "rester"
+},
+{
+"fr": "seul / seule",
+"en": "alone",
+"nl": "alleen (eenzaam)",
+"say": "seul, seule"
+},
+{
+"fr": "appeler",
+"en": "to call",
+"nl": "roepen, opbellen",
+"say": "appeler"
+},
+{
+"fr": "pourquoi",
+"en": "why",
+"nl": "waarom",
+"say": "pourquoi"
+},
+{
+"fr": "grand / grande",
+"en": "big, tall",
+"nl": "groot",
+"say": "grand, grande"
+},
+{
+"fr": "partir",
+"en": "to leave, to go away",
+"nl": "vertrekken, weggaan",
+"say": "partir"
+},
+{
+"fr": "trop",
+"en": "too (much)",
+"nl": "te (veel)",
+"say": "trop"
+},
+{
+"fr": "connaître",
+"en": "to know (a person, a place)",
+"nl": "kennen",
+"say": "connaître"
+},
+{
+"fr": "le père",
+"en": "father",
+"nl": "vader",
+"say": "le père"
+},
+{
+"fr": "peut-être",
+"en": "maybe",
+"nl": "misschien",
+"say": "peut-être"
+},
+{
+"fr": "autre",
+"en": "other",
+"nl": "ander",
+"say": "autre"
+},
+{
+"fr": "maintenant",
+"en": "now",
+"nl": "nu",
+"say": "maintenant"
+},
+{
+"fr": "l'heure (f)",
+"en": "hour, o'clock",
+"nl": "uur",
+"say": "l'heure"
+},
+{
+"fr": "midi",
+"en": "noon, midday",
+"nl": "middag (12 uur)",
+"say": "midi"
+},
+{
+"fr": "le monde",
+"en": "world",
+"nl": "wereld",
+"say": "le monde"
+},
+{
+"fr": "l'an (m)",
+"en": "year (with numbers: 3 years)",
+"nl": "jaar (bij getallen)",
+"say": "l'an"
+},
+{
+"fr": "la main",
+"en": "hand",
+"nl": "hand",
+"say": "la main"
+},
+{
+"fr": "comprendre",
+"en": "to understand",
+"nl": "begrijpen",
+"say": "comprendre"
+},
+{
+"fr": "bien sûr",
+"en": "of course",
+"nl": "natuurlijk",
+"say": "bien sûr"
+},
+{
+"fr": "six",
+"en": "six",
+"nl": "zes",
+"say": "six"
+},
+{
+"fr": "sept",
+"en": "seven",
+"nl": "zeven",
+"say": "sept"
+},
+{
+"fr": "huit",
+"en": "eight",
+"nl": "acht",
+"say": "huit"
+},
+{
+"fr": "sortir",
+"en": "to go out",
+"nl": "uitgaan, naar buiten gaan",
+"say": "sortir"
+},
+{
+"fr": "arrêter",
+"en": "to stop",
+"nl": "stoppen",
+"say": "arrêter"
+},
+{
+"fr": "la fille",
+"en": "girl, daughter",
+"nl": "meisje, dochter",
+"say": "la fille"
+},
+{
+"fr": "l'œil (m) (pl. les yeux)",
+"en": "eye",
+"nl": "oog",
+"say": "l'œil"
+},
+{
+"fr": "l'enfant (m)",
+"en": "child",
+"nl": "kind",
+"say": "l'enfant"
+},
+{
+"fr": "sûr / sûre",
+"en": "sure",
+"nl": "zeker (overtuigd)",
+"say": "sûr, sûre"
+},
+{
+"fr": "entendre",
+"en": "to hear",
+"nl": "horen",
+"say": "entendre"
+},
+{
+"fr": "la mère",
+"en": "mother",
+"nl": "moeder",
+"say": "la mère"
+},
+{
+"fr": "mourir",
+"en": "to die",
+"nl": "sterven, doodgaan",
+"say": "mourir"
+},
+{
+"fr": "Dieu",
+"en": "God",
+"nl": "God",
+"say": "Dieu"
+},
+{
+"fr": "vraiment",
+"en": "really",
+"nl": "echt",
+"say": "vraiment"
+},
+{
+"fr": "c'est-à-dire",
+"en": "that is to say, I mean",
+"nl": "dat wil zeggen",
+"say": "c'est-à-dire"
+},
+{
+"fr": "déjà",
+"en": "already",
+"nl": "al",
+"say": "déjà"
+},
+{
+"fr": "vrai / vraie",
+"en": "true",
+"nl": "waar (niet gelogen)",
+"say": "vrai, vraie"
+},
+{
+"fr": "la tête",
+"en": "head",
+"nl": "hoofd",
+"say": "la tête"
+},
+{
+"fr": "beau / belle",
+"en": "beautiful, handsome",
+"nl": "mooi",
+"say": "beau, belle"
+},
+{
+"fr": "la nuit",
+"en": "night",
+"nl": "nacht",
+"say": "la nuit"
+},
+{
+"fr": "tuer",
+"en": "to kill",
+"nl": "doden",
+"say": "tuer"
+},
+{
+"fr": "comment",
+"en": "how",
+"nl": "hoe",
+"say": "comment"
+},
+{
+"fr": "le coup",
+"en": "blow, hit",
+"nl": "klap, slag",
+"say": "le coup"
+},
+{
+"fr": "sentir",
+"en": "to feel, to smell",
+"nl": "voelen, ruiken",
+"say": "sentir"
+},
+{
+"fr": "chercher",
+"en": "to look for",
+"nl": "zoeken",
+"say": "chercher"
+},
+{
+"fr": "tenir",
+"en": "to hold",
+"nl": "vasthouden",
+"say": "tenir"
+},
+{
+"fr": "la maison",
+"en": "house, home",
+"nl": "huis",
+"say": "la maison"
+},
+{
+"fr": "l'ami / l'amie",
+"en": "friend",
+"nl": "vriend, vriendin",
+"say": "l'ami, l'amie"
+},
+{
+"fr": "moins",
+"en": "less",
+"nl": "minder",
+"say": "moins"
+},
+{
+"fr": "le monsieur",
+"en": "sir, Mr., gentleman",
+"nl": "meneer",
+"say": "le monsieur"
+},
+{
+"fr": "le soir",
+"en": "evening",
+"nl": "avond",
+"say": "le soir"
+},
+{
+"fr": "neuf",
+"en": "nine",
+"nl": "negen",
+"say": "neuf"
+},
+{
+"fr": "dix",
+"en": "ten",
+"nl": "tien",
+"say": "dix"
+},
+{
+"fr": "le besoin",
+"en": "need (avoir besoin de = to need)",
+"nl": "behoefte (avoir besoin de = nodig hebben)",
+"say": "le besoin"
+},
+{
+"fr": "l'air (m)",
+"en": "air; look (avoir l'air = to seem)",
+"nl": "lucht; uiterlijk",
+"say": "l'air"
+},
+{
+"fr": "revenir",
+"en": "to come back",
+"nl": "terugkomen",
+"say": "revenir"
+},
+{
+"fr": "beaucoup",
+"en": "a lot, much",
+"nl": "veel",
+"say": "beaucoup"
+},
+{
+"fr": "mieux",
+"en": "better (adverb)",
+"nl": "beter (bijwoord)",
+"say": "mieux"
+},
+{
+"fr": "le moment",
+"en": "moment",
+"nl": "moment",
+"say": "le moment"
+},
+{
+"fr": "donc",
+"en": "so, therefore",
+"nl": "dus",
+"say": "donc"
+},
+{
+"fr": "pendant",
+"en": "during",
+"nl": "tijdens",
+"say": "pendant"
+},
+{
+"fr": "entre",
+"en": "between",
+"nl": "tussen",
+"say": "entre"
+},
+{
+"fr": "essayer",
+"en": "to try",
+"nl": "proberen",
+"say": "essayer"
+},
+{
+"fr": "les gens",
+"en": "people",
+"nl": "mensen",
+"say": "les gens"
+},
+{
+"fr": "d'accord",
+"en": "OK, agreed",
+"nl": "oké, akkoord",
+"say": "d'accord"
+},
+{
+"fr": "finir",
+"en": "to finish",
+"nl": "afmaken, eindigen",
+"say": "finir"
+},
+{
+"fr": "le nom",
+"en": "name",
+"nl": "naam",
+"say": "le nom"
+},
+{
+"fr": "premier / première",
+"en": "first",
+"nl": "eerste",
+"say": "premier, première"
+},
+{
+"fr": "rendre",
+"en": "to give back",
+"nl": "teruggeven",
+"say": "rendre"
+},
+{
+"fr": "vivre",
+"en": "to live (be alive)",
+"nl": "leven (werkwoord)",
+"say": "vivre"
+},
+{
+"fr": "perdre",
+"en": "to lose",
+"nl": "verliezen",
+"say": "perdre"
+},
+{
+"fr": "jouer",
+"en": "to play",
+"nl": "spelen",
+"say": "jouer"
+},
+{
+"fr": "aider",
+"en": "to help",
+"nl": "helpen",
+"say": "aider"
+},
+{
+"fr": "devenir",
+"en": "to become",
+"nl": "worden",
+"say": "devenir"
+},
+{
+"fr": "la peur",
+"en": "fear (avoir peur = to be afraid)",
+"nl": "angst (avoir peur = bang zijn)",
+"say": "la peur"
+},
+{
+"fr": "la mort",
+"en": "death",
+"nl": "de dood",
+"say": "la mort"
+},
+{
+"fr": "juste",
+"en": "fair, just, right",
+"nl": "eerlijk, juist",
+"say": "juste"
+},
+{
+"fr": "la porte",
+"en": "door",
+"nl": "deur",
+"say": "la porte"
+},
+{
+"fr": "ouvrir",
+"en": "to open",
+"nl": "openen",
+"say": "ouvrir"
+},
+{
+"fr": "l'amour (m)",
+"en": "love",
+"nl": "liefde",
+"say": "l'amour"
+},
+{
+"fr": "vite",
+"en": "quickly",
+"nl": "snel (bijwoord)",
+"say": "vite"
+},
+{
+"fr": "rentrer",
+"en": "to go home, to come back in",
+"nl": "naar huis gaan, terugkeren",
+"say": "rentrer"
+},
+{
+"fr": "commencer",
+"en": "to begin, to start",
+"nl": "beginnen",
+"say": "commencer"
+},
+{
+"fr": "entrer",
+"en": "to enter",
+"nl": "binnengaan",
+"say": "entrer"
+},
+{
+"fr": "tomber",
+"en": "to fall",
+"nl": "vallen",
+"say": "tomber"
+},
+{
+"fr": "plaire",
+"en": "to please (s'il vous plaît)",
+"nl": "bevallen",
+"say": "plaire"
+},
+{
+"fr": "s'il vous plaît",
+"en": "please (formal)",
+"nl": "alstublieft",
+"say": "s'il vous plaît"
+},
+{
+"fr": "s'il te plaît",
+"en": "please (informal)",
+"nl": "alsjeblieft",
+"say": "s'il te plaît"
+},
+{
+"fr": "dernier / dernière",
+"en": "last",
+"nl": "laatst",
+"say": "dernier, dernière"
+},
+{
+"fr": "assez",
+"en": "enough, quite",
+"nl": "genoeg, nogal",
+"say": "assez"
+},
+{
+"fr": "mal",
+"en": "badly, wrong",
+"nl": "slecht (bijwoord), verkeerd",
+"say": "mal"
+},
+{
+"fr": "écouter",
+"en": "to listen",
+"nl": "luisteren",
+"say": "écouter"
+},
+{
+"fr": "oublier",
+"en": "to forget",
+"nl": "vergeten",
+"say": "oublier"
+},
+{
+"fr": "jeune",
+"en": "young",
+"nl": "jong",
+"say": "jeune"
+},
+{
+"fr": "la raison",
+"en": "reason (avoir raison = to be right)",
+"nl": "reden (avoir raison = gelijk hebben)",
+"say": "la raison"
+},
+{
+"fr": "tirer",
+"en": "to pull, to shoot",
+"nl": "trekken, schieten",
+"say": "tirer"
+},
+{
+"fr": "le côté",
+"en": "side",
+"nl": "kant",
+"say": "le côté"
+},
+{
+"fr": "manger",
+"en": "to eat",
+"nl": "eten",
+"say": "manger"
+},
+{
+"fr": "bon appétit",
+"en": "enjoy your meal",
+"nl": "eet smakelijk",
+"say": "bon appétit"
+},
+{
+"fr": "le légume",
+"en": "vegetable",
+"nl": "groente",
+"say": "le légume"
+},
+{
+"fr": "le fruit",
+"en": "fruit",
+"nl": "fruit",
+"say": "le fruit"
+},
+{
+"fr": "l'œuf (m)",
+"en": "egg",
+"nl": "ei",
+"say": "l'œuf"
+},
+{
+"fr": "le fait",
+"en": "fact",
+"nl": "feit",
+"say": "le fait"
+},
+{
+"fr": "en fait",
+"en": "actually, in fact",
+"nl": "eigenlijk",
+"say": "en fait"
+},
+{
+"fr": "le mot",
+"en": "word",
+"nl": "woord",
+"say": "le mot"
+},
+{
+"fr": "le fils",
+"en": "son",
+"nl": "zoon",
+"say": "le fils"
+},
+{
+"fr": "l'argent (m)",
+"en": "money, silver",
+"nl": "geld, zilver",
+"say": "l'argent"
+},
+{
+"fr": "porter",
+"en": "to carry, to wear",
+"nl": "dragen",
+"say": "porter"
+},
+{
+"fr": "la maman",
+"en": "mum",
+"nl": "mama",
+"say": "la maman"
+},
+{
+"fr": "la question",
+"en": "question",
+"nl": "vraag",
+"say": "la question"
+},
+{
+"fr": "vieux / vieille",
+"en": "old",
+"nl": "oud",
+"say": "vieux, vieille"
+},
+{
+"fr": "la voiture",
+"en": "car",
+"nl": "auto",
+"say": "la voiture"
+},
+{
+"fr": "le vélo",
+"en": "bike",
+"nl": "fiets",
+"say": "le vélo"
+},
+{
+"fr": "le bus",
+"en": "bus",
+"nl": "bus",
+"say": "le bus"
+},
+{
+"fr": "le métro",
+"en": "underground, metro",
+"nl": "metro",
+"say": "le métro"
+},
+{
+"fr": "travailler",
+"en": "to work",
+"nl": "werken",
+"say": "travailler"
+},
+{
+"fr": "la place",
+"en": "square, seat",
+"nl": "plein, zitplaats",
+"say": "la place"
+},
+{
+"fr": "l'eau (f)",
+"en": "water",
+"nl": "water",
+"say": "l'eau"
+},
+{
+"fr": "sembler",
+"en": "to seem",
+"nl": "lijken",
+"say": "sembler"
+},
+{
+"fr": "l'idée (f)",
+"en": "idea",
+"nl": "idee",
+"say": "l'idée"
+},
+{
+"fr": "bonjour",
+"en": "hello, good morning",
+"nl": "hallo, goedendag",
+"say": "bonjour"
+},
+{
+"fr": "l'histoire (f)",
+"en": "story, history",
+"nl": "verhaal, geschiedenis",
+"say": "l'histoire"
+},
+{
+"fr": "la terre",
+"en": "earth, land",
+"nl": "aarde, land",
+"say": "la terre"
+},
+{
+"fr": "s'asseoir",
+"en": "to sit down",
+"nl": "gaan zitten",
+"say": "s'asseoir"
+},
+{
+"fr": "le problème",
+"en": "problem",
+"nl": "probleem",
+"say": "le problème"
+},
+{
+"fr": "marcher",
+"en": "to walk, to work (machine)",
+"nl": "lopen, werken (apparaat)",
+"say": "marcher"
+},
+{
+"fr": "tard",
+"en": "late",
+"nl": "laat",
+"say": "tard"
+},
+{
+"fr": "changer",
+"en": "to change",
+"nl": "veranderen",
+"say": "changer"
+},
+{
+"fr": "retrouver",
+"en": "to find again, to meet up",
+"nl": "terugvinden, weerzien",
+"say": "retrouver"
+},
+{
+"fr": "le corps",
+"en": "body",
+"nl": "lichaam",
+"say": "le corps"
+},
+{
+"fr": "la famille",
+"en": "family",
+"nl": "familie, gezin",
+"say": "la famille"
+},
+{
+"fr": "l'année (f)",
+"en": "year (the whole year)",
+"nl": "jaar (het hele jaar)",
+"say": "l'année"
+},
+{
+"fr": "le travail",
+"en": "work, job",
+"nl": "werk",
+"say": "le travail"
+},
+{
+"fr": "dormir",
+"en": "to sleep",
+"nl": "slapen",
+"say": "dormir"
+},
+{
+"fr": "la chambre",
+"en": "bedroom",
+"nl": "slaapkamer",
+"say": "la chambre"
+},
+{
+"fr": "l'affaire (f)",
+"en": "matter, business, case",
+"nl": "zaak",
+"say": "l'affaire"
+},
+{
+"fr": "répondre",
+"en": "to answer",
+"nl": "antwoorden",
+"say": "répondre"
+},
+{
+"fr": "onze",
+"en": "eleven",
+"nl": "elf",
+"say": "onze"
+},
+{
+"fr": "douze",
+"en": "twelve",
+"nl": "twaalf",
+"say": "douze"
+},
+{
+"fr": "enfin",
+"en": "finally, at last",
+"nl": "eindelijk",
+"say": "enfin"
+},
+{
+"fr": "loin",
+"en": "far",
+"nl": "ver",
+"say": "loin"
+},
+{
+"fr": "monter",
+"en": "to go up, to get in (a car)",
+"nl": "naar boven gaan, instappen",
+"say": "monter"
+},
+{
+"fr": "seulement",
+"en": "only",
+"nl": "slechts, maar",
+"say": "seulement"
+},
+{
+"fr": "apprendre",
+"en": "to learn, to teach",
+"nl": "leren",
+"say": "apprendre"
+},
+{
+"fr": "le matin",
+"en": "morning",
+"nl": "ochtend",
+"say": "le matin"
+},
+{
+"fr": "la voix",
+"en": "voice",
+"nl": "stem",
+"say": "la voix"
+},
+{
+"fr": "le pied",
+"en": "foot",
+"nl": "voet",
+"say": "le pied"
+},
+{
+"fr": "le frère",
+"en": "brother",
+"nl": "broer",
+"say": "le frère"
+},
+{
+"fr": "écrire",
+"en": "to write",
+"nl": "schrijven",
+"say": "écrire"
+},
+{
+"fr": "la rue",
+"en": "street",
+"nl": "straat",
+"say": "la rue"
+},
+{
+"fr": "la ville",
+"en": "town, city",
+"nl": "stad",
+"say": "la ville"
+},
+{
+"fr": "boire",
+"en": "to drink",
+"nl": "drinken",
+"say": "boire"
+},
+{
+"fr": "le sucre",
+"en": "sugar",
+"nl": "suiker",
+"say": "le sucre"
+},
+{
+"fr": "le sel",
+"en": "salt",
+"nl": "zout",
+"say": "le sel"
+},
+{
+"fr": "le beurre",
+"en": "butter",
+"nl": "boter",
+"say": "le beurre"
+},
+{
+"fr": "le riz",
+"en": "rice",
+"nl": "rijst",
+"say": "le riz"
+},
+{
+"fr": "le gâteau",
+"en": "cake",
+"nl": "taart",
+"say": "le gâteau"
+},
+{
+"fr": "la soupe",
+"en": "soup",
+"nl": "soep",
+"say": "la soupe"
+},
+{
+"fr": "s'occuper de",
+"en": "to take care of",
+"nl": "zorgen voor",
+"say": "s'occuper de"
+},
+{
+"fr": "la part",
+"en": "share, portion",
+"nl": "aandeel, portie",
+"say": "la part"
+},
+{
+"fr": "le visage",
+"en": "face",
+"nl": "gezicht",
+"say": "le visage"
+},
+{
+"fr": "payer",
+"en": "to pay",
+"nl": "betalen",
+"say": "payer"
+},
+{
+"fr": "le mois",
+"en": "month",
+"nl": "maand",
+"say": "le mois"
+},
+{
+"fr": "janvier",
+"en": "January",
+"nl": "januari",
+"say": "janvier"
+},
+{
+"fr": "février",
+"en": "February",
+"nl": "februari",
+"say": "février"
+},
+{
+"fr": "mars",
+"en": "March",
+"nl": "maart",
+"say": "mars"
+},
+{
+"fr": "avril",
+"en": "April",
+"nl": "april",
+"say": "avril"
+},
+{
+"fr": "demain",
+"en": "tomorrow",
+"nl": "morgen",
+"say": "demain"
+},
+{
+"fr": "à demain",
+"en": "see you tomorrow",
+"nl": "tot morgen",
+"say": "à demain"
+},
+{
+"fr": "longtemps",
+"en": "a long time",
+"nl": "lang (tijd)",
+"say": "longtemps"
+},
+{
+"fr": "montrer",
+"en": "to show",
+"nl": "tonen, laten zien",
+"say": "montrer"
+},
+{
+"fr": "garder",
+"en": "to keep",
+"nl": "houden, bewaren",
+"say": "garder"
+},
+{
+"fr": "le cœur",
+"en": "heart",
+"nl": "hart",
+"say": "le cœur"
+},
+{
+"fr": "gros / grosse",
+"en": "fat, thick",
+"nl": "dik",
+"say": "gros, grosse"
+},
+{
+"fr": "servir",
+"en": "to serve",
+"nl": "dienen, serveren",
+"say": "servir"
+},
+{
+"fr": "lire",
+"en": "to read",
+"nl": "lezen",
+"say": "lire"
+},
+{
+"fr": "presque",
+"en": "almost",
+"nl": "bijna",
+"say": "presque"
+},
+{
+"fr": "poser",
+"en": "to put down, to ask (a question)",
+"nl": "neerleggen, (een vraag) stellen",
+"say": "poser"
+},
+{
+"fr": "quitter",
+"en": "to leave (a place, a person)",
+"nl": "verlaten",
+"say": "quitter"
+},
+{
+"fr": "envoyer",
+"en": "to send",
+"nl": "sturen",
+"say": "envoyer"
+},
+{
+"fr": "la minute",
+"en": "minute",
+"nl": "minuut",
+"say": "la minute"
+},
+{
+"fr": "le bras",
+"en": "arm",
+"nl": "arm (lichaamsdeel)",
+"say": "le bras"
+},
+{
+"fr": "noir / noire",
+"en": "black",
+"nl": "zwart",
+"say": "noir, noire"
+},
+{
+"fr": "la peine",
+"en": "trouble, sorrow (à peine = barely)",
+"nl": "moeite, verdriet",
+"say": "la peine"
+},
+{
+"fr": "aujourd'hui",
+"en": "today",
+"nl": "vandaag",
+"say": "aujourd'hui"
+},
+{
+"fr": "combien",
+"en": "how much, how many",
+"nl": "hoeveel",
+"say": "combien"
+},
+{
+"fr": "long / longue",
+"en": "long",
+"nl": "lang",
+"say": "long, longue"
+},
+{
+"fr": "se lever",
+"en": "to get up",
+"nl": "opstaan",
+"say": "se lever"
+},
+{
+"fr": "tout de suite",
+"en": "right away",
+"nl": "meteen",
+"say": "tout de suite"
+},
+{
+"fr": "se souvenir de",
+"en": "to remember",
+"nl": "zich herinneren",
+"say": "se souvenir de"
+},
+{
+"fr": "continuer",
+"en": "to continue",
+"nl": "doorgaan",
+"say": "continuer"
+},
+{
+"fr": "la guerre",
+"en": "war",
+"nl": "oorlog",
+"say": "la guerre"
+},
+{
+"fr": "le type",
+"en": "type, guy",
+"nl": "type, kerel",
+"say": "le type"
+},
+{
+"fr": "plein / pleine",
+"en": "full",
+"nl": "vol",
+"say": "plein, pleine"
+},
+{
+"fr": "tourner",
+"en": "to turn",
+"nl": "draaien",
+"say": "tourner"
+},
+{
+"fr": "la chance",
+"en": "luck",
+"nl": "geluk (toeval)",
+"say": "la chance"
+},
+{
+"fr": "le train",
+"en": "train",
+"nl": "trein",
+"say": "le train"
+},
+{
+"fr": "les madame",
+"en": "madam, Mrs.",
+"nl": "mevrouw",
+"say": "les madame"
+},
+{
+"fr": "le sang",
+"en": "blood",
+"nl": "bloed",
+"say": "le sang"
+},
+{
+"fr": "le point",
+"en": "point, dot",
+"nl": "punt",
+"say": "le point"
+},
+{
+"fr": "excuser",
+"en": "to excuse",
+"nl": "excuseren",
+"say": "excuser"
+},
+{
+"fr": "excusez-moi",
+"en": "excuse me",
+"nl": "pardon, neem me niet kwalijk",
+"say": "excusez-moi"
+},
+{
+"fr": "le truc",
+"en": "thing (informal), trick",
+"nl": "ding, trucje",
+"say": "le truc"
+},
+{
+"fr": "retourner",
+"en": "to go back, to turn over",
+"nl": "teruggaan, omdraaien",
+"say": "retourner"
+},
+{
+"fr": "descendre",
+"en": "to go down, to get off",
+"nl": "naar beneden gaan, uitstappen",
+"say": "descendre"
+},
+{
+"fr": "la personne",
+"en": "person",
+"nl": "persoon",
+"say": "la personne"
+},
+{
+"fr": "fou / folle",
+"en": "crazy, mad",
+"nl": "gek",
+"say": "fou, folle"
+},
+{
+"fr": "raconter",
+"en": "to tell (a story)",
+"nl": "vertellen",
+"say": "raconter"
+},
+{
+"fr": "le garçon",
+"en": "boy",
+"nl": "jongen",
+"say": "le garçon"
+},
+{
+"fr": "le cas",
+"en": "case",
+"nl": "geval",
+"say": "le cas"
+},
+{
+"fr": "nouveau / nouvelle",
+"en": "new",
+"nl": "nieuw",
+"say": "nouveau, nouvelle"
+},
+{
+"fr": "la fin",
+"en": "end",
+"nl": "einde",
+"say": "la fin"
+},
+{
+"fr": "la semaine",
+"en": "week",
+"nl": "week",
+"say": "la semaine"
+},
+{
+"fr": "jeter",
+"en": "to throw",
+"nl": "gooien",
+"say": "jeter"
+},
+{
+"fr": "rappeler",
+"en": "to remind, to call back",
+"nl": "herinneren aan, terugbellen",
+"say": "rappeler"
+},
+{
+"fr": "l'instant (m)",
+"en": "moment, instant",
+"nl": "ogenblik",
+"say": "l'instant"
+},
+{
+"fr": "la façon",
+"en": "way, manner",
+"nl": "manier",
+"say": "la façon"
+},
+{
+"fr": "merci",
+"en": "thank you",
+"nl": "dank je",
+"say": "merci"
+},
+{
+"fr": "de rien",
+"en": "you're welcome",
+"nl": "graag gedaan",
+"say": "de rien"
+},
+{
+"fr": "gagner",
+"en": "to win, to earn",
+"nl": "winnen, (geld) verdienen",
+"say": "gagner"
+},
+{
+"fr": "le lit",
+"en": "bed",
+"nl": "bed",
+"say": "le lit"
+},
+{
+"fr": "blanc / blanche",
+"en": "white",
+"nl": "wit",
+"say": "blanc, blanche"
+},
+{
+"fr": "le tour",
+"en": "turn (c'est ton tour = it's your turn)",
+"nl": "beurt",
+"say": "le tour"
+},
+{
+"fr": "plutôt",
+"en": "rather",
+"nl": "eerder, liever",
+"say": "plutôt"
+},
+{
+"fr": "toucher",
+"en": "to touch",
+"nl": "aanraken",
+"say": "toucher"
+},
+{
+"fr": "prêt / prête",
+"en": "ready",
+"nl": "klaar",
+"say": "prêt, prête"
+},
+{
+"fr": "le bout",
+"en": "tip, bit (au bout de = at the end of)",
+"nl": "uiteinde, stukje",
+"say": "le bout"
+},
+{
+"fr": "le feu",
+"en": "fire, traffic light",
+"nl": "vuur, verkeerslicht",
+"say": "le feu"
+},
+{
+"fr": "espérer",
+"en": "to hope",
+"nl": "hopen",
+"say": "espérer"
+},
+{
+"fr": "acheter",
+"en": "to buy",
+"nl": "kopen",
+"say": "acheter"
+},
+{
+"fr": "le livre",
+"en": "book",
+"nl": "boek",
+"say": "le livre"
+},
+{
+"fr": "mauvais / mauvaise",
+"en": "bad",
+"nl": "slecht",
+"say": "mauvais, mauvaise"
+},
+{
+"fr": "l'envie (f)",
+"en": "urge (avoir envie de = to feel like)",
+"nl": "zin (avoir envie de = zin hebben in)",
+"say": "l'envie"
+},
+{
+"fr": "manquer",
+"en": "to lack, to miss (someone)",
+"nl": "ontbreken, missen (iemand)",
+"say": "manquer"
+},
+{
+"fr": "prier",
+"en": "to pray",
+"nl": "bidden",
+"say": "prier"
+},
+{
+"fr": "la force",
+"en": "strength, force",
+"nl": "kracht",
+"say": "la force"
+},
+{
+"fr": "heureux / heureuse",
+"en": "happy",
+"nl": "gelukkig",
+"say": "heureux, heureuse"
+},
+{
+"fr": "l'ordre (m)",
+"en": "order",
+"nl": "orde, bevel",
+"say": "l'ordre"
+},
+{
+"fr": "le mec",
+"en": "guy (informal)",
+"nl": "gast, vent",
+"say": "le mec"
+},
+{
+"fr": "la table",
+"en": "table",
+"nl": "tafel",
+"say": "la table"
+},
+{
+"fr": "fermer",
+"en": "to close",
+"nl": "sluiten, dichtdoen",
+"say": "fermer"
+},
+{
+"fr": "rencontrer",
+"en": "to meet",
+"nl": "ontmoeten",
+"say": "rencontrer"
+},
+{
+"fr": "le pays",
+"en": "country",
+"nl": "land (staat)",
+"say": "le pays"
+},
+{
+"fr": "compter",
+"en": "to count",
+"nl": "tellen",
+"say": "compter"
+},
+{
+"fr": "le fond",
+"en": "bottom, background",
+"nl": "bodem, achtergrond",
+"say": "le fond"
+},
+{
+"fr": "le lieu",
+"en": "place (avoir lieu = to take place)",
+"nl": "plaats (avoir lieu = plaatsvinden)",
+"say": "le lieu"
+},
+{
+"fr": "ailleurs",
+"en": "elsewhere",
+"nl": "ergens anders",
+"say": "ailleurs"
+},
+{
+"fr": "la route",
+"en": "road",
+"nl": "weg",
+"say": "la route"
+},
+{
+"fr": "expliquer",
+"en": "to explain",
+"nl": "uitleggen",
+"say": "expliquer"
+},
+{
+"fr": "imaginer",
+"en": "to imagine",
+"nl": "zich voorstellen",
+"say": "imaginer"
+},
+{
+"fr": "rire",
+"en": "to laugh",
+"nl": "lachen",
+"say": "rire"
+},
+{
+"fr": "reprendre",
+"en": "to take back, to resume",
+"nl": "terugnemen, hervatten",
+"say": "reprendre"
+},
+{
+"fr": "valoir",
+"en": "to be worth",
+"nl": "waard zijn",
+"say": "valoir"
+},
+{
+"fr": "décider",
+"en": "to decide",
+"nl": "beslissen",
+"say": "décider"
+},
+{
+"fr": "ensemble",
+"en": "together",
+"nl": "samen",
+"say": "ensemble"
+},
+{
+"fr": "la cause",
+"en": "cause (à cause de = because of)",
+"nl": "oorzaak (à cause de = vanwege)",
+"say": "la cause"
+},
+{
+"fr": "le mari",
+"en": "husband",
+"nl": "echtgenoot, man",
+"say": "le mari"
+},
+{
+"fr": "le chien",
+"en": "dog",
+"nl": "hond",
+"say": "le chien"
+},
+{
+"fr": "le soleil",
+"en": "sun",
+"nl": "zon",
+"say": "le soleil"
+},
+{
+"fr": "pourtant",
+"en": "yet, still",
+"nl": "toch",
+"say": "pourtant"
+},
+{
+"fr": "quand même",
+"en": "still, all the same",
+"nl": "desondanks",
+"say": "quand même"
+},
+{
+"fr": "le ciel",
+"en": "sky",
+"nl": "hemel, lucht",
+"say": "le ciel"
+},
+{
+"fr": "parfois",
+"en": "sometimes",
+"nl": "soms",
+"say": "parfois"
+},
+{
+"fr": "le regard",
+"en": "look, gaze",
+"nl": "blik",
+"say": "le regard"
+},
+{
+"fr": "emmener",
+"en": "to take (a person) along",
+"nl": "meenemen (iemand)",
+"say": "emmener"
+},
+{
+"fr": "surtout",
+"en": "especially, above all",
+"nl": "vooral",
+"say": "surtout"
+},
+{
+"fr": "possible",
+"en": "possible",
+"nl": "mogelijk",
+"say": "possible"
+},
+{
+"fr": "le chef",
+"en": "chef, head (leader)",
+"nl": "chef, leider",
+"say": "le chef"
+},
+{
+"fr": "agir",
+"en": "to act",
+"nl": "handelen",
+"say": "agir"
+},
+{
+"fr": "recevoir",
+"en": "to receive",
+"nl": "ontvangen",
+"say": "recevoir"
+},
+{
+"fr": "le plaisir",
+"en": "pleasure",
+"nl": "plezier",
+"say": "le plaisir"
+},
+{
+"fr": "là-bas",
+"en": "over there",
+"nl": "daarginds",
+"say": "là-bas"
+},
+{
+"fr": "le doute",
+"en": "doubt",
+"nl": "twijfel",
+"say": "le doute"
+},
+{
+"fr": "suffire",
+"en": "to be enough",
+"nl": "volstaan",
+"say": "suffire"
+},
+{
+"fr": "la pièce",
+"en": "room (of a house), coin, piece",
+"nl": "vertrek, munt, stuk",
+"say": "la pièce"
+},
+{
+"fr": "la partie",
+"en": "part (of something)",
+"nl": "deel",
+"say": "la partie"
+},
+{
+"fr": "la police",
+"en": "police",
+"nl": "politie",
+"say": "la police"
+},
+{
+"fr": "le verre",
+"en": "glass",
+"nl": "glas",
+"say": "le verre"
+},
+{
+"fr": "la lettre",
+"en": "letter",
+"nl": "brief, letter",
+"say": "la lettre"
+},
+{
+"fr": "le reste",
+"en": "rest (remainder)",
+"nl": "rest",
+"say": "le reste"
+},
+{
+"fr": "souvent",
+"en": "often",
+"nl": "vaak",
+"say": "souvent"
+},
+{
+"fr": "le genre",
+"en": "kind, gender (c'est mon genre = it's my type)",
+"nl": "soort, geslacht",
+"say": "le genre"
+},
+{
+"fr": "cacher",
+"en": "to hide",
+"nl": "verbergen",
+"say": "cacher"
+},
+{
+"fr": "le silence",
+"en": "silence",
+"nl": "stilte",
+"say": "le silence"
+},
+{
+"fr": "courir",
+"en": "to run",
+"nl": "rennen",
+"say": "courir"
+},
+{
+"fr": "battre",
+"en": "to beat",
+"nl": "verslaan",
+"say": "battre"
+},
+{
+"fr": "offrir",
+"en": "to offer, to give (a gift)",
+"nl": "aanbieden, cadeau geven",
+"say": "offrir"
+},
+{
+"fr": "salut",
+"en": "hi, bye",
+"nl": "hoi, doei",
+"say": "salut"
+},
+{
+"fr": "ça va ?",
+"en": "how are you? / I'm fine",
+"nl": "hoe gaat het? / het gaat goed",
+"say": "ça va"
+},
+{
+"fr": "il y a",
+"en": "there is, there are",
+"nl": "er is, er zijn",
+"say": "il y a"
+},
+{
+"fr": "pousser",
+"en": "to push, to grow (plant)",
+"nl": "duwen, groeien (plant)",
+"say": "pousser"
+},
+{
+"fr": "la lumière",
+"en": "light (lamp, sun)",
+"nl": "licht (lamp, zon)",
+"say": "la lumière"
+},
+{
+"fr": "le droit",
+"en": "right (law)",
+"nl": "recht",
+"say": "le droit"
+},
+{
+"fr": "bouger",
+"en": "to move",
+"nl": "bewegen",
+"say": "bouger"
+},
+{
+"fr": "apporter",
+"en": "to bring",
+"nl": "brengen",
+"say": "apporter"
+},
+{
+"fr": "le bois",
+"en": "wood",
+"nl": "hout",
+"say": "le bois"
+},
+{
+"fr": "fort / forte",
+"en": "strong",
+"nl": "sterk",
+"say": "fort, forte"
+},
+{
+"fr": "se coucher",
+"en": "to go to bed",
+"nl": "naar bed gaan",
+"say": "se coucher"
+},
+{
+"fr": "sauver",
+"en": "to save, to rescue",
+"nl": "redden",
+"say": "sauver"
+},
+{
+"fr": "puis",
+"en": "then",
+"nl": "dan, daarna",
+"say": "puis"
+},
+{
+"fr": "le papa",
+"en": "dad",
+"nl": "papa",
+"say": "le papa"
+},
+{
+"fr": "l'endroit (m)",
+"en": "spot, location",
+"nl": "plek",
+"say": "l'endroit"
+},
+{
+"fr": "treize",
+"en": "thirteen",
+"nl": "dertien",
+"say": "treize"
+},
+{
+"fr": "quatorze",
+"en": "fourteen",
+"nl": "veertien",
+"say": "quatorze"
+},
+{
+"fr": "quinze",
+"en": "fifteen",
+"nl": "vijftien",
+"say": "quinze"
+},
+{
+"fr": "joli / jolie",
+"en": "pretty",
+"nl": "knap, leuk",
+"say": "joli, jolie"
+},
+{
+"fr": "le jeu",
+"en": "game",
+"nl": "spel",
+"say": "le jeu"
+},
+{
+"fr": "en face de",
+"en": "opposite",
+"nl": "tegenover",
+"say": "en face de"
+},
+{
+"fr": "pauvre",
+"en": "poor",
+"nl": "arm (niet rijk)",
+"say": "pauvre"
+},
+{
+"fr": "l'école (f)",
+"en": "school",
+"nl": "school",
+"say": "l'école"
+},
+{
+"fr": "avant",
+"en": "before",
+"nl": "vóór (tijd)",
+"say": "avant"
+},
+{
+"fr": "le film",
+"en": "film, movie",
+"nl": "film",
+"say": "le film"
+},
+{
+"fr": "les cheveux",
+"en": "hair (on your head)",
+"nl": "haar (op het hoofd)",
+"say": "les cheveux"
+},
+{
+"fr": "propre",
+"en": "clean, own",
+"nl": "schoon, eigen",
+"say": "propre"
+},
+{
+"fr": "le mur",
+"en": "wall",
+"nl": "muur",
+"say": "le mur"
+},
+{
+"fr": "pleurer",
+"en": "to cry",
+"nl": "huilen",
+"say": "pleurer"
+},
+{
+"fr": "l'esprit (m)",
+"en": "mind, spirit",
+"nl": "geest",
+"say": "l'esprit"
+},
+{
+"fr": "le compte",
+"en": "account",
+"nl": "rekening (bank)",
+"say": "le compte"
+},
+{
+"fr": "bientôt",
+"en": "soon",
+"nl": "binnenkort",
+"say": "bientôt"
+},
+{
+"fr": "à bientôt",
+"en": "see you soon",
+"nl": "tot snel",
+"say": "à bientôt"
+},
+{
+"fr": "tant pis",
+"en": "too bad, never mind",
+"nl": "jammer dan",
+"say": "tant pis"
+},
+{
+"fr": "voler",
+"en": "to fly, to steal",
+"nl": "vliegen, stelen",
+"say": "voler"
+},
+{
+"fr": "l'âge (m)",
+"en": "age",
+"nl": "leeftijd",
+"say": "l'âge"
+},
+{
+"fr": "tellement",
+"en": "so (much)",
+"nl": "zo (erg)",
+"say": "tellement"
+},
+{
+"fr": "permettre",
+"en": "to allow",
+"nl": "toestaan",
+"say": "permettre"
+},
+{
+"fr": "cher / chère",
+"en": "expensive, dear",
+"nl": "duur, lief",
+"say": "cher, chère"
+},
+{
+"fr": "l'arme (f)",
+"en": "weapon",
+"nl": "wapen",
+"say": "l'arme"
+},
+{
+"fr": "la journée",
+"en": "day (the whole day)",
+"nl": "dag (de hele dag)",
+"say": "la journée"
+},
+{
+"fr": "reconnaître",
+"en": "to recognise",
+"nl": "herkennen",
+"say": "reconnaître"
+},
+{
+"fr": "la sœur",
+"en": "sister",
+"nl": "zus",
+"say": "la sœur"
+},
+{
+"fr": "le docteur",
+"en": "doctor",
+"nl": "dokter",
+"say": "le docteur"
+},
+{
+"fr": "l'état (m)",
+"en": "state",
+"nl": "staat, toestand",
+"say": "l'état"
+},
+{
+"fr": "d'abord",
+"en": "first (of all)",
+"nl": "eerst",
+"say": "d'abord"
+},
+{
+"fr": "important / importante",
+"en": "important",
+"nl": "belangrijk",
+"say": "important, importante"
+},
+{
+"fr": "la vérité",
+"en": "truth",
+"nl": "waarheid",
+"say": "la vérité"
+},
+{
+"fr": "au revoir",
+"en": "goodbye",
+"nl": "tot ziens",
+"say": "au revoir"
+},
+{
+"fr": "les parents",
+"en": "parents",
+"nl": "ouders",
+"say": "les parents"
+},
+{
+"fr": "dur / dure",
+"en": "hard",
+"nl": "hard",
+"say": "dur, dure"
+},
+{
+"fr": "hier",
+"en": "yesterday",
+"nl": "gisteren",
+"say": "hier"
+},
+{
+"fr": "après",
+"en": "after",
+"nl": "na",
+"say": "après"
+},
+{
+"fr": "rouge",
+"en": "red",
+"nl": "rood",
+"say": "rouge"
+},
+{
+"fr": "désolé / désolée",
+"en": "sorry",
+"nl": "sorry",
+"say": "désolé, désolée"
+},
+{
+"fr": "le service",
+"en": "service, favour",
+"nl": "dienst",
+"say": "le service"
+},
+{
+"fr": "le bruit",
+"en": "noise",
+"nl": "lawaai",
+"say": "le bruit"
+},
+{
+"fr": "le café",
+"en": "coffee, café",
+"nl": "koffie, café",
+"say": "le café"
+},
+{
+"fr": "le restaurant",
+"en": "restaurant",
+"nl": "restaurant",
+"say": "le restaurant"
+},
+{
+"fr": "la boulangerie",
+"en": "bakery",
+"nl": "bakkerij",
+"say": "la boulangerie"
+},
+{
+"fr": "le supermarché",
+"en": "supermarket",
+"nl": "supermarkt",
+"say": "le supermarché"
+},
+{
+"fr": "remettre",
+"en": "to put back",
+"nl": "terugzetten",
+"say": "remettre"
+},
+{
+"fr": "le chemin",
+"en": "path",
+"nl": "pad",
+"say": "le chemin"
+},
+{
+"fr": "meilleur / meilleure",
+"en": "better, best (adjective)",
+"nl": "beter, best",
+"say": "meilleur, meilleure"
+},
+{
+"fr": "la bouche",
+"en": "mouth",
+"nl": "mond",
+"say": "la bouche"
+},
+{
+"fr": "la mer",
+"en": "sea",
+"nl": "zee",
+"say": "la mer"
+},
+{
+"fr": "la fenêtre",
+"en": "window",
+"nl": "raam",
+"say": "la fenêtre"
+},
+{
+"fr": "préparer",
+"en": "to prepare",
+"nl": "voorbereiden",
+"say": "préparer"
+},
+{
+"fr": "crier",
+"en": "to shout",
+"nl": "roepen, schreeuwen",
+"say": "crier"
+},
+{
+"fr": "frapper",
+"en": "to hit, to knock",
+"nl": "slaan, kloppen",
+"say": "frapper"
+},
+{
+"fr": "la photo",
+"en": "photo",
+"nl": "foto",
+"say": "la photo"
+},
+{
+"fr": "vendre",
+"en": "to sell",
+"nl": "verkopen",
+"say": "vendre"
+},
+{
+"fr": "préférer",
+"en": "to prefer",
+"nl": "verkiezen, liever hebben",
+"say": "préférer"
+},
+{
+"fr": "le bureau",
+"en": "office, desk",
+"nl": "kantoor, bureau",
+"say": "le bureau"
+},
+{
+"fr": "conduire",
+"en": "to drive (a car)",
+"nl": "besturen, rijden (auto)",
+"say": "conduire"
+},
+{
+"fr": "se marier",
+"en": "to get married",
+"nl": "trouwen",
+"say": "se marier"
+},
+{
+"fr": "le sens",
+"en": "sense, meaning",
+"nl": "zin, betekenis",
+"say": "le sens"
+},
+{
+"fr": "accepter",
+"en": "to accept",
+"nl": "accepteren",
+"say": "accepter"
+},
+{
+"fr": "partout",
+"en": "everywhere",
+"nl": "overal",
+"say": "partout"
+},
+{
+"fr": "la jambe",
+"en": "leg",
+"nl": "been",
+"say": "la jambe"
+},
+{
+"fr": "le cours",
+"en": "class, lesson, course",
+"nl": "les, cursus",
+"say": "le cours"
+},
+{
+"fr": "la salle",
+"en": "room, hall",
+"nl": "zaal",
+"say": "la salle"
+},
+{
+"fr": "choisir",
+"en": "to choose",
+"nl": "kiezen",
+"say": "choisir"
+},
+{
+"fr": "se réveiller",
+"en": "to wake up",
+"nl": "wakker worden",
+"say": "se réveiller"
+},
+{
+"fr": "s'inquiéter",
+"en": "to worry",
+"nl": "zich zorgen maken",
+"say": "s'inquiéter"
+},
+{
+"fr": "le doigt",
+"en": "finger",
+"nl": "vinger",
+"say": "le doigt"
+},
+{
+"fr": "découvrir",
+"en": "to discover",
+"nl": "ontdekken",
+"say": "découvrir"
+},
+{
+"fr": "présenter",
+"en": "to present, to introduce (someone)",
+"nl": "presenteren, voorstellen (iemand)",
+"say": "présenter"
+},
+{
+"fr": "le papier",
+"en": "paper",
+"nl": "papier",
+"say": "le papier"
+},
+{
+"fr": "ressembler",
+"en": "to look like",
+"nl": "lijken op",
+"say": "ressembler"
+},
+{
+"fr": "dehors",
+"en": "outside",
+"nl": "buiten",
+"say": "dehors"
+},
+{
+"fr": "amener",
+"en": "to bring (a person)",
+"nl": "meebrengen (iemand)",
+"say": "amener"
+},
+{
+"fr": "promettre",
+"en": "to promise",
+"nl": "beloven",
+"say": "promettre"
+},
+{
+"fr": "chanter",
+"en": "to sing",
+"nl": "zingen",
+"say": "chanter"
+},
+{
+"fr": "couper",
+"en": "to cut",
+"nl": "snijden, knippen",
+"say": "couper"
+},
+{
+"fr": "le cheval",
+"en": "horse",
+"nl": "paard",
+"say": "le cheval"
+},
+{
+"fr": "s'approcher",
+"en": "to come closer",
+"nl": "dichterbij komen",
+"say": "s'approcher"
+},
+{
+"fr": "se taire",
+"en": "to be quiet",
+"nl": "zwijgen",
+"say": "se taire"
+},
+{
+"fr": "libre",
+"en": "free (not busy)",
+"nl": "vrij",
+"say": "libre"
+},
+{
+"fr": "la musique",
+"en": "music",
+"nl": "muziek",
+"say": "la musique"
+},
+{
+"fr": "refuser",
+"en": "to refuse",
+"nl": "weigeren",
+"say": "refuser"
+},
+{
+"fr": "ramener",
+"en": "to bring back",
+"nl": "terugbrengen",
+"say": "ramener"
+},
+{
+"fr": "l'effet (m)",
+"en": "effect (en effet = indeed)",
+"nl": "effect (en effet = inderdaad)",
+"say": "l'effet"
+},
+{
+"fr": "le retour",
+"en": "return",
+"nl": "terugkeer",
+"say": "le retour"
+},
+{
+"fr": "le rêve",
+"en": "dream",
+"nl": "droom",
+"say": "le rêve"
+},
+{
+"fr": "le roi",
+"en": "king",
+"nl": "koning",
+"say": "le roi"
+},
+{
+"fr": "le dos",
+"en": "back (body)",
+"nl": "rug",
+"say": "le dos"
+},
+{
+"fr": "l'âme (f)",
+"en": "soul",
+"nl": "ziel",
+"say": "l'âme"
+},
+{
+"fr": "le journal",
+"en": "newspaper, diary",
+"nl": "krant, dagboek",
+"say": "le journal"
+},
+{
+"fr": "français / française",
+"en": "French",
+"nl": "Frans",
+"say": "français, française"
+},
+{
+"fr": "l'attention (f)",
+"en": "attention; careful!",
+"nl": "aandacht; pas op!",
+"say": "l'attention"
+},
+{
+"fr": "le milieu",
+"en": "middle",
+"nl": "midden",
+"say": "le milieu"
+},
+{
+"fr": "le sac",
+"en": "bag",
+"nl": "tas",
+"say": "le sac"
+},
+{
+"fr": "ensuite",
+"en": "next, afterwards",
+"nl": "vervolgens",
+"say": "ensuite"
+},
+{
+"fr": "simple",
+"en": "simple",
+"nl": "eenvoudig",
+"say": "simple"
+},
+{
+"fr": "content / contente",
+"en": "glad, pleased",
+"nl": "blij, tevreden",
+"say": "content, contente"
+},
+{
+"fr": "empêcher",
+"en": "to prevent",
+"nl": "verhinderen",
+"say": "empêcher"
+},
+{
+"fr": "gentil / gentille",
+"en": "kind, nice",
+"nl": "lief, aardig",
+"say": "gentil, gentille"
+},
+{
+"fr": "exister",
+"en": "to exist",
+"nl": "bestaan",
+"say": "exister"
+},
+{
+"fr": "froid / froide",
+"en": "cold",
+"nl": "koud",
+"say": "froid, froide"
+},
+{
+"fr": "pareil / pareille",
+"en": "the same, similar",
+"nl": "hetzelfde, gelijk",
+"say": "pareil, pareille"
+},
+{
+"fr": "la faute",
+"en": "fault, mistake",
+"nl": "fout",
+"say": "la faute"
+},
+{
+"fr": "le coin",
+"en": "corner",
+"nl": "hoek",
+"say": "le coin"
+},
+{
+"fr": "le bord",
+"en": "edge (au bord de la mer = at the seaside)",
+"nl": "rand (aan zee)",
+"say": "le bord"
+},
+{
+"fr": "répéter",
+"en": "to repeat",
+"nl": "herhalen",
+"say": "répéter"
+},
+{
+"fr": "à travers",
+"en": "through",
+"nl": "door(heen)",
+"say": "à travers"
+},
+{
+"fr": "embrasser",
+"en": "to kiss, to hug",
+"nl": "kussen, omhelzen",
+"say": "embrasser"
+},
+{
+"fr": "lâcher",
+"en": "to let go",
+"nl": "loslaten",
+"say": "lâcher"
+},
+{
+"fr": "le patron / la patronne",
+"en": "boss, owner",
+"nl": "baas",
+"say": "le patron, la patronne"
+},
+{
+"fr": "le maître",
+"en": "master, teacher",
+"nl": "meester",
+"say": "le maître"
+},
+{
+"fr": "difficile",
+"en": "difficult",
+"nl": "moeilijk",
+"say": "difficile"
+},
+{
+"fr": "sourire",
+"en": "to smile",
+"nl": "glimlachen",
+"say": "sourire"
+},
+{
+"fr": "ignorer",
+"en": "to not know, to ignore",
+"nl": "niet weten, negeren",
+"say": "ignorer"
+},
+{
+"fr": "le copain / la copine",
+"en": "pal, boyfriend",
+"nl": "maatje, vriendje",
+"say": "le copain, la copine"
+},
+{
+"fr": "le rapport",
+"en": "report, connection",
+"nl": "verslag, verband",
+"say": "le rapport"
+},
+{
+"fr": "clair / claire",
+"en": "clear, light (colour)",
+"nl": "duidelijk, licht (kleur)",
+"say": "clair, claire"
+},
+{
+"fr": "le boulot",
+"en": "job (informal)",
+"nl": "baan, werk",
+"say": "le boulot"
+},
+{
+"fr": "avancer",
+"en": "to move forward",
+"nl": "vooruitgaan",
+"say": "avancer"
+},
+{
+"fr": "le téléphone",
+"en": "telephone",
+"nl": "telefoon",
+"say": "le téléphone"
+},
+{
+"fr": "le portable",
+"en": "mobile phone",
+"nl": "mobiele telefoon",
+"say": "le portable"
+},
+{
+"fr": "l'ordinateur (m)",
+"en": "computer",
+"nl": "computer",
+"say": "l'ordinateur"
+},
+{
+"fr": "certain / certaine",
+"en": "certain",
+"nl": "bepaald, zeker",
+"say": "certain, certaine"
+},
+{
+"fr": "facile",
+"en": "easy",
+"nl": "makkelijk",
+"say": "facile"
+},
+{
+"fr": "enlever",
+"en": "to take off, to remove",
+"nl": "uitdoen, weghalen",
+"say": "enlever"
+},
+{
+"fr": "l'épaule (f)",
+"en": "shoulder",
+"nl": "schouder",
+"say": "l'épaule"
+},
+{
+"fr": "la confiance",
+"en": "trust",
+"nl": "vertrouwen",
+"say": "la confiance"
+},
+{
+"fr": "le vent",
+"en": "wind",
+"nl": "wind",
+"say": "le vent"
+},
+{
+"fr": "adorer",
+"en": "to adore, to love",
+"nl": "dol zijn op",
+"say": "adorer"
+},
+{
+"fr": "depuis",
+"en": "since, for (time)",
+"nl": "sinds",
+"say": "depuis"
+},
+{
+"fr": "casser",
+"en": "to break",
+"nl": "breken",
+"say": "casser"
+},
+{
+"fr": "la parole",
+"en": "(spoken) word, lyrics",
+"nl": "(gesproken) woord, songtekst",
+"say": "la parole"
+},
+{
+"fr": "s'amuser",
+"en": "to have fun",
+"nl": "zich vermaken",
+"say": "s'amuser"
+},
+{
+"fr": "le bébé",
+"en": "baby",
+"nl": "baby",
+"say": "le bébé"
+},
+{
+"fr": "le geste",
+"en": "gesture",
+"nl": "gebaar",
+"say": "le geste"
+},
+{
+"fr": "l'arbre (m)",
+"en": "tree",
+"nl": "boom",
+"say": "l'arbre"
+},
+{
+"fr": "l'hôtel (m)",
+"en": "hotel",
+"nl": "hotel",
+"say": "l'hôtel"
+},
+{
+"fr": "le numéro",
+"en": "number (phone, house)",
+"nl": "nummer",
+"say": "le numéro"
+},
+{
+"fr": "le mariage",
+"en": "wedding, marriage",
+"nl": "bruiloft, huwelijk",
+"say": "le mariage"
+},
+{
+"fr": "mentir",
+"en": "to lie (tell lies)",
+"nl": "liegen",
+"say": "mentir"
+},
+{
+"fr": "la carte",
+"en": "card, map, menu",
+"nl": "kaart",
+"say": "la carte"
+},
+{
+"fr": "intéresser",
+"en": "to interest",
+"nl": "interesseren",
+"say": "intéresser"
+},
+{
+"fr": "la fête",
+"en": "party, celebration",
+"nl": "feest",
+"say": "la fête"
+},
+{
+"fr": "le voyage",
+"en": "trip, journey",
+"nl": "reis",
+"say": "le voyage"
+},
+{
+"fr": "sale",
+"en": "dirty",
+"nl": "vies",
+"say": "sale"
+},
+{
+"fr": "la couleur",
+"en": "colour",
+"nl": "kleur",
+"say": "la couleur"
+},
+{
+"fr": "tôt",
+"en": "early",
+"nl": "vroeg",
+"say": "tôt"
+},
+{
+"fr": "la paix",
+"en": "peace",
+"nl": "vrede",
+"say": "la paix"
+},
+{
+"fr": "se tromper",
+"en": "to make a mistake",
+"nl": "zich vergissen",
+"say": "se tromper"
+},
+{
+"fr": "réussir",
+"en": "to succeed",
+"nl": "slagen",
+"say": "réussir"
+},
+{
+"fr": "sauter",
+"en": "to jump",
+"nl": "springen",
+"say": "sauter"
+},
+{
+"fr": "la peau",
+"en": "skin",
+"nl": "huid",
+"say": "la peau"
+},
+{
+"fr": "l'aide (f)",
+"en": "help",
+"nl": "hulp",
+"say": "l'aide"
+},
+{
+"fr": "la dame",
+"en": "lady",
+"nl": "dame",
+"say": "la dame"
+},
+{
+"fr": "la forme",
+"en": "shape, form",
+"nl": "vorm",
+"say": "la forme"
+},
+{
+"fr": "l'oncle (m)",
+"en": "uncle",
+"nl": "oom",
+"say": "l'oncle"
+},
+{
+"fr": "utiliser",
+"en": "to use",
+"nl": "gebruiken",
+"say": "utiliser"
+},
+{
+"fr": "seize",
+"en": "sixteen",
+"nl": "zestien",
+"say": "seize"
+},
+{
+"fr": "dix-sept",
+"en": "seventeen",
+"nl": "zeventien",
+"say": "dix-sept"
+},
+{
+"fr": "dix-huit",
+"en": "eighteen",
+"nl": "achttien",
+"say": "dix-huit"
+},
+{
+"fr": "bas / basse",
+"en": "low",
+"nl": "laag",
+"say": "bas, basse"
+},
+{
+"fr": "la fleur",
+"en": "flower",
+"nl": "bloem",
+"say": "la fleur"
+},
+{
+"fr": "terminer",
+"en": "to end, to complete",
+"nl": "beëindigen",
+"say": "terminer"
+},
+{
+"fr": "bleu / bleue",
+"en": "blue",
+"nl": "blauw",
+"say": "bleu, bleue"
+},
+{
+"fr": "le début",
+"en": "beginning",
+"nl": "begin",
+"say": "le début"
+},
+{
+"fr": "rêver",
+"en": "to dream",
+"nl": "dromen",
+"say": "rêver"
+},
+{
+"fr": "l'image (f)",
+"en": "picture, image",
+"nl": "beeld, afbeelding",
+"say": "l'image"
+},
+{
+"fr": "drôle",
+"en": "funny",
+"nl": "grappig",
+"say": "drôle"
+},
+{
+"fr": "malade",
+"en": "ill, sick",
+"nl": "ziek",
+"say": "malade"
+},
+{
+"fr": "le plan",
+"en": "plan, map (of a town)",
+"nl": "plan, plattegrond",
+"say": "le plan"
+},
+{
+"fr": "exactement",
+"en": "exactly",
+"nl": "precies",
+"say": "exactement"
+},
+{
+"fr": "traverser",
+"en": "to cross",
+"nl": "oversteken",
+"say": "traverser"
+},
+{
+"fr": "la seconde",
+"en": "second (time)",
+"nl": "seconde",
+"say": "la seconde"
+},
+{
+"fr": "grave",
+"en": "serious, grave",
+"nl": "ernstig",
+"say": "grave"
+},
+{
+"fr": "ce n'est pas grave",
+"en": "no problem, it doesn't matter",
+"nl": "geeft niet",
+"say": "ce n'est pas grave"
+},
+{
+"fr": "habiter",
+"en": "to live (somewhere)",
+"nl": "wonen",
+"say": "habiter"
+},
+{
+"fr": "l'oreille (f)",
+"en": "ear",
+"nl": "oor",
+"say": "l'oreille"
+},
+{
+"fr": "jurer",
+"en": "to swear",
+"nl": "zweren",
+"say": "jurer"
+},
+{
+"fr": "le flic",
+"en": "cop (informal)",
+"nl": "smeris",
+"say": "le flic"
+},
+{
+"fr": "l'ombre (f)",
+"en": "shadow, shade",
+"nl": "schaduw",
+"say": "l'ombre"
+},
+{
+"fr": "l'habitude (f)",
+"en": "habit (d'habitude = usually)",
+"nl": "gewoonte (d'habitude = meestal)",
+"say": "l'habitude"
+},
+{
+"fr": "prochain / prochaine",
+"en": "next",
+"nl": "volgend",
+"say": "prochain, prochaine"
+},
+{
+"fr": "haut / haute",
+"en": "high",
+"nl": "hoog",
+"say": "haut, haute"
+},
+{
+"fr": "danser",
+"en": "to dance",
+"nl": "dansen",
+"say": "danser"
+},
+{
+"fr": "l'armée (f)",
+"en": "army",
+"nl": "leger",
+"say": "l'armée"
+},
+{
+"fr": "le prix",
+"en": "price, prize",
+"nl": "prijs",
+"say": "le prix"
+},
+{
+"fr": "la ligne",
+"en": "line",
+"nl": "lijn",
+"say": "la ligne"
+},
+{
+"fr": "debout",
+"en": "standing (up)",
+"nl": "staand, overeind",
+"say": "debout"
+},
+{
+"fr": "différent / différente",
+"en": "different",
+"nl": "anders, verschillend",
+"say": "différent, différente"
+},
+{
+"fr": "l'or (m)",
+"en": "gold",
+"nl": "goud",
+"say": "l'or"
+},
+{
+"fr": "abandonner",
+"en": "to give up, to abandon",
+"nl": "opgeven, in de steek laten",
+"say": "abandonner"
+},
+{
+"fr": "le président / la présidente",
+"en": "president",
+"nl": "president",
+"say": "le président, la présidente"
+},
+{
+"fr": "chéri / chérie",
+"en": "darling",
+"nl": "schat",
+"say": "chéri, chérie"
+},
+{
+"fr": "la prison",
+"en": "prison",
+"nl": "gevangenis",
+"say": "la prison"
+},
+{
+"fr": "naître",
+"en": "to be born",
+"nl": "geboren worden",
+"say": "naître"
+},
+{
+"fr": "l'honneur (m)",
+"en": "honour",
+"nl": "eer",
+"say": "l'honneur"
+},
+{
+"fr": "faux / fausse",
+"en": "false, wrong",
+"nl": "vals, onjuist",
+"say": "faux, fausse"
+},
+{
+"fr": "oser",
+"en": "to dare",
+"nl": "durven",
+"say": "oser"
+},
+{
+"fr": "le soldat",
+"en": "soldier",
+"nl": "soldaat",
+"say": "le soldat"
+},
+{
+"fr": "la pierre",
+"en": "stone",
+"nl": "steen",
+"say": "la pierre"
+},
+{
+"fr": "l'impression (f)",
+"en": "impression",
+"nl": "indruk",
+"say": "l'impression"
+},
+{
+"fr": "le nez",
+"en": "nose",
+"nl": "neus",
+"say": "le nez"
+},
+{
+"fr": "souffrir",
+"en": "to suffer",
+"nl": "lijden",
+"say": "souffrir"
+},
+{
+"fr": "assurer",
+"en": "to assure, to insure",
+"nl": "verzekeren",
+"say": "assurer"
+},
+{
+"fr": "le village",
+"en": "village",
+"nl": "dorp",
+"say": "le village"
+},
+{
+"fr": "mener",
+"en": "to lead",
+"nl": "leiden",
+"say": "mener"
+},
+{
+"fr": "le sujet",
+"en": "subject, topic",
+"nl": "onderwerp",
+"say": "le sujet"
+},
+{
+"fr": "le médecin",
+"en": "doctor (physician)",
+"nl": "arts",
+"say": "le médecin"
+},
+{
+"fr": "le signe",
+"en": "sign",
+"nl": "teken",
+"say": "le signe"
+},
+{
+"fr": "apercevoir",
+"en": "to catch sight of",
+"nl": "in het oog krijgen",
+"say": "apercevoir"
+},
+{
+"fr": "craindre",
+"en": "to fear",
+"nl": "vrezen",
+"say": "craindre"
+},
+{
+"fr": "doucement",
+"en": "gently, softly",
+"nl": "zachtjes",
+"say": "doucement"
+},
+{
+"fr": "serrer",
+"en": "to squeeze, to hold tight",
+"nl": "knijpen, stevig vasthouden",
+"say": "serrer"
+},
+{
+"fr": "ajouter",
+"en": "to add",
+"nl": "toevoegen",
+"say": "ajouter"
+},
+{
+"fr": "impossible",
+"en": "impossible",
+"nl": "onmogelijk",
+"say": "impossible"
+},
+{
+"fr": "glisser",
+"en": "to slide, to slip",
+"nl": "glijden, uitglijden",
+"say": "glisser"
+},
+{
+"fr": "le bonheur",
+"en": "happiness",
+"nl": "geluk (blijdschap)",
+"say": "le bonheur"
+},
+{
+"fr": "rejoindre",
+"en": "to join, to meet up with",
+"nl": "zich aansluiten bij",
+"say": "rejoindre"
+},
+{
+"fr": "cesser",
+"en": "to cease",
+"nl": "ophouden",
+"say": "cesser"
+},
+{
+"fr": "vivant / vivante",
+"en": "alive",
+"nl": "levend",
+"say": "vivant, vivante"
+},
+{
+"fr": "à propos",
+"en": "by the way",
+"nl": "trouwens",
+"say": "à propos"
+},
+{
+"fr": "le groupe",
+"en": "group",
+"nl": "groep",
+"say": "le groupe"
+},
+{
+"fr": "la lèvre",
+"en": "lip",
+"nl": "lip",
+"say": "la lèvre"
+},
+{
+"fr": "doux / douce",
+"en": "soft, sweet, mild",
+"nl": "zacht, zoet",
+"say": "doux, douce"
+},
+{
+"fr": "lancer",
+"en": "to throw, to launch",
+"nl": "werpen, lanceren",
+"say": "lancer"
+},
+{
+"fr": "la balle",
+"en": "ball (small), bullet",
+"nl": "bal, kogel",
+"say": "la balle"
+},
+{
+"fr": "la scène",
+"en": "stage, scene",
+"nl": "podium, scène",
+"say": "la scène"
+},
+{
+"fr": "près",
+"en": "near",
+"nl": "dichtbij",
+"say": "près"
+},
+{
+"fr": "la vue",
+"en": "view, sight",
+"nl": "uitzicht, zicht",
+"say": "la vue"
+},
+{
+"fr": "le jardin",
+"en": "garden",
+"nl": "tuin",
+"say": "le jardin"
+},
+{
+"fr": "mai",
+"en": "May",
+"nl": "mei",
+"say": "mai"
+},
+{
+"fr": "juin",
+"en": "June",
+"nl": "juni",
+"say": "juin"
+},
+{
+"fr": "juillet",
+"en": "July",
+"nl": "juli",
+"say": "juillet"
+},
+{
+"fr": "août",
+"en": "August",
+"nl": "augustus",
+"say": "août"
+},
+{
+"fr": "s'échapper",
+"en": "to escape",
+"nl": "ontsnappen",
+"say": "s'échapper"
+},
+{
+"fr": "la robe",
+"en": "dress",
+"nl": "jurk",
+"say": "la robe"
+},
+{
+"fr": "sûrement",
+"en": "surely",
+"nl": "vast wel",
+"say": "sûrement"
+},
+{
+"fr": "le peuple",
+"en": "people (nation)",
+"nl": "volk",
+"say": "le peuple"
+},
+{
+"fr": "les avis",
+"en": "opinion",
+"nl": "mening",
+"say": "les avis"
+},
+{
+"fr": "humain / humaine",
+"en": "human",
+"nl": "menselijk",
+"say": "humain, humaine"
+},
+{
+"fr": "tranquille",
+"en": "quiet, calm",
+"nl": "rustig",
+"say": "tranquille"
+},
+{
+"fr": "l'intérieur (m)",
+"en": "inside, interior",
+"nl": "binnenkant",
+"say": "l'intérieur"
+},
+{
+"fr": "le sentiment",
+"en": "feeling",
+"nl": "gevoel",
+"say": "le sentiment"
+},
+{
+"fr": "l'avion (m)",
+"en": "plane",
+"nl": "vliegtuig",
+"say": "l'avion"
+},
+{
+"fr": "le chat",
+"en": "cat",
+"nl": "kat",
+"say": "le chat"
+},
+{
+"fr": "brûler",
+"en": "to burn",
+"nl": "branden",
+"say": "brûler"
+},
+{
+"fr": "l'odeur (f)",
+"en": "smell",
+"nl": "geur",
+"say": "l'odeur"
+},
+{
+"fr": "le camp",
+"en": "camp",
+"nl": "kamp",
+"say": "le camp"
+},
+{
+"fr": "le bateau",
+"en": "boat",
+"nl": "boot",
+"say": "le bateau"
+},
+{
+"fr": "installer",
+"en": "to install, to set up",
+"nl": "installeren",
+"say": "installer"
+},
+{
+"fr": "la situation",
+"en": "situation",
+"nl": "situatie",
+"say": "la situation"
+},
+{
+"fr": "protéger",
+"en": "to protect",
+"nl": "beschermen",
+"say": "protéger"
+},
+{
+"fr": "la faim",
+"en": "hunger (avoir faim = to be hungry)",
+"nl": "honger (honger hebben)",
+"say": "la faim"
+},
+{
+"fr": "prévenir",
+"en": "to warn",
+"nl": "waarschuwen",
+"say": "prévenir"
+},
+{
+"fr": "la cuisine",
+"en": "kitchen, cooking",
+"nl": "keuken",
+"say": "la cuisine"
+},
+{
+"fr": "la boîte",
+"en": "box, can",
+"nl": "doos, blik",
+"say": "la boîte"
+},
+{
+"fr": "remonter",
+"en": "to go back up",
+"nl": "weer omhooggaan",
+"say": "remonter"
+},
+{
+"fr": "l'exemple (m)",
+"en": "example (par exemple = for example)",
+"nl": "voorbeeld (bijvoorbeeld)",
+"say": "l'exemple"
+},
+{
+"fr": "couvrir",
+"en": "to cover",
+"nl": "bedekken",
+"say": "couvrir"
+},
+{
+"fr": "ancien / ancienne",
+"en": "former, ancient",
+"nl": "voormalig, oud",
+"say": "ancien, ancienne"
+},
+{
+"fr": "bonsoir",
+"en": "good evening",
+"nl": "goedenavond",
+"say": "bonsoir"
+},
+{
+"fr": "bonne nuit",
+"en": "good night",
+"nl": "welterusten",
+"say": "bonne nuit"
+},
+{
+"fr": "remarquer",
+"en": "to notice",
+"nl": "opmerken",
+"say": "remarquer"
+},
+{
+"fr": "la joie",
+"en": "joy",
+"nl": "vreugde",
+"say": "la joie"
+},
+{
+"fr": "entier / entière",
+"en": "whole, entire",
+"nl": "heel, geheel",
+"say": "entier, entière"
+},
+{
+"fr": "charger",
+"en": "to load, to charge",
+"nl": "laden, opladen",
+"say": "charger"
+},
+{
+"fr": "simplement",
+"en": "simply",
+"nl": "gewoon, eenvoudigweg",
+"say": "simplement"
+},
+{
+"fr": "triste",
+"en": "sad",
+"nl": "verdrietig",
+"say": "triste"
+},
+{
+"fr": "accompagner",
+"en": "to accompany",
+"nl": "begeleiden",
+"say": "accompagner"
+},
+{
+"fr": "la cour",
+"en": "courtyard, court",
+"nl": "binnenplaats, hof",
+"say": "la cour"
+},
+{
+"fr": "inviter",
+"en": "to invite",
+"nl": "uitnodigen",
+"say": "inviter"
+},
+{
+"fr": "rouler",
+"en": "to roll",
+"nl": "rollen",
+"say": "rouler"
+},
+{
+"fr": "l'hôpital (m)",
+"en": "hospital",
+"nl": "ziekenhuis",
+"say": "l'hôpital"
+},
+{
+"fr": "pardonner",
+"en": "to forgive",
+"nl": "vergeven",
+"say": "pardonner"
+},
+{
+"fr": "pardon",
+"en": "pardon?, sorry (small slip)",
+"nl": "pardon?, sorry (klein foutje)",
+"say": "pardon"
+},
+{
+"fr": "normal / normale",
+"en": "normal",
+"nl": "normaal",
+"say": "normal, normale"
+},
+{
+"fr": "retenir",
+"en": "to hold back, to remember",
+"nl": "tegenhouden, onthouden",
+"say": "retenir"
+},
+{
+"fr": "le secret",
+"en": "secret",
+"nl": "geheim",
+"say": "le secret"
+},
+{
+"fr": "l'ennemi (m)",
+"en": "enemy",
+"nl": "vijand",
+"say": "l'ennemi"
+},
+{
+"fr": "arranger",
+"en": "to arrange, to fix",
+"nl": "in orde brengen",
+"say": "arranger"
+},
+{
+"fr": "risquer",
+"en": "to risk",
+"nl": "riskeren",
+"say": "risquer"
+},
+{
+"fr": "le client / la cliente",
+"en": "customer",
+"nl": "klant",
+"say": "le client, la cliente"
+},
+{
+"fr": "bizarre",
+"en": "strange, weird",
+"nl": "raar",
+"say": "bizarre"
+},
+{
+"fr": "la visite",
+"en": "visit",
+"nl": "bezoek",
+"say": "la visite"
+},
+{
+"fr": "détester",
+"en": "to hate",
+"nl": "haten",
+"say": "détester"
+},
+{
+"fr": "tenter",
+"en": "to attempt, to tempt",
+"nl": "wagen, verleiden",
+"say": "tenter"
+},
+{
+"fr": "la réponse",
+"en": "answer",
+"nl": "antwoord",
+"say": "la réponse"
+},
+{
+"fr": "obliger",
+"en": "to force, to oblige",
+"nl": "dwingen",
+"say": "obliger"
+},
+{
+"fr": "le trou",
+"en": "hole",
+"nl": "gat",
+"say": "le trou"
+},
+{
+"fr": "le mouvement",
+"en": "movement",
+"nl": "beweging",
+"say": "le mouvement"
+},
+{
+"fr": "supposer",
+"en": "to suppose",
+"nl": "veronderstellen",
+"say": "supposer"
+},
+{
+"fr": "nu / nue",
+"en": "naked",
+"nl": "naakt",
+"say": "nu, nue"
+},
+{
+"fr": "au-dessus",
+"en": "above",
+"nl": "boven",
+"say": "au-dessus"
+},
+{
+"fr": "à gauche",
+"en": "(on the) left",
+"nl": "links",
+"say": "à gauche"
+},
+{
+"fr": "à droite",
+"en": "(on the) right",
+"nl": "rechts",
+"say": "à droite"
+},
+{
+"fr": "tout droit",
+"en": "straight ahead",
+"nl": "rechtdoor",
+"say": "tout droit"
+},
+{
+"fr": "l'église (f)",
+"en": "church",
+"nl": "kerk",
+"say": "l'église"
+},
+{
+"fr": "éviter",
+"en": "to avoid",
+"nl": "vermijden",
+"say": "éviter"
+},
+{
+"fr": "détruire",
+"en": "to destroy",
+"nl": "vernietigen",
+"say": "détruire"
+},
+{
+"fr": "l'époque (f)",
+"en": "era, period",
+"nl": "tijdperk",
+"say": "l'époque"
+},
+{
+"fr": "le million",
+"en": "million",
+"nl": "miljoen",
+"say": "le million"
+},
+{
+"fr": "le présent",
+"en": "the present (time)",
+"nl": "het heden",
+"say": "le présent"
+},
+{
+"fr": "le vin",
+"en": "wine",
+"nl": "wijn",
+"say": "le vin"
+},
+{
+"fr": "chaud / chaude",
+"en": "hot, warm",
+"nl": "warm, heet",
+"say": "chaud, chaude"
+},
+{
+"fr": "le cadeau",
+"en": "gift, present",
+"nl": "cadeau",
+"say": "le cadeau"
+},
+{
+"fr": "complètement",
+"en": "completely",
+"nl": "helemaal",
+"say": "complètement"
+},
+{
+"fr": "super",
+"en": "super, great (informal)",
+"nl": "super",
+"say": "super"
+},
+{
+"fr": "soudain",
+"en": "suddenly",
+"nl": "plotseling",
+"say": "soudain"
+},
+{
+"fr": "la honte",
+"en": "shame (avoir honte = to be ashamed)",
+"nl": "schaamte (zich schamen)",
+"say": "la honte"
+},
+{
+"fr": "la pensée",
+"en": "thought",
+"nl": "gedachte",
+"say": "la pensée"
+},
+{
+"fr": "l'erreur (f)",
+"en": "error",
+"nl": "vergissing",
+"say": "l'erreur"
+},
+{
+"fr": "vide",
+"en": "empty",
+"nl": "leeg",
+"say": "vide"
+},
+{
+"fr": "la loi",
+"en": "law",
+"nl": "wet",
+"say": "la loi"
+},
+{
+"fr": "épouser",
+"en": "to marry (someone)",
+"nl": "trouwen met",
+"say": "épouser"
+},
+{
+"fr": "la dent",
+"en": "tooth",
+"nl": "tand",
+"say": "la dent"
+},
+{
+"fr": "le retard",
+"en": "delay (en retard = late)",
+"nl": "vertraging (te laat)",
+"say": "le retard"
+},
+{
+"fr": "déranger",
+"en": "to disturb, to bother",
+"nl": "storen",
+"say": "déranger"
+},
+{
+"fr": "la tante",
+"en": "aunt",
+"nl": "tante",
+"say": "la tante"
+},
+{
+"fr": "la marche",
+"en": "step, walk",
+"nl": "trede, wandeling",
+"say": "la marche"
+},
+{
+"fr": "le passé",
+"en": "the past",
+"nl": "het verleden",
+"say": "le passé"
+},
+{
+"fr": "le moyen",
+"en": "means, way",
+"nl": "middel",
+"say": "le moyen"
+},
+{
+"fr": "fumer",
+"en": "to smoke",
+"nl": "roken",
+"say": "fumer"
+},
+{
+"fr": "étrange",
+"en": "strange",
+"nl": "vreemd",
+"say": "étrange"
+},
+{
+"fr": "sérieux / sérieuse",
+"en": "serious",
+"nl": "serieus",
+"say": "sérieux, sérieuse"
+},
+{
+"fr": "la soirée",
+"en": "evening (the whole evening), party",
+"nl": "avond, feestje",
+"say": "la soirée"
+},
+{
+"fr": "la langue",
+"en": "tongue, language",
+"nl": "tong, taal",
+"say": "la langue"
+},
+{
+"fr": "l'oiseau (m)",
+"en": "bird",
+"nl": "vogel",
+"say": "l'oiseau"
+},
+{
+"fr": "l'équipe (f)",
+"en": "team",
+"nl": "team, ploeg",
+"say": "l'équipe"
+},
+{
+"fr": "le goût",
+"en": "taste",
+"nl": "smaak",
+"say": "le goût"
+},
+{
+"fr": "la classe",
+"en": "class",
+"nl": "klas",
+"say": "la classe"
+},
+{
+"fr": "se reposer",
+"en": "to rest",
+"nl": "rusten",
+"say": "se reposer"
+},
+{
+"fr": "la preuve",
+"en": "proof",
+"nl": "bewijs",
+"say": "la preuve"
+},
+{
+"fr": "l'été (m)",
+"en": "summer",
+"nl": "zomer",
+"say": "l'été"
+},
+{
+"fr": "le printemps",
+"en": "spring",
+"nl": "lente",
+"say": "le printemps"
+},
+{
+"fr": "l'automne (m)",
+"en": "autumn",
+"nl": "herfst",
+"say": "l'automne"
+},
+{
+"fr": "l'hiver (m)",
+"en": "winter",
+"nl": "winter",
+"say": "l'hiver"
+},
+{
+"fr": "le gouvernement",
+"en": "government",
+"nl": "regering",
+"say": "le gouvernement"
+},
+{
+"fr": "traiter",
+"en": "to treat",
+"nl": "behandelen",
+"say": "traiter"
+},
+{
+"fr": "la clé",
+"en": "key",
+"nl": "sleutel",
+"say": "la clé"
+},
+{
+"fr": "le départ",
+"en": "departure",
+"nl": "vertrek",
+"say": "le départ"
+},
+{
+"fr": "remercier",
+"en": "to thank",
+"nl": "bedanken",
+"say": "remercier"
+},
+{
+"fr": "apparaître",
+"en": "to appear",
+"nl": "verschijnen",
+"say": "apparaître"
+},
+{
+"fr": "emporter",
+"en": "to take away (a thing)",
+"nl": "meenemen (iets)",
+"say": "emporter"
+},
+{
+"fr": "proposer",
+"en": "to suggest, to offer",
+"nl": "voorstellen (een idee)",
+"say": "proposer"
+},
+{
+"fr": "attraper",
+"en": "to catch",
+"nl": "vangen",
+"say": "attraper"
+},
+{
+"fr": "vert / verte",
+"en": "green",
+"nl": "groen",
+"say": "vert, verte"
+},
+{
+"fr": "le cri",
+"en": "scream, cry",
+"nl": "kreet",
+"say": "le cri"
+},
+{
+"fr": "l'appel (m)",
+"en": "call",
+"nl": "oproep",
+"say": "l'appel"
+},
+{
+"fr": "l'avenir (m)",
+"en": "future",
+"nl": "toekomst",
+"say": "l'avenir"
+},
+{
+"fr": "le passage",
+"en": "passage",
+"nl": "doorgang",
+"say": "le passage"
+},
+{
+"fr": "deviner",
+"en": "to guess",
+"nl": "raden",
+"say": "deviner"
+},
+{
+"fr": "le choix",
+"en": "choice",
+"nl": "keuze",
+"say": "le choix"
+},
+{
+"fr": "le sol",
+"en": "floor, ground",
+"nl": "vloer, grond",
+"say": "le sol"
+},
+{
+"fr": "traîner",
+"en": "to drag, to hang around",
+"nl": "slepen, rondhangen",
+"say": "traîner"
+},
+{
+"fr": "la poche",
+"en": "pocket",
+"nl": "zak",
+"say": "la poche"
+},
+{
+"fr": "le front",
+"en": "forehead",
+"nl": "voorhoofd",
+"say": "le front"
+},
+{
+"fr": "amoureux / amoureuse",
+"en": "in love",
+"nl": "verliefd",
+"say": "amoureux, amoureuse"
+},
+{
+"fr": "attaquer",
+"en": "to attack",
+"nl": "aanvallen",
+"say": "attaquer"
+},
+{
+"fr": "terrible",
+"en": "terrible",
+"nl": "verschrikkelijk",
+"say": "terrible"
+},
+{
+"fr": "atteindre",
+"en": "to reach",
+"nl": "bereiken",
+"say": "atteindre"
+},
+{
+"fr": "le contraire",
+"en": "opposite (au contraire = on the contrary)",
+"nl": "tegendeel",
+"say": "le contraire"
+},
+{
+"fr": "l'intérêt (m)",
+"en": "interest",
+"nl": "interesse, belang",
+"say": "l'intérêt"
+},
+{
+"fr": "bête",
+"en": "stupid, silly",
+"nl": "dom",
+"say": "bête"
+},
+{
+"fr": "retirer",
+"en": "to withdraw, to take off",
+"nl": "terugtrekken, (geld) opnemen",
+"say": "retirer"
+},
+{
+"fr": "le message",
+"en": "message",
+"nl": "bericht",
+"say": "le message"
+},
+{
+"fr": "annoncer",
+"en": "to announce",
+"nl": "aankondigen",
+"say": "annoncer"
+},
+{
+"fr": "la liberté",
+"en": "freedom",
+"nl": "vrijheid",
+"say": "la liberté"
+},
+{
+"fr": "respirer",
+"en": "to breathe",
+"nl": "ademen",
+"say": "respirer"
+},
+{
+"fr": "l'agent (m)",
+"en": "agent, (police) officer",
+"nl": "agent",
+"say": "l'agent"
+},
+{
+"fr": "le conseil",
+"en": "advice",
+"nl": "advies, raad",
+"say": "le conseil"
+},
+{
+"fr": "la poste",
+"en": "post office",
+"nl": "postkantoor",
+"say": "la poste"
+},
+{
+"fr": "l'appartement (m)",
+"en": "flat, apartment",
+"nl": "appartement",
+"say": "l'appartement"
+},
+{
+"fr": "la cigarette",
+"en": "cigarette",
+"nl": "sigaret",
+"say": "la cigarette"
+},
+{
+"fr": "appartenir",
+"en": "to belong",
+"nl": "behoren",
+"say": "appartenir"
+},
+{
+"fr": "durer",
+"en": "to last",
+"nl": "duren",
+"say": "durer"
+},
+{
+"fr": "obtenir",
+"en": "to obtain, to get",
+"nl": "verkrijgen",
+"say": "obtenir"
+},
+{
+"fr": "le ventre",
+"en": "belly, stomach",
+"nl": "buik",
+"say": "le ventre"
+},
+{
+"fr": "génial / géniale",
+"en": "brilliant, awesome",
+"nl": "geweldig",
+"say": "génial, géniale"
+},
+{
+"fr": "dix-neuf",
+"en": "nineteen",
+"nl": "negentien",
+"say": "dix-neuf"
+},
+{
+"fr": "vingt",
+"en": "twenty",
+"nl": "twintig",
+"say": "vingt"
+},
+{
+"fr": "trente",
+"en": "thirty",
+"nl": "dertig",
+"say": "trente"
+},
+{
+"fr": "quarante",
+"en": "forty",
+"nl": "veertig",
+"say": "quarante"
+},
+{
+"fr": "cinquante",
+"en": "fifty",
+"nl": "vijftig",
+"say": "cinquante"
+},
+{
+"fr": "soixante",
+"en": "sixty",
+"nl": "zestig",
+"say": "soixante"
+},
+{
+"fr": "le professeur",
+"en": "teacher (secondary school), professor",
+"nl": "leraar, professor",
+"say": "le professeur"
+},
+{
+"fr": "baisser",
+"en": "to lower",
+"nl": "verlagen",
+"say": "baisser"
+},
+{
+"fr": "le quartier",
+"en": "neighbourhood",
+"nl": "wijk, buurt",
+"say": "le quartier"
+},
+{
+"fr": "souhaiter",
+"en": "to wish",
+"nl": "wensen",
+"say": "souhaiter"
+},
+{
+"fr": "recommencer",
+"en": "to start again",
+"nl": "opnieuw beginnen",
+"say": "recommencer"
+},
+{
+"fr": "supporter",
+"en": "to stand, to bear",
+"nl": "verdragen",
+"say": "supporter"
+},
+{
+"fr": "le grand-père",
+"en": "grandfather",
+"nl": "opa",
+"say": "le grand-père"
+},
+{
+"fr": "regretter",
+"en": "to regret",
+"nl": "spijt hebben van",
+"say": "regretter"
+},
+{
+"fr": "le genou",
+"en": "knee",
+"nl": "knie",
+"say": "le genou"
+},
+{
+"fr": "séparer",
+"en": "to separate",
+"nl": "scheiden",
+"say": "séparer"
+},
+{
+"fr": "défendre",
+"en": "to defend",
+"nl": "verdedigen",
+"say": "défendre"
+},
+{
+"fr": "la sécurité",
+"en": "security, safety",
+"nl": "veiligheid",
+"say": "la sécurité"
+},
+{
+"fr": "la compagnie",
+"en": "company (being with someone)",
+"nl": "gezelschap",
+"say": "la compagnie"
+},
+{
+"fr": "léger / légère",
+"en": "light (weight)",
+"nl": "licht (gewicht)",
+"say": "léger, légère"
+},
+{
+"fr": "sec / sèche",
+"en": "dry",
+"nl": "droog",
+"say": "sec, sèche"
+},
+{
+"fr": "l'accident (m)",
+"en": "accident",
+"nl": "ongeval",
+"say": "l'accident"
+},
+{
+"fr": "le pain",
+"en": "bread",
+"nl": "brood",
+"say": "le pain"
+},
+{
+"fr": "le fromage",
+"en": "cheese",
+"nl": "kaas",
+"say": "le fromage"
+},
+{
+"fr": "la viande",
+"en": "meat",
+"nl": "vlees",
+"say": "la viande"
+},
+{
+"fr": "le poulet",
+"en": "chicken",
+"nl": "kip",
+"say": "le poulet"
+},
+{
+"fr": "l'avocat (m)",
+"en": "lawyer, avocado",
+"nl": "advocaat, avocado",
+"say": "l'avocat"
+},
+{
+"fr": "vérifier",
+"en": "to check",
+"nl": "controleren",
+"say": "vérifier"
+},
+{
+"fr": "pire",
+"en": "worse",
+"nl": "erger",
+"say": "pire"
+},
+{
+"fr": "la douleur",
+"en": "pain",
+"nl": "pijn",
+"say": "la douleur"
+},
+{
+"fr": "j'ai mal",
+"en": "it hurts (avoir mal = to be in pain)",
+"nl": "het doet pijn",
+"say": "j'ai mal"
+},
+{
+"fr": "la victime",
+"en": "victim",
+"nl": "slachtoffer",
+"say": "la victime"
+},
+{
+"fr": "douter",
+"en": "to doubt",
+"nl": "twijfelen",
+"say": "douter"
+},
+{
+"fr": "la grand-mère",
+"en": "grandmother",
+"nl": "oma",
+"say": "la grand-mère"
+},
+{
+"fr": "poursuivre",
+"en": "to pursue, to continue",
+"nl": "achtervolgen, voortzetten",
+"say": "poursuivre"
+},
+{
+"fr": "la colère",
+"en": "anger (en colère = angry)",
+"nl": "woede (boos)",
+"say": "la colère"
+},
+{
+"fr": "l'animal (m)",
+"en": "animal",
+"nl": "dier",
+"say": "l'animal"
+},
+{
+"fr": "discuter",
+"en": "to discuss, to chat",
+"nl": "bespreken, kletsen",
+"say": "discuter"
+},
+{
+"fr": "signer",
+"en": "to sign",
+"nl": "ondertekenen",
+"say": "signer"
+},
+{
+"fr": "la présence",
+"en": "presence",
+"nl": "aanwezigheid",
+"say": "la présence"
+},
+{
+"fr": "sonner",
+"en": "to ring",
+"nl": "rinkelen, aanbellen",
+"say": "sonner"
+},
+{
+"fr": "neuf / neuve",
+"en": "brand new",
+"nl": "gloednieuw",
+"say": "neuf, neuve"
+},
+{
+"fr": "la mémoire",
+"en": "memory",
+"nl": "geheugen",
+"say": "la mémoire"
+},
+{
+"fr": "la larme",
+"en": "tear (crying)",
+"nl": "traan",
+"say": "la larme"
+},
+{
+"fr": "surprendre",
+"en": "to surprise",
+"nl": "verrassen",
+"say": "surprendre"
+},
+{
+"fr": "capable",
+"en": "capable, able",
+"nl": "in staat",
+"say": "capable"
+},
+{
+"fr": "la surprise",
+"en": "surprise",
+"nl": "verrassing",
+"say": "la surprise"
+},
+{
+"fr": "le siècle",
+"en": "century",
+"nl": "eeuw",
+"say": "le siècle"
+},
+{
+"fr": "la beauté",
+"en": "beauty",
+"nl": "schoonheid",
+"say": "la beauté"
+},
+{
+"fr": "le dîner",
+"en": "dinner",
+"nl": "avondeten",
+"say": "le dîner"
+},
+{
+"fr": "le crime",
+"en": "crime",
+"nl": "misdaad",
+"say": "le crime"
+},
+{
+"fr": "le rôle",
+"en": "role, part",
+"nl": "rol",
+"say": "le rôle"
+},
+{
+"fr": "le cousin / la cousine",
+"en": "cousin",
+"nl": "neef, nicht",
+"say": "le cousin, la cousine"
+},
+{
+"fr": "l'art (m)",
+"en": "art",
+"nl": "kunst",
+"say": "l'art"
+},
+{
+"fr": "l'effort (m)",
+"en": "effort",
+"nl": "inspanning",
+"say": "l'effort"
+},
+{
+"fr": "dangereux / dangereuse",
+"en": "dangerous",
+"nl": "gevaarlijk",
+"say": "dangereux, dangereuse"
+},
+{
+"fr": "mériter",
+"en": "to deserve",
+"nl": "verdienen (waard zijn)",
+"say": "mériter"
+},
+{
+"fr": "blesser",
+"en": "to hurt, to injure",
+"nl": "verwonden",
+"say": "blesser"
+},
+{
+"fr": "l'occasion (f)",
+"en": "opportunity, occasion",
+"nl": "gelegenheid, kans",
+"say": "l'occasion"
+},
+{
+"fr": "allumer",
+"en": "to switch on, to light",
+"nl": "aanzetten, aansteken",
+"say": "allumer"
+},
+{
+"fr": "l'espoir (m)",
+"en": "hope",
+"nl": "hoop",
+"say": "l'espoir"
+},
+{
+"fr": "absolument",
+"en": "absolutely",
+"nl": "absoluut",
+"say": "absolument"
+},
+{
+"fr": "partager",
+"en": "to share",
+"nl": "delen",
+"say": "partager"
+},
+{
+"fr": "l'escalier (m)",
+"en": "stairs",
+"nl": "trap",
+"say": "l'escalier"
+},
+{
+"fr": "lundi",
+"en": "Monday",
+"nl": "maandag",
+"say": "lundi"
+},
+{
+"fr": "mardi",
+"en": "Tuesday",
+"nl": "dinsdag",
+"say": "mardi"
+},
+{
+"fr": "mercredi",
+"en": "Wednesday",
+"nl": "woensdag",
+"say": "mercredi"
+},
+{
+"fr": "jeudi",
+"en": "Thursday",
+"nl": "donderdag",
+"say": "jeudi"
+},
+{
+"fr": "vendredi",
+"en": "Friday",
+"nl": "vrijdag",
+"say": "vendredi"
+},
+{
+"fr": "samedi",
+"en": "Saturday",
+"nl": "zaterdag",
+"say": "samedi"
+},
+{
+"fr": "dimanche",
+"en": "Sunday",
+"nl": "zondag",
+"say": "dimanche"
+},
+{
+"fr": "septembre",
+"en": "September",
+"nl": "september",
+"say": "septembre"
+},
+{
+"fr": "octobre",
+"en": "October",
+"nl": "oktober",
+"say": "octobre"
+},
+{
+"fr": "novembre",
+"en": "November",
+"nl": "november",
+"say": "novembre"
+},
+{
+"fr": "décembre",
+"en": "December",
+"nl": "december",
+"say": "décembre"
+},
+{
+"fr": "le fil",
+"en": "thread, wire",
+"nl": "draad",
+"say": "le fil"
+},
+{
+"fr": "étonner",
+"en": "to amaze",
+"nl": "verbazen",
+"say": "étonner"
+},
+{
+"fr": "engager",
+"en": "to hire, to commit",
+"nl": "in dienst nemen",
+"say": "engager"
+},
+{
+"fr": "le morceau",
+"en": "piece, bit",
+"nl": "stuk",
+"say": "le morceau"
+},
+{
+"fr": "le hasard",
+"en": "chance (par hasard = by chance)",
+"nl": "toeval",
+"say": "le hasard"
+},
+{
+"fr": "lentement",
+"en": "slowly",
+"nl": "langzaam",
+"say": "lentement"
+},
+{
+"fr": "l'île (f)",
+"en": "island",
+"nl": "eiland",
+"say": "l'île"
+},
+{
+"fr": "le mètre",
+"en": "metre",
+"nl": "meter",
+"say": "le mètre"
+},
+{
+"fr": "s'éloigner",
+"en": "to move away",
+"nl": "zich verwijderen",
+"say": "s'éloigner"
+},
+{
+"fr": "le diable",
+"en": "devil",
+"nl": "duivel",
+"say": "le diable"
+},
+{
+"fr": "le bain",
+"en": "bath",
+"nl": "bad",
+"say": "le bain"
+},
+{
+"fr": "arracher",
+"en": "to pull out, to tear off",
+"nl": "uittrekken, afrukken",
+"say": "arracher"
+},
+{
+"fr": "prévoir",
+"en": "to plan, to foresee",
+"nl": "plannen, voorzien",
+"say": "prévoir"
+},
+{
+"fr": "derrière",
+"en": "behind",
+"nl": "achter",
+"say": "derrière"
+},
+{
+"fr": "énorme",
+"en": "huge",
+"nl": "enorm",
+"say": "énorme"
+},
+{
+"fr": "diriger",
+"en": "to direct, to manage",
+"nl": "besturen, leiding geven",
+"say": "diriger"
+},
+{
+"fr": "l'objet (m)",
+"en": "object",
+"nl": "voorwerp",
+"say": "l'objet"
+},
+{
+"fr": "le lendemain",
+"en": "the next day",
+"nl": "de volgende dag",
+"say": "le lendemain"
+},
+{
+"fr": "couler",
+"en": "to flow, to sink",
+"nl": "stromen, zinken",
+"say": "couler"
+},
+{
+"fr": "le champ",
+"en": "field",
+"nl": "veld",
+"say": "le champ"
+},
+{
+"fr": "ouvert / ouverte",
+"en": "open",
+"nl": "open",
+"say": "ouvert, ouverte"
+},
+{
+"fr": "profiter",
+"en": "to enjoy, to make the most of",
+"nl": "genieten van, profiteren",
+"say": "profiter"
+},
+{
+"fr": "la pluie",
+"en": "rain",
+"nl": "regen",
+"say": "la pluie"
+},
+{
+"fr": "fuir",
+"en": "to flee",
+"nl": "vluchten",
+"say": "fuir"
+},
+{
+"fr": "le rendez-vous",
+"en": "appointment, date",
+"nl": "afspraak",
+"say": "le rendez-vous"
+},
+{
+"fr": "l'action (f)",
+"en": "action",
+"nl": "actie",
+"say": "l'action"
+},
+{
+"fr": "la glace",
+"en": "ice, ice cream, mirror",
+"nl": "ijs, spiegel",
+"say": "la glace"
+},
+{
+"fr": "la moitié",
+"en": "half",
+"nl": "helft",
+"say": "la moitié"
+},
+{
+"fr": "saisir",
+"en": "to seize, to grab",
+"nl": "grijpen",
+"say": "saisir"
+},
+{
+"fr": "l'entrée (f)",
+"en": "entrance, starter (meal)",
+"nl": "ingang, voorgerecht",
+"say": "l'entrée"
+},
+{
+"fr": "parvenir",
+"en": "to manage to, to reach",
+"nl": "erin slagen",
+"say": "parvenir"
+},
+{
+"fr": "lourd / lourde",
+"en": "heavy",
+"nl": "zwaar",
+"say": "lourd, lourde"
+},
+{
+"fr": "fixer",
+"en": "to fix (in place), to stare at",
+"nl": "vastzetten, staren naar",
+"say": "fixer"
+},
+{
+"fr": "se dépêcher",
+"en": "to hurry",
+"nl": "zich haasten",
+"say": "se dépêcher"
+},
+{
+"fr": "la course",
+"en": "race, errand (faire les courses = to go shopping)",
+"nl": "race, boodschap",
+"say": "la course"
+},
+{
+"fr": "la bouteille",
+"en": "bottle",
+"nl": "fles",
+"say": "la bouteille"
+},
+{
+"fr": "la bande",
+"en": "band, gang, strip",
+"nl": "band, bende",
+"say": "la bande"
+},
+{
+"fr": "le billet",
+"en": "ticket, banknote",
+"nl": "kaartje, bankbiljet",
+"say": "le billet"
+},
+{
+"fr": "avouer",
+"en": "to confess",
+"nl": "bekennen",
+"say": "avouer"
+},
+{
+"fr": "appuyer",
+"en": "to press, to lean",
+"nl": "drukken, leunen",
+"say": "appuyer"
+},
+{
+"fr": "la machine",
+"en": "machine",
+"nl": "machine",
+"say": "la machine"
+},
+{
+"fr": "la nature",
+"en": "nature",
+"nl": "natuur",
+"say": "la nature"
+},
+{
+"fr": "la télé",
+"en": "TV",
+"nl": "tv",
+"say": "la télé"
+},
+{
+"fr": "la santé",
+"en": "health",
+"nl": "gezondheid",
+"say": "la santé"
+},
+{
+"fr": "prouver",
+"en": "to prove",
+"nl": "bewijzen",
+"say": "prouver"
+},
+{
+"fr": "le désir",
+"en": "desire",
+"nl": "verlangen",
+"say": "le désir"
+},
+{
+"fr": "les vacances",
+"en": "holidays, vacation",
+"nl": "vakantie",
+"say": "les vacances"
+},
+{
+"fr": "gris / grise",
+"en": "grey",
+"nl": "grijs",
+"say": "gris, grise"
+},
+{
+"fr": "orange",
+"en": "orange",
+"nl": "oranje",
+"say": "orange"
+},
+{
+"fr": "marron",
+"en": "brown",
+"nl": "bruin",
+"say": "marron"
+},
+{
+"fr": "violet / violette",
+"en": "purple",
+"nl": "paars",
+"say": "violet, violette"
+},
+{
+"fr": "coller",
+"en": "to stick, to glue",
+"nl": "plakken",
+"say": "coller"
+},
+{
+"fr": "la campagne",
+"en": "countryside, campaign",
+"nl": "platteland, campagne",
+"say": "la campagne"
+},
+{
+"fr": "la feuille",
+"en": "leaf, sheet (of paper)",
+"nl": "blad",
+"say": "la feuille"
+},
+{
+"fr": "régler",
+"en": "to settle, to sort out",
+"nl": "afhandelen, regelen",
+"say": "régler"
+},
+{
+"fr": "créer",
+"en": "to create",
+"nl": "creëren, scheppen",
+"say": "créer"
+},
+{
+"fr": "le vêtement",
+"en": "piece of clothing (les vêtements = clothes)",
+"nl": "kledingstuk (kleren)",
+"say": "le vêtement"
+},
+{
+"fr": "le pantalon",
+"en": "trousers",
+"nl": "broek",
+"say": "le pantalon"
+},
+{
+"fr": "le manteau",
+"en": "coat",
+"nl": "jas",
+"say": "le manteau"
+},
+{
+"fr": "le pull",
+"en": "jumper, sweater",
+"nl": "trui",
+"say": "le pull"
+},
+{
+"fr": "élever",
+"en": "to raise, to bring up",
+"nl": "opvoeden",
+"say": "élever"
+},
+{
+"fr": "le tas",
+"en": "pile (un tas de = loads of)",
+"nl": "stapel",
+"say": "le tas"
+},
+{
+"fr": "surveiller",
+"en": "to keep an eye on",
+"nl": "in de gaten houden",
+"say": "surveiller"
+},
+{
+"fr": "le sommeil",
+"en": "sleep",
+"nl": "slaap",
+"say": "le sommeil"
+},
+{
+"fr": "le cou",
+"en": "neck",
+"nl": "nek",
+"say": "le cou"
+},
+{
+"fr": "frais / fraîche",
+"en": "fresh, cool",
+"nl": "vers, fris",
+"say": "frais, fraîche"
+},
+{
+"fr": "placer",
+"en": "to place",
+"nl": "plaatsen",
+"say": "placer"
+},
+{
+"fr": "juger",
+"en": "to judge",
+"nl": "beoordelen",
+"say": "juger"
+},
+{
+"fr": "la mesure",
+"en": "measure, measurement",
+"nl": "maatregel, meting",
+"say": "la mesure"
+},
+{
+"fr": "laver",
+"en": "to wash",
+"nl": "wassen",
+"say": "laver"
+},
+{
+"fr": "prêter",
+"en": "to lend",
+"nl": "uitlenen",
+"say": "prêter"
+},
+{
+"fr": "observer",
+"en": "to observe",
+"nl": "observeren",
+"say": "observer"
+},
+{
+"fr": "inutile",
+"en": "useless",
+"nl": "nutteloos",
+"say": "inutile"
+},
+{
+"fr": "la conversation",
+"en": "conversation",
+"nl": "gesprek",
+"say": "la conversation"
+},
+{
+"fr": "la chaise",
+"en": "chair",
+"nl": "stoel",
+"say": "la chaise"
+},
+{
+"fr": "le but",
+"en": "goal, aim",
+"nl": "doel",
+"say": "le but"
+},
+{
+"fr": "pur / pure",
+"en": "pure",
+"nl": "zuiver",
+"say": "pur, pure"
+},
+{
+"fr": "le malheur",
+"en": "misfortune",
+"nl": "ongeluk, pech",
+"say": "le malheur"
+},
+{
+"fr": "accrocher",
+"en": "to hang (up)",
+"nl": "ophangen",
+"say": "accrocher"
+},
+{
+"fr": "le gamin / la gamine",
+"en": "kid",
+"nl": "joch, kind",
+"say": "le gamin, la gamine"
+},
+{
+"fr": "entraîner",
+"en": "to train, to lead to",
+"nl": "trainen, leiden tot",
+"say": "entraîner"
+},
+{
+"fr": "fier / fière",
+"en": "proud",
+"nl": "trots",
+"say": "fier, fière"
+},
+{
+"fr": "le poisson",
+"en": "fish",
+"nl": "vis",
+"say": "le poisson"
+},
+{
+"fr": "le courage",
+"en": "courage",
+"nl": "moed",
+"say": "le courage"
+},
+{
+"fr": "la mission",
+"en": "mission",
+"nl": "missie",
+"say": "la mission"
+},
+{
+"fr": "riche",
+"en": "rich",
+"nl": "rijk",
+"say": "riche"
+},
+{
+"fr": "le soin",
+"en": "care",
+"nl": "verzorging",
+"say": "le soin"
+},
+{
+"fr": "le danger",
+"en": "danger",
+"nl": "gevaar",
+"say": "le danger"
+},
+{
+"fr": "repartir",
+"en": "to set off again",
+"nl": "weer vertrekken",
+"say": "repartir"
+},
+{
+"fr": "la direction",
+"en": "direction, management",
+"nl": "richting, directie",
+"say": "la direction"
+},
+{
+"fr": "commander",
+"en": "to order",
+"nl": "bestellen",
+"say": "commander"
+},
+{
+"fr": "le pont",
+"en": "bridge",
+"nl": "brug",
+"say": "le pont"
+},
+{
+"fr": "la société",
+"en": "society, company",
+"nl": "maatschappij, bedrijf",
+"say": "la société"
+},
+{
+"fr": "la chaleur",
+"en": "heat",
+"nl": "hitte, warmte",
+"say": "la chaleur"
+},
+{
+"fr": "la montagne",
+"en": "mountain",
+"nl": "berg",
+"say": "la montagne"
+},
+{
+"fr": "le détail",
+"en": "detail",
+"nl": "detail",
+"say": "le détail"
+},
+{
+"fr": "la page",
+"en": "page",
+"nl": "pagina",
+"say": "la page"
+},
+{
+"fr": "l'enfer (m)",
+"en": "hell",
+"nl": "hel",
+"say": "l'enfer"
+},
+{
+"fr": "le projet",
+"en": "project, plan",
+"nl": "project",
+"say": "le projet"
+},
+{
+"fr": "le marché",
+"en": "market",
+"nl": "markt",
+"say": "le marché"
+},
+{
+"fr": "la chanson",
+"en": "song",
+"nl": "lied",
+"say": "la chanson"
+},
+{
+"fr": "le cinéma",
+"en": "cinema",
+"nl": "bioscoop",
+"say": "le cinéma"
+},
+{
+"fr": "sombre",
+"en": "dark",
+"nl": "donker",
+"say": "sombre"
+},
+{
+"fr": "la phrase",
+"en": "sentence",
+"nl": "zin (grammatica)",
+"say": "la phrase"
+},
+{
+"fr": "la ferme",
+"en": "farm",
+"nl": "boerderij",
+"say": "la ferme"
+},
+{
+"fr": "la mademoiselle",
+"en": "miss",
+"nl": "juffrouw",
+"say": "la mademoiselle"
+},
+{
+"fr": "remplir",
+"en": "to fill",
+"nl": "vullen",
+"say": "remplir"
+},
+{
+"fr": "coûter",
+"en": "to cost",
+"nl": "kosten",
+"say": "coûter"
+},
+{
+"fr": "la pitié",
+"en": "pity",
+"nl": "medelijden",
+"say": "la pitié"
+},
+{
+"fr": "écraser",
+"en": "to crush, to run over",
+"nl": "verpletteren, overrijden",
+"say": "écraser"
+},
+{
+"fr": "la radio",
+"en": "radio",
+"nl": "radio",
+"say": "la radio"
+},
+{
+"fr": "le nord",
+"en": "north",
+"nl": "noorden",
+"say": "le nord"
+},
+{
+"fr": "le sud",
+"en": "south",
+"nl": "zuiden",
+"say": "le sud"
+},
+{
+"fr": "l'est (m)",
+"en": "east",
+"nl": "oosten",
+"say": "l'est"
+},
+{
+"fr": "l'ouest (m)",
+"en": "west",
+"nl": "westen",
+"say": "l'ouest"
+},
+{
+"fr": "soixante-dix",
+"en": "seventy",
+"nl": "zeventig",
+"say": "soixante-dix"
+},
+{
+"fr": "quatre-vingts",
+"en": "eighty",
+"nl": "tachtig",
+"say": "quatre-vingts"
+},
+{
+"fr": "quatre-vingt-dix",
+"en": "ninety",
+"nl": "negentig",
+"say": "quatre-vingt-dix"
+},
+{
+"fr": "cent",
+"en": "hundred",
+"nl": "honderd",
+"say": "cent"
+},
+{
+"fr": "mille",
+"en": "thousand",
+"nl": "duizend",
+"say": "mille"
+},
+{
+"fr": "le meurtre",
+"en": "murder",
+"nl": "moord",
+"say": "le meurtre"
+},
+{
+"fr": "le vol",
+"en": "flight, theft",
+"nl": "vlucht, diefstal",
+"say": "le vol"
+},
+{
+"fr": "la note",
+"en": "note, mark (grade)",
+"nl": "notitie, cijfer",
+"say": "la note"
+},
+{
+"fr": "l'ennui (m)",
+"en": "boredom, trouble",
+"nl": "verveling, problemen",
+"say": "l'ennui"
+},
+{
+"fr": "justement",
+"en": "precisely, as it happens",
+"nl": "juist",
+"say": "justement"
+},
+{
+"fr": "la recherche",
+"en": "research, search",
+"nl": "onderzoek",
+"say": "la recherche"
+},
+{
+"fr": "l'herbe (f)",
+"en": "grass",
+"nl": "gras",
+"say": "l'herbe"
+},
+{
+"fr": "court / courte",
+"en": "short",
+"nl": "kort",
+"say": "court, courte"
+},
+{
+"fr": "américain / américaine",
+"en": "American",
+"nl": "Amerikaans",
+"say": "américain, américaine"
+},
+{
+"fr": "la trace",
+"en": "trace, mark",
+"nl": "spoor",
+"say": "la trace"
+},
+{
+"fr": "le chapeau",
+"en": "hat",
+"nl": "hoed",
+"say": "le chapeau"
+},
+{
+"fr": "le contact",
+"en": "contact",
+"nl": "contact",
+"say": "le contact"
+},
+{
+"fr": "la joue",
+"en": "cheek",
+"nl": "wang",
+"say": "la joue"
+},
+{
+"fr": "le centre",
+"en": "centre",
+"nl": "centrum",
+"say": "le centre"
+},
+{
+"fr": "cependant",
+"en": "however",
+"nl": "echter",
+"say": "cependant"
+},
+{
+"fr": "le combat",
+"en": "fight",
+"nl": "gevecht",
+"say": "le combat"
+},
+{
+"fr": "devant",
+"en": "in front of",
+"nl": "vóór (plaats)",
+"say": "devant"
+},
+{
+"fr": "le fer",
+"en": "iron",
+"nl": "ijzer",
+"say": "le fer"
+},
+{
+"fr": "former",
+"en": "to form, to train",
+"nl": "vormen, opleiden",
+"say": "former"
+},
+{
+"fr": "livrer",
+"en": "to deliver",
+"nl": "bezorgen, leveren",
+"say": "livrer"
+},
+{
+"fr": "profond / profonde",
+"en": "deep",
+"nl": "diep",
+"say": "profond, profonde"
+},
+{
+"fr": "la règle",
+"en": "rule, ruler",
+"nl": "regel, liniaal",
+"say": "la règle"
+},
+{
+"fr": "exact / exacte",
+"en": "exact, correct",
+"nl": "exact, juist",
+"say": "exact, exacte"
+},
+{
+"fr": "le héros",
+"en": "hero",
+"nl": "held",
+"say": "le héros"
+},
+{
+"fr": "hésiter",
+"en": "to hesitate",
+"nl": "aarzelen",
+"say": "hésiter"
+},
+{
+"fr": "le dossier",
+"en": "file",
+"nl": "dossier",
+"say": "le dossier"
+},
+{
+"fr": "le métier",
+"en": "trade, profession",
+"nl": "beroep",
+"say": "le métier"
+},
+{
+"fr": "la chaussure",
+"en": "shoe",
+"nl": "schoen",
+"say": "la chaussure"
+},
+{
+"fr": "l'expérience (f)",
+"en": "experience, experiment",
+"nl": "ervaring, experiment",
+"say": "l'expérience"
+},
+{
+"fr": "marquer",
+"en": "to mark, to score",
+"nl": "markeren, scoren",
+"say": "marquer"
+},
+{
+"fr": "fatigué / fatiguée",
+"en": "tired",
+"nl": "moe",
+"say": "fatigué, fatiguée"
+},
+{
+"fr": "l'étage (m)",
+"en": "storey, floor (level)",
+"nl": "verdieping",
+"say": "l'étage"
+},
+{
+"fr": "proche",
+"en": "close (relative, friend)",
+"nl": "naaste, nabij",
+"say": "proche"
+},
+{
+"fr": "le voisin / la voisine",
+"en": "neighbour",
+"nl": "buurman, buurvrouw",
+"say": "le voisin, la voisine"
+},
+{
+"fr": "la forêt",
+"en": "forest",
+"nl": "bos",
+"say": "la forêt"
+},
+{
+"fr": "causer",
+"en": "to cause",
+"nl": "veroorzaken",
+"say": "causer"
+},
+{
+"fr": "le toit",
+"en": "roof",
+"nl": "dak",
+"say": "le toit"
+},
+{
+"fr": "la côte",
+"en": "coast, rib",
+"nl": "kust, rib",
+"say": "la côte"
+},
+{
+"fr": "allemand / allemande",
+"en": "German",
+"nl": "Duits",
+"say": "allemand, allemande"
+},
+{
+"fr": "le tableau",
+"en": "painting, board",
+"nl": "schilderij, bord",
+"say": "le tableau"
+},
+{
+"fr": "la relation",
+"en": "relationship",
+"nl": "relatie",
+"say": "la relation"
+},
+{
+"fr": "l'étoile (f)",
+"en": "star",
+"nl": "ster",
+"say": "l'étoile"
+},
+{
+"fr": "la réalité",
+"en": "reality",
+"nl": "werkelijkheid",
+"say": "la réalité"
+},
+{
+"fr": "l'opération (f)",
+"en": "operation",
+"nl": "operatie",
+"say": "l'opération"
+},
+{
+"fr": "éteindre",
+"en": "to switch off",
+"nl": "uitzetten",
+"say": "éteindre"
+},
+{
+"fr": "le bar",
+"en": "bar",
+"nl": "bar, kroeg",
+"say": "le bar"
+},
+{
+"fr": "éclater",
+"en": "to burst, to explode",
+"nl": "barsten, ontploffen",
+"say": "éclater"
+},
+{
+"fr": "le système",
+"en": "system",
+"nl": "systeem",
+"say": "le système"
+},
+{
+"fr": "libérer",
+"en": "to free, to release",
+"nl": "bevrijden",
+"say": "libérer"
+},
+{
+"fr": "l'importance (f)",
+"en": "importance",
+"nl": "belangrijkheid",
+"say": "l'importance"
+},
+{
+"fr": "la condition",
+"en": "condition",
+"nl": "voorwaarde",
+"say": "la condition"
+},
+{
+"fr": "l'adresse (f)",
+"en": "address",
+"nl": "adres",
+"say": "l'adresse"
+},
+{
+"fr": "la bière",
+"en": "beer",
+"nl": "bier",
+"say": "la bière"
+},
+{
+"fr": "le salon",
+"en": "living room",
+"nl": "woonkamer",
+"say": "le salon"
+},
+{
+"fr": "apprécier",
+"en": "to appreciate",
+"nl": "waarderen",
+"say": "apprécier"
+}
+]

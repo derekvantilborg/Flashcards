@@ -1,0 +1,351 @@
+# Format: lemma | English | Dutch | French display (optional)
+# lemma = Lexique lemma (gender/article/feminine form looked up from Lexique)
+# "+" = manual entry; display required. Display starting with "!" skips the gender check.
+# Line order = order in which new words are introduced.
+être | to be | zijn
+avoir | to have | hebben
+faire | to do, to make | doen, maken
+aller | to go | gaan
+dire | to say, to tell | zeggen
+pouvoir | can, to be able to | kunnen
+vouloir | to want | willen
+bien | well (adverb) | goed (bijwoord)
+savoir | to know (a fact) | weten
+voir | to see | zien
+tout | all, everything | alles, al | tout / toute
+devoir | must, to have to | moeten
+venir | to come | komen
++ | one | een (1) | un / une
++ | two | twee | deux
++ | three | drie | trois
+prendre | to take | nemen
+ici | here | hier
++ | where | waar (welke plaats?) | où
++ | when | wanneer | quand
++ | who | wie | qui
++ | what | wat | quoi
++ | nonsense; anything | onzin; wat dan ook | n'importe quoi
+suivre | to follow | volgen
+parler | to speak, to talk | spreken, praten
+falloir | to be necessary (il faut = you must) | nodig zijn (il faut = het moet) | falloir (il faut)
+chose | thing | ding
++ | what is it? | wat is het? | qu'est-ce que c'est ?
+croire | to believe | geloven
++ | I don't know | ik weet het niet | je ne sais pas
+très | very | erg, zeer
+aussi | also, too | ook
++ | but | maar | mais
++ | because | omdat | parce que
+passer | to pass, to spend (time) | voorbijgaan, doorbrengen (tijd)
+encore | again, still | nog, opnieuw
+aimer | to love, to like | houden van, graag hebben
+petit | small, little | klein
+jamais | never | nooit
+bon | good (adjective) | goed (bijvoeglijk)
+penser | to think | denken
+homme | man | man
++ | four | vier | quatre
++ | five | vijf | cinq
+trouver | to find | vinden
+jour | day | dag
+laisser | to let, to leave (something) | laten
+temps | time, weather | tijd, weer
+regarder | to look at, to watch | kijken naar
+attendre | to wait | wachten
+même | same, even | zelfde, zelfs
+donner | to give | geven
+toujours | always, still | altijd, nog steeds
+arriver | to arrive, to happen | aankomen, gebeuren
+mettre | to put | zetten, leggen
+femme | woman, wife | vrouw
++ | with | met | avec
++ | without | zonder | sans
++ | for | voor (iemand, iets) | pour
++ | at (someone's place) | bij (iemand thuis) | chez
++ | on | op | sur
++ | under | onder | sous
++ | or | of | ou
+fois | time (once, twice...) | keer
+vie | life | het leven
+peu | a little | een beetje | un peu
+demander | to ask | vragen
+rester | to stay | blijven
+seul | alone | alleen (eenzaam)
+appeler | to call | roepen, opbellen
+pourquoi | why | waarom
+grand | big, tall | groot
+partir | to leave, to go away | vertrekken, weggaan
+trop | too (much) | te (veel)
+connaître | to know (a person, a place) | kennen
+père | father | vader
+peut-être | maybe | misschien
+autre | other | ander
+maintenant | now | nu
+heure | hour, o'clock | uur
++ | noon, midday | middag (12 uur) | midi
+monde | world | wereld
+an | year (with numbers: 3 years) | jaar (bij getallen)
+main | hand | hand
+comprendre | to understand | begrijpen
++ | of course | natuurlijk | bien sûr
++ | six | zes | six
++ | seven | zeven | sept
++ | eight | acht | huit
+sortir | to go out | uitgaan, naar buiten gaan
+arrêter | to stop | stoppen
+fille | girl, daughter | meisje, dochter
+oeil | eye | oog | l'œil (m) (pl. les yeux)
+enfant | child | kind
+sûr | sure | zeker (overtuigd)
+entendre | to hear | horen
+mère | mother | moeder
+mourir | to die | sterven, doodgaan
+dieu | God | God | Dieu
+vraiment | really | echt
++ | that is to say, I mean | dat wil zeggen | c'est-à-dire
+déjà | already | al
+vrai | true | waar (niet gelogen)
+tête | head | hoofd
+beau | beautiful, handsome | mooi
+nuit | night | nacht
+tuer | to kill | doden
+comment | how | hoe
+coup | blow, hit | klap, slag
+sentir | to feel, to smell | voelen, ruiken
+chercher | to look for | zoeken
+tenir | to hold | vasthouden
+maison | house, home | huis
+ami | friend | vriend, vriendin | l'ami / l'amie
+moins | less | minder
+monsieur | sir, Mr., gentleman | meneer
+soir | evening | avond
++ | nine | negen | neuf
++ | ten | tien | dix
+besoin | need (avoir besoin de = to need) | behoefte (avoir besoin de = nodig hebben)
+air | air; look (avoir l'air = to seem) | lucht; uiterlijk
+revenir | to come back | terugkomen
+beaucoup | a lot, much | veel
+mieux | better (adverb) | beter (bijwoord)
+moment | moment | moment
++ | so, therefore | dus | donc
++ | during | tijdens | pendant
++ | between | tussen | entre
+essayer | to try | proberen
+gens | people | mensen | les gens
+accord | OK, agreed | oké, akkoord | d'accord
+finir | to finish | afmaken, eindigen
+nom | name | naam
+premier | first | eerste
+rendre | to give back | teruggeven
+vivre | to live (be alive) | leven (werkwoord)
+perdre | to lose | verliezen
+jouer | to play | spelen
+aider | to help | helpen
+devenir | to become | worden
+peur | fear (avoir peur = to be afraid) | angst (avoir peur = bang zijn)
+mort | death | de dood | la mort
+juste | fair, just, right | eerlijk, juist
+porte | door | deur
+ouvrir | to open | openen
+amour | love | liefde
+vite | quickly | snel (bijwoord)
+rentrer | to go home, to come back in | naar huis gaan, terugkeren
+commencer | to begin, to start | beginnen
+entrer | to enter | binnengaan
+tomber | to fall | vallen
+plaire | to please (s'il vous plaît) | bevallen
++ | please (formal) | alstublieft | s'il vous plaît
++ | please (informal) | alsjeblieft | s'il te plaît
+dernier | last | laatst
+assez | enough, quite | genoeg, nogal
+mal | badly, wrong | slecht (bijwoord), verkeerd
+écouter | to listen | luisteren
+oublier | to forget | vergeten
+jeune | young | jong
+raison | reason (avoir raison = to be right) | reden (avoir raison = gelijk hebben)
+tirer | to pull, to shoot | trekken, schieten
+côté | side | kant
+manger | to eat | eten
++ | enjoy your meal | eet smakelijk | bon appétit
++ | vegetable | groente | le légume
++ | fruit | fruit | le fruit
++ | egg | ei | l'œuf (m)
+fait | fact | feit
++ | actually, in fact | eigenlijk | en fait
+mot | word | woord
+fils | son | zoon
+argent | money, silver | geld, zilver
+porter | to carry, to wear | dragen
+maman | mum | mama
+question | question | vraag
+vieux | old | oud | vieux / vieille
+voiture | car | auto
++ | bike | fiets | le vélo
++ | bus | bus | le bus
++ | underground, metro | metro | le métro
+travailler | to work | werken
+place | square, seat | plein, zitplaats
+eau | water | water
+sembler | to seem | lijken
+idée | idea | idee
+bonjour | hello, good morning | hallo, goedendag | bonjour
+histoire | story, history | verhaal, geschiedenis
+terre | earth, land | aarde, land
+asseoir | to sit down | gaan zitten | s'asseoir
+problème | problem | probleem
+marcher | to walk, to work (machine) | lopen, werken (apparaat)
+tard | late | laat
+changer | to change | veranderen
+retrouver | to find again, to meet up | terugvinden, weerzien
+corps | body | lichaam
+famille | family | familie, gezin
+année | year (the whole year) | jaar (het hele jaar)
+travail | work, job | werk
+dormir | to sleep | slapen
+chambre | bedroom | slaapkamer
+affaire | matter, business, case | zaak
+répondre | to answer | antwoorden
++ | eleven | elf | onze
++ | twelve | twaalf | douze
+enfin | finally, at last | eindelijk
+loin | far | ver
+monter | to go up, to get in (a car) | naar boven gaan, instappen
+seulement | only | slechts, maar
+apprendre | to learn, to teach | leren
+matin | morning | ochtend
+voix | voice | stem
+pied | foot | voet
+frère | brother | broer
+écrire | to write | schrijven
+rue | street | straat
+ville | town, city | stad
+boire | to drink | drinken
++ | sugar | suiker | le sucre
++ | salt | zout | le sel
++ | butter | boter | le beurre
++ | rice | rijst | le riz
++ | cake | taart | le gâteau
++ | soup | soep | la soupe
+occuper | to take care of | zorgen voor | s'occuper de
+part | share, portion | aandeel, portie
+visage | face | gezicht
+payer | to pay | betalen
+mois | month | maand
++ | January | januari | janvier
++ | February | februari | février
++ | March | maart | mars
++ | April | april | avril
+demain | tomorrow | morgen
++ | see you tomorrow | tot morgen | à demain
+longtemps | a long time | lang (tijd)
+montrer | to show | tonen, laten zien
+garder | to keep | houden, bewaren
+coeur | heart | hart | le cœur
+gros | fat, thick | dik
+servir | to serve | dienen, serveren
+lire | to read | lezen
+presque | almost | bijna
+poser | to put down, to ask (a question) | neerleggen, (een vraag) stellen
+quitter | to leave (a place, a person) | verlaten
+envoyer | to send | sturen
+minute | minute | minuut
+bras | arm | arm (lichaamsdeel)
+noir | black | zwart
+peine | trouble, sorrow (à peine = barely) | moeite, verdriet
+aujourd'hui | today | vandaag
+combien | how much, how many | hoeveel
+long | long | lang
+lever | to get up | opstaan | se lever
+suite | right away | meteen | tout de suite
+souvenir | to remember | zich herinneren | se souvenir de
+continuer | to continue | doorgaan
+guerre | war | oorlog
+type | type, guy | type, kerel
+plein | full | vol
+tourner | to turn | draaien
+chance | luck | geluk (toeval)
+train | train | trein
+madame | madam, Mrs. | mevrouw
+sang | blood | bloed
+point | point, dot | punt
+excuser | to excuse | excuseren
++ | excuse me | pardon, neem me niet kwalijk | excusez-moi
+truc | thing (informal), trick | ding, trucje
+retourner | to go back, to turn over | teruggaan, omdraaien
+descendre | to go down, to get off | naar beneden gaan, uitstappen
+personne | person | persoon
+fou | crazy, mad | gek | fou / folle
+raconter | to tell (a story) | vertellen
+garçon | boy | jongen
+cas | case | geval
+nouveau | new | nieuw | nouveau / nouvelle
+fin | end | einde | la fin
+semaine | week | week
+jeter | to throw | gooien
+rappeler | to remind, to call back | herinneren aan, terugbellen
+instant | moment, instant | ogenblik
+façon | way, manner | manier
+merci | thank you | dank je | merci
++ | you're welcome | graag gedaan | de rien
+gagner | to win, to earn | winnen, (geld) verdienen
+lit | bed | bed
+blanc | white | wit
+tour | turn (c'est ton tour = it's your turn) | beurt | le tour
+plutôt | rather | eerder, liever
+toucher | to touch | aanraken
+prêt | ready | klaar
+bout | tip, bit (au bout de = at the end of) | uiteinde, stukje
+feu | fire, traffic light | vuur, verkeerslicht
+espérer | to hope | hopen
+acheter | to buy | kopen
+livre | book | boek | le livre
+mauvais | bad | slecht
+envie | urge (avoir envie de = to feel like) | zin (avoir envie de = zin hebben in)
+manquer | to lack, to miss (someone) | ontbreken, missen (iemand)
+prier | to pray | bidden
+force | strength, force | kracht
+heureux | happy | gelukkig
+ordre | order | orde, bevel
+mec | guy (informal) | gast, vent
+table | table | tafel
+fermer | to close | sluiten, dichtdoen
+rencontrer | to meet | ontmoeten
+pays | country | land (staat)
+compter | to count | tellen
+fond | bottom, background | bodem, achtergrond
+lieu | place (avoir lieu = to take place) | plaats (avoir lieu = plaatsvinden)
+ailleurs | elsewhere | ergens anders
+route | road | weg
+expliquer | to explain | uitleggen
+imaginer | to imagine | zich voorstellen
+rire | to laugh | lachen
+reprendre | to take back, to resume | terugnemen, hervatten
+valoir | to be worth | waard zijn
+décider | to decide | beslissen
+ensemble | together | samen
+cause | cause (à cause de = because of) | oorzaak (à cause de = vanwege)
+mari | husband | echtgenoot, man
+chien | dog | hond | le chien
+soleil | sun | zon
+pourtant | yet, still | toch
++ | still, all the same | desondanks | quand même
+ciel | sky | hemel, lucht
+parfois | sometimes | soms
+regard | look, gaze | blik
+emmener | to take (a person) along | meenemen (iemand)
+surtout | especially, above all | vooral
+possible | possible | mogelijk
+chef | chef, head (leader) | chef, leider | le chef
+agir | to act | handelen
+recevoir | to receive | ontvangen
+plaisir | pleasure | plezier
+là-bas | over there | daarginds
+doute | doubt | twijfel
+suffire | to be enough | volstaan
+pièce | room (of a house), coin, piece | vertrek, munt, stuk
+partie | part (of something) | deel
+police | police | politie
+verre | glass | glas
+lettre | letter | brief, letter
+reste | rest (remainder) | rest
+souvent | often | vaak

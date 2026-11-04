@@ -1,0 +1,1151 @@
+rank	lemma	cgram	gender	number	fem	score
+1	être	VER				25376.1
+2	avoir	VER				16255.9
+3	faire	VER				7419.7
+4	aller	VER				7137.6
+5	dire	VER				5500.7
+6	pouvoir	VER				4378.6
+7	vouloir	VER				3805.6
+8	bien	ADV				3542.3
+9	savoir	VER				3511.5
+10	voir	VER				3432.4
+11	tout	ADJ			toute	3037.8
+12	devoir	VER				2466.8
+13	venir	VER				2264.1
+14	prendre	VER				1734.9
+15	ici	ADV				1640.2
+16	suivre	VER				1634.0
+17	parler	VER				1616.7
+18	falloir	VER				1492.4
+19	chose	NOM	f			1487.2
+20	croire	VER				1406.1
+21	très	ADV				1402.3
+22	aussi	ADV				1385.3
+23	passer	VER				1363.4
+24	encore	ADV				1337.8
+25	aimer	VER				1311.3
+26	petit	ADJ			petite	1280.9
+27	jamais	ADV				1265.3
+28	bon	ADJ			bonne	1248.5
+29	penser	VER				1239.2
+30	homme	NOM	m			1233.7
+31	trouver	VER				1190.3
+32	jour	NOM	m			1173.9
+33	laisser	VER				1141.1
+34	temps	NOM	m			1134.4
+35	regarder	VER				1117.5
+36	attendre	VER				1093.6
+37	même	ADV				1088.1
+38	donner	VER				1084.2
+39	toujours	ADV				1080.9
+40	arriver	VER				1040.7
+41	mettre	VER				1036.4
+42	femme	NOM	f			1027.9
+43	quoi	ADJ				1019.3
+44	fois	NOM	f	p		995.5
+45	vie	NOM	f			954.1
+46	peu	NOM	m			946.2
+47	demander	VER				939.6
+48	rester	VER				919.6
+49	seul	ADJ			seule	901.0
+50	appeler	VER				885.4
+51	pourquoi	ADV				883.0
+52	grand	ADJ			grande	881.1
+53	partir	VER				861.5
+54	trop	ADV				831.7
+55	connaître	VER				828.3
+56	père	NOM	m			826.7
+57	est-ce que	ADV				824.5
+58	peut-être	ADV				823.8
+59	autre	ADJ				819.7
+60	maintenant	ADV				816.0
+61	heure	NOM	f			795.5
+62	monde	NOM	m			795.0
+63	an	NOM	m			794.3
+64	main	NOM	f			791.5
+65	comprendre	VER				782.0
+66	sortir	VER				781.6
+67	arrêter	VER				781.3
+68	fille	NOM	f			741.8
+69	oeil	NOM	m			741.7
+70	enfant	NOM	m			731.6
+71	sûr	ADJ			sûre	731.3
+72	entendre	VER				724.8
+73	mère	NOM	f			716.6
+74	mourir	VER				706.3
+75	dieu	NOM	m			700.6
+76	vraiment	ADV				690.9
+77	déjà	ADV				690.0
+78	vrai	ADJ			vraie	656.2
+79	tête	NOM	f			654.9
+80	beau	ADJ			belle	651.1
+81	nuit	NOM	f			647.2
+82	tuer	VER				625.3
+83	comment	ADV				619.7
+84	coup	NOM	m			618.2
+85	sentir	VER				608.8
+86	chercher	VER				607.1
+87	tenir	VER				599.3
+88	maison	NOM	f			593.6
+89	ami	NOM	mf			590.4
+90	moins	ADV				574.5
+91	monsieur	NOM	m			573.4
+92	soir	NOM	m			570.5
+93	besoin	NOM	m			569.4
+94	air	NOM	m			567.4
+95	revenir	VER				567.4
+96	beaucoup	ADV				560.2
+97	mieux	ADV				550.4
+98	moment	NOM	m			535.5
+99	essayer	VER				520.9
+100	gens	NOM		p		520.3
+101	accord	NOM	m			514.2
+102	finir	VER				501.8
+103	nom	NOM	m			500.4
+104	premier	ADJ			première	495.2
+105	rendre	VER				492.5
+106	vivre	VER				490.2
+107	perdre	VER				478.6
+108	jouer	VER				477.0
+109	aider	VER				476.7
+110	devenir	VER				476.5
+111	peur	NOM	f			459.0
+112	mort	NOM	f			457.1
+113	juste	ADJ				455.5
+114	porte	NOM	f			447.3
+115	ouvrir	VER				445.0
+116	amour	NOM	m			436.5
+117	vite	ADV				435.7
+118	rentrer	VER				431.5
+119	commencer	VER				430.9
+120	entrer	VER				429.4
+121	tomber	VER				421.3
+122	plaire	VER				420.2
+123	dernier	ADJ			dernière	419.9
+124	assez	ADV				412.7
+125	mal	ADV				412.2
+126	écouter	VER				408.2
+127	oublier	VER				407.0
+128	jeune	ADJ				405.9
+129	raison	NOM	f			404.3
+130	tant	ADV				402.8
+131	tirer	VER				402.4
+132	côté	NOM	m			398.2
+133	manger	VER				392.9
+134	fait	NOM	m			389.5
+135	mot	NOM	m			389.2
+136	fils	NOM	m			387.1
+137	argent	NOM	m			386.8
+138	porter	VER				382.0
+139	maman	NOM	f			381.9
+140	question	NOM	f			378.5
+141	vieux	ADJ			vieille	374.5
+142	voiture	NOM	f			370.9
+143	travailler	VER				368.8
+144	place	NOM	f			368.2
+145	eau	NOM	f			367.4
+146	sembler	VER				366.7
+147	idée	NOM	f			365.2
+148	bonjour	NOM	m			363.0
+149	histoire	NOM	f			359.8
+150	terre	NOM	f			357.8
+151	asseoir	VER				351.7
+152	problème	NOM	m			350.0
+153	marcher	VER				348.9
+154	tard	ADV				347.9
+155	changer	VER				345.8
+156	retrouver	VER				343.6
+157	corps	NOM	m			342.2
+158	famille	NOM	f			340.7
+159	année	NOM	f			340.0
+160	travail	NOM	m			339.3
+161	dormir	VER				338.9
+162	chambre	NOM	f			338.5
+163	affaire	NOM	f			337.6
+164	répondre	VER				337.6
+165	enfin	ADV				335.6
+166	ouais	ADV				335.4
+167	loin	ADV				329.9
+168	monter	VER				328.2
+169	seulement	ADV				326.7
+170	apprendre	VER				323.8
+171	matin	NOM	m			323.7
+172	voix	NOM	f			323.6
+173	pied	NOM	m			323.0
+174	frère	NOM	m			320.8
+175	écrire	VER				320.3
+176	rue	NOM	f			319.9
+177	ville	NOM	f			318.3
+178	boire	VER				313.2
+179	occuper	VER				313.0
+180	part	NOM	f			311.7
+181	visage	NOM	m			310.7
+182	payer	VER				310.1
+183	mois	NOM	m			309.3
+184	foutre	VER				309.3
+185	demain	ADV				309.2
+186	longtemps	ADV				308.4
+187	montrer	VER				307.0
+188	garder	VER				306.0
+189	coeur	NOM	m			304.3
+190	gros	ADJ			grosse	301.5
+191	servir	VER				300.4
+192	lire	VER				298.6
+193	presque	ADV				295.3
+194	poser	VER				293.9
+195	quitter	VER				293.2
+196	envoyer	VER				287.2
+197	minute	NOM	f			285.9
+198	bras	NOM	m			284.7
+199	noir	ADJ			noire	279.8
+200	peine	NOM	f			279.7
+201	aujourd'hui	ADV				279.4
+202	combien	ADV				277.6
+203	long	ADJ			longue	276.4
+204	lever	VER				275.9
+205	suite	NOM	f			275.9
+206	souvenir	VER				275.2
+207	continuer	VER				275.1
+208	guerre	NOM	f			274.8
+209	type	NOM	m			274.6
+210	plein	ADJ			pleine	273.4
+211	tourner	VER				273.3
+212	chance	NOM	f			270.9
+213	train	NOM	m			268.6
+214	madame	NOM	f	p		265.8
+215	sang	NOM	m			265.8
+216	point	NOM	m			264.6
+217	excuser	VER				264.2
+218	truc	NOM	m			263.9
+219	retourner	VER				263.6
+220	descendre	VER				262.2
+221	personne	NOM	f			262.0
+222	fou	ADJ			folle	258.5
+223	raconter	VER				257.1
+224	garçon	NOM	m			255.9
+225	cas	NOM	m			255.3
+226	nouveau	NOM	mf			255.0
+227	fin	NOM				253.8
+228	semaine	NOM	f			253.5
+229	paraître	VER				252.5
+230	jeter	VER				250.0
+231	rappeler	VER				249.9
+232	instant	NOM	m			249.7
+233	façon	NOM	f			249.2
+234	merci	NOM	m			249.0
+235	gagner	VER				249.0
+236	lit	NOM	m			245.8
+237	blanc	ADJ			blanche	243.5
+238	tour	NOM				239.8
+239	plutôt	ADV				238.5
+240	toucher	VER				238.3
+241	prêt	ADJ			prête	237.3
+242	bout	NOM	m			236.2
+243	feu	NOM	m			234.8
+244	espérer	VER				234.6
+245	acheter	VER				233.8
+246	livre	NOM		p		233.5
+247	mauvais	ADJ			mauvaise	231.9
+248	envie	NOM	f			231.6
+249	manquer	VER				231.4
+250	prier	VER				230.2
+251	force	NOM	f			229.1
+252	heureux	ADJ			heureuse	225.1
+253	importer	VER				224.9
+254	ordre	NOM	m			224.5
+255	mec	NOM	m			224.2
+256	table	NOM	f			222.9
+257	fermer	VER				222.1
+258	rencontrer	VER				220.0
+259	pays	NOM	m			218.2
+260	compter	VER				218.2
+261	fond	NOM	m			216.5
+262	lieu	NOM	m			216.2
+263	ailleurs	ADV				215.8
+264	route	NOM	f			215.2
+265	expliquer	VER				214.1
+266	imaginer	VER				213.0
+267	rire	VER				212.4
+268	reprendre	VER				212.2
+269	valoir	VER				211.9
+270	décider	VER				210.3
+271	ensemble	ADV				210.1
+272	cause	NOM	f			210.1
+273	mari	NOM	m			208.2
+274	chien	NOM	mf			208.0
+275	soleil	NOM	m			207.8
+276	pourtant	ADV				207.8
+277	ciel	NOM	m			207.5
+278	parfois	ADV				206.7
+279	regard	NOM	m			206.1
+280	emmener	VER				205.8
+281	surtout	ADV				205.8
+282	possible	ADJ				205.6
+283	chef	NOM				205.5
+284	agir	VER				205.5
+285	recevoir	VER				205.4
+286	plaisir	NOM	m			205.4
+287	là-bas	ADV				205.0
+288	doute	NOM	m			204.9
+289	suffire	VER				203.0
+290	pièce	NOM	f			201.2
+291	putain	NOM	f			200.2
+292	partie	NOM	f			199.3
+293	police	NOM	f			199.2
+294	verre	NOM	m			198.0
+295	gars	NOM	m			197.5
+296	autour	ADV				196.8
+297	lettre	NOM	f			196.5
+298	reste	NOM	m			196.2
+299	souvent	ADV				196.1
+300	genre	NOM	m			196.1
+301	cacher	VER				195.2
+302	silence	NOM	m			194.1
+303	courir	VER				193.3
+304	battre	VER				193.2
+305	offrir	VER				192.3
+306	sorte	NOM	f			191.7
+307	salut	NOM	m			191.2
+308	pousser	VER				190.9
+309	lumière	NOM	f			190.6
+310	droit	NOM	m			190.1
+311	bouger	VER				189.8
+312	apporter	VER				189.7
+313	bois	NOM	m			189.1
+314	fort	ADV				188.3
+315	coucher	VER				187.7
+316	sauver	VER				187.5
+317	autant	ADV				187.5
+318	puis	ADV				186.6
+319	papa	NOM	m			186.3
+320	endroit	NOM	m			186.0
+321	désoler	VER				184.1
+322	joli	ADJ			jolie	183.9
+323	nouvelle	ADJ				183.7
+324	jeu	NOM	m			183.6
+325	face	NOM	f			183.5
+326	pauvre	ADJ				181.9
+327	école	NOM	f			181.7
+328	avant	ADV				181.7
+329	film	NOM	m			181.2
+330	cheveu	NOM	m			181.0
+331	propre	ADJ				180.9
+332	mur	NOM	m			180.5
+333	pleurer	VER				180.3
+334	esprit	NOM	m			180.0
+335	compte	NOM	m			179.9
+336	bientôt	ADV				178.8
+337	voler	VER				178.8
+338	âge	NOM	m			178.5
+339	tellement	ADV				177.6
+340	permettre	VER				177.4
+341	cher	ADJ			chère	176.9
+342	arme	NOM	f			176.7
+343	journée	NOM	f			176.7
+344	reconnaître	VER				176.1
+345	soeur	NOM	f			175.4
+346	docteur	NOM	mf			175.3
+347	état	NOM	m			174.7
+348	disparaître	VER				173.0
+349	d'abord	ADV				173.0
+350	important	ADJ			importante	172.3
+351	vérité	NOM	f			172.3
+352	revoir	NOM	m			171.6
+353	parent	NOM	mf			171.6
+354	dur	ADJ			dure	171.4
+355	hier	ADV				171.3
+356	après	ADV				171.1
+357	rouge	ADJ				171.1
+358	désolé	ADJ			désolée	171.0
+359	service	NOM	m			169.7
+360	général	NOM	mf			169.7
+361	bruit	NOM	m			169.1
+362	café	NOM	m			169.1
+363	remettre	VER				168.0
+364	chemin	NOM	m			167.7
+365	meilleur	ADJ			meilleure	167.4
+366	bouche	NOM	f			167.4
+367	mer	NOM	f			167.0
+368	fenêtre	NOM	f			166.4
+369	préparer	VER				166.2
+370	crier	VER				166.1
+371	frapper	VER				163.3
+372	photo	NOM	f			163.3
+373	vendre	VER				161.2
+374	préférer	VER				161.0
+375	bureau	NOM	m			160.3
+376	conduire	VER				159.6
+377	marier	VER				158.3
+378	sens	NOM	m			157.5
+379	accepter	VER				157.4
+380	partout	ADV				156.9
+381	jambe	NOM	f			156.7
+382	cours	NOM		p		156.5
+383	salle	NOM	f			156.5
+384	choisir	VER				155.9
+385	réveiller	VER				155.7
+386	inquiéter	VER				155.7
+387	doigt	NOM	m			153.9
+388	découvrir	VER				153.8
+389	présenter	VER				153.6
+390	papier	NOM	m			153.6
+391	merde	NOM	f			152.9
+392	ressembler	VER				152.2
+393	dehors	ADV				152.1
+394	amener	VER				151.8
+395	promettre	VER				151.7
+396	chanter	VER				150.1
+397	couper	VER				149.8
+398	cheval	NOM	m			149.2
+399	approcher	VER				149.1
+400	taire	VER				148.6
+401	libre	ADJ				147.8
+402	musique	NOM	f			147.6
+403	refuser	VER				147.5
+404	ramener	VER				147.3
+405	effet	NOM	m			147.0
+406	retour	NOM	m			146.8
+407	rêve	NOM	m			146.7
+408	roi	NOM	m			146.1
+409	dos	NOM	m			145.8
+410	âme	NOM	f			145.6
+411	journal	NOM	m			145.6
+412	français	ADJ			française	145.4
+413	attention	NOM	f			144.9
+414	milieu	NOM	m			144.6
+415	sac	NOM	m			144.5
+416	ensuite	ADV				144.4
+417	simple	ADJ				142.0
+418	content	ADJ			contente	142.0
+419	empêcher	VER				141.6
+420	gentil	ADJ			gentille	141.5
+421	ok	ADJ				141.4
+422	exister	VER				141.0
+423	froid	ADJ			froide	141.0
+424	pareil	ADJ			pareille	139.9
+425	faute	NOM	f			139.6
+426	coin	NOM	m			139.4
+427	bord	NOM	m			139.2
+428	répéter	VER				139.0
+429	travers	NOM	m			138.4
+430	embrasser	VER				138.4
+431	lâcher	VER				138.3
+432	patron	NOM	mf			137.9
+433	maître	NOM	m			137.7
+434	difficile	ADJ				137.6
+435	sourire	VER				137.5
+436	ignorer	VER				137.3
+437	copain	NOM	mf			136.5
+438	rapport	NOM	m			136.4
+439	clair	ADJ			claire	136.3
+440	boulot	NOM	m			136.0
+441	avancer	VER				135.4
+442	téléphone	NOM	m			135.2
+443	certain	ADJ			certaine	135.2
+444	facile	ADJ				135.1
+445	enlever	VER				135.0
+446	épaule	NOM	f			134.9
+447	confiance	NOM	f			134.5
+448	vent	NOM	m			134.5
+449	adorer	VER				134.0
+450	depuis	ADV				133.9
+451	casser	VER				133.4
+452	parole	NOM	f			133.4
+453	amuser	VER				133.2
+454	bébé	NOM	m			133.1
+455	geste	NOM				132.9
+456	arbre	NOM	m			132.4
+457	hôtel	NOM	m			132.4
+458	numéro	NOM	m			132.1
+459	mariage	NOM	m			131.9
+460	mentir	VER				131.9
+461	carte	NOM	f			131.5
+462	intéresser	VER				131.4
+463	fête	NOM	f			131.2
+464	voyage	NOM	m			129.9
+465	sale	ADJ				128.9
+466	couleur	NOM	f			128.8
+467	tôt	ADV				128.7
+468	capitaine	NOM	m			128.6
+469	paix	NOM	f			128.4
+470	tromper	VER				128.4
+471	réussir	VER				128.0
+472	sauter	VER				127.7
+473	peau	NOM	f			127.6
+474	aide	NOM				127.6
+475	dame	NOM	f			127.3
+476	forme	NOM	f			127.2
+477	oncle	NOM	m			127.1
+478	utiliser	VER				126.9
+479	espèce	NOM	f			126.6
+480	bas	ADJ			basse	126.2
+481	fleur	NOM	f			125.6
+482	terminer	VER				125.4
+483	bleu	ADJ			bleue	125.4
+484	début	NOM	m			125.2
+485	rêver	VER				125.0
+486	image	NOM	f			124.8
+487	drôle	ADJ				124.7
+488	malade	ADJ				124.5
+489	plan	NOM	m			124.1
+490	exactement	ADV				123.7
+491	traverser	VER				123.7
+492	seconde	NOM	f			123.3
+493	grave	ADJ				123.0
+494	habiter	VER				122.0
+495	oreille	NOM	f			121.8
+496	jurer	VER				121.8
+497	flic	NOM	m			121.1
+498	ombre	NOM				120.8
+499	habitude	NOM	f			120.7
+500	prochain	ADJ			prochaine	119.9
+501	haut	ADJ			haute	119.5
+502	danser	VER				119.4
+503	armée	NOM	f			119.3
+504	calmer	VER				119.2
+505	gueule	NOM	f			119.1
+506	prix	NOM	m			118.9
+507	ligne	NOM	f			118.8
+508	debout	ADV				118.6
+509	différent	ADJ			différente	118.3
+510	or	NOM	m			118.2
+511	abandonner	VER				117.9
+512	président	NOM	mf			117.9
+513	cul	NOM	m			117.8
+514	chéri	NOM	mf			117.7
+515	prison	NOM	f			117.5
+516	naître	VER				117.4
+517	honneur	NOM	m			117.4
+518	faux	ADJ			fausse	117.2
+519	seigneur	NOM	m			116.3
+520	oser	VER				116.3
+521	soldat	NOM	mf			116.3
+522	pierre	NOM	f			116.2
+523	impression	NOM	f			116.2
+524	nez	NOM	m			116.2
+525	souffrir	VER				116.0
+526	assurer	VER				115.2
+527	village	NOM	m			115.1
+528	mener	VER				115.0
+529	sujet	NOM	m			114.5
+530	médecin	NOM	m			114.4
+531	signe	NOM	m			114.2
+532	apercevoir	VER				114.0
+533	craindre	VER				113.8
+534	doucement	ADV				113.6
+535	serrer	VER				113.6
+536	ajouter	VER				113.2
+537	impossible	ADJ				113.1
+538	glisser	VER				112.6
+539	maintenir	VER				112.2
+540	bonheur	NOM	m			112.2
+541	rejoindre	VER				112.1
+542	cesser	VER				112.0
+543	vivant	ADJ			vivante	111.9
+544	propos	NOM	m			111.6
+545	groupe	NOM	m			111.6
+546	lèvre	NOM	f			111.6
+547	doux	ADJ			douce	111.5
+548	lancer	VER				111.2
+549	balle	NOM	f			111.1
+550	scène	NOM	f			110.7
+551	près	ADV				110.5
+552	vue	NOM	f			110.5
+553	jardin	NOM	m			110.4
+554	échapper	VER				110.1
+555	robe	NOM	f			109.9
+556	sûrement	ADV				109.8
+557	peuple	NOM	m			109.7
+558	avis	NOM	m	p		109.6
+559	humain	ADJ			humaine	108.9
+560	tranquille	ADJ				108.6
+561	intérieur	NOM	m			108.4
+562	sentiment	NOM	m			108.4
+563	avion	NOM	m			108.2
+564	chat	NOM	mf			108.1
+565	brûler	VER				108.1
+566	odeur	NOM	f			108.0
+567	camp	NOM	m			107.8
+568	bateau	NOM	m			107.8
+569	garde	NOM				107.5
+570	installer	VER				107.3
+571	situation	NOM	f			107.3
+572	protéger	VER				107.3
+573	faim	NOM	f			107.2
+574	prévenir	VER				107.1
+575	cuisine	NOM	f			106.9
+576	boîte	NOM	f			106.9
+577	remonter	VER				106.9
+578	exemple	NOM	m			106.6
+579	manière	NOM	f			106.5
+580	couvrir	VER				106.4
+581	ancien	ADJ			ancienne	105.8
+582	réfléchir	VER				105.6
+583	bonsoir	NOM	m			105.6
+584	remarquer	VER				105.2
+585	joie	NOM	f			105.1
+586	entier	ADJ			entière	104.8
+587	charger	VER				104.7
+588	simplement	ADV				104.6
+589	triste	ADJ				104.3
+590	accompagner	VER				104.1
+591	tendre	VER				103.3
+592	cour	NOM	f			103.1
+593	inviter	VER				103.0
+594	rouler	VER				102.5
+595	hôpital	NOM	m			101.9
+596	pardonner	VER				101.5
+597	normal	ADJ			normale	101.4
+598	con	NOM	mf			101.2
+599	retenir	VER				100.5
+600	secret	NOM	m			100.5
+601	ennemi	NOM	mf			100.2
+602	arranger	VER				100.0
+603	risquer	VER				100.0
+604	client	NOM	mf			99.9
+605	prince	NOM	mf			99.8
+606	bizarre	ADJ				99.7
+607	visite	NOM	f			99.7
+608	courant	NOM	m			98.8
+609	détester	VER				98.8
+610	tenter	VER				98.6
+611	réponse	NOM	f			98.2
+612	obliger	VER				98.0
+613	trou	NOM	m			97.8
+614	mouvement	NOM	m			97.4
+615	supposer	VER				97.2
+616	nu	ADJ			nue	97.1
+617	au-dessus	ADV				96.9
+618	gauche	NOM				96.9
+619	église	NOM	f			96.9
+620	éviter	VER				96.7
+621	détruire	VER				96.6
+622	époque	NOM	f			96.5
+623	million	NOM	m			96.4
+624	présent	NOM	m			96.4
+625	vin	NOM	m			96.3
+626	filer	VER				96.0
+627	chaud	ADJ			chaude	95.8
+628	cadeau	NOM	m			95.8
+629	complètement	ADV				95.8
+630	super	ADJ				95.7
+631	soudain	ADV				95.6
+632	honte	NOM	f			95.4
+633	pensée	NOM	f			95.3
+634	erreur	NOM	f			95.3
+635	vide	ADJ				95.2
+636	loi	NOM	f			95.0
+637	épouser	VER				95.0
+638	dent	NOM	f			94.8
+639	retard	NOM	m			94.5
+640	déranger	VER				93.8
+641	tante	NOM	f			93.3
+642	marche	NOM	f			93.1
+643	passé	ADJ			passée	93.0
+644	moyen	NOM	m			92.9
+645	fumer	VER				92.8
+646	étrange	ADJ				92.8
+647	sérieux	ADJ			sérieuse	92.7
+648	soirée	NOM	f			92.1
+649	langue	NOM	f			92.0
+650	oiseau	NOM	m			91.9
+651	équipe	NOM	f			91.7
+652	goût	NOM	m			91.5
+653	classe	NOM	f			91.0
+654	reposer	VER				90.7
+655	gosse	NOM				90.7
+656	preuve	NOM	f			90.7
+657	été	NOM	m			90.5
+658	ton	NOM	m			90.5
+659	gouvernement	NOM	m			90.4
+660	traiter	VER				90.4
+661	clé	NOM	f			90.3
+662	départ	NOM	m			90.3
+663	remercier	VER				90.0
+664	apparaître	VER				90.0
+665	emporter	VER				89.9
+666	proposer	VER				89.9
+667	dessus	ADV				89.7
+668	attraper	VER				89.6
+669	vert	ADJ			verte	89.6
+670	cri	NOM	m			89.5
+671	appel	NOM	m			89.5
+672	avenir	NOM	m			89.1
+673	passage	NOM	m			88.6
+674	deviner	VER				88.6
+675	choix	NOM	m			88.6
+676	sol	NOM	m			88.4
+677	traîner	VER				88.4
+678	poche	NOM				88.3
+679	front	NOM	m			88.3
+680	amoureux	ADJ			amoureuse	88.1
+681	attaquer	VER				87.9
+682	terrible	ADJ				87.8
+683	atteindre	VER				87.8
+684	contraire	NOM	m			87.7
+685	intérêt	NOM	m			87.6
+686	bête	NOM	f			87.5
+687	retirer	VER				87.5
+688	message	NOM	m			87.3
+689	dollar	NOM	m			87.2
+690	annoncer	VER				87.0
+691	liberté	NOM	f			86.9
+692	respirer	VER				86.6
+693	agent	NOM	mf			86.4
+694	camarade	NOM				86.3
+695	conseil	NOM	m			86.1
+696	poste	NOM				86.0
+697	appartement	NOM	m			85.5
+698	baiser	VER				85.3
+699	cigarette	NOM	f			85.3
+700	appartenir	VER				85.3
+701	durer	VER				85.3
+702	obtenir	VER				85.2
+703	ventre	NOM	m			84.9
+704	génial	ADJ			géniale	84.8
+705	dégager	VER				84.7
+706	professeur	NOM	f			84.7
+707	calme	NOM	m			84.4
+708	baisser	VER				84.3
+709	quartier	NOM	m			84.3
+710	souhaiter	VER				84.2
+711	recommencer	VER				84.1
+712	supporter	VER				84.1
+713	aussitôt	ADV				84.1
+714	grand-père	NOM	m			84.0
+715	regretter	VER				83.8
+716	genou	NOM	m			83.7
+717	séparer	VER				83.7
+718	défendre	VER				83.6
+719	sécurité	NOM	f			83.5
+720	compagnie	NOM	f			83.1
+721	léger	ADJ			légère	83.1
+722	sec	ADJ			sèche	82.9
+723	accident	NOM	m			82.8
+724	pain	NOM	m			82.7
+725	avocat	NOM	mf			82.7
+726	vérifier	VER				82.6
+727	droite	NOM	f			82.4
+728	pire	ADJ				82.4
+729	douleur	NOM	f			82.3
+730	victime	NOM	f			82.2
+731	moindre	ADJ				82.2
+732	quelque	ADV				82.2
+733	douter	VER				81.9
+734	grand-mère	NOM	f			81.8
+735	poursuivre	VER				81.5
+736	colère	NOM	f			81.4
+737	animal	NOM	m			81.4
+738	discuter	VER				81.3
+739	signer	VER				81.2
+740	présence	NOM	f			81.2
+741	sonner	VER				81.2
+742	colonel	NOM	mf			81.0
+743	neuf	ADJ			neuve	80.9
+744	mémoire	NOM				80.9
+745	larme	NOM	f			80.8
+746	surprendre	VER				80.7
+747	capable	ADJ				80.6
+748	surprise	NOM	f			80.6
+749	siècle	NOM	m			80.6
+750	beauté	NOM	f			80.6
+751	dîner	NOM	m			80.5
+752	crime	NOM	m			80.5
+753	rôle	NOM	m			80.4
+754	cousin	NOM	mf			80.3
+755	art	NOM	m			80.3
+756	effort	NOM	m			80.3
+757	dangereux	ADJ			dangereuse	80.1
+758	mériter	VER				80.0
+759	blesser	VER				79.6
+760	occasion	NOM	f			79.4
+761	allumer	VER				79.4
+762	espoir	NOM	m			79.3
+763	absolument	ADV				79.3
+764	partager	VER				79.0
+765	escalier	NOM	m			78.9
+766	dimanche	NOM	m			78.8
+767	fil	NOM	m			78.8
+768	étonner	VER				78.8
+769	engager	VER				78.8
+770	morceau	NOM	m			78.6
+771	hasard	NOM	m			78.5
+772	lentement	ADV				78.5
+773	île	NOM	f			78.3
+774	mètre	NOM	m			78.1
+775	éloigner	VER				77.9
+776	diable	NOM	m			77.9
+777	bain	NOM	m			77.9
+778	arracher	VER				77.9
+779	prévoir	VER				77.8
+780	derrière	ADV				77.8
+781	énorme	ADJ				77.6
+782	mêler	VER				77.4
+783	diriger	VER				77.3
+784	objet	NOM	m			77.3
+785	lendemain	NOM	m			77.3
+786	couler	VER				77.0
+787	champ	NOM	m			76.9
+788	ouvert	ADJ			ouverte	76.9
+789	profiter	VER				76.8
+790	pluie	NOM	f			76.7
+791	fuir	VER				76.7
+792	rendez-vous	NOM	m			76.7
+793	action	NOM	f			76.5
+794	glace	NOM	f			76.5
+795	moitié	NOM	f			76.5
+796	saisir	VER				76.4
+797	entrée	NOM	f			76.4
+798	parvenir	VER				76.2
+799	lourd	ADJ			lourde	76.0
+800	fixer	VER				76.0
+801	dépêcher	VER				76.0
+802	course	NOM	f			76.0
+803	fric	NOM	m			76.0
+804	bouteille	NOM	f			76.0
+805	bande	NOM	f			75.9
+806	billet	NOM	m			75.8
+807	avouer	VER				75.4
+808	ressentir	VER				75.3
+809	appuyer	VER				75.0
+810	machine	NOM	f			74.6
+811	nature	NOM	f			74.5
+812	avance	NOM	f			74.5
+813	télé	NOM	f			74.3
+814	santé	NOM	f			74.3
+815	prouver	VER				74.3
+816	désir	NOM	m			74.0
+817	vacance	NOM	f			73.8
+818	gris	ADJ			grise	73.7
+819	relever	VER				73.7
+820	coller	VER				73.7
+821	campagne	NOM	f			73.6
+822	feuille	NOM	f			73.3
+823	régler	VER				73.2
+824	créer	VER				73.0
+825	vêtement	NOM	m			72.9
+826	élever	VER				72.8
+827	tas	NOM	m			72.7
+828	surveiller	VER				72.6
+829	sommeil	NOM	m			72.6
+830	cou	NOM	m			72.6
+831	frais	ADJ			fraîche	72.5
+832	pencher	VER				72.5
+833	placer	VER				72.5
+834	juger	VER				72.5
+835	mesure	NOM	f			72.4
+836	laver	VER				72.4
+837	prêter	VER				72.0
+838	observer	VER				72.0
+839	inutile	ADJ				71.8
+840	crever	VER				71.6
+841	conversation	NOM	f			71.4
+842	chaise	NOM	f			71.3
+843	pute	NOM	f			71.3
+844	but	NOM	m			71.2
+845	pur	ADJ			pure	71.2
+846	malheur	NOM	m			71.2
+847	accrocher	VER				70.9
+848	gamin	NOM	mf			70.8
+849	entraîner	VER				70.8
+850	fier	ADJ			fière	70.8
+851	poisson	NOM	m			70.7
+852	courage	NOM	m			70.6
+853	lieutenant	NOM	m			70.6
+854	mission	NOM	f			70.5
+855	riche	ADJ				70.5
+856	soin	NOM	m			70.5
+857	danger	NOM	m			70.5
+858	ficher	VER				70.4
+859	repartir	VER				70.3
+860	direction	NOM	f			70.3
+861	commander	VER				70.2
+862	pont	NOM	m			70.2
+863	société	NOM	f			70.2
+864	chaleur	NOM	f			70.0
+865	montagne	NOM	f			69.9
+866	détail	NOM	m			69.9
+867	page	NOM				69.9
+868	enfer	NOM	m			69.9
+869	projet	NOM	m			69.8
+870	marché	NOM	m			69.6
+871	chanson	NOM	f			69.6
+872	cinéma	NOM	m			69.5
+873	sombre	ADJ				69.4
+874	phrase	NOM	f			69.4
+875	ferme	NOM	f			69.3
+876	mademoiselle	NOM	f			69.3
+877	remplir	VER				69.3
+878	arrière	NOM	m			69.3
+879	connerie	NOM	f			69.1
+880	coûter	VER				69.1
+881	pitié	NOM	f			69.1
+882	écraser	VER				69.0
+883	forcer	VER				68.9
+884	radio	NOM				68.9
+885	est	NOM	m			68.9
+886	meurtre	NOM	m			68.9
+887	vol	NOM	m			68.8
+888	note	NOM	f			68.7
+889	ennui	NOM	m			68.6
+890	justement	ADV				68.5
+891	recherche	NOM	f			68.3
+892	herbe	NOM	f			68.3
+893	court	ADJ			courte	68.3
+894	américain	ADJ			américaine	68.2
+895	trace	NOM	f			68.2
+896	chapeau	NOM	m			68.2
+897	contact	NOM	m			68.1
+898	joue	NOM	f			68.1
+899	bordel	NOM	m			68.0
+900	centre	NOM	m			68.0
+901	cependant	ADV				67.9
+902	combat	NOM	m			67.9
+903	devant	ADV				67.9
+904	fer	NOM	mf			67.9
+905	former	VER				67.9
+906	livrer	VER				67.9
+907	profond	ADJ			profonde	67.7
+908	règle	NOM	f			67.7
+909	salaud	NOM	m			67.6
+910	exact	ADJ			exacte	67.5
+911	héros	NOM	mf			67.1
+912	hésiter	VER				67.0
+913	dossier	NOM	m			67.0
+914	second	ADJ			seconde	66.9
+915	virer	VER				66.9
+916	métier	NOM	m			66.8
+917	chaussure	NOM	f			66.7
+918	expérience	NOM	f			66.7
+919	marquer	VER				66.7
+920	fatiguer	VER				66.6
+921	étage	NOM	m			66.5
+922	proche	ADJ				66.4
+923	voisin	NOM	mf			66.3
+924	forêt	NOM	f			66.3
+925	causer	VER				66.2
+926	toit	NOM	m			66.1
+927	côte	NOM	f			66.1
+928	allemand	NOM	mf			66.1
+929	tableau	NOM	m			66.1
+930	relation	NOM	f			65.9
+931	étoile	NOM	f			65.5
+932	pote	NOM	m			65.5
+933	réalité	NOM	f			65.4
+934	opération	NOM	f			65.2
+935	éteindre	VER				65.1
+936	bar	NOM	m			65.1
+937	éclater	VER				65.0
+938	système	NOM	m			64.9
+939	libérer	VER				64.9
+940	éprouver	VER				64.8
+941	officier	NOM	mf			64.8
+942	militaire	ADJ				64.7
+943	importance	NOM	f			64.7
+944	condition	NOM	f			64.7
+945	adresse	NOM	f			64.3
+946	bière	NOM	f			64.2
+947	désirer	VER				64.1
+948	salon	NOM	m			64.0
+949	magnifique	ADJ				64.0
+950	apprécier	VER				64.0
+951	maladie	NOM	f			63.9
+952	décision	NOM	f			63.9
+953	plaindre	VER				63.9
+954	taper	VER				63.8
+955	merveilleux	ADJ			merveilleuse	63.7
+956	plage	NOM	f			63.7
+957	représenter	VER				63.5
+958	lune	NOM	f			63.3
+959	témoin	NOM	m			63.3
+960	plaisanter	VER				63.2
+961	enfermer	VER				63.2
+962	hiver	NOM	m			63.2
+963	idiot	NOM	mf			63.2
+964	téléphoner	VER				63.1
+965	gêner	VER				63.1
+966	attirer	VER				63.1
+967	foi	NOM	f			63.0
+968	chair	NOM	f			62.9
+969	parti	NOM	m			62.9
+970	moquer	VER				62.8
+971	tort	NOM	m			62.8
+972	chemise	NOM	f			62.8
+973	spécial	ADJ			spéciale	62.7
+974	paquet	NOM	m			62.7
+975	spectacle	NOM	m			62.6
+976	magasin	NOM	m			62.6
+977	anglais	NOM	mf			62.4
+978	position	NOM	f			62.4
+979	mme	NOM	f			62.3
+980	étranger	NOM	mf			62.2
+981	oeuvre	NOM				62.1
+982	voie	NOM	f			62.0
+983	habiller	VER				61.9
+984	promener	VER				61.8
+985	espace	NOM				61.7
+986	dedans	ADV				61.7
+987	risque	NOM	m			61.7
+988	construire	VER				61.6
+989	foule	NOM	f			61.6
+990	terrain	NOM	m			61.4
+991	enfance	NOM	f			61.4
+992	ennuyer	VER				61.1
+993	lait	NOM	m			60.9
+994	considérer	VER				60.8
+995	troupe	NOM	f			60.7
+996	sein	NOM	m			60.6
+997	allonger	VER				60.5
+998	inventer	VER				60.3
+999	acteur	NOM	mf			60.2
+1000	chasser	VER				60.1
+1001	interdire	VER				60.0
+1002	national	ADJ			nationale	60.0
+1003	banque	NOM	f			60.0
+1004	conscience	NOM	f			59.9
+1005	soulever	VER				59.9
+1006	presser	VER				59.8
+1007	repas	NOM	m			59.8
+1008	membre	NOM	m			59.6
+1009	signifier	VER				59.5
+1010	demeurer	VER				59.4
+1011	excellent	ADJ			excellente	59.4
+1012	thé	NOM	m			59.3
+1013	couloir	NOM	m			59.3
+1014	entourer	VER				59.2
+1015	rapporter	VER				59.2
+1016	nord	NOM	m			59.1
+1017	pleuvoir	VER				59.1
+1018	gare	NOM	f			59.1
+1019	reculer	VER				58.9
+1020	désormais	ADV				58.9
+1021	sortie	NOM	f			58.8
+1022	valise	NOM	f			58.7
+1023	destin	NOM	m			58.7
+1024	ange	NOM	m			58.6
+1025	posséder	VER				58.5
+1026	accorder	VER				58.5
+1027	nécessaire	ADJ				58.4
+1028	secours	NOM	m			58.4
+1029	pomme	NOM	f			58.4
+1030	récupérer	VER				58.3
+1031	volonté	NOM	f			58.2
+1032	endormir	VER				58.2
+1033	intention	NOM	f			58.1
+1034	trembler	VER				58.1
+1035	rapide	ADJ				58.0
+1036	secouer	VER				57.9
+1037	étendre	VER				57.9
+1038	époux	NOM	mf			57.9
+1039	briser	VER				57.8
+1040	là-haut	ADV				57.7
+1041	bonne	NOM	f			57.7
+1042	juge	NOM	m			57.7
+1043	poitrine	NOM	f			57.7
+1044	adresser	VER				57.6
+1045	arrivée	NOM	f			57.6
+1046	produire	VER				57.5
+1047	rater	VER				57.4
+1048	nourrir	VER				57.3
+1049	ministre	NOM	m			57.3
+1050	réaliser	VER				57.1
+1051	dépasser	VER				57.1
+1052	grandir	VER				57.1
+1053	certainement	ADV				57.1
+1054	acte	NOM	m			57.0
+1055	taxi	NOM	m			57.0
+1056	déposer	VER				56.9
+1057	davantage	ADV				56.9
+1058	probablement	ADV				56.7
+1059	songer	VER				56.7
+1060	débarrasser	VER				56.6
+1061	personnel	ADJ			personnelle	56.6
+1062	jaune	ADJ				56.6
+1063	taille	NOM	f			56.5
+1064	poids	NOM	m			56.3
+1065	souffle	NOM	m			56.3
+1066	attacher	VER				56.2
+1067	ramasser	VER				56.2
+1068	piquer	VER				56.0
+1069	toilette	NOM	f			56.0
+1070	camion	NOM	m			56.0
+1071	neige	NOM	f			56.0
+1072	remplacer	VER				55.9
+1073	couteau	NOM	m			55.9
+1074	enfoncer	VER				55.9
+1075	château	NOM	m			55.9
+1076	interroger	VER				55.8
+1077	ranger	VER				55.8
+1078	folie	NOM	f			55.7
+1079	parfaitement	ADV				55.7
+1080	immense	ADJ				55.7
+1081	son	NOM	m			55.6
+1082	entendu	ADJ			entendue	55.6
+1083	horreur	NOM	f			55.5
+1084	nombre	NOM	m			55.4
+1085	parier	VER				55.4
+1086	couple	NOM	m			55.4
+1087	hurler	VER				55.4
+1088	passion	NOM	f			55.3
+1089	unique	ADJ				55.3
+1090	mine	NOM	f			55.2
+1091	ridicule	ADJ				55.2
+1092	vaisseau	NOM	m			55.0
+1093	autrefois	ADV				54.9
+1094	anniversaire	NOM	m			54.9
+1095	rare	ADJ				54.9
+1096	patte	NOM	f			54.8
+1097	demande	NOM	f			54.8
+1098	ravir	VER				54.8
+1099	étudier	VER				54.7
+1100	déjeuner	NOM	m			54.7
+1101	solution	NOM	f			54.6
+1102	guère	ADV				54.5
+1103	déclarer	VER				54.2
+1104	directeur	NOM	mf			54.2
+1105	large	ADJ				54.2
+1106	souci	NOM	m			54.2
+1107	naturel	ADJ			naturelle	54.1
+1108	rencontre	NOM	f			54.1
+1109	saluer	VER				54.1
+1110	compris	ADJ			comprise	54.1
+1111	enfuir	VER				54.1
+1112	stupide	ADJ				54.0
+1113	poil	NOM	m			54.0
+1114	existence	NOM	f			53.9
+1115	incroyable	ADJ				53.9
+1116	là-dedans	ADV				53.8
+1117	admettre	VER				53.8
+1118	murmurer	VER				53.8
+1119	sable	NOM	m			53.8
+1120	personnage	NOM	m			53.8
+1121	peindre	VER				53.7
+1122	plonger	VER				53.7
+1123	toile	NOM	f			53.4
+1124	planter	VER				53.3
+1125	base	NOM	f			53.3
+1126	titre	NOM	m			53.3
+1127	gorge	NOM	f			53.2
+1128	figure	NOM	f			53.2
+1129	costume	NOM	m			53.2
+1130	sympa	ADJ				53.1
+1131	amitié	NOM	f			53.1
+1132	commandant	NOM	m			53.1
+1133	public	ADJ			publique	53.0
+1134	intéressant	ADJ			intéressante	53.0
+1135	somme	NOM	f			52.9
+1136	connaissance	NOM	f			52.8
+1137	convenir	VER				52.8
+1138	lampe	NOM	f			52.8
+1139	confier	VER				52.7
+1140	respecter	VER				52.7
+1141	liste	NOM	f			52.7
+1142	rose	ADJ				52.7
+1143	blague	NOM	f			52.7
+1144	parfait	ADJ			parfaite	52.6
+1145	renvoyer	VER				52.6
+1146	chasse	NOM	f			52.6
+1147	convaincre	VER				52.6
+1148	information	NOM	f			52.5
+1149	fauteuil	NOM	m			52.4
+1150	sexe	NOM	m			52.3

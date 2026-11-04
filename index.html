@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Mots">
+  <meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1c1e" media="(prefers-color-scheme: dark)">
+  <title>Mots</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="stats">
+    <span id="learned"></span>
+    <span id="today"></span>
+  </header>
+
+  <main class="stage">
+    <div class="card" id="card">
+      <div class="inner" id="inner">
+        <div class="face front">
+          <span class="badge">new</span>
+          <div class="en" id="en"></div>
+          <div class="nl" id="nl"></div>
+        </div>
+        <div class="face back">
+          <div class="fr" id="fr"></div>
+          <button class="speak" id="speak" aria-label="Pronounce">🔊</button>
+        </div>
+      </div>
+      <div class="stamp yes">✓</div>
+      <div class="stamp no">✗</div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="hint" id="hint"></p>
+    <div class="buttons">
+      <button id="btn-no" aria-label="Wrong">✗</button>
+      <button id="btn-yes" aria-label="Correct">✓</button>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

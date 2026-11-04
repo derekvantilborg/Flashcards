@@ -1,0 +1,390 @@
+genre | kind, gender (c'est mon genre = it's my type) | soort, geslacht
+cacher | to hide | verbergen
+silence | silence | stilte
+courir | to run | rennen
+battre | to beat | verslaan
+offrir | to offer, to give (a gift) | aanbieden, cadeau geven
+salut | hi, bye | hoi, doei | salut
++ | how are you? / I'm fine | hoe gaat het? / het gaat goed | ça va ?
++ | there is, there are | er is, er zijn | il y a
+pousser | to push, to grow (plant) | duwen, groeien (plant)
+lumière | light (lamp, sun) | licht (lamp, zon)
+droit | right (law) | recht
+bouger | to move | bewegen
+apporter | to bring | brengen
+bois | wood | hout
+fort | strong | sterk | fort / forte
+coucher | to go to bed | naar bed gaan | se coucher
+sauver | to save, to rescue | redden
+puis | then | dan, daarna
+papa | dad | papa
+endroit | spot, location | plek
++ | thirteen | dertien | treize
++ | fourteen | veertien | quatorze
++ | fifteen | vijftien | quinze
+joli | pretty | knap, leuk
+jeu | game | spel
+face | opposite | tegenover | en face de
+pauvre | poor | arm (niet rijk)
+école | school | school
+avant | before | vóór (tijd)
+film | film, movie | film
+cheveu | hair (on your head) | haar (op het hoofd) | les cheveux
+propre | clean, own | schoon, eigen
+mur | wall | muur
+pleurer | to cry | huilen
+esprit | mind, spirit | geest
+compte | account | rekening (bank)
+bientôt | soon | binnenkort
++ | see you soon | tot snel | à bientôt
++ | too bad, never mind | jammer dan | tant pis
+voler | to fly, to steal | vliegen, stelen
+âge | age | leeftijd
+tellement | so (much) | zo (erg)
+permettre | to allow | toestaan
+cher | expensive, dear | duur, lief
+arme | weapon | wapen
+journée | day (the whole day) | dag (de hele dag)
+reconnaître | to recognise | herkennen
+soeur | sister | zus | la sœur
+docteur | doctor | dokter | le docteur
+état | state | staat, toestand
+d'abord | first (of all) | eerst
+important | important | belangrijk
+vérité | truth | waarheid
+revoir | goodbye | tot ziens | au revoir
+parent | parents | ouders | les parents
+dur | hard | hard
+hier | yesterday | gisteren
+après | after | na
+rouge | red | rood
+désolé | sorry | sorry | désolé / désolée
+service | service, favour | dienst
+bruit | noise | lawaai
+café | coffee, café | koffie, café
++ | restaurant | restaurant | le restaurant
++ | bakery | bakkerij | la boulangerie
++ | supermarket | supermarkt | le supermarché
+remettre | to put back | terugzetten
+chemin | path | pad
+meilleur | better, best (adjective) | beter, best
+bouche | mouth | mond
+mer | sea | zee
+fenêtre | window | raam
+préparer | to prepare | voorbereiden
+crier | to shout | roepen, schreeuwen
+frapper | to hit, to knock | slaan, kloppen
+photo | photo | foto
+vendre | to sell | verkopen
+préférer | to prefer | verkiezen, liever hebben
+bureau | office, desk | kantoor, bureau
+conduire | to drive (a car) | besturen, rijden (auto)
+marier | to get married | trouwen | se marier
+sens | sense, meaning | zin, betekenis
+accepter | to accept | accepteren
+partout | everywhere | overal
+jambe | leg | been
+cours | class, lesson, course | les, cursus | le cours
+salle | room, hall | zaal
+choisir | to choose | kiezen
+réveiller | to wake up | wakker worden | se réveiller
+inquiéter | to worry | zich zorgen maken | s'inquiéter
+doigt | finger | vinger
+découvrir | to discover | ontdekken
+présenter | to present, to introduce (someone) | presenteren, voorstellen (iemand)
+papier | paper | papier
+ressembler | to look like | lijken op
+dehors | outside | buiten
+amener | to bring (a person) | meebrengen (iemand)
+promettre | to promise | beloven
+chanter | to sing | zingen
+couper | to cut | snijden, knippen
+cheval | horse | paard
+approcher | to come closer | dichterbij komen | s'approcher
+taire | to be quiet | zwijgen | se taire
+libre | free (not busy) | vrij
+musique | music | muziek
+refuser | to refuse | weigeren
+ramener | to bring back | terugbrengen
+effet | effect (en effet = indeed) | effect (en effet = inderdaad)
+retour | return | terugkeer
+rêve | dream | droom
+roi | king | koning
+dos | back (body) | rug
+âme | soul | ziel
+journal | newspaper, diary | krant, dagboek
+français | French | Frans | français / française
+attention | attention; careful! | aandacht; pas op!
+milieu | middle | midden
+sac | bag | tas
+ensuite | next, afterwards | vervolgens
+simple | simple | eenvoudig
+content | glad, pleased | blij, tevreden
+empêcher | to prevent | verhinderen
+gentil | kind, nice | lief, aardig | gentil / gentille
+exister | to exist | bestaan
+froid | cold | koud
+pareil | the same, similar | hetzelfde, gelijk
+faute | fault, mistake | fout
+coin | corner | hoek
+bord | edge (au bord de la mer = at the seaside) | rand (aan zee)
+répéter | to repeat | herhalen
+travers | through | door(heen) | à travers
+embrasser | to kiss, to hug | kussen, omhelzen
+lâcher | to let go | loslaten
+patron | boss, owner | baas | le patron / la patronne
+maître | master, teacher | meester
+difficile | difficult | moeilijk
+sourire | to smile | glimlachen
+ignorer | to not know, to ignore | niet weten, negeren
+copain | pal, boyfriend | maatje, vriendje | le copain / la copine
+rapport | report, connection | verslag, verband
+clair | clear, light (colour) | duidelijk, licht (kleur)
+boulot | job (informal) | baan, werk
+avancer | to move forward | vooruitgaan
+téléphone | telephone | telefoon
++ | mobile phone | mobiele telefoon | le portable
++ | computer | computer | l'ordinateur (m)
+certain | certain | bepaald, zeker
+facile | easy | makkelijk
+enlever | to take off, to remove | uitdoen, weghalen
+épaule | shoulder | schouder
+confiance | trust | vertrouwen
+vent | wind | wind
+adorer | to adore, to love | dol zijn op
+depuis | since, for (time) | sinds
+casser | to break | breken
+parole | (spoken) word, lyrics | (gesproken) woord, songtekst
+amuser | to have fun | zich vermaken | s'amuser
+bébé | baby | baby
+geste | gesture | gebaar | le geste
+arbre | tree | boom
+hôtel | hotel | hotel
+numéro | number (phone, house) | nummer
+mariage | wedding, marriage | bruiloft, huwelijk
+mentir | to lie (tell lies) | liegen
+carte | card, map, menu | kaart
+intéresser | to interest | interesseren
+fête | party, celebration | feest
+voyage | trip, journey | reis
+sale | dirty | vies
+couleur | colour | kleur
+tôt | early | vroeg
+paix | peace | vrede
+tromper | to make a mistake | zich vergissen | se tromper
+réussir | to succeed | slagen
+sauter | to jump | springen
+peau | skin | huid
+aide | help | hulp | l'aide (f)
+dame | lady | dame
+forme | shape, form | vorm
+oncle | uncle | oom
+utiliser | to use | gebruiken
++ | sixteen | zestien | seize
++ | seventeen | zeventien | dix-sept
++ | eighteen | achttien | dix-huit
+bas | low | laag | bas / basse
+fleur | flower | bloem
+terminer | to end, to complete | beëindigen
+bleu | blue | blauw
+début | beginning | begin
+rêver | to dream | dromen
+image | picture, image | beeld, afbeelding
+drôle | funny | grappig
+malade | ill, sick | ziek
+plan | plan, map (of a town) | plan, plattegrond
+exactement | exactly | precies
+traverser | to cross | oversteken
+seconde | second (time) | seconde
+grave | serious, grave | ernstig
++ | no problem, it doesn't matter | geeft niet | ce n'est pas grave
+habiter | to live (somewhere) | wonen
+oreille | ear | oor
+jurer | to swear | zweren
+flic | cop (informal) | smeris
+ombre | shadow, shade | schaduw | l'ombre (f)
+habitude | habit (d'habitude = usually) | gewoonte (d'habitude = meestal)
+prochain | next | volgend
+haut | high | hoog | haut / haute
+danser | to dance | dansen
+armée | army | leger
+prix | price, prize | prijs
+ligne | line | lijn
+debout | standing (up) | staand, overeind
+différent | different | anders, verschillend
+or | gold | goud | l'or (m)
+abandonner | to give up, to abandon | opgeven, in de steek laten
+président | president | president | le président / la présidente
+chéri | darling | schat | chéri / chérie
+prison | prison | gevangenis
+naître | to be born | geboren worden
+honneur | honour | eer
+faux | false, wrong | vals, onjuist | faux / fausse
+oser | to dare | durven
+soldat | soldier | soldaat | le soldat
+pierre | stone | steen
+impression | impression | indruk
+nez | nose | neus
+souffrir | to suffer | lijden
+assurer | to assure, to insure | verzekeren
+village | village | dorp
+mener | to lead | leiden
+sujet | subject, topic | onderwerp
+médecin | doctor (physician) | arts
+signe | sign | teken
+apercevoir | to catch sight of | in het oog krijgen
+craindre | to fear | vrezen
+doucement | gently, softly | zachtjes
+serrer | to squeeze, to hold tight | knijpen, stevig vasthouden
+ajouter | to add | toevoegen
+impossible | impossible | onmogelijk
+glisser | to slide, to slip | glijden, uitglijden
+bonheur | happiness | geluk (blijdschap)
+rejoindre | to join, to meet up with | zich aansluiten bij
+cesser | to cease | ophouden
+vivant | alive | levend | vivant / vivante
+propos | by the way | trouwens | à propos
+groupe | group | groep
+lèvre | lip | lip
+doux | soft, sweet, mild | zacht, zoet | doux / douce
+lancer | to throw, to launch | werpen, lanceren
+balle | ball (small), bullet | bal, kogel
+scène | stage, scene | podium, scène
+près | near | dichtbij
+vue | view, sight | uitzicht, zicht
+jardin | garden | tuin
++ | May | mei | mai
++ | June | juni | juin
++ | July | juli | juillet
++ | August | augustus | août
+échapper | to escape | ontsnappen | s'échapper
+robe | dress | jurk
+sûrement | surely | vast wel
+peuple | people (nation) | volk
+avis | opinion | mening
+humain | human | menselijk
+tranquille | quiet, calm | rustig
+intérieur | inside, interior | binnenkant
+sentiment | feeling | gevoel
+avion | plane | vliegtuig
+chat | cat | kat | le chat
+brûler | to burn | branden
+odeur | smell | geur
+camp | camp | kamp
+bateau | boat | boot
+installer | to install, to set up | installeren
+situation | situation | situatie
+protéger | to protect | beschermen
+faim | hunger (avoir faim = to be hungry) | honger (honger hebben)
+prévenir | to warn | waarschuwen
+cuisine | kitchen, cooking | keuken
+boîte | box, can | doos, blik
+remonter | to go back up | weer omhooggaan
+exemple | example (par exemple = for example) | voorbeeld (bijvoorbeeld)
+couvrir | to cover | bedekken
+ancien | former, ancient | voormalig, oud
+bonsoir | good evening | goedenavond | bonsoir
++ | good night | welterusten | bonne nuit
+remarquer | to notice | opmerken
+joie | joy | vreugde
+entier | whole, entire | heel, geheel
+charger | to load, to charge | laden, opladen
+simplement | simply | gewoon, eenvoudigweg
+triste | sad | verdrietig
+accompagner | to accompany | begeleiden
+cour | courtyard, court | binnenplaats, hof
+inviter | to invite | uitnodigen
+rouler | to roll | rollen
+hôpital | hospital | ziekenhuis
+pardonner | to forgive | vergeven
++ | pardon?, sorry (small slip) | pardon?, sorry (klein foutje) | pardon
+normal | normal | normaal
+retenir | to hold back, to remember | tegenhouden, onthouden
+secret | secret | geheim
+ennemi | enemy | vijand | l'ennemi (m)
+arranger | to arrange, to fix | in orde brengen
+risquer | to risk | riskeren
+client | customer | klant | le client / la cliente
+bizarre | strange, weird | raar
+visite | visit | bezoek
+détester | to hate | haten
+tenter | to attempt, to tempt | wagen, verleiden
+réponse | answer | antwoord
+obliger | to force, to oblige | dwingen
+trou | hole | gat
+mouvement | movement | beweging
+supposer | to suppose | veronderstellen
+nu | naked | naakt | nu / nue
+au-dessus | above | boven
+gauche | (on the) left | links | à gauche
++ | (on the) right | rechts | à droite
++ | straight ahead | rechtdoor | tout droit
+église | church | kerk
+éviter | to avoid | vermijden
+détruire | to destroy | vernietigen
+époque | era, period | tijdperk
+million | million | miljoen
+présent | the present (time) | het heden
+vin | wine | wijn
+chaud | hot, warm | warm, heet
+cadeau | gift, present | cadeau
+complètement | completely | helemaal
+super | super, great (informal) | super
+soudain | suddenly | plotseling
+honte | shame (avoir honte = to be ashamed) | schaamte (zich schamen) | la honte
+pensée | thought | gedachte
+erreur | error | vergissing
+vide | empty | leeg
+loi | law | wet
+épouser | to marry (someone) | trouwen met
+dent | tooth | tand
+retard | delay (en retard = late) | vertraging (te laat)
+déranger | to disturb, to bother | storen
+tante | aunt | tante
+marche | step, walk | trede, wandeling
+passé | the past | het verleden | le passé
+moyen | means, way | middel
+fumer | to smoke | roken
+étrange | strange | vreemd
+sérieux | serious | serieus | sérieux / sérieuse
+soirée | evening (the whole evening), party | avond, feestje
+langue | tongue, language | tong, taal
+oiseau | bird | vogel
+équipe | team | team, ploeg
+goût | taste | smaak
+classe | class | klas
+reposer | to rest | rusten | se reposer
+preuve | proof | bewijs
+été | summer | zomer | l'été (m)
++ | spring | lente | le printemps
++ | autumn | herfst | l'automne (m)
+hiver | winter | winter | l'hiver (m)
+gouvernement | government | regering
+traiter | to treat | behandelen
+clé | key | sleutel
+départ | departure | vertrek
+remercier | to thank | bedanken
+apparaître | to appear | verschijnen
+emporter | to take away (a thing) | meenemen (iets)
+proposer | to suggest, to offer | voorstellen (een idee)
+attraper | to catch | vangen
+vert | green | groen
+cri | scream, cry | kreet
+appel | call | oproep
+avenir | future | toekomst
+passage | passage | doorgang
+deviner | to guess | raden
+choix | choice | keuze
+sol | floor, ground | vloer, grond
+traîner | to drag, to hang around | slepen, rondhangen
+poche | pocket | zak | la poche
+front | forehead | voorhoofd
+amoureux | in love | verliefd | amoureux / amoureuse
+attaquer | to attack | aanvallen
+terrible | terrible | verschrikkelijk
+atteindre | to reach | bereiken
+contraire | opposite (au contraire = on the contrary) | tegendeel
+intérêt | interest | interesse, belang
+bête | stupid, silly | dom | bête
+retirer | to withdraw, to take off | terugtrekken, (geld) opnemen
+message | message | bericht

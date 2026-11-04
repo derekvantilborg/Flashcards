@@ -1,0 +1,199 @@
+:root {
+  --bg: #f6f3ee;
+  --card: #ffffff;
+  --text: #1d1d1f;
+  --muted: #6e6e73;
+  --accent: #2f5bd3;
+  --yes: #2fa36b;
+  --no: #e0525a;
+  --shadow: 0 10px 30px rgba(0, 0, 0, .08), 0 2px 6px rgba(0, 0, 0, .05);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1c1e;
+    --card: #2c2c2e;
+    --text: #f2f2f7;
+    --muted: #a1a1a6;
+    --accent: #8aa8ff;
+    --shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  }
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body { height: 100%; margin: 0; }
+
+body {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  overflow: hidden;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 24px 0;
+  font-size: 14px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.stage {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  perspective: 1200px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  height: 100%;
+  max-height: 560px;
+  touch-action: none;
+  cursor: pointer;
+  will-change: transform;
+}
+.card.enter { animation: enter .25s ease-out; }
+@keyframes enter {
+  from { transform: scale(.94); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.inner {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transition: transform .45s cubic-bezier(.2, .8, .2, 1);
+}
+.inner.instant { transition: none; }
+.card.flipped .inner { transform: rotateY(180deg); }
+
+.face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  text-align: center;
+  background: var(--card);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.back { transform: rotateY(180deg); }
+
+.en {
+  font-size: clamp(28px, 8vw, 40px);
+  font-weight: 650;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+.nl {
+  margin-top: 14px;
+  font-size: clamp(18px, 5vw, 22px);
+  font-style: italic;
+  color: var(--muted);
+}
+.fr {
+  font-size: clamp(30px, 9vw, 44px);
+  font-weight: 650;
+  line-height: 1.2;
+  color: var(--accent);
+  overflow-wrap: anywhere;
+}
+
+.paren {
+  font-size: .55em;
+  font-weight: 500;
+  opacity: .7;
+}
+
+.speak {
+  margin-top: 32px;
+  width: 64px;
+  height: 64px;
+  border: 0;
+  border-radius: 50%;
+  font-size: 28px;
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  cursor: pointer;
+}
+.speak:active { transform: scale(.92); }
+
+.badge {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  display: none;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+.card.is-new .badge { display: block; }
+
+.stamp {
+  position: absolute;
+  top: 20px;
+  font-size: 48px;
+  font-weight: 800;
+  opacity: 0;
+  pointer-events: none;
+}
+.stamp.yes { left: 28px; color: var(--yes); }
+.stamp.no { right: 28px; color: var(--no); }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  min-height: 112px;
+  padding: 0 24px 18px;
+}
+.hint { margin: 0; font-size: 14px; color: var(--muted); }
+
+.buttons {
+  display: flex;
+  gap: 48px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+}
+body.revealed .buttons { opacity: 1; pointer-events: auto; }
+.buttons button {
+  width: 64px;
+  height: 64px;
+  border: 0;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+.buttons button:active { transform: scale(.92); }
+#btn-no { color: var(--no); }
+#btn-yes { color: var(--yes); }
