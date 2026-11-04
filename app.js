@@ -188,11 +188,48 @@ function flyOut(correct) {
   card.classList.remove('enter');
   card.style.transition = 'transform .28s ease-in';
   card.style.transform = `translate(${dir * 130}vw, 40px) rotate(${dir * 24}deg)`;
+  if (correct) chime();
   grade(correct);
   setTimeout(() => {
     busy = false;
     show(pick());
   }, 260);
+}
+
+// ---------- reward sound ----------
+
+// A short rising two-note chime, synthesised so there is no audio file.
+// iOS only allows audio after a touch, so the context is created/resumed on
+// the first touch (see pointerdown below).
+let audio = null;
+
+function audioCtx() {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  if (!AC) return null;
+  if (!audio) audio = new AC();
+  if (audio.state === 'suspended') audio.resume();
+  return audio;
+}
+
+function chime() {
+  const ac = audioCtx();
+  if (!ac) return;
+  const t = ac.currentTime;
+  // E6 then A6, each with a soft octave overtone, quick attack and gentle fade.
+  for (const [freq, delay] of [[1318.5, 0], [1760, 0.08]]) {
+    for (const [mult, vol] of [[1, 0.18], [2, 0.04]]) {
+      const osc = ac.createOscillator();
+      const gain = ac.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = freq * mult;
+      gain.gain.setValueAtTime(0.0001, t + delay);
+      gain.gain.exponentialRampToValueAtTime(vol, t + delay + 0.012);
+      gain.gain.exponentialRampToValueAtTime(0.0001, t + delay + 0.45);
+      osc.connect(gain).connect(ac.destination);
+      osc.start(t + delay);
+      osc.stop(t + delay + 0.5);
+    }
+  }
 }
 
 // ---------- pronunciation ----------
@@ -231,6 +268,7 @@ let dragging = false;
 
 card.addEventListener('pointerdown', (e) => {
   if (busy || e.target.closest('.speak')) return;
+  audioCtx(); // unlock audio during a real touch so the chime can play later
   start = { x: e.clientX, y: e.clientY, t: performance.now() };
   dragging = false;
   card.setPointerCapture(e.pointerId);
