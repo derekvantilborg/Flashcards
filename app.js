@@ -198,7 +198,7 @@ function flyOut(correct) {
 
 // ---------- reward sound ----------
 
-// A short rising two-note chime, synthesised so there is no audio file.
+// A quick harp swirl up a C major chord, synthesised so there is no audio file.
 // iOS only allows audio after a touch, so the context is created/resumed on
 // the first touch (see pointerdown below).
 let audio = null;
@@ -215,21 +215,23 @@ function chime() {
   const ac = audioCtx();
   if (!ac) return;
   const t = ac.currentTime;
-  // E6 then A6, each with a soft octave overtone, quick attack and gentle fade.
-  for (const [freq, delay] of [[1318.5, 0], [1760, 0.08]]) {
-    for (const [mult, vol] of [[1, 0.18], [2, 0.04]]) {
+  // C5 E5 G5 C6 E6 G6, 35 ms apart: plucked triangle tone with two soft overtones.
+  const notes = [523.25, 659.25, 783.99, 1046.5, 1318.5, 1568];
+  notes.forEach((freq, i) => {
+    const start = t + i * 0.035;
+    for (const [mult, vol] of [[1, 0.09], [2, 0.027], [3, 0.009]]) {
       const osc = ac.createOscillator();
       const gain = ac.createGain();
-      osc.type = 'sine';
+      osc.type = 'triangle';
       osc.frequency.value = freq * mult;
-      gain.gain.setValueAtTime(0.0001, t + delay);
-      gain.gain.exponentialRampToValueAtTime(vol, t + delay + 0.012);
-      gain.gain.exponentialRampToValueAtTime(0.0001, t + delay + 0.45);
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(vol, start + 0.004);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.8);
       osc.connect(gain).connect(ac.destination);
-      osc.start(t + delay);
-      osc.stop(t + delay + 0.5);
+      osc.start(start);
+      osc.stop(start + 0.85);
     }
-  }
+  });
 }
 
 // ---------- pronunciation ----------
