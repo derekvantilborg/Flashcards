@@ -126,6 +126,19 @@ function setText(el, text) {
   }
 }
 
+const COLORS = 6;
+let lastColor = -1;
+
+// Each word gets its own colour; never the same colour twice in a row.
+function colorFor(word) {
+  let h = 0;
+  for (const ch of word) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  let c = h % COLORS;
+  if (c === lastColor) c = (c + 1) % COLORS;
+  lastColor = c;
+  return c;
+}
+
 function show(next) {
   current = next;
   revealed = false;
@@ -141,6 +154,8 @@ function show(next) {
   setText($('nl'), next.w.nl);
   setText($('fr'), next.w.fr);
   card.classList.toggle('is-new', next.mode === 'new');
+  for (let i = 0; i < COLORS; i++) card.classList.remove(`c${i}`);
+  card.classList.add(`c${colorFor(next.w.fr)}`);
   void card.offsetWidth;
   inner.classList.remove('instant');
 

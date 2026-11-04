@@ -10,10 +10,10 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1c1c1e;
-    --card: #2c2c2e;
+    --bg: #131a2e;
+    --card: #222b45;
     --text: #f2f2f7;
-    --muted: #a1a1a6;
+    --muted: #9aa3bd;
     --accent: #8aa8ff;
     --shadow: 0 10px 30px rgba(0, 0, 0, .45);
   }
@@ -92,13 +92,35 @@ body {
   justify-content: center;
   padding: 28px;
   text-align: center;
-  background: var(--card);
+  color: var(--ink);
+  background: linear-gradient(150deg, var(--c1), var(--c2));
   border-radius: 28px;
   box-shadow: var(--shadow);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
-.back { transform: rotateY(180deg); }
+.back {
+  transform: rotateY(180deg);
+  background: linear-gradient(210deg, var(--c1), var(--c2));
+}
+
+/* One colour per card: soft pastels in light mode, rich colours in dark mode. */
+.card { --ink: #1d1d1f; --glass: rgba(255, 255, 255, .45); }
+.c0 { --c1: #ffd9cf; --c2: #ffb29e; }  /* coral */
+.c1 { --c1: #ffe8b8; --c2: #ffc86e; }  /* sunflower */
+.c2 { --c1: #d2f5df; --c2: #9fe2bb; }  /* mint */
+.c3 { --c1: #d5e9ff; --c2: #a5c9ff; }  /* sky */
+.c4 { --c1: #e7dcff; --c2: #c6b0ff; }  /* lavender */
+.c5 { --c1: #ffd8ea; --c2: #ffaccf; }  /* pink */
+@media (prefers-color-scheme: dark) {
+  .card { --ink: #ffffff; --glass: rgba(255, 255, 255, .2); }
+  .c0 { --c1: #ff7f5e; --c2: #e0435c; }
+  .c1 { --c1: #f9a83f; --c2: #e4682a; }
+  .c2 { --c1: #2fbf9f; --c2: #178a8a; }
+  .c3 { --c1: #4f86ff; --c2: #3550d4; }
+  .c4 { --c1: #9270ff; --c2: #5f40d4; }
+  .c5 { --c1: #ff6fa6; --c2: #cf3d7c; }
+}
 
 .en {
   font-size: clamp(28px, 8vw, 40px);
@@ -110,13 +132,12 @@ body {
   margin-top: 14px;
   font-size: clamp(18px, 5vw, 22px);
   font-style: italic;
-  color: var(--muted);
+  opacity: .75;
 }
 .fr {
   font-size: clamp(30px, 9vw, 44px);
   font-weight: 650;
   line-height: 1.2;
-  color: var(--accent);
   overflow-wrap: anywhere;
 }
 
@@ -133,7 +154,7 @@ body {
   border: 0;
   border-radius: 50%;
   font-size: 28px;
-  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  background: var(--glass);
   cursor: pointer;
 }
 .speak:active { transform: scale(.92); }
@@ -149,15 +170,23 @@ body {
   font-weight: 600;
   letter-spacing: .06em;
   text-transform: uppercase;
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: inherit;
+  background: var(--glass);
 }
 .card.is-new .badge { display: block; }
 
 .stamp {
   position: absolute;
   top: 20px;
-  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--shadow);
+  font-size: 34px;
   font-weight: 800;
   opacity: 0;
   pointer-events: none;
