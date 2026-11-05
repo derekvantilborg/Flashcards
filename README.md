@@ -7,6 +7,15 @@ Meant to be added to the iPhone Home Screen from Safari.
 - Swipe **right** if you knew it, **left** if you didn't (or use the ✓ / ✗ buttons, or ← / → keys).
 - 🔊 reads the French word aloud using the phone's built-in French voice.
 - Progress is stored on the device (localStorage). No account, no server.
+- ⚙︎ settings: switch nouns, verbs, adjectives and "other" (adverbs, phrases, numbers) on or off, pick
+  conjugation tenses (présent, passé composé, futur simple) and turn sound effects off.
+
+## Conjugations
+
+The 50 most common verbs (`data/verbs.txt`) get one card per tense and person, e.g. "you (informal) are /
+jij bent" → *tu es*. A verb's conjugation cards only unlock once you've learned the verb itself. French
+forms come from Lexique (`tools/conjugate.py` checks the ending of every form); the English and Dutch base
+forms are in `data/verbs.txt`.
 
 ## How the spaced repetition works
 

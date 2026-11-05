@@ -18,7 +18,10 @@
 <body>
   <header class="stats">
     <span id="learned"></span>
-    <span id="today"></span>
+    <span class="right">
+      <span id="today"></span>
+      <button class="gear" id="gear" aria-label="Settings">⚙︎</button>
+    </span>
   </header>
 
   <main class="stage">
@@ -28,10 +31,12 @@
           <span class="badge">new</span>
           <div class="en" id="en"></div>
           <div class="nl" id="nl"></div>
+          <span class="tag" id="tag-front"></span>
         </div>
         <div class="face back">
           <div class="fr" id="fr"></div>
           <button class="speak" id="speak" aria-label="Pronounce">🔊</button>
+          <span class="tag" id="tag-back"></span>
         </div>
       </div>
       <div class="stamp yes">✓</div>
@@ -46,6 +51,35 @@
       <button id="btn-yes" aria-label="Correct">✓</button>
     </div>
   </footer>
+
+  <div class="sheet" id="sheet" hidden>
+    <div class="sheet-backdrop"></div>
+    <div class="sheet-panel" role="dialog" aria-label="Settings">
+      <div class="sheet-head">
+        <h2>Settings</h2>
+        <button id="sheet-done">Done</button>
+      </div>
+
+      <h3>Words</h3>
+      <div class="group">
+        <label class="row"><span>Nouns</span><input type="checkbox" data-key="noun"><i class="switch"></i></label>
+        <label class="row"><span>Verbs</span><input type="checkbox" data-key="verb"><i class="switch"></i></label>
+        <div class="tenses" id="tenses">
+          <p class="note">Conjugations · unlock once you've learned a verb</p>
+          <label class="row sub"><span>Present</span><input type="checkbox" data-key="pres"><i class="switch"></i></label>
+          <label class="row sub"><span>Passé composé</span><input type="checkbox" data-key="pc"><i class="switch"></i></label>
+          <label class="row sub"><span>Futur simple</span><input type="checkbox" data-key="fut"><i class="switch"></i></label>
+        </div>
+        <label class="row"><span>Adjectives</span><input type="checkbox" data-key="adj"><i class="switch"></i></label>
+        <label class="row"><span>Other <small>adverbs, phrases, numbers</small></span><input type="checkbox" data-key="other"><i class="switch"></i></label>
+      </div>
+
+      <h3>Sound</h3>
+      <div class="group">
+        <label class="row"><span>Sound effects</span><input type="checkbox" data-key="sound"><i class="switch"></i></label>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

@@ -1,0 +1,56 @@
+# Verbs that get conjugation cards, in frequency order. French forms come from Lexique.
+# fr | fr_aux | en_base | en_3sg | en_past | nl_inf | nl_ik | nl_jij | nl_hij | nl_plural | nl_participle | nl_aux | nl_particle
+# - fr_aux: auxiliary in the passé composé (avoir / être)
+# - en_*: "be", "can" and "must" are irregular and handled in code
+# - nl_particle: goes after the verb in the present (ik kom aan, ik ga naar huis, ik hou van)
+# - nl_aux: h = hebben, z = zijn
+être | avoir | be | is | was | zijn | ben | bent | is | zijn | geweest | z |
+avoir | avoir | have | has | had | hebben | heb | hebt | heeft | hebben | gehad | h |
+faire | avoir | do | does | did | doen | doe | doet | doet | doen | gedaan | h |
+aller | être | go | goes | went | gaan | ga | gaat | gaat | gaan | gegaan | z |
+dire | avoir | say | says | said | zeggen | zeg | zegt | zegt | zeggen | gezegd | h |
+pouvoir | avoir | can | can | could | kunnen | kan | kunt | kan | kunnen | gekund | h |
+vouloir | avoir | want | wants | wanted | willen | wil | wilt | wil | willen | gewild | h |
+savoir | avoir | know | knows | knew | weten | weet | weet | weet | weten | geweten | h |
+voir | avoir | see | sees | saw | zien | zie | ziet | ziet | zien | gezien | h |
+devoir | avoir | must | must | had to | moeten | moet | moet | moet | moeten | gemoeten | h |
+venir | être | come | comes | came | komen | kom | komt | komt | komen | gekomen | z |
+prendre | avoir | take | takes | took | nemen | neem | neemt | neemt | nemen | genomen | h |
+parler | avoir | speak | speaks | spoke | spreken | spreek | spreekt | spreekt | spreken | gesproken | h |
+croire | avoir | believe | believes | believed | geloven | geloof | gelooft | gelooft | geloven | geloofd | h |
+aimer | avoir | love | loves | loved | houden van | hou | houdt | houdt | houden | gehouden van | h | van
+penser | avoir | think | thinks | thought | denken | denk | denkt | denkt | denken | gedacht | h |
+trouver | avoir | find | finds | found | vinden | vind | vindt | vindt | vinden | gevonden | h |
+laisser | avoir | let | lets | let | laten | laat | laat | laat | laten | gelaten | h |
+regarder | avoir | watch | watches | watched | kijken | kijk | kijkt | kijkt | kijken | gekeken | h |
+attendre | avoir | wait | waits | waited | wachten | wacht | wacht | wacht | wachten | gewacht | h |
+donner | avoir | give | gives | gave | geven | geef | geeft | geeft | geven | gegeven | h |
+arriver | être | arrive | arrives | arrived | aankomen | kom | komt | komt | komen | aangekomen | z | aan
+mettre | avoir | put | puts | put | zetten | zet | zet | zet | zetten | gezet | h |
+demander | avoir | ask | asks | asked | vragen | vraag | vraagt | vraagt | vragen | gevraagd | h |
+rester | être | stay | stays | stayed | blijven | blijf | blijft | blijft | blijven | gebleven | z |
+appeler | avoir | call | calls | called | roepen | roep | roept | roept | roepen | geroepen | h |
+partir | être | leave | leaves | left | vertrekken | vertrek | vertrekt | vertrekt | vertrekken | vertrokken | z |
+connaître | avoir | know | knows | knew | kennen | ken | kent | kent | kennen | gekend | h |
+comprendre | avoir | understand | understands | understood | begrijpen | begrijp | begrijpt | begrijpt | begrijpen | begrepen | h |
+sortir | être | go out | goes out | went out | uitgaan | ga | gaat | gaat | gaan | uitgegaan | z | uit
+arrêter | avoir | stop | stops | stopped | stoppen | stop | stopt | stopt | stoppen | gestopt | h |
+entendre | avoir | hear | hears | heard | horen | hoor | hoort | hoort | horen | gehoord | h |
+mourir | être | die | dies | died | sterven | sterf | sterft | sterft | sterven | gestorven | z |
+sentir | avoir | feel | feels | felt | voelen | voel | voelt | voelt | voelen | gevoeld | h |
+chercher | avoir | look for | looks for | looked for | zoeken | zoek | zoekt | zoekt | zoeken | gezocht | h |
+revenir | être | come back | comes back | came back | terugkomen | kom | komt | komt | komen | teruggekomen | z | terug
+essayer | avoir | try | tries | tried | proberen | probeer | probeert | probeert | proberen | geprobeerd | h |
+finir | avoir | finish | finishes | finished | afmaken | maak | maakt | maakt | maken | afgemaakt | h | af
+vivre | avoir | live | lives | lived | leven | leef | leeft | leeft | leven | geleefd | h |
+perdre | avoir | lose | loses | lost | verliezen | verlies | verliest | verliest | verliezen | verloren | h |
+jouer | avoir | play | plays | played | spelen | speel | speelt | speelt | spelen | gespeeld | h |
+aider | avoir | help | helps | helped | helpen | help | helpt | helpt | helpen | geholpen | h |
+devenir | être | become | becomes | became | worden | word | wordt | wordt | worden | geworden | z |
+ouvrir | avoir | open | opens | opened | openen | open | opent | opent | openen | geopend | h |
+rentrer | être | go home | goes home | went home | naar huis gaan | ga | gaat | gaat | gaan | naar huis gegaan | z | naar huis
+commencer | avoir | start | starts | started | beginnen | begin | begint | begint | beginnen | begonnen | z |
+entrer | être | come in | comes in | came in | binnenkomen | kom | komt | komt | komen | binnengekomen | z | binnen
+manger | avoir | eat | eats | ate | eten | eet | eet | eet | eten | gegeten | h |
+travailler | avoir | work | works | worked | werken | werk | werkt | werkt | werken | gewerkt | h |
+écouter | avoir | listen | listens | listened | luisteren | luister | luistert | luistert | luisteren | geluisterd | h |

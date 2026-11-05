@@ -20,6 +20,23 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 VOWELS = "aeiouyàâäéèêëîïôöûüœ"
 H_ASPIRE = {"honte", "hasard", "héros", "haut", "haine", "hall", "hibou", "huit", "hauteur", "hache"}
+ARTICLE_RE = re.compile(r"^(le|la|les|un|une) |^l'")
+MANUAL_ADJ = {"orange", "marron", "violet / violette"}
+
+
+def word_type(cgram, lemma, fr):
+    """noun / verb / adj / other, used by the app's settings toggles."""
+    if ARTICLE_RE.match(fr):
+        return "noun"
+    if cgram == "VER":
+        return "verb" if fr == lemma or fr.startswith(("se ", "s'")) or fr.startswith(lemma + " ") else "adj"
+    if cgram == "ADJ" or fr in MANUAL_ADJ:
+        return "adj"
+    if " / " in fr and fr != "un / une":
+        return "adj"
+    return "other"
+
+
 LIGATURES = {"oeil": "œil", "coeur": "cœur", "soeur": "sœur", "oeuvre": "œuvre", "oeuf": "œuf"}
 
 
@@ -117,7 +134,9 @@ def main(lexique, n):
             fr = fix_lig(fr)
             if not skip_check:
                 check_gender(fr, where)
-            words.append({"fr": fr, "en": en, "nl": nl, "say": say_text(fr), "_where": where})
+            cg = cand[lemma]["cgram"] if lemma != "+" else ""
+            words.append({"fr": fr, "en": en, "nl": nl, "say": say_text(fr),
+                          "type": word_type(cg, lemma, fr), "_where": where})
 
     # Duplicates: same French is an error; same English or Dutch front is confusing.
     for key, level in (("fr", errors), ("en", warnings), ("nl", warnings)):
@@ -136,6 +155,15 @@ def main(lexique, n):
         if len(v) > 1:
             warnings.append(f"same front {k}: {'; '.join(v)}")
 
+    # Conjugation cards; each verb must be in the first n vocab words (it unlocks them).
+    sys.path.insert(0, str(ROOT / "tools"))
+    import conjugate
+    conj, conj_errors = conjugate.build(lexique, DATA / "verbs.txt")
+    errors.extend(conj_errors)
+    vocab_fr = {w["fr"] for w in words[:n]}
+    for v in sorted({c["verb"] for c in conj} - vocab_fr):
+        errors.append(f"verbs.txt: '{v}' is not one of the first {n} vocab words")
+
     for w in warnings:
         print("WARN ", w)
     for e in errors:
@@ -145,8 +173,12 @@ def main(lexique, n):
         sys.exit(1)
 
     out = [{k: v for k, v in w.items() if k != "_where"} for w in words[:n]]
-    (ROOT / "words.json").write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
-    print(f"wrote words.json with {len(out)} words ({len(words) - len(out)} in reserve)")
+    types = defaultdict(int)
+    for w in out:
+        types[w["type"]] += 1
+    (ROOT / "words.json").write_text(json.dumps(out + conj, ensure_ascii=False, indent=0), encoding="utf-8")
+    print(f"wrote words.json: {len(out)} words {dict(types)} ({len(words) - len(out)} in reserve) "
+          f"+ {len(conj)} conjugation cards")
 
 
 if __name__ == "__main__":

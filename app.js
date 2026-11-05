@@ -7,8 +7,13 @@
 // Next card: the most overdue word from the lowest box. New words only come in
 // while fewer than POOL_SIZE words are still being learned (box 1-2). Now and
 // then a word you already know shows up early, to keep it fresh.
+//
+// Settings choose which word types are shown. Conjugation cards (one per verb,
+// tense and person) only unlock once the verb's own vocab card is learned.
 
 const STORE_KEY = 'mots-progress-v1';
+const SETTINGS_KEY = 'mots-settings-v1';
+const DEFAULT_SETTINGS = { noun: true, verb: true, adj: true, other: true, pres: true, pc: false, fut: false, sound: true };
 const MIN = 60e3, DAY = 864e5;
 const INTERVALS = [0, 1 * MIN, 10 * MIN, 1 * DAY, 3 * DAY, 8 * DAY, 21 * DAY, 45 * DAY];
 const MAX_BOX = INTERVALS.length - 1;
@@ -22,6 +27,7 @@ const card = $('card'), inner = $('inner');
 
 let words = [];
 let state = load();
+let settings = loadSettings();
 let current = null;
 let recent = [];
 let revealed = false;
@@ -41,6 +47,18 @@ function save() {
   localStorage.setItem(STORE_KEY, JSON.stringify(state));
 }
 
+function loadSettings() {
+  try {
+    return { ...DEFAULT_SETTINGS, ...JSON.parse(localStorage.getItem(SETTINGS_KEY)) };
+  } catch (e) {
+    return { ...DEFAULT_SETTINGS };
+  }
+}
+
+function saveSettings() {
+  localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+}
+
 function todayStr() {
   const d = new Date();
   return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
@@ -48,12 +66,25 @@ function todayStr() {
 
 // ---------- scheduling ----------
 
-const prog = (w) => state.p[w.fr];
+// Vocab cards are keyed by their French text (so old progress keeps working);
+// conjugation cards have an id like "être|pres|1s".
+const key = (w) => w.id || w.fr;
+const prog = (w) => state.p[key(w)];
+const isLearned = (fr) => state.p[fr] && state.p[fr].b >= LEARNED_BOX;
+
+// Is this card type switched on in settings? (ignores the verb-unlock rule)
+function typeOn(w) {
+  return w.type === 'conj' ? settings.verb && settings[w.tense] : settings[w.type] !== false;
+}
+
+const enabled = (w) => typeOn(w) && (w.type !== 'conj' || isLearned(w.verb));
 
 function pick() {
   const now = Date.now();
-  const seen = words.filter(prog);
-  const notRecent = (w) => !recent.includes(w.fr);
+  const pool = words.filter(enabled);
+  if (!pool.length) return null;
+  const seen = pool.filter(prog);
+  const notRecent = (w) => !recent.includes(key(w));
 
   if (Math.random() < REVIEW_CHANCE) {
     const known = seen.filter((w) => prog(w).b >= LEARNED_BOX && notRecent(w));
@@ -67,7 +98,10 @@ function pick() {
   }
 
   const learning = seen.filter((w) => prog(w).b < LEARNED_BOX).length;
-  const fresh = words.find((w) => !prog(w));
+  // New cards alternate between vocab and (unlocked) conjugations.
+  const freshVocab = pool.find((w) => w.type !== 'conj' && !prog(w));
+  const freshConj = pool.find((w) => w.type === 'conj' && !prog(w));
+  const fresh = freshConj && (!freshVocab || state.nextConj) ? freshConj : freshVocab;
   if (fresh && learning < POOL_SIZE) return { w: fresh, mode: 'new' };
 
   // Nothing due and the learning pool is full: practise whatever is due soonest.
@@ -79,7 +113,8 @@ function pick() {
 function grade(correct) {
   const now = Date.now();
   const { w, mode } = current;
-  const p = state.p[w.fr] || { b: 0, d: 0 };
+  const p = state.p[key(w)] || { b: 0, d: 0 };
+  if (mode === 'new') state.nextConj = w.type !== 'conj';
 
   if (!correct) {
     p.b = 1;
@@ -92,27 +127,38 @@ function grade(correct) {
   }
   if (!(correct && mode === 'review' && p.d > now)) p.d = now + INTERVALS[p.b];
 
-  state.p[w.fr] = p;
+  state.p[key(w)] = p;
   if (state.day !== todayStr()) { state.day = todayStr(); state.today = 0; }
   state.today++;
   save();
 
-  recent.push(w.fr);
+  recent.push(key(w));
   if (recent.length > RECENT) recent.shift();
 }
 
 // ---------- rendering ----------
 
 function render() {
-  const learned = Object.values(state.p).filter((p) => p.b >= LEARNED_BOX).length;
-  $('learned').textContent = `${learned} / ${words.length} learned`;
+  const active = words.filter(typeOn);
+  const learned = active.filter((w) => prog(w) && prog(w).b >= LEARNED_BOX).length;
+  $('learned').textContent = `${learned} / ${active.length} learned`;
   const today = state.day === todayStr() ? state.today : 0;
   $('today').textContent = `${today} today`;
 }
 
 // Bracketed hints like "(a fact)" or "(m)" are shown smaller than the word itself.
-function setText(el, text) {
+function setText(el, text, splitAlts = false) {
   el.replaceChildren();
+  // "il est allé / elle est allée": put each multi-word alternative on its own line.
+  const alts = text.split(' / ');
+  if (splitAlts && alts.length === 2 && alts.every((a) => a.includes(' '))) {
+    const first = document.createElement('div');
+    const second = document.createElement('div');
+    setText(first, alts[0]);
+    setText(second, alts[1]);
+    el.append(first, second);
+    return;
+  }
   for (const part of text.split(/(\([^)]*\))/)) {
     if (!part) continue;
     if (part.startsWith('(')) {
@@ -143,6 +189,16 @@ function show(next) {
   current = next;
   revealed = false;
   document.body.classList.remove('revealed');
+  document.body.classList.toggle('empty', !next);
+  if (!next) {
+    card.classList.remove('flipped', 'is-new');
+    $('tag-front').textContent = '';
+    setText($('en'), 'No cards to show');
+    setText($('nl'), 'Turn on a word type in settings (⚙︎)');
+    $('hint').textContent = '';
+    render();
+    return;
+  }
 
   // Unflip instantly so the new card's answer never flashes.
   inner.classList.add('instant');
@@ -152,10 +208,12 @@ function show(next) {
   setStamps(0);
   setText($('en'), next.w.en);
   setText($('nl'), next.w.nl);
-  setText($('fr'), next.w.fr);
+  setText($('fr'), next.w.fr, true);
+  $('tag-front').textContent = next.w.tag || '';
+  $('tag-back').textContent = next.w.tag || '';
   card.classList.toggle('is-new', next.mode === 'new');
   for (let i = 0; i < COLORS; i++) card.classList.remove(`c${i}`);
-  card.classList.add(`c${colorFor(next.w.fr)}`);
+  card.classList.add(`c${colorFor(key(next.w))}`);
   void card.offsetWidth;
   inner.classList.remove('instant');
 
@@ -168,6 +226,7 @@ function show(next) {
 }
 
 function flip() {
+  if (!current) return;
   revealed = !revealed;
   card.classList.toggle('flipped', revealed);
   document.body.classList.toggle('revealed', revealed);
@@ -188,7 +247,7 @@ function flyOut(correct) {
   card.classList.remove('enter');
   card.style.transition = 'transform .28s ease-in';
   card.style.transform = `translate(${dir * 130}vw, 40px) rotate(${dir * 24}deg)`;
-  if (correct) chime();
+  if (correct && settings.sound) chime();
   grade(correct);
   setTimeout(() => {
     busy = false;
@@ -320,12 +379,49 @@ $('btn-yes').addEventListener('click', () => flyOut(true));
 $('btn-no').addEventListener('click', () => flyOut(false));
 
 document.addEventListener('keydown', (e) => {
-  if (!current) return;
+  if (!current || sheetOpen()) return;
   if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); if (!busy) flip(); }
   else if (e.key === 'ArrowRight') flyOut(true);
   else if (e.key === 'ArrowLeft') flyOut(false);
   else if (e.key === 's' && revealed) speak(current.w.say);
 });
+
+// ---------- settings ----------
+
+const sheet = $('sheet');
+const sheetOpen = () => sheet.classList.contains('open');
+
+function syncSettingsUI() {
+  for (const box of sheet.querySelectorAll('input[data-key]')) box.checked = !!settings[box.dataset.key];
+  $('tenses').classList.toggle('off', !settings.verb);
+}
+
+function openSettings() {
+  syncSettingsUI();
+  sheet.hidden = false;
+  void sheet.offsetWidth;
+  sheet.classList.add('open');
+}
+
+function closeSettings() {
+  sheet.classList.remove('open');
+  setTimeout(() => { sheet.hidden = true; }, 250);
+  // If the current card is now switched off (or there was none), move on.
+  if (!current || !enabled(current.w)) show(pick());
+  else render();
+}
+
+sheet.addEventListener('change', (e) => {
+  const k = e.target.dataset.key;
+  if (!k) return;
+  settings[k] = e.target.checked;
+  saveSettings();
+  syncSettingsUI();
+  render();
+});
+$('gear').addEventListener('click', openSettings);
+$('sheet-done').addEventListener('click', closeSettings);
+sheet.querySelector('.sheet-backdrop').addEventListener('click', closeSettings);
 
 // ---------- start ----------
 
