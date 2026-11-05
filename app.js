@@ -1,26 +1,38 @@
 // Mots: French vocab flashcards with Leitner-style spaced repetition.
 //
-// Every word you have seen has a box (1-7) and a due time.
-//   wrong          -> box 1 (comes back in about a minute)
-//   right          -> one box up; higher boxes wait longer (minutes -> days -> weeks)
-//   new + right    -> straight to box 3 (you already knew it)
-// Next card: the most overdue word from the lowest box. New words only come in
-// while fewer than POOL_SIZE words are still being learned (box 1-2). Now and
-// then a word you already know shows up early, to keep it fresh.
+// Every card you have seen has a level (1-10) and a due time. Each level waits
+// longer: 1 min, 5 min, 10 min, 1 h, 1 day, 3 days, 1 week, 16, 35, 75 days.
+//   wrong                 -> level 1
+//   right (when due)      -> one level up
+//   right (before due)    -> stays put (only the first two levels still move up)
+//   new and already known -> level 4 (still has to pass the 1 h and 1 day checks)
+// A card counts as "learned" from level 5 (it survived the 1-hour check).
 //
-// Settings choose which word types are shown. Conjugation cards (one per verb,
-// tense and person) only unlock once the verb's own vocab card is learned.
+// New cards only come in while fewer than POOL_SIZE cards are below level 3.
+// They alternate between two tracks: verbs (verb + its conjugations) and
+// everything else. A verb's conjugations unlock once the verb is at level 3,
+// and no new verb is introduced until every conjugation of the verbs you've
+// started has reached level 4 at least once, so the common verbs come first.
+// Now and then a learned card shows up early, to keep it fresh.
 
 const STORE_KEY = 'mots-progress-v1';
 const SETTINGS_KEY = 'mots-settings-v1';
 const DEFAULT_SETTINGS = { noun: true, verb: true, adj: true, other: true, pres: true, pc: false, fut: false, sound: true };
-const MIN = 60e3, DAY = 864e5;
-const INTERVALS = [0, 1 * MIN, 10 * MIN, 1 * DAY, 3 * DAY, 8 * DAY, 21 * DAY, 45 * DAY];
+const MIN = 60e3, HOUR = 60 * MIN, DAY = 24 * HOUR;
+const INTERVALS = [0, 1 * MIN, 5 * MIN, 10 * MIN, 1 * HOUR, 1 * DAY, 3 * DAY, 7 * DAY, 16 * DAY, 35 * DAY, 75 * DAY];
 const MAX_BOX = INTERVALS.length - 1;
-const LEARNED_BOX = 3;
-const POOL_SIZE = 10;
+const KNOWN_NEW_BOX = 4;   // a new card you already knew starts here
+const SOLID_BOX = 3;       // below this a card is still "being learned" (counts toward the pool)
+const VERB_GATE_BOX = 4;   // conjugations must reach this before a new verb is introduced
+const LEARNED_BOX = 5;     // counted as learned in the stats
+const UNLOCK_BOX = 3;      // verb level that unlocks its conjugations
+const EARLY_PROMOTE_BOX = 3; // levels below this (1 and 5 min) still move up when answered early
+const POOL_SIZE = 8;
 const RECENT = 3;
 const REVIEW_CHANCE = 0.08;
+
+// Version 1 had 7 boxes (1 min, 10 min, 1, 3, 8, 21, 45 days); map them onto the 10 levels.
+const V1_TO_V2 = [0, 1, 2, 5, 6, 7, 8, 9];
 
 const $ = (id) => document.getElementById(id);
 const card = $('card'), inner = $('inner');
@@ -36,11 +48,21 @@ let busy = false;
 // ---------- storage ----------
 
 function load() {
+  const raw = localStorage.getItem(STORE_KEY);
   try {
-    const s = JSON.parse(localStorage.getItem(STORE_KEY));
-    if (s && s.p) return s;
-  } catch (e) { /* ignore */ }
-  return { p: {}, day: '', today: 0 };
+    const s = JSON.parse(raw);
+    if (s && s.p) {
+      if (!s.v) {
+        for (const p of Object.values(s.p)) p.b = V1_TO_V2[p.b] || 1;
+        s.v = 2;
+      }
+      return s;
+    }
+  } catch (e) {
+    // Never silently lose progress: keep a copy of whatever was stored.
+    if (raw) localStorage.setItem(`${STORE_KEY}-backup-${Date.now()}`, raw);
+  }
+  return { v: 2, p: {}, day: '', today: 0 };
 }
 
 function save() {
@@ -70,14 +92,15 @@ function todayStr() {
 // conjugation cards have an id like "être|pres|1s".
 const key = (w) => w.id || w.fr;
 const prog = (w) => state.p[key(w)];
-const isLearned = (fr) => state.p[fr] && state.p[fr].b >= LEARNED_BOX;
+const level = (w) => (prog(w) ? prog(w).b : 0);
+const verbLevel = (fr) => (state.p[fr] ? state.p[fr].b : 0);
 
 // Is this card type switched on in settings? (ignores the verb-unlock rule)
 function typeOn(w) {
   return w.type === 'conj' ? settings.verb && settings[w.tense] : settings[w.type] !== false;
 }
 
-const enabled = (w) => typeOn(w) && (w.type !== 'conj' || isLearned(w.verb));
+const enabled = (w) => typeOn(w) && (w.type !== 'conj' || verbLevel(w.verb) >= UNLOCK_BOX);
 
 function pick() {
   const now = Date.now();
@@ -87,46 +110,62 @@ function pick() {
   const notRecent = (w) => !recent.includes(key(w));
 
   if (Math.random() < REVIEW_CHANCE) {
-    const known = seen.filter((w) => prog(w).b >= LEARNED_BOX && notRecent(w));
+    const known = seen.filter((w) => level(w) >= LEARNED_BOX && notRecent(w));
     if (known.length) return { w: known[Math.floor(Math.random() * known.length)], mode: 'review' };
   }
 
   const due = seen.filter((w) => prog(w).d <= now && notRecent(w));
   if (due.length) {
-    due.sort((a, b) => prog(a).b - prog(b).b || prog(a).d - prog(b).d);
+    due.sort((a, b) => level(a) - level(b) || prog(a).d - prog(b).d);
     return { w: due[0], mode: 'due' };
   }
 
-  const learning = seen.filter((w) => prog(w).b < LEARNED_BOX).length;
-  // New cards alternate between vocab and (unlocked) conjugations.
-  const freshVocab = pool.find((w) => w.type !== 'conj' && !prog(w));
-  const freshConj = pool.find((w) => w.type === 'conj' && !prog(w));
-  const fresh = freshConj && (!freshVocab || state.nextConj) ? freshConj : freshVocab;
+  const fresh = pickFresh(pool);
+  const learning = seen.filter((w) => level(w) < SOLID_BOX).length;
   if (fresh && learning < POOL_SIZE) return { w: fresh, mode: 'new' };
 
-  // Nothing due and the learning pool is full: practise whatever is due soonest.
+  // Nothing due and no room for new cards: practise whatever is due soonest.
   const ahead = seen.filter(notRecent).sort((a, b) => prog(a).d - prog(b).d);
   if (ahead.length) return { w: ahead[0], mode: 'ahead' };
   return fresh ? { w: fresh, mode: 'new' } : { w: seen[0], mode: 'ahead' };
+}
+
+// Next new card. Verb track: conjugations of known verbs first; a new verb only
+// once every unlocked conjugation card is solid. Other track: nouns, adjectives,
+// phrases. The tracks take turns.
+function pickFresh(pool) {
+  const freshConj = pool.find((w) => w.type === 'conj' && !prog(w));
+  // Includes verbs you've started whose conjugations haven't unlocked yet.
+  // A conjugation counts once it has *reached* VERB_GATE_BOX (p.m = highest level reached),
+  // so a single later mistake doesn't block new verbs forever.
+  const conjPending = words.some((w) => w.type === 'conj' && typeOn(w) && state.p[w.verb] &&
+    !(prog(w) && Math.max(prog(w).m || 0, prog(w).b) >= VERB_GATE_BOX));
+  const freshVerb = conjPending ? null : pool.find((w) => w.type === 'verb' && !prog(w));
+  const verbTrack = freshConj || freshVerb;
+  const otherTrack = pool.find((w) => w.type !== 'conj' && w.type !== 'verb' && !prog(w));
+  if (verbTrack && otherTrack) return state.nextVerbTrack ? verbTrack : otherTrack;
+  return verbTrack || otherTrack || null;
 }
 
 function grade(correct) {
   const now = Date.now();
   const { w, mode } = current;
   const p = state.p[key(w)] || { b: 0, d: 0 };
-  if (mode === 'new') state.nextConj = w.type !== 'conj';
+  if (mode === 'new') state.nextVerbTrack = !(w.type === 'conj' || w.type === 'verb');
 
+  const early = mode !== 'new' && p.d > now;
   if (!correct) {
     p.b = 1;
   } else if (mode === 'new') {
-    p.b = LEARNED_BOX;
-  } else if (mode === 'review' && p.d > now) {
-    // Early surprise review of a known word: keep its schedule.
+    p.b = KNOWN_NEW_BOX;
+  } else if (early && p.b >= EARLY_PROMOTE_BOX) {
+    // Answered before it was due: keep its level and schedule.
   } else {
     p.b = Math.min(p.b + 1, MAX_BOX);
   }
-  if (!(correct && mode === 'review' && p.d > now)) p.d = now + INTERVALS[p.b];
+  if (!(correct && early && p.b >= EARLY_PROMOTE_BOX)) p.d = now + INTERVALS[p.b];
 
+  p.m = Math.max(p.m || 0, p.b);
   state.p[key(w)] = p;
   if (state.day !== todayStr()) { state.day = todayStr(); state.today = 0; }
   state.today++;
@@ -140,7 +179,7 @@ function grade(correct) {
 
 function render() {
   const active = words.filter(typeOn);
-  const learned = active.filter((w) => prog(w) && prog(w).b >= LEARNED_BOX).length;
+  const learned = active.filter((w) => level(w) >= LEARNED_BOX).length;
   $('learned').textContent = `${learned} / ${active.length} learned`;
   const today = state.day === todayStr() ? state.today : 0;
   $('today').textContent = `${today} today`;

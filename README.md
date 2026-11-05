@@ -13,16 +13,26 @@ Meant to be added to the iPhone Home Screen from Safari.
 ## Conjugations
 
 The 50 most common verbs (`data/verbs.txt`) get one card per tense and person, e.g. "you (informal) are /
-jij bent" → *tu es*. A verb's conjugation cards only unlock once you've learned the verb itself. French
+jij bent" → *tu es*. A verb's conjugation cards unlock once you know the verb, and new verbs wait until those are solid. French
 forms come from Lexique (`tools/conjugate.py` checks the ending of every form); the English and Dutch base
 forms are in `data/verbs.txt`.
 
 ## How the spaced repetition works
 
-Every word has a box from 1 to 7. Wrong → box 1 (it comes back in about a minute). Right → one box up,
-and each box waits longer before the word comes back: 1 min, 10 min, 1 day, 3 days, 8 days, 21 days, 45 days.
-A new word you already know goes straight to box 3. New words are only added while fewer than 10 words
-are still being learned (boxes 1–2), and about 1 in 12 cards is a surprise review of a word you already know.
+Every card has a level from 1 to 10, and each level waits longer before the card comes back:
+1 min, 5 min, 10 min, 1 hour, 1 day, 3 days, 1 week, 16 days, 35 days, 75 days.
+
+- Wrong → level 1. Right when due → one level up. Right *before* it's due → stays put
+  (except levels 1–2, which still move up).
+- A new card you already know starts at level 4, so it still has to pass the 1-hour and 1-day checks.
+- A card counts as **learned** from level 5.
+- New cards only come in while fewer than 8 cards are below level 3, alternating between a *verb track*
+  (verbs and their conjugations) and everything else.
+- A verb's conjugations unlock once the verb reaches level 3, and **no new verb is introduced until every
+  conjugation of the verbs you've started has reached level 4**, so the most common verbs are mastered first.
+- About 1 in 12 cards is a surprise review of something you've already learned.
+
+Progress from the first version (7 boxes) is converted automatically.
 
 ## Word list
 

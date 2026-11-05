@@ -1,6 +1,6 @@
 // Offline support: serve from cache, refresh the cache in the background.
 // Updates to the app or word list show up on the next launch.
-const CACHE = 'mots-v5';
+const CACHE = 'mots-v7';
 const FILES = [
   './',
   'index.html',

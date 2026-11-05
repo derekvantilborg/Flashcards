@@ -261,7 +261,7 @@ jardin | garden | tuin
 robe | dress | jurk
 sûrement | surely | vast wel
 peuple | people (nation) | volk
-avis | opinion | mening
+avis | opinion | mening | l'avis (m)
 humain | human | menselijk
 tranquille | quiet, calm | rustig
 intérieur | inside, interior | binnenkant

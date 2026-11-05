@@ -65,7 +65,7 @@ femme | woman, wife | vrouw
 + | on | op | sur
 + | under | onder | sous
 + | or | of | ou
-fois | time (once, twice...) | keer
+fois | time (once, twice...) | keer | la fois
 vie | life | het leven
 peu | a little | een beetje | un peu
 demander | to ask | vragen
@@ -265,7 +265,7 @@ plein | full | vol
 tourner | to turn | draaien
 chance | luck | geluk (toeval)
 train | train | trein
-madame | madam, Mrs. | mevrouw
+madame | madam, Mrs. | mevrouw | madame
 sang | blood | bloed
 point | point, dot | punt
 excuser | to excuse | excuseren

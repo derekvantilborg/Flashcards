@@ -441,10 +441,10 @@
 "type": "other"
 },
 {
-"fr": "les fois",
+"fr": "la fois",
 "en": "time (once, twice...)",
 "nl": "keer",
-"say": "les fois",
+"say": "la fois",
 "type": "noun"
 },
 {
@@ -1841,11 +1841,11 @@
 "type": "noun"
 },
 {
-"fr": "les madame",
+"fr": "madame",
 "en": "madam, Mrs.",
 "nl": "mevrouw",
-"say": "les madame",
-"type": "noun"
+"say": "madame",
+"type": "other"
 },
 {
 "fr": "le sang",
@@ -4270,10 +4270,10 @@
 "type": "noun"
 },
 {
-"fr": "les avis",
+"fr": "l'avis (m)",
 "en": "opinion",
 "nl": "mening",
-"say": "les avis",
+"say": "l'avis",
 "type": "noun"
 },
 {
