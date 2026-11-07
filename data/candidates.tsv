@@ -1149,3 +1149,2553 @@ rank	lemma	cgram	gender	number	fem	score
 1148	information	NOM	f			52.5
 1149	fauteuil	NOM	m			52.4
 1150	sexe	NOM	m			52.3
+1151	nommer	VER				52.3
+1152	sacré	ADJ			sacrée	52.2
+1153	évidemment	ADV				52.2
+1154	théâtre	NOM	m			52.2
+1155	insister	VER				52.1
+1156	arrêt	NOM	m			52.1
+1157	écarter	VER				51.8
+1158	vif	ADJ			vive	51.8
+1159	étude	NOM	f			51.7
+1160	aventure	NOM	f			51.7
+1161	défense	NOM	f			51.5
+1162	fusil	NOM	m			51.4
+1163	immobile	ADJ				51.4
+1164	différence	NOM	f			51.3
+1165	refaire	VER				51.3
+1166	jeunesse	NOM	f			51.3
+1167	pantalon	NOM	m			51.2
+1168	manteau	NOM	m			51.2
+1169	laisse	NOM	f			51.2
+1170	politique	ADJ				51.2
+1171	balancer	VER				51.2
+1172	finalement	ADV				51.1
+1173	résultat	NOM	m			51.0
+1174	miracle	NOM	m			51.0
+1175	événement	NOM	m			51.0
+1176	bombe	NOM	f			51.0
+1177	nombreux	ADJ			nombreuse	50.9
+1178	immédiatement	ADV				50.9
+1179	menacer	VER				50.8
+1180	dépendre	VER				50.8
+1181	mensonge	NOM	m			50.8
+1182	renoncer	VER				50.8
+1183	attaque	NOM	f			50.8
+1184	réparer	VER				50.7
+1185	dresser	VER				50.7
+1186	autorité	NOM	f			50.6
+1187	caisse	NOM	f			50.6
+1188	horrible	ADJ				50.5
+1189	souffler	VER				50.5
+1190	sort	NOM	m			50.4
+1191	respect	NOM	m			50.4
+1192	bataille	NOM	f			50.3
+1193	cadavre	NOM	m			50.3
+1194	bosser	VER				50.1
+1195	lunette	NOM	f			50.1
+1196	vache	NOM	f			50.0
+1197	deuxième	ADJ				50.0
+1198	voleur	NOM	mf			50.0
+1199	crise	NOM	f			50.0
+1200	dessiner	VER				49.8
+1201	briller	VER				49.8
+1202	dommage	NOM	m			49.8
+1203	concerner	VER				49.8
+1204	inspecteur	NOM	mf			49.7
+1205	enterrer	VER				49.6
+1206	restaurant	NOM	m			49.6
+1207	lors	ADV				49.6
+1208	port	NOM	m			49.6
+1209	chier	VER				49.6
+1210	transformer	VER				49.6
+1211	juif	NOM	mf			49.5
+1212	prononcer	VER				49.4
+1213	zone	NOM	f			49.4
+1214	cerveau	NOM	m	p		49.3
+1215	fruit	NOM	m			49.3
+1216	survivre	VER				49.3
+1217	saint	NOM	mf			49.2
+1218	autrement	ADV				49.2
+1219	charmant	ADJ			charmante	49.2
+1220	prêtre	NOM	mf			49.1
+1221	justice	NOM	f			49.1
+1222	club	NOM	m			49.1
+1223	pendre	VER				49.0
+1224	reine	NOM	f			48.9
+1225	nuage	NOM	m			48.9
+1226	amant	NOM	m			48.9
+1227	appareil	NOM	m			48.8
+1228	intelligent	ADJ			intelligente	48.8
+1229	midi	NOM	m	p		48.5
+1230	trait	NOM	m			48.4
+1231	nettoyer	VER				48.4
+1232	salope	NOM	f			48.4
+1233	prétendre	VER				48.4
+1234	monstre	NOM	m			48.3
+1235	montre	NOM	f			48.2
+1236	valeur	NOM	f			48.2
+1237	usine	NOM	f			48.1
+1238	queue	NOM	f			48.1
+1239	croiser	VER				47.8
+1240	réunir	VER				47.8
+1241	également	ADV				47.7
+1242	avaler	VER				47.6
+1243	contrôle	NOM	m			47.6
+1244	accuser	VER				47.6
+1245	organiser	VER				47.6
+1246	source	NOM	f			47.5
+1247	haïr	VER				47.5
+1248	piste	NOM	f			47.5
+1249	brusquement	ADV				47.5
+1250	violence	NOM	f			47.5
+1251	veste	NOM	f			47.3
+1252	mignon	ADJ			mignonne	47.3
+1253	vitesse	NOM	f			47.2
+1254	curieux	ADJ			curieuse	47.1
+1255	exprimer	VER				47.1
+1256	article	NOM	m			46.8
+1257	vider	VER				46.7
+1258	admirer	VER				46.7
+1259	ben	NOM	m			46.5
+1260	terme	NOM	m			46.5
+1261	coincer	VER				46.4
+1262	chaîne	NOM	f			46.4
+1263	excuse	NOM	f			46.4
+1264	achever	VER				46.4
+1265	abattre	VER				46.3
+1266	malheureux	ADJ			malheureuse	46.3
+1267	pénétrer	VER				46.3
+1268	mordre	VER				46.3
+1269	victoire	NOM	f			46.3
+1270	formidable	ADJ				46.3
+1271	cesse	NOM	f			46.1
+1272	croix	NOM	f			46.1
+1273	sur	ADJ			sure	46.0
+1274	poussière	NOM	f			46.0
+1275	supplier	VER				46.0
+1276	gâteau	NOM	m			46.0
+1277	soigner	VER				46.0
+1278	disposer	VER				45.9
+1279	rompre	VER				45.9
+1280	discours	NOM	m			45.9
+1281	veille	NOM	f			45.9
+1282	planète	NOM	f			45.8
+1283	soutenir	VER				45.8
+1284	méchant	ADJ			méchante	45.6
+1285	effacer	VER				45.5
+1286	immeuble	NOM	m			45.5
+1287	imposer	VER				45.5
+1288	couverture	NOM	f			45.4
+1289	commun	ADJ			commune	45.4
+1290	obéir	VER				45.4
+1291	réunion	NOM	f			45.4
+1292	compagnon	NOM	mf			45.3
+1293	rideau	NOM	mf			45.3
+1294	perdu	ADJ			perdue	45.3
+1295	succès	NOM	m			45.2
+1296	élève	NOM				45.2
+1297	éclairer	VER				45.2
+1298	branche	NOM	f			45.1
+1299	contrôler	VER				45.1
+1300	exiger	VER				45.0
+1301	naissance	NOM	f			45.0
+1302	flamme	NOM	f			44.9
+1303	danse	NOM	f			44.8
+1304	peinture	NOM	f			44.8
+1305	rassurer	VER				44.8
+1306	démon	NOM	mf			44.7
+1307	quart	NOM	m			44.7
+1308	faible	ADJ				44.7
+1309	trahir	VER				44.7
+1310	viande	NOM	f			44.7
+1311	nerveux	ADJ			nerveuse	44.6
+1312	agiter	VER				44.4
+1313	heureusement	ADV				44.4
+1314	leçon	NOM	f			44.4
+1315	os	NOM	m			44.4
+1316	condamner	VER				44.3
+1317	environ	ADV				44.3
+1318	cellule	NOM	f			44.3
+1319	chauffeur	NOM	mf			44.3
+1320	parfum	NOM	m			44.3
+1321	fouiller	VER				44.3
+1322	aile	NOM	f			44.3
+1323	absence	NOM	f			44.2
+1324	résister	VER				44.2
+1325	presse	NOM	f			44.2
+1326	roman	NOM	m			44.2
+1327	pardon	NOM	m			44.1
+1328	parfaire	VER				44.0
+1329	faillir	VER				44.0
+1330	distance	NOM	f			43.9
+1331	univers	NOM	m			43.9
+1332	refermer	VER				43.9
+1333	grâce	NOM	f			43.8
+1334	trésor	NOM	m			43.8
+1335	révéler	VER				43.8
+1336	tombe	NOM	f			43.7
+1337	franc	NOM	m			43.7
+1338	oeuf	NOM	m			43.7
+1339	précis	ADJ			précise	43.7
+1340	honnête	ADJ				43.6
+1341	niveau	NOM	m			43.6
+1342	blond	ADJ			blonde	43.6
+1343	arrivé	ADJ			arrivée	43.5
+1344	indiquer	VER				43.5
+1345	comte	NOM	mf			43.5
+1346	génie	NOM	m			43.5
+1347	tueur	NOM	mf			43.4
+1348	commettre	VER				43.3
+1349	pâle	ADJ				43.3
+1350	enquête	NOM	f			43.3
+1351	fantôme	NOM	m			43.3
+1352	fabriquer	VER				43.2
+1353	assister	VER				43.2
+1354	hauteur	NOM	f			43.1
+1355	puissant	ADJ			puissante	43.1
+1356	caresser	VER				42.9
+1357	boule	NOM	f			42.9
+1358	samedi	NOM	m			42.9
+1359	lointain	ADJ			lointaine	42.9
+1360	artiste	NOM				42.8
+1361	repos	NOM	m			42.8
+1362	marre	ADV				42.8
+1363	plat	NOM	m			42.7
+1364	vu	ADJ			vue	42.6
+1365	miroir	NOM	m			42.6
+1366	goutte	NOM	f			42.5
+1367	corde	NOM	f			42.5
+1368	rat	NOM	m			42.4
+1369	peser	VER				42.4
+1370	vague	NOM				42.4
+1371	épais	ADJ			épaisse	42.4
+1372	puissance	NOM	f			42.3
+1373	expression	NOM	f			42.3
+1374	unité	NOM	f			42.2
+1375	don	NOM	m			42.2
+1376	interrompre	VER				42.2
+1377	joyeux	ADJ			joyeuse	42.2
+1378	emmerder	VER				42.1
+1379	examiner	VER				42.1
+1380	match	NOM	m			42.1
+1381	rigoler	VER				42.1
+1382	humeur	NOM	f			42.0
+1383	masse	NOM	f			42.0
+1384	alcool	NOM	m			41.9
+1385	déplacer	VER				41.9
+1386	exploser	VER				41.9
+1387	adieu	NOM	m			41.9
+1388	double	ADJ				41.9
+1389	visiter	VER				41.8
+1390	énerver	VER				41.8
+1391	talent	NOM	m			41.7
+1392	éclat	NOM	m			41.7
+1393	contenter	VER				41.7
+1394	contenir	VER				41.6
+1395	superbe	ADJ				41.6
+1396	pointe	NOM	f			41.5
+1397	gloire	NOM	f			41.5
+1398	trottoir	NOM	m			41.5
+1399	naturellement	ADV				41.4
+1400	assassin	NOM	m			41.4
+1401	môme	NOM				41.3
+1402	goûter	VER				41.3
+1403	vieil	ADJ				41.3
+1404	aube	NOM	f			41.3
+1405	troisième	ADJ				41.3
+1406	palais	NOM	m			41.2
+1407	drap	NOM	m			41.2
+1408	mince	ADJ				41.2
+1409	tache	NOM	f			41.1
+1410	qualité	NOM	f			41.1
+1411	accueillir	VER				41.1
+1412	printemps	NOM	m			41.1
+1413	urgence	NOM	f			41.1
+1414	lycée	NOM	m			41.0
+1415	patient	NOM	mf			41.0
+1416	attitude	NOM	f			41.0
+1417	rapidement	ADV				41.0
+1418	poing	NOM	m			40.9
+1419	joindre	VER				40.9
+1420	étouffer	VER				40.9
+1421	haine	NOM	f			40.9
+1422	siège	NOM	m			40.8
+1423	fortune	NOM	f			40.8
+1424	censé	ADJ			censée	40.8
+1425	nul	ADJ			nulle	40.7
+1426	drogue	NOM	f			40.7
+1427	creuser	VER				40.7
+1428	lier	VER				40.7
+1429	commissaire	NOM				40.7
+1430	aise	NOM	f			40.7
+1431	louer	VER				40.6
+1432	moteur	NOM	m			40.6
+1433	attente	NOM	f			40.6
+1434	social	ADJ			sociale	40.6
+1435	demi	ADJ			demie	40.4
+1436	verser	VER				40.3
+1437	vitre	NOM	f			40.3
+1438	combattre	VER				40.3
+1439	dessin	NOM	m			40.3
+1440	cuir	NOM	m			40.2
+1441	rang	NOM	m			40.2
+1442	fiancé	NOM	mf			40.1
+1443	utile	ADJ				40.1
+1444	programme	NOM	m			40.1
+1445	provoquer	VER				40.1
+1446	véritable	ADJ				40.0
+1447	coupable	ADJ				39.9
+1448	crâne	NOM	m			39.9
+1449	fesse	NOM	f			39.8
+1450	remuer	VER				39.8
+1451	kilomètre	NOM	m			39.8
+1452	dingue	ADJ				39.8
+1453	millier	NOM	m			39.7
+1454	retraite	NOM	f			39.7
+1455	échanger	VER				39.7
+1456	veiller	VER				39.7
+1457	mode	NOM				39.7
+1458	solitude	NOM	f			39.7
+1459	élément	NOM	m			39.6
+1460	émotion	NOM	f			39.6
+1461	réserver	VER				39.6
+1462	réel	ADJ			réelle	39.6
+1463	inquiet	ADJ			inquiète	39.6
+1464	subir	VER				39.6
+1465	examen	NOM	m			39.5
+1466	cool	ADJ				39.4
+1467	résoudre	VER				39.4
+1468	nourriture	NOM	f			39.3
+1469	bref	ADJ			brève	39.3
+1470	brillant	ADJ			brillante	39.3
+1471	marque	NOM	f			39.3
+1472	fumée	NOM	f			39.1
+1473	céder	VER				39.1
+1474	saison	NOM	f			39.0
+1475	repousser	VER				39.0
+1476	guérir	VER				38.9
+1477	établir	VER				38.9
+1478	bouffer	VER				38.8
+1479	prisonnier	NOM	mf			38.8
+1480	rond	ADJ			ronde	38.8
+1481	russe	ADJ				38.8
+1482	claquer	VER				38.8
+1483	rattraper	VER				38.7
+1484	uniforme	NOM	m			38.7
+1485	inconnu	ADJ			inconnue	38.6
+1486	égal	ADJ			égale	38.6
+1487	limite	NOM	f			38.6
+1488	agréable	ADJ				38.5
+1489	aveugle	ADJ				38.5
+1490	rayon	NOM	mf			38.5
+1491	voyager	VER				38.4
+1492	imbécile	NOM				38.3
+1493	sorcier	NOM	mf			38.3
+1494	angoisse	NOM	f			38.3
+1495	infirmier	NOM	mf			38.2
+1496	abri	NOM	m			38.2
+1497	étudiant	NOM	mf			38.2
+1498	région	NOM	f			38.2
+1499	opinion	NOM	f			38.2
+1500	douceur	NOM	f			38.1
+1501	blessure	NOM	f			38.1
+1502	colline	NOM	f			38.1
+1503	félicitation	NOM	f			38.1
+1504	sou	NOM	m			38.1
+1505	style	NOM	m			38.1
+1506	prière	NOM	f			38.0
+1507	vision	NOM	f			38.0
+1508	détacher	VER				38.0
+1509	quai	NOM	m			38.0
+1510	contrat	NOM	m			37.9
+1511	fournir	VER				37.9
+1512	série	NOM	f			37.8
+1513	suivant	ADJ			suivante	37.7
+1514	habituer	VER				37.7
+1515	énergie	NOM	f			37.7
+1516	apparemment	ADV				37.7
+1517	principal	ADJ			principale	37.6
+1518	chasseur	NOM	mf			37.6
+1519	explication	NOM	f			37.6
+1520	maîtresse	NOM	f			37.5
+1521	distinguer	VER				37.3
+1522	parc	NOM	m			37.3
+1523	botte	NOM	f			37.3
+1524	franchir	VER				37.3
+1525	portrait	NOM	m			37.3
+1526	bouton	NOM	m			37.2
+1527	mystère	NOM	m			37.2
+1528	perte	NOM	f			37.2
+1529	changement	NOM	m			37.2
+1530	pot	NOM	m			37.2
+1531	gâcher	VER				37.1
+1532	date	NOM	f			37.1
+1533	rivière	NOM	f			37.1
+1534	déchirer	VER				37.1
+1535	passe	NOM	f			37.1
+1536	empire	NOM	m			37.1
+1537	accomplir	VER				37.1
+1538	conclure	VER				37.1
+1539	disque	NOM	m			37.0
+1540	procès	NOM	m			37.0
+1541	rapprocher	VER				37.0
+1542	réduire	VER				37.0
+1543	frontière	NOM	f			36.9
+1544	paysan	NOM	mf			36.9
+1545	lien	NOM	m			36.9
+1546	souffrance	NOM	f			36.9
+1547	péché	NOM	m			36.8
+1548	bénir	VER				36.8
+1549	silencieux	ADJ			silencieuse	36.8
+1550	étroit	ADJ			étroite	36.8
+1551	certes	ADV				36.8
+1552	code	NOM	m			36.8
+1553	fâcher	VER				36.8
+1554	affreux	ADJ			affreuse	36.8
+1555	coupe	NOM	f			36.7
+1556	comité	NOM	m			36.7
+1557	rassembler	VER				36.7
+1558	sauvage	ADJ				36.7
+1559	éternel	ADJ			éternelle	36.7
+1560	faîte	NOM	m			36.7
+1561	noter	VER				36.6
+1562	choc	NOM	m			36.6
+1563	particulier	ADJ			particulière	36.5
+1564	lapin	NOM	mf			36.5
+1565	cimetière	NOM	m			36.5
+1566	jaloux	ADJ			jalouse	36.5
+1567	surface	NOM	f			36.5
+1568	tapis	NOM	m			36.4
+1569	tâche	NOM	f			36.4
+1570	carrière	NOM	f			36.4
+1571	circonstance	NOM	f			36.4
+1572	débrouiller	VER				36.4
+1573	évoquer	VER				36.3
+1574	responsable	ADJ				36.3
+1575	ordonner	VER				36.3
+1576	rechercher	VER				36.3
+1577	caméra	NOM	f			36.2
+1578	secrétaire	NOM				36.2
+1579	charge	NOM	f			36.2
+1580	collègue	NOM				36.2
+1581	enchanté	ADJ			enchantée	36.2
+1582	caractère	NOM	m			36.2
+1583	participer	VER				36.2
+1584	détendre	VER				36.1
+1585	imagination	NOM	f			36.0
+1586	loup	NOM	mf			36.0
+1587	cave	NOM	f			36.0
+1588	terrasse	NOM	f			36.0
+1589	sage	ADJ				35.9
+1590	sexuel	ADJ			sexuelle	35.9
+1591	menace	NOM	f			35.9
+1592	surgir	VER				35.8
+1593	sourd	ADJ			sourde	35.7
+1594	violent	ADJ			violente	35.6
+1595	invité	NOM	mf			35.6
+1596	origine	NOM	f			35.6
+1597	cuisse	NOM	f			35.5
+1598	lent	ADJ			lente	35.5
+1599	boutique	NOM	f			35.5
+1600	test	NOM	m			35.5
+1601	propriétaire	NOM				35.5
+1602	fermé	ADJ			fermée	35.4
+1603	promesse	NOM	f			35.4
+1604	assiette	NOM	f			35.4
+1605	coffre	NOM	m			35.3
+1606	fonctionner	VER				35.3
+1607	mise	NOM	f			35.2
+1608	brun	ADJ			brune	35.2
+1609	complet	ADJ			complète	35.2
+1610	vers	NOM	m	p		35.2
+1611	charme	NOM	m			35.1
+1612	majesté	NOM	f			35.1
+1613	cracher	VER				35.1
+1614	minuit	NOM	m			35.0
+1615	bêtise	NOM	f			34.9
+1616	ouvrier	NOM	mf			34.9
+1617	vaste	ADJ				34.9
+1618	foncer	VER				34.9
+1619	poulet	NOM	m			34.9
+1620	principe	NOM	m			34.8
+1621	to	NOM	m			34.8
+1622	affirmer	VER				34.8
+1623	cercle	NOM	m			34.8
+1624	lutter	VER				34.8
+1625	territoire	NOM	m			34.8
+1626	poule	NOM	f			34.7
+1627	vain	ADJ			vaine	34.7
+1628	barbe	NOM				34.7
+1629	faveur	NOM	f			34.6
+1630	raser	VER				34.6
+1631	bus	NOM	m			34.6
+1632	soupe	NOM	f			34.6
+1633	venu	ADJ			venue	34.4
+1634	écrivain	NOM	mf			34.3
+1635	recouvrir	VER				34.3
+1636	centaine	NOM	f			34.3
+1637	au-delà	ADV				34.2
+1638	tendresse	NOM	f			34.2
+1639	effrayer	VER				34.2
+1640	fatigué	ADJ			fatiguée	34.2
+1641	enceinte	ADJ				34.1
+1642	supérieur	ADJ			supérieure	34.1
+1643	pisser	VER				34.0
+1644	parcourir	VER				34.0
+1645	responsabilité	NOM	f			34.0
+1646	inspirer	VER				33.9
+1647	précipiter	VER				33.9
+1648	viser	VER				33.8
+1649	nation	NOM	f			33.8
+1650	obscur	ADJ			obscure	33.7
+1651	bel	ADJ				33.6
+1652	matière	NOM	f			33.6
+1653	paysage	NOM	m			33.6
+1654	avertir	VER				33.6
+1655	extraordinaire	ADJ				33.6
+1656	mouche	NOM	f			33.5
+1657	envahir	VER				33.5
+1658	révolution	NOM	f			33.4
+1659	désert	NOM	m			33.4
+1660	fatigue	NOM	f			33.3
+1661	journaliste	NOM				33.3
+1662	soif	NOM	f			33.3
+1663	réserve	NOM	f			33.3
+1664	meuble	NOM	m			33.3
+1665	navire	NOM	m			33.3
+1666	gaz	NOM	m			33.3
+1667	conseiller	VER				33.2
+1668	mystérieux	ADJ			mystérieuse	33.2
+1669	flotter	VER				33.2
+1670	plume	NOM	mf			33.2
+1671	démarrer	VER				33.1
+1672	grimper	VER				33.1
+1673	punir	VER				33.1
+1674	décrire	VER				33.1
+1675	rejeter	VER				33.0
+1676	banc	NOM	m			33.0
+1677	furieux	ADJ			furieuse	33.0
+1678	signal	NOM	m			33.0
+1679	évident	ADJ			évidente	33.0
+1680	malin	ADJ			maligne	33.0
+1681	masque	NOM	m			33.0
+1682	mai	NOM				33.0
+1683	pis	ADV				33.0
+1684	in	ADJ				33.0
+1685	canon	NOM	m			32.9
+1686	innocent	ADJ			innocente	32.8
+1687	cauchemar	NOM	m			32.8
+1688	sous-titrage	NOM	m			32.8
+1689	vélo	NOM	m			32.7
+1690	maigre	ADJ				32.7
+1691	désigner	VER				32.7
+1692	allure	NOM	f			32.7
+1693	échange	NOM	m			32.6
+1694	régner	VER				32.6
+1695	connard	NOM	m			32.6
+1696	épreuve	NOM	f			32.6
+1697	chocolat	NOM	m			32.6
+1698	brave	ADJ				32.6
+1699	clef	NOM	f			32.5
+1700	éveiller	VER				32.5
+1701	promenade	NOM	f			32.4
+1702	fameux	ADJ			fameuse	32.4
+1703	célèbre	ADJ				32.4
+1704	week-end	NOM	m			32.4
+1705	britannique	ADJ				32.4
+1706	disputer	VER				32.4
+1707	venger	VER				32.4
+1708	baigner	VER				32.4
+1709	bloquer	VER				32.4
+1710	chant	NOM	m			32.4
+1711	franchement	ADV				32.4
+1712	entreprise	NOM	f			32.3
+1713	inscrire	VER				32.3
+1714	sucre	NOM	m			32.3
+1715	sérieusement	ADV				32.3
+1716	race	NOM	f			32.3
+1717	manche	NOM				32.3
+1718	réclamer	VER				32.3
+1719	allée	NOM	f			32.2
+1720	science	NOM	f			32.2
+1721	prise	NOM	f			32.2
+1722	période	NOM	f			32.1
+1723	plateau	NOM	m			32.1
+1724	soupirer	VER				32.1
+1725	fièvre	NOM	f			32.1
+1726	créature	NOM	f			32.0
+1727	piège	NOM	m			32.0
+1728	lundi	NOM	m			31.9
+1729	gardien	NOM	mf			31.9
+1730	horizon	NOM	m			31.9
+1731	patience	NOM	f			31.8
+1732	lac	NOM	m			31.8
+1733	noyer	VER				31.8
+1734	silhouette	NOM	f			31.8
+1735	égard	NOM	m			31.8
+1736	cruel	ADJ			cruelle	31.7
+1737	essence	NOM	f			31.7
+1738	flingue	NOM	m			31.7
+1739	fleuve	NOM	m			31.7
+1740	directement	ADV				31.7
+1741	voile	NOM				31.6
+1742	sensible	ADJ				31.6
+1743	chute	NOM	f			31.6
+1744	figurer	VER				31.5
+1745	là-dessus	ADV				31.5
+1746	priver	VER				31.5
+1747	empreinte	NOM	f			31.5
+1748	champagne	NOM	m			31.4
+1749	domaine	NOM	m			31.4
+1750	esclave	NOM	m			31.4
+1751	total	ADJ			totale	31.4
+1752	violer	VER				31.3
+1753	concentrer	VER				31.3
+1754	quelquefois	ADV				31.3
+1755	confirmer	VER				31.3
+1756	emprunter	VER				31.3
+1757	lecture	NOM	f			31.3
+1758	bâtiment	NOM	m			31.3
+1759	confondre	VER				31.2
+1760	assurance	NOM	f			31.2
+1761	douche	NOM	f			31.2
+1762	commandement	NOM	m			31.2
+1763	sueur	NOM	f			31.2
+1764	fuite	NOM	f			31.2
+1765	paradis	NOM	m			31.2
+1766	informer	VER				31.1
+1767	redresser	VER				31.1
+1768	conserver	VER				31.1
+1769	pression	NOM	f			31.1
+1770	concert	NOM	m			31.0
+1771	incapable	ADJ				31.0
+1772	angle	NOM	m			31.0
+1773	contempler	VER				30.9
+1774	facilement	ADV				30.9
+1775	auteur	NOM	mf			30.9
+1776	ménage	NOM	m			30.8
+1777	tarder	VER				30.8
+1778	prof	NOM				30.8
+1779	plaque	NOM	f			30.7
+1780	prudent	ADJ			prudente	30.7
+1781	empereur	NOM	m			30.7
+1782	mesurer	VER				30.7
+1783	identifier	VER				30.7
+1784	pointer	VER				30.7
+1785	invisible	ADJ				30.7
+1786	rythme	NOM	m			30.6
+1787	lutte	NOM	f			30.6
+1788	privé	ADJ			privée	30.6
+1789	chagrin	NOM	m			30.6
+1790	détourner	VER				30.5
+1791	identité	NOM	f			30.5
+1792	résistance	NOM	f			30.5
+1793	précieux	ADJ			précieuse	30.5
+1794	illusion	NOM	f			30.4
+1795	porc	NOM	m			30.4
+1796	ongle	NOM	m			30.4
+1797	méfier	VER				30.4
+1798	boue	NOM	f			30.4
+1799	université	NOM	f			30.4
+1800	etc	ADV				30.3
+1801	singe	NOM	m			30.3
+1802	satisfaire	VER				30.3
+1803	italien	ADJ			italienne	30.3
+1804	nerf	NOM	m			30.3
+1805	mets	NOM	m			30.2
+1806	emploi	NOM	m			30.2
+1807	renverser	VER				30.2
+1808	employer	VER				30.2
+1809	curé	NOM	m			30.2
+1810	curiosité	NOM	f			30.2
+1811	misère	NOM	f			30.2
+1812	vêtir	VER				30.1
+1813	solide	ADJ				30.1
+1814	exécuter	VER				30.1
+1815	médicament	NOM	m			30.1
+1816	roue	NOM	f			30.1
+1817	tantôt	ADV				30.1
+1818	retomber	VER				30.1
+1819	mille	NOM	m	p		30.0
+1820	mlle	NOM	f			30.0
+1821	tribunal	NOM	m			30.0
+1822	apparence	NOM	f			30.0
+1823	répandre	VER				30.0
+1824	cogner	VER				29.9
+1825	grille	NOM	f			29.9
+1826	légèrement	ADV				29.9
+1827	appliquer	VER				29.9
+1828	noble	ADJ				29.9
+1829	piger	VER				29.8
+1830	hausser	VER				29.8
+1831	repasser	VER				29.8
+1832	reprocher	VER				29.8
+1833	crainte	NOM	f			29.8
+1834	épée	NOM	f			29.8
+1835	voiler	VER				29.8
+1836	manque	NOM	m			29.8
+1837	foyer	NOM	m			29.7
+1838	lueur	NOM	f			29.7
+1839	activité	NOM	f			29.6
+1840	saigner	VER				29.6
+1841	malheureusement	ADV				29.6
+1842	dominer	VER				29.6
+1843	chiffre	NOM	m			29.6
+1844	transporter	VER				29.6
+1845	texte	NOM	m			29.5
+1846	sommet	NOM	m			29.5
+1847	modèle	NOM	m			29.4
+1848	gant	NOM	m			29.4
+1849	serviette	NOM	f			29.4
+1850	stop	NOM	m			29.4
+1851	hâte	NOM	f			29.4
+1852	difficulté	NOM	f			29.4
+1853	opposer	VER				29.3
+1854	constater	VER				29.3
+1855	maudit	ADJ			maudite	29.3
+1856	réagir	VER				29.3
+1857	digne	ADJ				29.3
+1858	ordure	NOM	f			29.3
+1859	armer	VER				29.2
+1860	envoler	VER				29.2
+1861	puer	VER				29.2
+1862	nana	NOM	f			29.2
+1863	minuscule	ADJ				29.2
+1864	débarquer	VER				29.2
+1865	linge	NOM	m			29.1
+1866	policier	NOM	mf			29.1
+1867	allié	NOM	mf			29.1
+1868	sensation	NOM	f			29.1
+1869	vieillard	NOM	mf			29.1
+1870	essuyer	VER				29.1
+1871	étaler	VER				29.1
+1872	fidèle	ADJ				29.0
+1873	embarquer	VER				29.0
+1874	gaffe	NOM	f			29.0
+1875	délicieux	ADJ			délicieuse	29.0
+1876	barrer	VER				29.0
+1877	gonfler	VER				28.9
+1878	employé	NOM	mf			28.9
+1879	jouir	VER				28.9
+1880	huile	NOM	f			28.9
+1881	statue	NOM	f			28.8
+1882	religion	NOM	f			28.8
+1883	col	NOM	m			28.8
+1884	repérer	VER				28.8
+1885	exposer	VER				28.7
+1886	poème	NOM	m			28.7
+1887	gai	ADJ			gaie	28.7
+1888	plier	VER				28.7
+1889	marié	NOM	mf			28.7
+1890	décevoir	VER				28.6
+1891	fêter	VER				28.6
+1892	juin	NOM	m			28.6
+1893	revolver	NOM	m			28.5
+1894	shérif	NOM	m			28.5
+1895	épuiser	VER				28.5
+1896	nager	VER				28.5
+1897	pistolet	NOM	m			28.5
+1898	futur	ADJ			future	28.5
+1899	rumeur	NOM	f			28.5
+1900	enseigner	VER				28.4
+1901	récit	NOM	m			28.4
+1902	bal	NOM	m			28.4
+1903	obscurité	NOM	f			28.4
+1904	fonction	NOM	f			28.3
+1905	délicat	ADJ			délicate	28.3
+1906	ballon	NOM	m			28.3
+1907	whisky	NOM	m			28.3
+1908	déconner	VER				28.3
+1909	peintre	NOM				28.2
+1910	paupière	NOM	f			28.2
+1911	organisation	NOM	f			28.2
+1912	semblant	NOM	m			28.2
+1913	bibliothèque	NOM	f			28.2
+1914	atelier	NOM	m			28.2
+1915	gras	ADJ			grasse	28.2
+1916	auto	NOM	f			28.1
+1917	réaction	NOM	f			28.1
+1918	échec	NOM	m			28.1
+1919	humide	ADJ				28.1
+1920	bagnole	NOM	f			28.1
+1921	net	ADJ			nette	28.1
+1922	instrument	NOM	m			28.0
+1923	monnaie	NOM	f			28.0
+1924	poète	NOM	mf			28.0
+1925	unir	VER				28.0
+1926	menton	NOM	m			27.9
+1927	estimer	VER				27.9
+1928	volontiers	ADV				27.9
+1929	sécher	VER				27.9
+1930	usage	NOM	m			27.9
+1931	jadis	ADV				27.9
+1932	couille	NOM	f			27.8
+1933	pompe	NOM	f			27.8
+1934	coude	NOM	m			27.8
+1935	ouest	NOM	m			27.8
+1936	cabinet	NOM	m			27.8
+1937	buter	VER				27.8
+1938	serpent	NOM	m			27.8
+1939	signaler	VER				27.8
+1940	possibilité	NOM	f			27.7
+1941	rage	NOM	f			27.7
+1942	prénom	NOM	m			27.7
+1943	cage	NOM	f			27.7
+1944	fragile	ADJ				27.7
+1945	avantage	NOM	m			27.6
+1946	ceinture	NOM	f			27.6
+1947	pressé	ADJ			pressée	27.6
+1948	automne	NOM	m			27.6
+1949	craquer	VER				27.6
+1950	habit	NOM	m			27.6
+1951	poupée	NOM	f			27.6
+1952	bagage	NOM	m			27.6
+1953	intervenir	VER				27.6
+1954	frotter	VER				27.6
+1955	opérer	VER				27.6
+1956	discussion	NOM	f			27.6
+1957	carton	NOM	m			27.5
+1958	régime	NOM	m			27.5
+1959	star	NOM	f			27.5
+1960	suggérer	VER				27.5
+1961	station	NOM	f			27.5
+1962	tristesse	NOM	f			27.5
+1963	marchand	NOM	mf			27.5
+1964	jupe	NOM	f			27.5
+1965	composer	VER				27.5
+1966	août	NOM	m			27.5
+1967	annuler	VER				27.5
+1968	métro	NOM	m			27.4
+1969	exciter	VER				27.4
+1970	génération	NOM	f			27.4
+1971	affronter	VER				27.4
+1972	séjour	NOM	m			27.4
+1973	miss	NOM	f			27.4
+1974	boulevard	NOM	m			27.4
+1975	cochon	NOM	mf			27.3
+1976	raccrocher	VER				27.3
+1977	élevé	ADJ			élevée	27.3
+1978	nouvel	ADJ				27.2
+1979	accès	NOM	m			27.2
+1980	colonne	NOM	f			27.2
+1981	mouiller	VER				27.2
+1982	décrocher	VER				27.2
+1983	constituer	VER				27.1
+1984	bague	NOM	f			27.1
+1985	fromage	NOM	m			27.1
+1986	plante	NOM	f			27.1
+1987	vendredi	NOM	m			27.1
+1988	champion	NOM	mf			27.0
+1989	septembre	NOM	m			27.0
+1990	disposition	NOM	f			27.0
+1991	concours	NOM	m			27.0
+1992	zéro	NOM	m			27.0
+1993	approche	NOM	f			27.0
+1994	vaincre	VER				27.0
+1995	comporter	VER				27.0
+1996	accent	NOM	m			27.0
+1997	impliquer	VER				26.9
+1998	ôter	VER				26.9
+1999	produit	NOM	m			26.9
+2000	soie	NOM	f			26.9
+2001	dévorer	VER				26.9
+2002	drapeau	NOM	m			26.9
+2003	muet	ADJ			muette	26.8
+2004	tir	NOM	m			26.8
+2005	pêche	NOM	f			26.8
+2006	tasse	NOM	f			26.8
+2007	talon	NOM	m			26.7
+2008	volant	NOM	m			26.7
+2009	chou	NOM	mf			26.7
+2010	séance	NOM	f			26.7
+2011	cérémonie	NOM	f			26.7
+2012	moderne	ADJ				26.7
+2013	foutu	ADJ			foutue	26.6
+2014	placard	NOM	m			26.6
+2015	échouer	VER				26.6
+2016	poignée	NOM	f			26.6
+2017	embêter	VER				26.6
+2018	électrique	ADJ				26.5
+2019	persuader	VER				26.5
+2020	absurde	ADJ				26.5
+2021	entretenir	VER				26.5
+2022	semblable	ADJ				26.5
+2023	autoriser	VER				26.5
+2024	estomac	NOM	m			26.5
+2025	ruine	NOM	f			26.5
+2026	magique	ADJ				26.5
+2027	métal	NOM	m			26.5
+2028	océan	NOM	m			26.4
+2029	exercer	VER				26.4
+2030	pourvoir	VER				26.4
+2031	défaut	NOM	m			26.4
+2032	sel	NOM	m			26.4
+2033	marrant	ADJ			marrante	26.4
+2034	tabac	NOM	m			26.4
+2035	permission	NOM	f			26.4
+2036	raisonnable	ADJ				26.4
+2037	sport	NOM	m			26.3
+2038	plafond	NOM	m			26.3
+2039	commande	NOM	f			26.3
+2040	augmenter	VER				26.3
+2041	entièrement	ADV				26.3
+2042	percer	VER				26.3
+2043	consacrer	VER				26.2
+2044	épargner	VER				26.2
+2045	juillet	NOM	m	p		26.2
+2046	publier	VER				26.2
+2047	forcément	ADV				26.2
+2048	parer	VER				26.2
+2049	user	VER				26.1
+2050	pilote	NOM				26.1
+2051	canard	NOM	mf			26.1
+2052	paire	NOM	f			26.1
+2053	totalement	ADV				26.0
+2054	vertu	NOM	f			26.0
+2055	cabine	NOM	f			26.0
+2056	merveille	NOM	f			26.0
+2057	veine	NOM	f			26.0
+2058	rocher	NOM	m			26.0
+2059	poudre	NOM	f			26.0
+2060	explosion	NOM	f			26.0
+2061	pré	NOM	m			26.0
+2062	officiel	ADJ			officielle	26.0
+2063	familier	ADJ			familière	25.9
+2064	tenue	NOM	f			25.9
+2065	intelligence	NOM	f			25.9
+2066	comparer	VER				25.9
+2067	tradition	NOM	f			25.9
+2068	divin	ADJ			divine	25.9
+2069	bloc	NOM	m			25.9
+2070	sergent	NOM	m			25.9
+2071	filet	NOM	m			25.9
+2072	piano	NOM	m			25.8
+2073	culotte	NOM	f			25.8
+2074	central	ADJ			centrale	25.8
+2075	soupçonner	VER				25.8
+2076	redevenir	VER				25.8
+2077	pile	NOM	f			25.8
+2078	aimable	ADJ				25.8
+2079	enregistrer	VER				25.7
+2080	lion	NOM	mf			25.7
+2081	sud	NOM	m			25.7
+2082	urgent	ADJ			urgente	25.7
+2083	moustache	NOM	f			25.7
+2084	patrie	NOM	f			25.7
+2085	gendarme	NOM	m			25.7
+2086	vierge	ADJ				25.7
+2087	cloche	NOM	f			25.7
+2088	fondre	VER				25.7
+2089	voeu	NOM	m			25.7
+2090	assistant	NOM	mf			25.6
+2091	regagner	VER				25.6
+2092	matériel	NOM	m			25.6
+2093	dissimuler	VER				25.6
+2094	longuement	ADV				25.6
+2095	prétexte	NOM	m			25.6
+2096	consulter	VER				25.6
+2097	télévision	NOM	f			25.6
+2098	ascenseur	NOM	m			25.6
+2099	enfoiré	NOM	mf			25.5
+2100	théorie	NOM	f			25.5
+2101	soumettre	VER				25.5
+2102	instruction	NOM	f			25.5
+2103	guetter	VER				25.5
+2104	péter	VER				25.5
+2105	conséquence	NOM	f			25.5
+2106	studio	NOM	m			25.5
+2107	divers	ADJ			diverse	25.5
+2108	extrême	ADJ				25.5
+2109	filmer	VER				25.4
+2110	habituel	ADJ			habituelle	25.4
+2111	dénoncer	VER				25.4
+2112	guider	VER				25.4
+2113	efforcer	VER				25.4
+2114	imiter	VER				25.4
+2115	offre	NOM	f			25.3
+2116	ça	NOM	m			25.3
+2117	douloureux	ADJ			douloureuse	25.3
+2118	royal	ADJ			royale	25.3
+2119	messe	NOM	f			25.3
+2120	blessé	NOM	mf			25.3
+2121	demi-heure	NOM	f			25.3
+2122	cadre	NOM	m			25.3
+2123	division	NOM	f			25.2
+2124	profondément	ADV				25.2
+2125	exagérer	VER				25.2
+2126	vieillir	VER				25.2
+2127	comédie	NOM	f			25.2
+2128	amusant	ADJ			amusante	25.2
+2129	couche	NOM	f			25.1
+2130	désespoir	NOM	m			25.1
+2131	auparavant	ADV				25.1
+2132	désordre	NOM	m			25.1
+2133	extérieur	NOM	m			25.1
+2134	adulte	NOM				25.1
+2135	nuque	NOM	f			25.1
+2136	jeudi	NOM	m			25.1
+2137	crédit	NOM	m			25.0
+2138	joueur	NOM	mf			25.0
+2139	vomir	VER				25.0
+2140	culture	NOM	f			25.0
+2141	liaison	NOM	f			25.0
+2142	troubler	VER				25.0
+2143	chauffer	VER				25.0
+2144	langage	NOM	m			25.0
+2145	royaume	NOM	m			24.9
+2146	revanche	NOM	f			24.9
+2147	exprès	ADJ			expresse	24.9
+2148	physique	ADJ				24.9
+2149	luxe	NOM	m			24.9
+2150	préciser	VER				24.9
+2151	drame	NOM	m			24.9
+2152	enterrement	NOM	m			24.9
+2153	méthode	NOM	f			24.9
+2154	témoigner	VER				24.8
+2155	dépenser	VER				24.8
+2156	transmettre	VER				24.8
+2157	garage	NOM	m			24.8
+2158	enfiler	VER				24.8
+2159	inquiétude	NOM	f			24.7
+2160	impressionner	VER				24.7
+2161	continue	ADJ				24.7
+2162	com	NOM	m			24.6
+2163	assis	ADJ			assise	24.6
+2164	planche	NOM	f			24.6
+2165	assassiner	VER				24.6
+2166	soulager	VER				24.6
+2167	criminel	NOM	mf			24.6
+2168	doré	ADJ			dorée	24.6
+2169	jugement	NOM	m			24.6
+2170	flot	NOM	m			24.5
+2171	dizaine	NOM	f			24.5
+2172	exercice	NOM	m			24.5
+2173	orage	NOM	m			24.4
+2174	cheminée	NOM	f			24.4
+2175	cible	NOM	f			24.4
+2176	incliner	VER				24.4
+2177	cravate	NOM	f			24.4
+2178	armé	ADJ			armée	24.4
+2179	tempête	NOM	f			24.4
+2180	nier	VER				24.3
+2181	moche	ADJ				24.3
+2182	luire	VER				24.3
+2183	avenue	NOM	f			24.3
+2184	sacrifice	NOM	m			24.3
+2185	tuyau	NOM	m			24.3
+2186	instinct	NOM	m			24.3
+2187	déshabiller	VER				24.3
+2188	regret	NOM	m			24.3
+2189	bourrer	VER				24.2
+2190	contacter	VER				24.2
+2191	incident	NOM	m			24.2
+2192	âgé	ADJ			âgée	24.2
+2193	aspect	NOM	m			24.2
+2194	courrier	NOM	m			24.2
+2195	boucler	VER				24.1
+2196	reflet	NOM	m			24.1
+2197	veuf	NOM	mf			24.1
+2198	suspendre	VER				24.1
+2199	menteur	NOM	mf			24.1
+2200	vente	NOM	f			24.1
+2201	soucier	VER				24.1
+2202	populaire	ADJ				24.1
+2203	fini	ADJ			finie	24.1
+2204	absolu	ADJ			absolue	24.1
+2205	danseur	NOM	mf			24.1
+2206	armoire	NOM	f			24.1
+2207	secteur	NOM	m			24.0
+2208	chevalier	NOM	m			24.0
+2209	ordinateur	NOM	m			24.0
+2210	degré	NOM	m			24.0
+2211	suicide	NOM	m			24.0
+2212	file	NOM	f			23.9
+2213	étonnant	ADJ			étonnante	23.9
+2214	siffler	VER				23.9
+2215	compliqué	ADJ			compliquée	23.9
+2216	las	ADJ			lasse	23.9
+2217	direct	ADJ			directe	23.8
+2218	baron	NOM	mf			23.8
+2219	vengeance	NOM	f			23.8
+2220	musée	NOM	m			23.8
+2221	émission	NOM	f			23.8
+2222	justifier	VER				23.7
+2223	emplir	VER				23.7
+2224	commerce	NOM	m			23.7
+2225	humanité	NOM	f			23.7
+2226	serré	ADJ			serrée	23.7
+2227	fréquenter	VER				23.7
+2228	jouet	NOM	m			23.7
+2229	civil	ADJ			civile	23.7
+2230	approuver	VER				23.7
+2231	citoyen	NOM	mf			23.7
+2232	moral	ADJ			morale	23.6
+2233	médical	ADJ			médicale	23.6
+2234	tiroir	NOM	m			23.6
+2235	déménager	VER				23.6
+2236	pouce	NOM	m			23.6
+2237	éternité	NOM	f			23.6
+2238	crétin	NOM	mf			23.6
+2239	vaguement	ADV				23.5
+2240	écran	NOM	m			23.5
+2241	ordinaire	ADJ				23.5
+2242	particulièrement	ADV				23.5
+2243	garer	VER				23.5
+2244	union	NOM	f			23.5
+2245	insulter	VER				23.5
+2246	sacrifier	VER				23.5
+2247	généreux	ADJ			généreuse	23.5
+2248	aéroport	NOM	m			23.5
+2249	villa	NOM	f			23.5
+2250	blé	NOM	m			23.4
+2251	fonder	VER				23.4
+2252	sain	ADJ				23.4
+2253	traitement	NOM	m			23.4
+2254	emparer	VER				23.4
+2255	lame	NOM	f			23.4
+2256	intime	ADJ				23.3
+2257	appétit	NOM	m			23.3
+2258	féminin	ADJ			féminine	23.3
+2259	paille	NOM	f			23.3
+2260	tissu	NOM	m			23.3
+2261	décor	NOM	m			23.3
+2262	chapitre	NOM	m			23.3
+2263	boucle	NOM	f			23.3
+2264	seuil	NOM	m			23.2
+2265	tracer	VER				23.2
+2266	légende	NOM	f			23.2
+2267	essai	NOM	m			23.2
+2268	rive	NOM	f			23.2
+2269	entreprendre	VER				23.2
+2270	kilo	NOM	m			23.2
+2271	éducation	NOM	f			23.2
+2272	muscle	NOM	m			23.2
+2273	chèque	NOM	m			23.2
+2274	pédé	NOM	m			23.1
+2275	poignet	NOM	m			23.1
+2276	partenaire	NOM				23.1
+2277	libération	NOM	f			23.1
+2278	barre	NOM	f			23.0
+2279	tailler	VER				23.0
+2280	progrès	NOM	m			23.0
+2281	pour	NOM	m			23.0
+2282	atmosphère	NOM	f			23.0
+2283	uniquement	ADV				23.0
+2284	traduire	VER				23.0
+2285	bâton	NOM	m			23.0
+2286	grain	NOM	m			23.0
+2287	pipe	NOM	f			23.0
+2288	glacé	ADJ			glacée	23.0
+2289	saloperie	NOM	f			22.9
+2290	portier	NOM	mf			22.9
+2291	bougie	NOM	f			22.9
+2292	envisager	VER				22.9
+2293	conviction	NOM	f			22.9
+2294	bouge	NOM	m			22.9
+2295	population	NOM	f			22.9
+2296	certitude	NOM	f			22.9
+2297	chinois	ADJ			chinoise	22.9
+2298	réjouir	VER				22.9
+2299	évidence	NOM	f			22.9
+2300	moto	NOM	f			22.8
+2301	ralentir	VER				22.8
+2302	écrouler	VER				22.8
+2303	grange	NOM	f			22.8
+2304	salade	NOM	f			22.8
+2305	pente	NOM	f			22.8
+2306	barque	NOM	f			22.8
+2307	écriture	NOM	f			22.7
+2308	voyou	NOM	mf			22.7
+2309	marrer	VER				22.7
+2310	panier	NOM	m			22.7
+2311	tordre	VER				22.7
+2312	gratter	VER				22.7
+2313	dessous	NOM	m			22.7
+2314	écart	NOM	m			22.6
+2315	jus	NOM	m			22.6
+2316	dérouler	VER				22.6
+2317	suicider	VER				22.6
+2318	discret	ADJ			discrète	22.6
+2319	sourcil	NOM	m			22.6
+2320	espagnol	ADJ			espagnole	22.6
+2321	familial	ADJ			familiale	22.5
+2322	mortel	ADJ			mortelle	22.5
+2323	nègre	NOM	mf			22.5
+2324	réveil	NOM	m			22.5
+2325	fixe	ADJ				22.5
+2326	balcon	NOM	m			22.5
+2327	pourrir	VER				22.5
+2328	entretien	NOM	m			22.5
+2329	maire	NOM	mf			22.4
+2330	lâche	ADJ				22.4
+2331	motif	NOM	m			22.4
+2332	vallée	NOM	f			22.4
+2333	tremper	VER				22.4
+2334	concevoir	VER				22.4
+2335	cassé	ADJ			cassée	22.4
+2336	télégramme	NOM	m			22.4
+2337	écho	NOM	m			22.4
+2338	équilibre	NOM	m			22.3
+2339	aiguille	NOM	f			22.3
+2340	galerie	NOM	f			22.3
+2341	balayer	VER				22.3
+2342	rougir	VER				22.2
+2343	conduite	NOM	f			22.2
+2344	voyageur	NOM	mf			22.2
+2345	souris	NOM				22.2
+2346	scandale	NOM	m			22.2
+2347	crème	NOM				22.1
+2348	cercueil	NOM	m			22.1
+2349	couronne	NOM	f			22.1
+2350	acier	NOM	m			22.1
+2351	déborder	VER				22.1
+2352	flanc	NOM	m			22.1
+2353	professionnel	ADJ			professionnelle	22.1
+2354	taule	NOM	f			22.1
+2355	véhicule	NOM	m			22.1
+2356	ivre	ADJ				22.1
+2357	communiquer	VER				22.0
+2358	semer	VER				22.0
+2359	cassette	NOM	f			22.0
+2360	coiffer	VER				22.0
+2361	rein	NOM	m			22.0
+2362	courageux	ADJ			courageuse	22.0
+2363	renseigner	VER				22.0
+2364	poubelle	NOM	f			22.0
+2365	correspondre	VER				22.0
+2366	catastrophe	NOM	f			21.9
+2367	protection	NOM	f			21.9
+2368	consoler	VER				21.9
+2369	ours	NOM	mf			21.9
+2370	tournée	NOM	f			21.9
+2371	dignité	NOM	f			21.9
+2372	propriété	NOM	f			21.9
+2373	laid	ADJ			laide	21.9
+2374	cendre	NOM	f			21.8
+2375	réputation	NOM	f			21.8
+2376	sacrer	VER				21.8
+2377	comptoir	NOM	m			21.8
+2378	ressortir	VER				21.8
+2379	ambassadeur	NOM	mf			21.8
+2380	individu	NOM	m			21.8
+2381	habitant	NOM	mf			21.8
+2382	visiteur	NOM	mf			21.8
+2383	cirque	NOM	m			21.8
+2384	portable	ADJ				21.7
+2385	marin	NOM	m			21.7
+2386	envelopper	VER				21.7
+2387	pause	NOM	f			21.7
+2388	commission	NOM	f			21.7
+2389	creux	NOM	m			21.7
+2390	ouverture	NOM	f			21.7
+2391	communication	NOM	f			21.6
+2392	réellement	ADV				21.6
+2393	marbre	NOM	m			21.6
+2394	précisément	ADV				21.6
+2395	loger	VER				21.6
+2396	octobre	NOM	m			21.6
+2397	portée	NOM	f			21.6
+2398	puce	NOM	f			21.6
+2399	carreau	NOM	m			21.5
+2400	proposition	NOM	f			21.5
+2401	régulier	ADJ			régulière	21.5
+2402	destiner	VER				21.5
+2403	protester	VER				21.5
+2404	confus	ADJ			confuse	21.5
+2405	diamant	NOM	m			21.5
+2406	heurter	VER				21.5
+2407	torturer	VER				21.5
+2408	magie	NOM	f			21.5
+2409	faiblesse	NOM	f			21.5
+2410	sucer	VER				21.5
+2411	façade	NOM	f			21.5
+2412	photographie	NOM	f			21.4
+2413	caillou	NOM	m			21.4
+2414	envier	VER				21.4
+2415	situer	VER				21.4
+2416	manifester	VER				21.4
+2417	éliminer	VER				21.4
+2418	asile	NOM	m			21.4
+2419	citer	VER				21.3
+2420	évanouir	VER				21.3
+2421	document	NOM	m			21.3
+2422	fichu	ADJ			fichue	21.3
+2423	mouton	NOM	m			21.3
+2424	raccompagner	VER				21.3
+2425	élan	NOM	m			21.3
+2426	foie	NOM	m			21.3
+2427	formule	NOM	f			21.3
+2428	casquette	NOM	f			21.3
+2429	plaisanterie	NOM	f			21.2
+2430	canal	NOM	m			21.2
+2431	rock	NOM	m			21.2
+2432	arabe	NOM				21.2
+2433	ambulance	NOM	f			21.2
+2434	alliance	NOM	f			21.2
+2435	plomb	NOM	m			21.2
+2436	voter	VER				21.2
+2437	échelle	NOM	f			21.2
+2438	mouillé	ADJ			mouillée	21.2
+2439	cuire	VER				21.2
+2440	dépit	NOM	m			21.1
+2441	délivrer	VER				21.1
+2442	matinée	NOM	f			21.1
+2443	copie	NOM	f			21.1
+2444	traître	NOM	m			21.1
+2445	section	NOM	f			21.1
+2446	congé	NOM	m			21.1
+2447	rarement	ADV				21.1
+2448	enveloppe	NOM	f			21.1
+2449	transport	NOM	m			21.1
+2450	quotidien	ADJ			quotidienne	21.1
+2451	espion	NOM	mf			21.1
+2452	adopter	VER				21.1
+2453	profondeur	NOM	f			21.0
+2454	piscine	NOM	f			21.0
+2455	bâtir	VER				21.0
+2456	cabane	NOM	f			21.0
+2457	agence	NOM	f			21.0
+2458	pari	NOM	m			21.0
+2459	moine	NOM	m			21.0
+2460	endormi	ADJ			endormie	21.0
+2461	enculé	ADJ			enculée	21.0
+2462	excellence	NOM	f			20.9
+2463	suspect	NOM	mf			20.9
+2464	casque	NOM	m			20.9
+2465	compliquer	VER				20.9
+2466	satisfaction	NOM	f			20.9
+2467	annonce	NOM	f			20.9
+2468	mandat	NOM	m			20.9
+2469	incendie	NOM	m			20.9
+2470	ticket	NOM	m			20.9
+2471	flotte	NOM	f			20.9
+2472	absent	ADJ			absente	20.9
+2473	four	NOM	m			20.9
+2474	outil	NOM	m			20.9
+2475	geler	VER				20.9
+2476	salaire	NOM	m			20.9
+2477	préféré	ADJ			préférée	20.9
+2478	tendu	ADJ			tendue	20.9
+2479	percevoir	VER				20.9
+2480	développer	VER				20.8
+2481	aborder	VER				20.8
+2482	brûlant	ADJ			brûlante	20.8
+2483	bijoux	NOM	m	p		20.8
+2484	c'est-à-dire	ADV				20.8
+2485	jaillir	VER				20.8
+2486	brique	NOM	f			20.8
+2487	mouchoir	NOM	m			20.8
+2488	éclair	NOM	m			20.8
+2489	chanteur	NOM	mf			20.7
+2490	conférence	NOM	f			20.7
+2491	distraire	VER				20.7
+2492	découper	VER				20.7
+2493	sincère	ADJ				20.7
+2494	déclencher	VER				20.7
+2495	mardi	NOM	m			20.7
+2496	carnet	NOM	m			20.7
+2497	émouvoir	VER				20.6
+2498	bol	NOM	m			20.6
+2499	brouillard	NOM	m			20.6
+2500	décoller	VER				20.6
+2501	connu	ADJ			connue	20.6
+2502	déclaration	NOM	f			20.6
+2503	précaution	NOM	f			20.6
+2504	couvent	NOM	m			20.6
+2505	renseignement	NOM	m			20.6
+2506	dette	NOM	f			20.5
+2507	serveur	NOM	mf			20.5
+2508	tente	NOM	f			20.5
+2509	bouquet	NOM	m			20.4
+2510	collection	NOM	f			20.4
+2511	raide	ADJ				20.4
+2512	gouverneur	NOM	m			20.4
+2513	puits	NOM	m			20.4
+2514	rembourser	VER				20.3
+2515	affection	NOM	f			20.3
+2516	orgueil	NOM	m			20.3
+2517	profil	NOM	m			20.3
+2518	racine	NOM	f			20.3
+2519	ténèbres	NOM	f	p		20.3
+2520	fantastique	ADJ				20.3
+2521	canne	NOM	f			20.3
+2522	beurre	NOM	m			20.3
+2523	défaire	VER				20.3
+2524	gémir	VER				20.3
+2525	cigare	NOM	m			20.3
+2526	cavalier	NOM	mf			20.2
+2527	tiède	ADJ				20.2
+2528	lumineux	ADJ			lumineuse	20.2
+2529	poésie	NOM	f			20.2
+2530	volet	NOM	m			20.2
+2531	encourager	VER				20.2
+2532	pli	NOM	m			20.2
+2533	grève	NOM	f			20.1
+2534	précéder	VER				20.1
+2535	assaut	NOM	m			20.1
+2536	vilain	ADJ			vilaine	20.1
+2537	procureur	NOM	mf			20.1
+2538	soulier	NOM	m			20.1
+2539	fierté	NOM	f			20.1
+2540	cuisinier	NOM	mf			20.1
+2541	brume	NOM	f			20.1
+2542	bonbon	NOM	m			20.1
+2543	mépriser	VER				20.1
+2544	brutal	ADJ			brutale	20.0
+2545	écrier	VER				20.0
+2546	local	ADJ			locale	20.0
+2547	pourri	ADJ			pourrie	20.0
+2548	balader	VER				20.0
+2549	panique	NOM	f			20.0
+2550	planquer	VER				20.0
+2551	anneau	NOM	m			20.0
+2552	étrangler	VER				20.0
+2553	collier	NOM	m			19.9
+2554	terreur	NOM	f			19.9
+2555	international	ADJ			internationale	19.9
+2556	exécution	NOM	f			19.9
+2557	intact	ADJ			intacte	19.9
+2558	timide	ADJ				19.9
+2559	littérature	NOM	f			19.8
+2560	gratuit	ADJ			gratuite	19.8
+2561	affecter	VER				19.8
+2562	atterrir	VER				19.8
+2563	opéra	NOM	m			19.8
+2564	pâte	NOM	mf			19.8
+2565	chouette	ADJ				19.8
+2566	introduire	VER				19.8
+2567	divorcer	VER				19.7
+2568	hôte	NOM	m			19.7
+2569	phare	NOM	m			19.7
+2570	plainte	NOM	f			19.7
+2571	économie	NOM	f			19.7
+2572	idéal	ADJ			idéale	19.7
+2573	grouiller	VER				19.6
+2574	guide	NOM				19.6
+2575	vase	NOM				19.6
+2576	revue	NOM	f			19.6
+2577	règlement	NOM	m			19.6
+2578	avril	NOM	m			19.6
+2579	baraque	NOM	f			19.6
+2580	défiler	VER				19.5
+2581	bavarder	VER				19.5
+2582	exception	NOM	f			19.5
+2583	province	NOM	f			19.5
+2584	dalle	NOM	f			19.5
+2585	roux	ADJ			rousse	19.5
+2586	fiston	NOM	m			19.4
+2587	circuler	VER				19.4
+2588	panne	NOM	f			19.4
+2589	redouter	VER				19.4
+2590	comportement	NOM	m			19.4
+2591	proie	NOM	f			19.4
+2592	passeport	NOM	m			19.3
+2593	magazine	NOM	m			19.3
+2594	neveu	NOM	m			19.3
+2595	clou	NOM	m			19.3
+2596	féliciter	VER				19.3
+2597	réflexion	NOM	f			19.3
+2598	découverte	NOM	f			19.3
+2599	cité	NOM	f			19.3
+2600	canapé	NOM	m			19.3
+2601	wagon	NOM	m			19.3
+2602	demeure	NOM	f			19.2
+2603	tentative	NOM	f			19.2
+2604	pénible	ADJ				19.2
+2605	portefeuille	NOM	m			19.2
+2606	amer	ADJ			amère	19.2
+2607	dit	ADJ			dite	19.2
+2608	bouquin	NOM	m			19.2
+2609	disparition	NOM	f			19.1
+2610	apaiser	VER				19.1
+2611	perspective	NOM	f			19.1
+2612	paisible	ADJ				19.1
+2613	oreiller	NOM	m			19.1
+2614	soupir	NOM	m			19.1
+2615	bouleverser	VER				19.1
+2616	médecine	NOM	f			19.1
+2617	communauté	NOM	f			19.1
+2618	musical	ADJ			musicale	19.1
+2619	grec	ADJ			grecque	19.1
+2620	mémé	NOM	f			19.1
+2621	modeste	ADJ				19.1
+2622	rigueur	NOM	f			19.1
+2623	mépris	NOM	m			19.1
+2624	religieux	ADJ			religieuse	19.0
+2625	tension	NOM	f			19.0
+2626	suffisamment	ADV				19.0
+2627	chaussette	NOM	f			19.0
+2628	issue	NOM	f			19.0
+2629	permis	NOM	m			19.0
+2630	contrer	VER				19.0
+2631	bousculer	VER				19.0
+2632	projeter	VER				19.0
+2633	analyse	NOM	f			18.9
+2634	étape	NOM	f			18.9
+2635	dégueulasse	ADJ				18.9
+2636	honorer	VER				18.9
+2637	écoute	NOM	f			18.9
+2638	adjudant	NOM	m			18.9
+2639	procurer	VER				18.9
+2640	ambition	NOM	f			18.8
+2641	équipage	NOM	m			18.8
+2642	chapelle	NOM	f			18.8
+2643	aspirer	VER				18.8
+2644	séduire	VER				18.8
+2645	crayon	NOM	m			18.8
+2646	catholique	ADJ				18.8
+2647	adorable	ADJ				18.8
+2648	soupçon	NOM	m			18.8
+2649	pilule	NOM	f			18.7
+2650	cuisiner	VER				18.7
+2651	fac	NOM	f			18.7
+2652	liquide	NOM	m			18.7
+2653	plaie	NOM	f			18.7
+2654	possession	NOM	f			18.7
+2655	solitaire	ADJ				18.7
+2656	tranquillement	ADV				18.7
+2657	final	ADJ			finale	18.7
+2658	récemment	ADV				18.7
+2659	capitale	NOM	f			18.7
+2660	laine	NOM	f			18.7
+2661	recommander	VER				18.7
+2662	distribuer	VER				18.7
+2663	bonté	NOM	f			18.6
+2664	dé	NOM	m			18.6
+2665	noce	NOM	f			18.6
+2666	cueillir	VER				18.6
+2667	tube	NOM	m			18.6
+2668	réchauffer	VER				18.6
+2669	poumon	NOM	m			18.6
+2670	administration	NOM	f			18.6
+2671	essentiel	NOM	m			18.6
+2672	profit	NOM	m			18.6
+2673	garantir	VER				18.6
+2674	trahison	NOM	f			18.6
+2675	plaquer	VER				18.6
+2676	réciter	VER				18.5
+2677	labo	NOM	m			18.5
+2678	célébrer	VER				18.5
+2679	clairement	ADV				18.5
+2680	enthousiasme	NOM	m			18.5
+2681	novembre	NOM	m			18.5
+2682	hippo	NOM	m			18.5
+2683	légume	NOM	m			18.5
+2684	respiration	NOM	f			18.5
+2685	assemblée	NOM	f			18.5
+2686	mars	NOM	m			18.4
+2687	divorce	NOM	m			18.4
+2688	maréchal	NOM	mf			18.4
+2689	ronger	VER				18.4
+2690	mélange	NOM	m			18.3
+2691	suprême	ADJ				18.3
+2692	mèche	NOM	f			18.3
+2693	pension	NOM	f			18.3
+2694	redescendre	VER				18.3
+2695	cap	NOM	m			18.3
+2696	enchanter	VER				18.3
+2697	concierge	NOM				18.3
+2698	doubler	VER				18.3
+2699	reprise	NOM	f			18.3
+2700	attentif	ADJ			attentive	18.3
+2701	touriste	NOM				18.3
+2702	fureur	NOM	f			18.3
+2703	nocturne	ADJ				18.3
+2704	hanche	NOM	f			18.3
+2705	jalousie	NOM	f			18.3
+2706	job	NOM	m			18.3
+2707	panneau	NOM	m			18.3
+2708	bite	NOM	f			18.3
+2709	reconnaissance	NOM	f			18.3
+2710	bonhomme	NOM	m			18.3
+2711	invitation	NOM	f			18.3
+2712	effondrer	VER				18.2
+2713	boucher	VER				18.2
+2714	renfort	NOM	m			18.2
+2715	ouvrage	NOM	m			18.2
+2716	relâcher	VER				18.2
+2717	oignon	NOM	m			18.2
+2718	abîmer	VER				18.2
+2719	riz	NOM	m			18.2
+2720	pratiquer	VER				18.2
+2721	char	NOM	m			18.1
+2722	otage	NOM	m			18.1
+2723	tronc	NOM	m			18.1
+2724	suffisant	ADJ			suffisante	18.1
+2725	procéder	VER				18.1
+2726	personnalité	NOM	f			18.1
+2727	sentier	NOM	m			18.1
+2728	étirer	VER				18.1
+2729	impatience	NOM	f			18.1
+2730	dégoûter	VER				18.1
+2731	abruti	NOM	mf			18.1
+2732	araignée	NOM	f			18.1
+2733	plaine	NOM	f			18.1
+2734	exceptionnel	ADJ			exceptionnelle	18.0
+2735	gré	NOM	m			18.0
+2736	préoccuper	VER				18.0
+2737	demi-tour	NOM	m			18.0
+2738	trouble	NOM	m			18.0
+2739	mercredi	NOM	m			17.9
+2740	interminable	ADJ				17.9
+2741	fumier	NOM	mf			17.9
+2742	monseigneur	NOM	m			17.9
+2743	apparition	NOM	f			17.9
+2744	fourrer	VER				17.9
+2745	tâcher	VER				17.8
+2746	isoler	VER				17.8
+2747	deuil	NOM	m			17.8
+2748	gérer	VER				17.8
+2749	cuivre	NOM	m			17.8
+2750	bible	NOM	f			17.8
+2751	épisode	NOM	m			17.8
+2752	tomate	NOM	f			17.8
+2753	influence	NOM	f			17.8
+2754	empoisonner	VER				17.8
+2755	classique	ADJ				17.8
+2756	mélanger	VER				17.8
+2757	allumette	NOM	f			17.7
+2758	abuser	VER				17.7
+2759	dialogue	NOM	m			17.7
+2760	vitrine	NOM	f			17.7
+2761	lécher	VER				17.7
+2762	recueillir	VER				17.7
+2763	quant	NOM	f			17.7
+2764	collège	NOM	m			17.7
+2765	cancer	NOM	m			17.7
+2766	vampire	NOM	m			17.7
+2767	flèche	NOM	f			17.7
+2768	vaisselle	NOM	f			17.6
+2769	pose	NOM	f			17.6
+2770	visible	ADJ				17.6
+2771	carrefour	NOM	m			17.6
+2772	damoiseau	NOM	mf			17.6
+2773	élégant	ADJ			élégante	17.6
+2774	décembre	NOM	m	p		17.6
+2775	ingénieur	NOM	m			17.6
+2776	appui	NOM	m			17.6
+2777	orange	NOM				17.6
+2778	serment	NOM	m			17.6
+2779	romantique	ADJ				17.6
+2780	régiment	NOM	m			17.6
+2781	quelconque	ADJ				17.6
+2782	ennuyeux	ADJ			ennuyeuse	17.6
+2783	sévère	ADJ				17.6
+2784	témoignage	NOM	m			17.6
+2785	vendeur	NOM	mf			17.6
+2786	hocher	VER				17.5
+2787	construction	NOM	f			17.5
+2788	définitif	ADJ			définitive	17.5
+2789	indifférence	NOM	f			17.5
+2790	temple	NOM	m			17.5
+2791	ministère	NOM	m			17.5
+2792	chic	ADJ				17.5
+2793	remords	NOM	m			17.5
+2794	douer	VER				17.4
+2795	emballer	VER				17.4
+2796	toutefois	ADV				17.4
+2797	consentir	VER				17.4
+2798	tunnel	NOM	m			17.4
+2799	insecte	NOM	m			17.4
+2800	saurer	VER				17.3
+2801	triomphe	NOM	m			17.3
+2802	replier	VER				17.3
+2803	marquis	NOM	mf			17.3
+2804	coiffeur	NOM	mf			17.3
+2805	animer	VER				17.3
+2806	apprêter	VER				17.3
+2807	janvier	NOM	m			17.2
+2808	version	NOM	f			17.2
+2809	préserver	VER				17.2
+2810	bondir	VER				17.2
+2811	savon	NOM	m			17.2
+2812	tranchée	NOM	f			17.2
+2813	réception	NOM	f			17.2
+2814	errer	VER				17.2
+2815	pub	NOM				17.2
+2816	normalement	ADV				17.2
+2817	actuel	ADJ			actuelle	17.2
+2818	désastre	NOM	m			17.2
+2819	pêcheur	NOM	mf			17.2
+2820	clore	VER				17.2
+2821	communiste	ADJ				17.2
+2822	prolonger	VER				17.2
+2823	signature	NOM	f			17.2
+2824	loge	NOM	f			17.2
+2825	insupportable	ADJ				17.1
+2826	fillette	NOM	f			17.1
+2827	fasciner	VER				17.1
+2828	troupeau	NOM	m			17.1
+2829	bagarre	NOM	f			17.1
+2830	misérable	ADJ				17.1
+2831	trancher	VER				17.1
+2832	production	NOM	f			17.1
+2833	nécessité	NOM	f			17.1
+2834	ruiner	VER				17.1
+2835	bourse	NOM	f			17.1
+2836	meurtrier	NOM	mf			17.1
+2837	facture	NOM	f			17.1
+2838	consister	VER				17.0
+2839	flatter	VER				17.0
+2840	humour	NOM	m			17.0
+2841	mou,mol	ADJ			molle	17.0
+2842	indice	NOM	m			17.0
+2843	longueur	NOM	f			17.0
+2844	sauce	NOM	f			17.0
+2845	berger	NOM	mf			17.0
+2846	personnellement	ADV				17.0
+2847	serviteur	NOM	m			17.0
+2848	plancher	NOM	m			17.0
+2849	virus	NOM	m			17.0
+2850	occupé	ADJ			occupée	16.9
+2851	passager	NOM	mf			16.9
+2852	velours	NOM	m			16.9
+2853	géant	ADJ			géante	16.9
+2854	dater	VER				16.9
+2855	salir	VER				16.9
+2856	chuchoter	VER				16.9
+2857	améliorer	VER				16.9
+2858	aviser	VER				16.9
+2859	car	NOM	m			16.8
+2860	acquérir	VER				16.8
+2861	duc	NOM	mf			16.8
+2862	représentant	NOM	mf			16.8
+2863	récent	ADJ			récente	16.8
+2864	surmonter	VER				16.8
+2865	envers	NOM	m			16.8
+2866	cahier	NOM	m			16.8
+2867	gueuler	VER				16.8
+2868	spécialiste	NOM				16.8
+2869	obstacle	NOM	m			16.8
+2870	richesse	NOM	f			16.8
+2871	oubli	NOM	mf			16.8
+2872	chantier	NOM	m			16.8
+2873	surpris	ADJ			surprise	16.8
+2874	sagesse	NOM	f			16.8
+2875	trouille	NOM	f			16.8
+2876	poison	NOM	m			16.7
+2877	pigeon	NOM	mf			16.7
+2878	foot	NOM	m			16.7
+2879	orchestre	NOM	m			16.7
+2880	sexy	ADJ				16.7
+2881	chèvre	NOM	f			16.7
+2882	bataillon	NOM	m			16.7
+2883	autorisation	NOM	f			16.7
+2884	commentaire	NOM	m			16.7
+2885	aérien	ADJ			aérienne	16.7
+2886	applaudir	VER				16.7
+2887	injuste	ADJ				16.7
+2888	accélérer	VER				16.7
+2889	hall	NOM	m			16.6
+2890	calculer	VER				16.6
+2891	adversaire	NOM				16.6
+2892	miel	NOM	m			16.6
+2893	conclusion	NOM	f			16.6
+2894	grandeur	NOM	f			16.6
+2895	démarche	NOM	f			16.6
+2896	critique	NOM				16.6
+2897	photographe	NOM				16.5
+2898	hommage	NOM	m			16.5
+2899	ancêtre	NOM				16.5
+2900	coton	NOM	m			16.5
+2901	garce	NOM	f			16.5
+2902	symbole	NOM	m			16.5
+2903	admirable	ADJ				16.5
+2904	arrestation	NOM	f			16.5
+2905	jusque-là	ADV				16.5
+2906	imprimer	VER				16.5
+2907	effrayant	ADJ			effrayante	16.5
+2908	vedette	NOM	f			16.5
+2909	morale	NOM	f			16.5
+2910	blouse	NOM	f			16.5
+2911	boisson	NOM	f			16.4
+2912	drôlement	ADV				16.4
+2913	caresse	NOM	f			16.4
+2914	chérir	VER				16.4
+2915	instituteur	NOM	mf			16.4
+2916	surveillance	NOM	f			16.4
+2917	noeud	NOM	m			16.4
+2918	rétablir	VER				16.4
+2919	fatal	ADJ			fatale	16.4
+2920	déployer	VER				16.4
+2921	infini	ADJ			infinie	16.3
+2922	arroser	VER				16.3
+2923	détective	NOM				16.3
+2924	mater	VER				16.3
+2925	coutume	NOM	f			16.3
+2926	objectif	NOM	m			16.3
+2927	compliment	NOM	m			16.3
+2928	tragique	ADJ				16.3
+2929	occupation	NOM	f			16.3
+2930	milliard	NOM	m			16.3
+2931	descente	NOM	f			16.2
+2932	soviétique	ADJ				16.2
+2933	bicyclette	NOM	f			16.2
+2934	médaille	NOM	f			16.2
+2935	refus	NOM	m			16.2
+2936	réseau	NOM	m			16.2
+2937	cheville	NOM	f			16.2
+2938	fabuleux	ADJ			fabuleuse	16.2
+2939	for	NOM	m			16.2
+2940	reproduire	VER				16.2
+2941	dose	NOM	f			16.2
+2942	donne	NOM	f			16.2
+2943	führer	NOM	m			16.2
+2944	tendance	NOM	f			16.1
+2945	fraîcheur	NOM	f			16.1
+2946	capacité	NOM	f			16.1
+2947	intimité	NOM	f			16.1
+2948	grotte	NOM	f			16.1
+2949	thème	NOM	m			16.1
+2950	paume	NOM	f			16.1
+2951	fendre	VER				16.1
+2952	philosophie	NOM	f			16.1
+2953	vertige	NOM	m			16.1
+2954	agacer	VER				16.1
+2955	abbé	NOM	mf			16.1
+2956	manoeuvre	NOM				16.1
+2957	succéder	VER				16.1
+2958	comble	NOM	m			16.1
+2959	écouler	VER				16.1
+2960	border	VER				16.1
+2961	reconnaissant	ADJ			reconnaissante	16.0
+2962	rude	ADJ				16.0
+2963	discipline	NOM	f			16.0
+2964	chrétien	ADJ			chrétienne	16.0
+2965	grossier	ADJ			grossière	16.0
+2966	clinique	NOM	f			16.0
+2967	conquérir	VER				16.0
+2968	massacrer	VER				16.0
+2969	figer	VER				16.0
+2970	pincer	VER				16.0
+2971	sympathique	ADJ				16.0
+2972	élection	NOM	f			16.0
+2973	âne	NOM	m			15.9
+2974	rempli	ADJ			remplie	15.9
+2975	ruelle	NOM	f			15.9
+2976	déboucher	VER				15.9
+2977	barrage	NOM	m			15.9
+2978	encre	NOM	f			15.9
+2979	piéger	VER				15.9
+2980	relier	VER				15.9
+2981	aigu	ADJ			aiguë	15.9
+2982	perle	NOM	f			15.9
+2983	reproche	NOM	m			15.9
+2984	soigneusement	ADV				15.9
+2985	délire	NOM	m			15.8
+2986	résonner	VER				15.8
+2987	obus	NOM	m			15.8
+2988	admiration	NOM	f			15.8
+2989	démolir	VER				15.8
+2990	matelas	NOM	m			15.8
+2991	combler	VER				15.8
+2992	brusque	ADJ				15.8
+2993	débattre	VER				15.7
+2994	stylo	NOM	m			15.7
+2995	cent	NOM	m			15.7
+2996	vanter	VER				15.7
+2997	déguiser	VER				15.7
+2998	basculer	VER				15.7
+2999	combinaison	NOM	f			15.7
+3000	fonds	NOM	m			15.7
+3001	immédiat	ADJ			immédiate	15.7
+3002	saleté	NOM	f			15.7
+3003	récompense	NOM	f			15.7
+3004	bienvenue	NOM	f			15.7
+3005	banal	ADJ			banale	15.7
+3006	saut	NOM	m			15.7
+3007	dégoût	NOM	m			15.7
+3008	fonctionnaire	NOM				15.6
+3009	braquer	VER				15.6
+3010	tronche	NOM	f			15.6
+3011	pratiquement	ADV				15.6
+3012	négocier	VER				15.6
+3013	transparent	ADJ			transparente	15.6
+3014	extrêmement	ADV				15.6
+3015	auberge	NOM	f			15.6
+3016	déplaire	VER				15.6
+3017	entamer	VER				15.6
+3018	racheter	VER				15.6
+3019	beau-père	NOM	mf			15.5
+3020	lisse	ADJ				15.5
+3021	longer	VER				15.5
+3022	vapeur	NOM				15.5
+3023	gentiment	ADV				15.5
+3024	pris	ADJ			prise	15.5
+3025	info	NOM	f			15.5
+3026	buisson	NOM	m			15.5
+3027	entraînement	NOM	m			15.5
+3028	absorber	VER				15.5
+3029	vivement	ADV				15.5
+3030	marchandise	NOM	f			15.4
+3031	tonne	NOM	f			15.4
+3032	égarer	VER				15.4
+3033	ultime	ADJ				15.4
+3034	mental	ADJ			mentale	15.4
+3035	brancher	VER				15.4
+3036	reparler	VER				15.4
+3037	papillon	NOM	m			15.4
+3038	grenier	NOM	m			15.4
+3039	charbon	NOM	m			15.4
+3040	accusation	NOM	f			15.4
+3041	bandit	NOM	m			15.4
+3042	aligner	VER				15.4
+3043	jumeau	NOM	m			15.4
+3044	maîtriser	VER				15.3
+3045	sinistre	ADJ				15.3
+3046	aveu	NOM	m			15.3
+3047	humilier	VER				15.3
+3048	donnée	NOM	f			15.3
+3049	grimace	NOM	f			15.3
+3050	éléphant	NOM	mf			15.3
+3051	allusion	NOM	f			15.3
+3052	ordonnance	NOM				15.3
+3053	remarque	NOM	f			15.3
+3054	abriter	VER				15.2
+3055	boche	NOM				15.2
+3056	romain	ADJ			romaine	15.2
+3057	centimètre	NOM	m			15.2
+3058	bec	NOM	m			15.2
+3059	carré	NOM	m			15.2
+3060	maximum	NOM	m			15.2
+3061	scénario	NOM	m			15.2
+3062	civilisation	NOM	f			15.2
+3063	pasteur	NOM	m			15.2
+3064	dérober	VER				15.2
+3065	douzaine	NOM	f			15.2
+3066	nouer	VER				15.2
+3067	associé	NOM	mf			15.2
+3068	pizza	NOM	f			15.1
+3069	mont	NOM	m			15.1
+3070	amical	ADJ			amicale	15.1
+3071	tragédie	NOM	f			15.1
+3072	soutien	NOM	m			15.1
+3073	coq	NOM	m			15.1
+3074	tablier	NOM	m			15.1
+3075	cingler	VER				15.1
+3076	draguer	VER				15.1
+3077	bourgeois	NOM	mf			15.1
+3078	sympathie	NOM	f			15.1
+3079	remède	NOM	m			15.1
+3080	cervelle	NOM	f			15.1
+3081	pêcher	VER				15.0
+3082	clarté	NOM	f			15.0
+3083	drifter	NOM	m			15.0
+3084	seau	NOM	m			15.0
+3085	volume	NOM	m			15.0
+3086	dimension	NOM	f			15.0
+3087	définitivement	ADV				15.0
+3088	robot	NOM	m			15.0
+3089	stade	NOM	m			15.0
+3090	salopard	NOM	m			15.0
+3091	brigade	NOM	f			15.0
+3092	crépuscule	NOM	m			14.9
+3093	légitime	ADJ				14.9
+3094	paroi	NOM	f			14.9
+3095	conscient	ADJ			consciente	14.9
+3096	bander	VER				14.9
+3097	ravissant	ADJ			ravissante	14.9
+3098	tailleur	NOM	m			14.9
+3099	dispute	NOM	f			14.9
+3100	nid	NOM	m			14.9
+3101	touche	NOM	f			14.9
+3102	parking	NOM	m			14.9
+3103	choeur	NOM	m			14.9
+3104	pneu	NOM	m			14.9
+3105	accueil	NOM	m			14.9
+3106	autoroute	NOM	f			14.9
+3107	plastique	NOM				14.8
+3108	couvert	NOM	m			14.8
+3109	réfléchi	ADJ			réfléchie	14.8
+3110	tousser	VER				14.8
+3111	humble	ADJ				14.8
+3112	lot	NOM	m			14.8
+3113	efficace	ADJ				14.8
+3114	calcul	NOM	m			14.8
+3115	massacre	NOM	m			14.8
+3116	indépendance	NOM	f			14.8
+3117	coupé	ADJ			coupée	14.8
+3118	correct	ADJ			correcte	14.8
+3119	mondial	ADJ			mondiale	14.8
+3120	espérance	NOM	f			14.8
+3121	frigo	NOM	m			14.8
+3122	batterie	NOM	f			14.8
+3123	valet	NOM	m			14.8
+3124	vice	NOM	m			14.8
+3125	cerf	NOM	m			14.8
+3126	mousse	NOM				14.7
+3127	assommer	VER				14.7
+3128	indifférent	ADJ			indifférente	14.7
+3129	expédier	VER				14.7
+3130	destruction	NOM	f			14.7
+3131	abandonné	ADJ			abandonnée	14.7
+3132	alarme	NOM	f			14.7
+3133	vocation	NOM	f			14.7
+3134	murmure	NOM	m			14.7
+3135	ramper	VER				14.7
+3136	passant	NOM	mf			14.7
+3137	jet	NOM	m			14.7
+3138	sapin	NOM	m			14.7
+3139	effectivement	ADV				14.7
+3140	décidément	ADV				14.7
+3141	engagement	NOM	m			14.7
+3142	électricité	NOM	f			14.6
+3143	barrière	NOM	f			14.6
+3144	boeuf	NOM	m			14.6
+3145	promis	NOM	mf			14.6
+3146	honteux	ADJ			honteuse	14.6
+3147	glacer	VER				14.6
+3148	tonnerre	NOM	m			14.6
+3149	marge	NOM	f			14.6
+3150	pratique	ADJ				14.6
+3151	torture	NOM	f			14.6
+3152	ardeur	NOM	f			14.5
+3153	marée	NOM	f			14.5
+3154	régulièrement	ADV				14.5
+3155	complice	NOM				14.5
+3156	débile	ADJ				14.5
+3157	mairie	NOM	f			14.5
+3158	enfantin	ADJ			enfantine	14.5
+3159	revivre	VER				14.5
+3160	aîné	NOM	mf			14.5
+3161	machin	NOM	m			14.5
+3162	organe	NOM	m			14.5
+3163	évacuer	VER				14.5
+3164	pétrole	NOM	m			14.5
+3165	venue	NOM	f			14.5
+3166	vidéo	ADJ				14.5
+3167	laboratoire	NOM	m			14.4
+3168	limiter	VER				14.4
+3169	fontaine	NOM	f			14.4
+3170	musicien	NOM	mf			14.4
+3171	intervention	NOM	f			14.4
+3172	innocence	NOM	f			14.4
+3173	grogner	VER				14.4
+3174	attarder	VER				14.4
+3175	blouson	NOM	m			14.4
+3176	ruban	NOM	m			14.4
+3177	portail	NOM	m			14.4
+3178	confortable	ADJ				14.3
+3179	tireur	NOM	mf			14.3
+3180	ruisseau	NOM	m			14.3
+3181	provenir	VER				14.3
+3182	orner	VER				14.3
+3183	gronder	VER				14.3
+3184	émerger	VER				14.3
+3185	paniquer	VER				14.3
+3186	man	NOM				14.3
+3187	désespérer	VER				14.3
+3188	désagréable	ADJ				14.3
+3189	choquer	VER				14.3
+3190	banlieue	NOM	f			14.3
+3191	largement	ADV				14.3
+3192	chariot	NOM	m			14.3
+3193	défi	NOM	m			14.3
+3194	impatient	ADJ			impatiente	14.3
+3195	ressource	NOM	f			14.3
+3196	volontaire	ADJ				14.3
+3197	index	NOM	m			14.3
+3198	convoquer	VER				14.3
+3199	département	NOM	m			14.3
+3200	faucher	VER				14.3
+3201	tribu	NOM	f			14.2
+3202	guitare	NOM	f			14.2
+3203	sous-titre	NOM	m			14.2
+3204	indispensable	ADJ				14.2
+3205	précédent	ADJ			précédente	14.2
+3206	onde	NOM	f			14.2
+3207	répétition	NOM	f			14.2
+3208	tire	NOM	f			14.2
+3209	lasser	VER				14.2
+3210	adolescent	NOM	mf			14.2
+3211	création	NOM	f			14.2
+3212	mâchoire	NOM	f			14.2
+3213	vachement	ADV				14.2
+3214	délai	NOM	m			14.2
+3215	banquette	NOM	f			14.2
+3216	beau-frère	NOM	mf			14.2
+3217	technique	ADJ				14.2
+3218	démocratie	NOM	f			14.2
+3219	assistance	NOM	f			14.1
+3220	traquer	VER				14.1
+3221	album	NOM	m			14.1
+3222	réfugier	VER				14.1
+3223	commissariat	NOM	m			14.1
+3224	lecteur	NOM	mf			14.1
+3225	relire	VER				14.1
+3226	intense	ADJ				14.1
+3227	supprimer	VER				14.1
+3228	splendide	ADJ				14.1
+3229	expert	NOM	m			14.1
+3230	historique	ADJ				14.1
+3231	modifier	VER				14.1
+3232	charité	NOM	f			14.1
+3233	guerrier	NOM	m			14.0
+3234	oublie	NOM	f			14.0
+3235	ronde	NOM	f			14.0
+3236	immobiliser	VER				14.0
+3237	vexer	VER				14.0
+3238	détour	NOM	m			14.0
+3239	rien	NOM	m			14.0
+3240	ressusciter	VER				14.0
+3241	révolte	NOM	f			14.0
+3242	fan	NOM				14.0
+3243	haleine	NOM	f			14.0
+3244	conte	NOM	m			14.0
+3245	palier	NOM	m			14.0
+3246	cieux	NOM	m	p		14.0
+3247	irriter	VER				14.0
+3248	malaise	NOM				14.0
+3249	réussite	NOM	f			14.0
+3250	minable	ADJ				14.0
+3251	entasser	VER				14.0
+3252	ruse	NOM	f			14.0
+3253	rédiger	VER				14.0
+3254	cachet	NOM	m			14.0
+3255	casier	NOM	m			13.9
+3256	as	NOM	mf			13.9
+3257	sanglot	NOM	m			13.9
+3258	conflit	NOM	m			13.9
+3259	prime	NOM	f			13.9
+3260	contraindre	VER				13.9
+3261	disperser	VER				13.9
+3262	parisien	ADJ			parisienne	13.9
+3263	associer	VER				13.9
+3264	cachette	NOM	f			13.9
+3265	défoncer	VER				13.9
+3266	probable	ADJ				13.9
+3267	abandon	NOM	m			13.8
+3268	frisson	NOM	m			13.8
+3269	tambour	NOM	m			13.8
+3270	publicité	NOM	f			13.8
+3271	candidat	NOM	mf			13.8
+3272	mûr	ADJ			mûre	13.8
+3273	marteau	NOM	m			13.8
+3274	office	NOM	m			13.8
+3275	précision	NOM	f			13.8
+3276	cardiaque	ADJ				13.8
+3277	février	NOM	m			13.8
+3278	ardent	ADJ			ardente	13.8
+3279	pavillon	NOM	m			13.8
+3280	tempe	NOM	f			13.8
+3281	affiche	NOM	f			13.8
+3282	sirène	NOM	f			13.8
+3283	hisser	VER				13.8
+3284	température	NOM	f			13.8
+3285	corriger	VER				13.8
+3286	quantité	NOM	f			13.8
+3287	selle	NOM	f			13.8
+3288	visiblement	ADV				13.8
+3289	défaite	NOM	f			13.8
+3290	serrure	NOM	f			13.7
+3291	fée	NOM	f			13.7
+3292	caporal	NOM	mf			13.7
+3293	spectateur	NOM	mf			13.7
+3294	inattendu	ADJ			inattendue	13.7
+3295	manivelle	NOM	f			13.7
+3296	confesser	VER				13.7
+3297	monstrueux	ADJ			monstrueuse	13.7
+3298	moi	NOM	m			13.7
+3299	innombrable	ADJ				13.7
+3300	lance	NOM	f			13.7
+3301	coïncidence	NOM	f			13.7
+3302	subtil	ADJ			subtile	13.7
+3303	investir	VER				13.7
+3304	pin	NOM	m			13.7
+3305	camionnette	NOM	f			13.6
+3306	rupture	NOM	f			13.6
+3307	balai	NOM	m			13.6
+3308	coudre	VER				13.6
+3309	assumer	VER				13.6
+3310	chiotte	NOM	f			13.6
+3311	griller	VER				13.6
+3312	hostile	ADJ				13.6
+3313	négliger	VER				13.6
+3314	tricher	VER				13.6
+3315	néant	NOM	m			13.6
+3316	vodka	NOM	f			13.6
+3317	graver	VER				13.6
+3318	étonnement	NOM	m			13.6
+3319	engueuler	VER				13.6
+3320	foudre	NOM				13.5
+3321	baignoire	NOM	f			13.5
+3322	cristal	NOM	m			13.5
+3323	atroce	ADJ				13.5
+3324	aboutir	VER				13.5
+3325	maillot	NOM	m			13.5
+3326	major	NOM				13.5
+3327	litre	NOM				13.5
+3328	reçu	ADJ			reçue	13.5
+3329	violon	NOM	m			13.5
+3330	actuellement	ADV				13.5
+3331	formation	NOM	f			13.5
+3332	encombrer	VER				13.5
+3333	excès	NOM	m			13.5
+3334	peste	NOM	f			13.5
+3335	déterminer	VER				13.5
+3336	impressionnant	ADJ			impressionnante	13.5
+3337	fidélité	NOM	f			13.5
+3338	foire	NOM	f			13.5
+3339	ricaner	VER				13.5
+3340	domestique	NOM				13.5
+3341	amateur	NOM	f			13.5
+3342	logique	ADJ				13.5
+3343	établissement	NOM	m			13.4
+3344	positif	ADJ			positive	13.4
+3345	souple	ADJ				13.4
+3346	sonore	ADJ				13.4
+3347	mâle	NOM	m			13.4
+3348	trône	NOM	m			13.4
+3349	crisper	VER				13.4
+3350	fossé	NOM	m			13.4
+3351	naïf	ADJ			naïve	13.4
+3352	sincèrement	ADV				13.4
+3353	piper	VER				13.4
+3354	jury	NOM	m			13.4
+3355	tonton	NOM	m			13.4
+3356	sieur	NOM	m			13.4
+3357	tester	VER				13.4
+3358	confusion	NOM	f			13.4
+3359	renforcer	VER				13.3
+3360	nuire	VER				13.3
+3361	privilège	NOM	m			13.3
+3362	brouiller	VER				13.3
+3363	autobus	NOM	m			13.3
+3364	alerte	NOM	f			13.3
+3365	diplôme	NOM	m			13.3
+3366	ironie	NOM	f			13.3
+3367	attribuer	VER				13.3
+3368	économique	ADJ				13.3
+3369	enfouir	VER				13.3
+3370	dragon	NOM	mf			13.3
+3371	exclure	VER				13.3
+3372	entrevoir	VER				13.3
+3373	borne	NOM	f			13.3
+3374	brute	NOM	f			13.3
+3375	enchaîner	VER				13.3
+3376	pipi	NOM	m			13.2
+3377	redoutable	ADJ				13.2
+3378	jungle	NOM	f			13.2
+3379	remarquable	ADJ				13.2
+3380	thomas	NOM	m			13.2
+3381	fermeture	NOM	f			13.2
+3382	massif	ADJ			massive	13.2
+3383	tolérer	VER				13.2
+3384	décorer	VER				13.2
+3385	mou	ADJ				13.2
+3386	agneau	NOM	m			13.2
+3387	sénateur	NOM	mf			13.2
+3388	habillé	ADJ			habillée	13.2
+3389	étoffe	NOM	f			13.2
+3390	engin	NOM	m			13.2
+3391	complicité	NOM	f			13.2
+3392	domicile	NOM	m			13.1
+3393	convoi	NOM	m			13.1
+3394	infiniment	ADV				13.1
+3395	violet	ADJ			violette	13.1
+3396	çà	ADV				13.1
+3397	transférer	VER				13.1
+3398	bond	NOM	m			13.1
+3399	tremblement	NOM	m			13.1
+3400	obligation	NOM	f			13.1
+3401	bassin	NOM	m			13.1
+3402	mentionner	VER				13.1
+3403	pognon	NOM	m			13.1
+3404	gêne	NOM	f			13.1
+3405	adapter	VER				13.1
+3406	renifler	VER				13.1
+3407	fourrure	NOM	f			13.1
+3408	facteur	NOM	mf			13.1
+3409	spirituel	ADJ			spirituelle	13.1
+3410	dessert	NOM	m			13.1
+3411	cerner	VER				13.0
+3412	saucisse	NOM	f			13.0
+3413	timbre	NOM	m			13.0
+3414	évader	VER				13.0
+3415	crête	NOM	f			13.0
+3416	argument	NOM	m			13.0
+3417	gonzesse	NOM	f			13.0
+3418	défier	VER				13.0
+3419	exposition	NOM	f			13.0
+3420	bistrot	NOM	mf			13.0
+3421	maquiller	VER				13.0
+3422	japonais	ADJ			japonaise	13.0
+3423	hâter	VER				13.0
+3424	anéantir	VER				13.0
+3425	patate	NOM	f			13.0
+3426	congrès	NOM	m			13.0
+3427	enquêter	VER				13.0
+3428	bâtard	NOM	mf			13.0
+3429	retarder	VER				12.9
+3430	terriblement	ADV				12.9
+3431	négatif	ADJ			négative	12.9
+3432	frangin	NOM	mf			12.9
+3433	capturer	VER				12.9
+3434	accusé	NOM	mf			12.9
+3435	vulgaire	ADJ				12.9
+3436	anonyme	ADJ				12.9
+3437	échantillon	NOM	m			12.9
+3438	loyer	NOM	m			12.9
+3439	hanter	VER				12.9
+3440	tranche	NOM	f			12.9
+3441	brosse	NOM	f			12.9
+3442	recette	NOM	f			12.9
+3443	original	ADJ			originale	12.9
+3444	horloge	NOM	f			12.9
+3445	navrer	VER				12.9
+3446	nappe	NOM	f			12.9
+3447	colonie	NOM	f			12.9
+3448	accoucher	VER				12.9
+3449	scientifique	ADJ				12.9
+3450	patrouille	NOM	f			12.9
+3451	détresse	NOM	f			12.8
+3452	roche	NOM	f			12.8
+3453	frôler	VER				12.8
+3454	sabot	NOM	m			12.8
+3455	compromettre	VER				12.8
+3456	petit-fils	NOM	m	p		12.8
+3457	querelle	NOM	f			12.8
+3458	tourmenter	VER				12.8
+3459	poursuite	NOM	f			12.8
+3460	multiplier	VER				12.8
+3461	représentation	NOM	f			12.8
+3462	tentation	NOM	f			12.8
+3463	graisse	NOM	f			12.8
+3464	désespéré	ADJ			désespérée	12.8
+3465	diviser	VER				12.8
+3466	débat	NOM	m			12.7
+3467	crochet	NOM	m			12.7
+3468	divan	NOM	m			12.7
+3469	chirurgien	NOM	mf			12.7
+3470	afficher	VER				12.7
+3471	surprenant	ADJ			surprenante	12.7
+3472	dépôt	NOM	m			12.7
+3473	buffet	NOM	m			12.7
+3474	disponible	ADJ				12.7
+3475	cicatrice	NOM	f			12.7
+3476	mérite	NOM	m			12.7
+3477	caprice	NOM	m			12.7
+3478	levé	ADJ			levée	12.7
+3479	légal	ADJ			légale	12.7
+3480	câble	NOM	m			12.7
+3481	vibrer	VER				12.7
+3482	insulte	NOM	f			12.6
+3483	pan	NOM	m			12.6
+3484	révélation	NOM	f			12.6
+3485	achat	NOM	m			12.6
+3486	illégal	ADJ			illégale	12.6
+3487	gaieté	NOM	f			12.6
+3488	excitant	ADJ			excitante	12.6
+3489	teint	NOM	m			12.6
+3490	brisé	ADJ			brisée	12.6
+3491	conducteur	NOM	mf			12.6
+3492	carrément	ADV				12.6
+3493	maternel	ADJ			maternelle	12.6
+3494	extrémité	NOM	f			12.6
+3495	viol	NOM	m			12.6
+3496	coiffure	NOM	f			12.6
+3497	fringue	NOM	f			12.6
+3498	mis	ADJ				12.6
+3499	change	NOM	m			12.6
+3500	noix	NOM	f			12.6
+3501	virginie	NOM	m			12.6
+3502	tigre	NOM	mf			12.6
+3503	charrette	NOM	f			12.6
+3504	émettre	VER				12.6
+3505	institution	NOM	f			12.5
+3506	ski	NOM	m			12.5
+3507	ménager	VER				12.5
+3508	trafic	NOM	m			12.5
+3509	chevelure	NOM	f			12.5
+3510	chêne	NOM	m			12.5
+3511	outre	NOM	f			12.5
+3512	menu	NOM	m			12.5
+3513	expédition	NOM	f			12.5
+3514	invention	NOM	f			12.5
+3515	marine	ADJ				12.5
+3516	accumuler	VER				12.5
+3517	refuge	NOM	m			12.5
+3518	pro	NOM				12.5
+3519	baptiser	VER				12.5
+3520	fouet	NOM	m			12.5
+3521	corne	NOM	f			12.5
+3522	saoul	ADJ			saoule	12.5
+3523	bonnet	NOM	m			12.5
+3524	haie	NOM	f			12.4
+3525	pavé	NOM	m			12.4
+3526	top	NOM	m			12.4
+3527	agenouiller	VER				12.4
+3528	bac	NOM	m			12.4
+3529	dégât	NOM	m			12.4
+3530	édition	NOM	f			12.4
+3531	effectuer	VER				12.4
+3532	routine	NOM	f			12.4
+3533	caché	ADJ			cachée	12.4
+3534	ressort	NOM	m			12.4
+3535	barreau	NOM	m			12.4
+3536	narine	NOM	f			12.4
+3537	boiter	VER				12.4
+3538	classer	VER				12.3
+3539	micro	NOM				12.3
+3540	gay	ADJ				12.3
+3541	brûlé	ADJ			brûlée	12.3
+3542	interdit	ADJ			interdite	12.3
+3543	sous-sol	NOM	m			12.3
+3544	piétiner	VER				12.3
+3545	prostitué	NOM	mf			12.3
+3546	pelle	NOM	f			12.3
+3547	dentelle	NOM	f			12.3
+3548	hériter	VER				12.3
+3549	gâter	VER				12.3
+3550	malédiction	NOM	f			12.3
+3551	vigne	NOM	f			12.3
+3552	profession	NOM	f			12.3
+3553	triompher	VER				12.3
+3554	progresser	VER				12.3
+3555	bouffée	NOM	f			12.3
+3556	ficelle	NOM	f			12.3
+3557	moulin	NOM	m			12.3
+3558	traité	NOM	m			12.3
+3559	clouer	VER				12.3
+3560	grossir	VER				12.3
+3561	dégoûtant	ADJ			dégoûtante	12.3
+3562	biscuit	NOM	m			12.3
+3563	circulation	NOM	f			12.3
+3564	agressif	ADJ			agressive	12.2
+3565	graine	NOM	f			12.2
+3566	ampoule	NOM	f			12.2
+3567	sursauter	VER				12.2
+3568	attentat	NOM	m			12.2
+3569	choper	VER				12.2
+3570	refléter	VER				12.2
+3571	industrie	NOM	f			12.2
+3572	héritage	NOM	m			12.2
+3573	ride	NOM	f			12.2
+3574	audience	NOM	f			12.2
+3575	analyser	VER				12.2
+3576	effleurer	VER				12.2
+3577	sublime	ADJ				12.2
+3578	manifestation	NOM	f			12.2
+3579	grenade	NOM	f			12.2
+3580	sonnette	NOM	f			12.2
+3581	munition	NOM	f			12.2
+3582	baie	NOM	f			12.2
+3583	fiche	NOM	f			12.2
+3584	voûte	NOM	f			12.2
+3585	revers	NOM	m			12.2
+3586	étendue	NOM	f			12.2
+3587	faculté	NOM	f			12.2
+3588	élire	VER				12.1
+3589	logement	NOM	m			12.1
+3590	postal	ADJ			postale	12.1
+3591	artillerie	NOM	f			12.1
+3592	tsar	NOM	mf			12.1
+3593	tennis	NOM	m			12.1
+3594	mamie	NOM	f			12.1
+3595	état-major	NOM	m			12.1
+3596	hypothèse	NOM	f			12.1
+3597	casserole	NOM	f			12.1
+3598	réplique	NOM	f			12.1
+3599	site	NOM	m			12.1
+3600	rasoir	NOM	m			12.1
+3601	sentimental	ADJ			sentimentale	12.1
+3602	brandir	VER				12.1
+3603	rail	NOM	m			12.1
+3604	miette	NOM	f			12.1
+3605	ambiance	NOM	f			12.0
+3606	revêtir	VER				12.0
+3607	feindre	VER				12.0
+3608	pénombre	NOM	f			12.0
+3609	inscription	NOM	f			12.0
+3610	pape	NOM	m			12.0
+3611	gang	NOM	m			12.0
+3612	européen	ADJ			européenne	12.0
+3613	frémir	VER				12.0
+3614	offenser	VER				12.0
+3615	sanglant	ADJ			sanglante	12.0
+3616	baleine	NOM	f			12.0
+3617	guise	NOM	f			12.0
+3618	caserne	NOM	f			12.0
+3619	initiative	NOM	f			12.0
+3620	flanquer	VER				12.0
+3621	veau	NOM	m			12.0
+3622	casino	NOM	m			12.0
+3623	écrit	NOM	m			12.0
+3624	cirer	VER				12.0
+3625	tarte	NOM	f			12.0
+3626	plaider	VER				12.0
+3627	quête	NOM	f			12.0
+3628	came	NOM	f			12.0
+3629	phénomène	NOM	m			11.9
+3630	maladroit	ADJ			maladroite	11.9
+3631	contrarier	VER				11.9
+3632	mitrailleur	NOM	mf			11.9
+3633	promotion	NOM	f			11.9
+3634	nain	NOM	mf			11.9
+3635	syndicat	NOM	m			11.9
+3636	ivrogne	NOM				11.9
+3637	climat	NOM	m			11.9
+3638	stopper	VER				11.9
+3639	slip	NOM	m			11.9
+3640	élégance	NOM	f			11.9
+3641	servant	NOM	mf			11.9
+3642	pyjama	NOM	m			11.9
+3643	luisant	ADJ			luisante	11.9
+3644	gage	NOM	m			11.9
+3645	majorité	NOM	f			11.9
+3646	détenir	VER				11.9
+3647	bracelet	NOM	m			11.9
+3648	durée	NOM	f			11.9
+3649	héritier	NOM	mf			11.9
+3650	psy	NOM				11.9
+3651	clan	NOM	m			11.9
+3652	souligner	VER				11.9
+3653	illuminer	VER				11.9
+3654	nazi	NOM	mf			11.9
+3655	retentir	VER				11.9
+3656	abîme	NOM	m			11.8
+3657	séparation	NOM	f			11.8
+3658	briquet	NOM	m			11.8
+3659	contourner	VER				11.8
+3660	taureau	NOM	m			11.8
+3661	accabler	VER				11.8
+3662	pompier	NOM	m			11.8
+3663	rouiller	VER				11.8
+3664	ambassade	NOM	f			11.8
+3665	disparu	ADJ			disparue	11.8
+3666	champignon	NOM	m			11.8
+3667	hésitation	NOM	f			11.8
+3668	souriant	ADJ			souriante	11.8
+3669	inquiétant	ADJ			inquiétante	11.8
+3670	falaise	NOM	f			11.8
+3671	confidence	NOM	f			11.8
+3672	rampe	NOM	f			11.8
+3673	capote	NOM	f			11.8
+3674	commercial	ADJ			commerciale	11.8
+3675	glorieux	ADJ			glorieuse	11.8
+3676	affoler	VER				11.8
+3677	municipal	ADJ			municipale	11.8
+3678	gravement	ADV				11.8
+3679	monument	NOM	m			11.7
+3680	coussin	NOM	m			11.7
+3681	aura	NOM	f			11.7
+3682	flaque	NOM	f			11.7
+3683	impérial	ADJ			impériale	11.7
+3684	confession	NOM	f			11.7
+3685	impôt	NOM	m			11.7
+3686	vouer	VER				11.7
+3687	objection	NOM	f			11.7
+3688	provision	NOM	f			11.7
+3689	sieste	NOM	f			11.7
+3690	susciter	VER				11.7
+3691	aimé	ADJ			aimée	11.7
+3692	punition	NOM	f			11.7
+3693	spécialement	ADV				11.7
+3694	photographier	VER				11.7
+3695	mannequin	NOM				11.7
+3696	engloutir	VER				11.7
+3697	phase	NOM	f			11.7
+3698	prophète	NOM	mf			11.7
+3699	appart	NOM	m			11.7
+3700	supplémentaire	ADJ				11.7

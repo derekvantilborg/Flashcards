@@ -17,7 +17,7 @@
 
 const STORE_KEY = 'mots-progress-v1';
 const SETTINGS_KEY = 'mots-settings-v1';
-const DEFAULT_SETTINGS = { noun: true, verb: true, adj: true, other: true, pres: true, pc: false, fut: false, sound: true };
+const DEFAULT_SETTINGS = { noun: true, verb: true, adj: true, other: true, pres: true, pc: false, fut: false, sound: true, autoSpeak: true };
 const MIN = 60e3, HOUR = 60 * MIN, DAY = 24 * HOUR;
 const INTERVALS = [0, 1 * MIN, 5 * MIN, 10 * MIN, 1 * HOUR, 1 * DAY, 3 * DAY, 7 * DAY, 16 * DAY, 35 * DAY, 75 * DAY];
 const MAX_BOX = INTERVALS.length - 1;
@@ -270,6 +270,8 @@ function flip() {
   card.classList.toggle('flipped', revealed);
   document.body.classList.toggle('revealed', revealed);
   $('hint').textContent = revealed ? '← wrong   ·   right →' : 'Tap to reveal';
+  // Flipping is a tap, so iOS allows speech here.
+  if (revealed && settings.autoSpeak) speak(current.w.say);
 }
 
 function setStamps(dx) {

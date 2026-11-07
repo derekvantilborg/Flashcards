@@ -1,11 +1,11 @@
 # Mots: French vocab flashcards
 
-A tiny web app for learning the ~1000 most useful French words (A1 → B1).
+A tiny web app for learning the ~3000 most useful French words (A1 → B1/B2).
 Meant to be added to the iPhone Home Screen from Safari.
 
 - Front: English (big) and Dutch. Tap to flip and see the French.
 - Swipe **right** if you knew it, **left** if you didn't (or use the ✓ / ✗ buttons, or ← / → keys).
-- 🔊 reads the French word aloud using the phone's built-in French voice.
+- The French is read aloud when you flip a card (switch off in settings); 🔊 replays it. Uses the phone's built-in French voice.
 - Progress is stored on the device (localStorage). No account, no server.
 - ⚙︎ settings: switch nouns, verbs, adjectives and "other" (adverbs, phrases, numbers) on or off, pick
   conjugation tenses (présent, passé composé, futur simple) and turn sound effects off.

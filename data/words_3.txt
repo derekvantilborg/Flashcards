@@ -397,7 +397,7 @@ stupide | stupid | stom
 poil | hair (body, animal) | haar (lichaam), vacht
 incroyable | incredible | ongelooflijk
 admettre | to admit | toegeven
-murmurer | to whisper | fluisteren
+murmurer | to murmur | mompelen
 sable | sand | zand
 personnage | character | personage
 peindre | to paint | schilderen

@@ -1,0 +1,307 @@
+# Ranks 1151-1500 (B1 vocabulary). Same format as words_1.txt.
+nommer | to name, to appoint | noemen, benoemen
+évidemment | obviously | uiteraard
+théâtre | theatre | theater
+insister | to insist | aandringen
+arrêt | stop (bus stop) | halte
+écarter | to move aside, to spread | opzijschuiven, spreiden
+vif | lively, bright | levendig, fel | vif / vive
+étude | study | studie
+aventure | adventure | avontuur
+défense | defence | verdediging
+immobile | still, motionless | roerloos
+différence | difference | verschil
+refaire | to redo | overdoen
+jeunesse | youth | jeugd (jonge jaren)
+politique | political | politiek
+balancer | to swing, to throw (informal) | schommelen, gooien
+finalement | in the end, finally | uiteindelijk
+résultat | result | resultaat
+miracle | miracle | wonder
+événement | event | gebeurtenis
+nombreux | numerous | talrijk | nombreux / nombreuse
+immédiatement | immediately | onmiddellijk
+menacer | to threaten | bedreigen
+dépendre | to depend | afhangen
+mensonge | lie (untruth) | leugen
+renoncer | to give up (renoncer à) | afzien van
+attaque | attack | aanval
+réparer | to repair | repareren
+dresser | to set up, to train (an animal) | opzetten, africhten
+autorité | authority | gezag
+caisse | till, checkout, crate | kassa, kist
+horrible | horrible | afschuwelijk
+souffler | to blow | blazen
+sort | spell (magic); fate | betovering; noodlot
+respect | respect | respect
+bataille | battle | strijd, veldslag
+bosser | to work (informal) | werken (informeel)
+lunette | glasses | bril | les lunettes
+vache | cow | koe
+deuxième | second | tweede
+voleur | thief | dief | le voleur / la voleuse
+crise | crisis | crisis
+dessiner | to draw | tekenen
+briller | to shine | schijnen, glanzen
+dommage | pity (c'est dommage = what a pity) | jammer
+concerner | to concern | betreffen
+enterrer | to bury | begraven
+port | harbour, port | haven
+transformer | to transform | veranderen, omvormen
+prononcer | to pronounce | uitspreken
+zone | zone, area | zone, gebied
+cerveau | brain | hersenen
+survivre | to survive | overleven
+autrement | otherwise, differently | anders
+charmant | charming | charmant
+prêtre | priest | priester | le prêtre
+justice | justice | gerechtigheid
+club | club | club
+pendre | to hang | hangen, ophangen
+reine | queen | koningin
+nuage | cloud | wolk
+appareil | device, camera | apparaat, toestel
+intelligent | intelligent, clever | slim
+trait | feature, line | trek, streep
+nettoyer | to clean | schoonmaken
+prétendre | to claim | beweren
+monstre | monster | monster
+montre | watch (on your wrist) | horloge
+valeur | value | waarde
+usine | factory | fabriek
+queue | tail, queue (faire la queue) | staart, rij
+croiser | to cross, to run into (someone) | kruisen, tegenkomen
+réunir | to gather, to bring together | verzamelen, bijeenbrengen
+également | also, equally | eveneens
+avaler | to swallow | doorslikken
+contrôle | check, control | controle
+accuser | to accuse | beschuldigen
+organiser | to organise | organiseren
+source | source, spring | bron
+haïr | to hate (strongly) | verafschuwen
+piste | track, trail, (ski) slope | spoor, piste
+brusquement | abruptly | plotseling, bruusk
+violence | violence | geweld
+veste | jacket | jasje, colbert
+mignon | cute, sweet | schattig | mignon / mignonne
+vitesse | speed | snelheid
+curieux | curious | nieuwsgierig
+exprimer | to express | uitdrukken
+article | article | artikel
+vider | to empty | leegmaken
+admirer | to admire | bewonderen
+terme | term, end | term, einde
+coincer | to jam, to get stuck | klemzetten, vastzitten
+chaîne | chain, (TV) channel | ketting, zender
+excuse | excuse, apology | excuus
+achever | to complete | voltooien
+abattre | to knock down, to shoot down | neerhalen, neerschieten
+malheureux | unhappy, unfortunate | ongelukkig
+pénétrer | to enter, to penetrate | binnendringen
+mordre | to bite | bijten
+victoire | victory | overwinning
+formidable | great, terrific | geweldig, fantastisch
+cesse | constantly | voortdurend | sans cesse
+croix | cross | kruis
+poussière | dust | stof (vuil)
+supplier | to beg | smeken
+soigner | to look after, to treat | verzorgen, behandelen
+disposer | to arrange, to have available | schikken, beschikken over
+rompre | to break (off) | breken, verbreken
+discours | speech | toespraak
+veille | the day before, eve | vooravond, dag ervoor
+planète | planet | planeet
+soutenir | to support | steunen
+méchant | nasty, naughty | gemeen, stout
+effacer | to erase | uitwissen
+immeuble | building (block of flats) | flatgebouw
+imposer | to impose | opleggen
+couverture | blanket, cover | deken, omslag
+commun | common, shared | gemeenschappelijk
+obéir | to obey | gehoorzamen
+réunion | meeting | vergadering
+compagnon | companion | metgezel | le compagnon / la compagne
+rideau | curtain | gordijn | le rideau
+succès | success | succes
+élève | pupil, student (school) | leerling | l'élève (m/f)
+éclairer | to light up | verlichten
+branche | branch | tak
+contrôler | to control, to inspect | beheersen, inspecteren
+exiger | to demand | eisen
+naissance | birth | geboorte
+flamme | flame | vlam
+danse | dance | dans
+peinture | paint, painting | verf, schilderkunst
+rassurer | to reassure | geruststellen
+quart | quarter | kwart
+faible | weak | zwak
+trahir | to betray | verraden
+nerveux | nervous | zenuwachtig
+agiter | to shake, to wave | schudden, zwaaien
+heureusement | fortunately | gelukkig (bijwoord)
+leçon | lesson | les (lesje)
+os | bone | bot
+condamner | to condemn, to sentence | veroordelen
+environ | about, approximately | ongeveer
+cellule | cell | cel
+chauffeur | driver | chauffeur | le chauffeur
+parfum | perfume, flavour | parfum, smaak
+fouiller | to search (through) | doorzoeken
+aile | wing | vleugel
+absence | absence | afwezigheid
+résister | to resist | weerstaan
+presse | press (newspapers) | pers
+roman | novel | roman
+faillir | to almost (do) (j'ai failli tomber = I almost fell) | bijna (iets doen)
+distance | distance | afstand
+univers | universe | heelal
+refermer | to close again | weer sluiten
+grâce | grace (grâce à = thanks to) | gratie (dankzij)
+trésor | treasure | schat (kostbaarheden)
+révéler | to reveal | onthullen
+tombe | grave | graf
+franc | frank, honest | openhartig | franc / franche
+précis | precise | nauwkeurig
+honnête | honest | eerlijk (oprecht)
+niveau | level | niveau
+blond | blond | blond
+indiquer | to indicate, to show | aangeven
+enquête | investigation, survey | onderzoek, enquête
+fantôme | ghost | spook
+fabriquer | to make, to manufacture | maken, fabriceren
+assister | to attend (assister à) | bijwonen
+hauteur | height | hoogte
+puissant | powerful | machtig
+caresser | to stroke | strelen
+boule | ball (round object) | bol
+lointain | distant, far-off | ver, afgelegen
+artiste | artist | kunstenaar | l'artiste (m/f)
+repos | rest | rust
+marre | fed up (j'en ai marre = I'm fed up) | het zat zijn | en avoir marre
+plat | dish (food); flat | gerecht; plat | le plat
+miroir | mirror | spiegel
+goutte | drop | druppel
+corde | rope | touw
+rat | rat | rat
+peser | to weigh | wegen
+vague | wave | golf | la vague
+épais | thick | dik (laag) | épais / épaisse
+puissance | power | macht, kracht
+expression | expression | uitdrukking
+unité | unit, unity | eenheid
+don | gift, talent, donation | gave, schenking
+interrompre | to interrupt | onderbreken
+joyeux | joyful, merry | vrolijk
+examiner | to examine | onderzoeken
+match | match, game | wedstrijd
+rigoler | to laugh, to joke (informal) | lachen, dollen
+humeur | mood | stemming, humeur
+masse | mass | massa
+alcool | alcohol | alcohol
+déplacer | to move (something) | verplaatsen
+exploser | to explode | ontploffen
+adieu | farewell | vaarwel | adieu
+double | double | dubbel
+visiter | to visit (a place) | bezoeken (een plaats)
+énerver | to get on (someone's) nerves (s'énerver = to get worked up) | op de zenuwen werken
+talent | talent | talent
+éclat | shard, burst | scherf, glans
+contenir | to contain | bevatten
+superbe | superb | schitterend
+pointe | tip, point | punt, spits
+gloire | glory | roem
+trottoir | pavement, sidewalk | stoep
+naturellement | naturally | natuurlijk (bijwoord)
+goûter | to taste; afternoon snack | proeven; vieruurtje
+aube | dawn | dageraad
+troisième | third | derde
+palais | palace | paleis
+drap | sheet (bed) | laken
+mince | thin, slim | dun, slank
+tache | stain | vlek
+qualité | quality | kwaliteit
+accueillir | to welcome | verwelkomen
+urgence | emergency | noodgeval
+lycée | secondary school | middelbare school
+patient | patient | patiënt | le patient / la patiente
+attitude | attitude | houding
+rapidement | rapidly | vlug, snel
+poing | fist | vuist
+joindre | to join, to reach (by phone) | samenvoegen, bereiken
+étouffer | to suffocate | stikken, smoren
+haine | hatred | haat | la haine
+siège | seat, headquarters | zetel, hoofdkantoor
+fortune | fortune | fortuin
+censé | supposed to (être censé faire) | geacht | censé / censée
+nul | useless, rubbish (informal) | waardeloos | nul / nulle
+drogue | drug(s) | drugs
+creuser | to dig | graven
+lier | to tie, to link | binden, verbinden
+aise | at ease | op je gemak | à l'aise
+louer | to rent, to praise | huren, prijzen
+moteur | engine | motor
+attente | wait, waiting (salle d'attente = waiting room) | het wachten (wachtkamer)
+social | social | sociaal
+demi | half (une demi-heure = half an hour) | half (bijvoeglijk) | demi / demie
+verser | to pour | schenken, gieten
+vitre | window pane | ruit
+combattre | to fight | bestrijden
+dessin | drawing | tekening
+cuir | leather | leer
+rang | rank, row | rang, rij
+fiancé | fiancé | verloofde | le fiancé / la fiancée
+utile | useful | nuttig
+programme | programme | programma
+provoquer | to provoke, to trigger | uitlokken, teweegbrengen
+véritable | real, genuine | echt, waarachtig
+coupable | guilty | schuldig
+crâne | skull | schedel
+remuer | to stir, to move | roeren, bewegen
+kilomètre | kilometre | kilometer
+dingue | crazy (informal) | gestoord, te gek
+millier | about a thousand | duizendtal
+retraite | retirement, pension | pensioen
+échanger | to exchange | ruilen
+veiller | to stay up, to watch over | opblijven, waken
+mode | fashion | mode | la mode
+solitude | loneliness | eenzaamheid
+élément | element | element
+émotion | emotion | emotie
+réserver | to book, to reserve | reserveren
+réel | real | werkelijk
+inquiet | worried | ongerust | inquiet / inquiète
+subir | to undergo, to suffer | ondergaan
+examen | exam | examen
+résoudre | to solve | oplossen
+nourriture | food | eten, voedsel
+bref | brief, in short | kort, kortom | bref / brève
+brillant | brilliant, shiny | briljant, glanzend
+marque | brand, mark | merk
+fumée | smoke | rook
+céder | to give in, to give up | toegeven, afstaan
+saison | season | seizoen
+repousser | to push back, to postpone | terugduwen, uitstellen
+guérir | to heal, to cure | genezen
+établir | to establish | vestigen
+bouffer | to eat (informal) | vreten, bikken
+prisonnier | prisoner | gevangene | le prisonnier / la prisonnière
+rond | round | rond
+russe | Russian | Russisch
+claquer | to slam, to bang | dichtslaan
+rattraper | to catch up with | inhalen
+uniforme | uniform | uniform
+inconnu | unknown; stranger | onbekend; onbekende
+égal | equal (ça m'est égal = I don't mind) | gelijk
+limite | limit | grens
+agréable | pleasant | aangenaam
+aveugle | blind | blind
+rayon | ray, shelf, department | straal, schap, afdeling | le rayon
+voyager | to travel | reizen
+sorcier | wizard; witch | tovenaar; heks | le sorcier / la sorcière
+angoisse | anxiety | angst (beklemming)
+infirmier | nurse | verpleger, verpleegster | l'infirmier / l'infirmière
+abri | shelter | schuilplaats
+étudiant | student | student | l'étudiant / l'étudiante
+région | region | regio, streek
+opinion | opinion (public opinion) | opinie (publieke opinie)
+douceur | softness, gentleness | zachtheid

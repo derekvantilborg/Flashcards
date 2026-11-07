@@ -1,6 +1,6 @@
 """Build words.json from the hand-written word files, checked against Lexique.
 
-Usage: python3 tools/build_words.py <Lexique383.tsv> [N=1000]
+Usage: python3 tools/build_words.py <Lexique383.tsv> [N]   (N = max vocab words; default: all)
 
 Reads data/candidates.tsv (from select_candidates.py) and data/words_*.txt.
 - Nouns without an explicit display get their article from Lexique's gender.
@@ -182,4 +182,4 @@ def main(lexique, n):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 1000)
+    main(sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 99999)
