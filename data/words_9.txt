@@ -249,7 +249,7 @@ guitare | guitar | gitaar
 sous-titre | subtitle | ondertitel
 indispensable | essential | onmisbaar
 précédent | previous | vorig | précédent / précédente
-onde | wave (radio) | golf (radio)
+onde | radio wave | radiogolf
 répétition | repetition, rehearsal | herhaling, repetitie
 lasser | to tire, to weary | vermoeien | se lasser de
 adolescent | teenager | tiener | l'adolescent / l'adolescente
@@ -282,7 +282,7 @@ détour | detour | omweg
 ressusciter | to resurrect | opstaan uit de dood
 révolte | revolt | opstand
 fan | fan | fan | le / la fan
-haleine | breath (mauvaise haleine = bad breath) | adem (ruiken)
+haleine | breath odour (mauvaise haleine = bad breath) | ademgeur
 conte | tale (conte de fées = fairy tale) | sprookje
 palier | landing (stairs) | overloop
 irriter | to irritate | irriteren

@@ -240,7 +240,7 @@ conserver | to keep, to preserve | bewaren
 pression | pressure | druk
 concert | concert | concert
 incapable | unable | niet in staat
-angle | angle, corner | hoek (meetkunde)
+angle | angle (geometry) | hoek (meetkunde)
 contempler | to gaze at | aanschouwen
 facilement | easily | gemakkelijk (bijwoord)
 auteur | author | auteur | l'auteur (m)

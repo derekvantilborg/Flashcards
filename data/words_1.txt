@@ -199,7 +199,7 @@ changer | to change | veranderen
 retrouver | to find again, to meet up | terugvinden, weerzien
 corps | body | lichaam
 famille | family | familie, gezin
-année | year (the whole year) | jaar (het hele jaar)
+année | the whole year | het hele jaar
 travail | work, job | werk
 dormir | to sleep | slapen
 chambre | bedroom | slaapkamer

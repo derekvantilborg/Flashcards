@@ -348,3 +348,13 @@ body.empty .card { cursor: default; }
 }
 .row input:checked + .switch { background: var(--yes); }
 .row input:checked + .switch::after { transform: translateX(20px); }
+
+/* Hints (e.g. "avoir envie de = to feel like") only appear on the back. */
+.back-hint {
+  max-width: 90%;
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 1.35;
+  opacity: .75;
+}
+.back-hint:empty { display: none; }

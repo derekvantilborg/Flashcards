@@ -44,7 +44,7 @@ tellement | so (much) | zo (erg)
 permettre | to allow | toestaan
 cher | expensive, dear | duur, lief
 arme | weapon | wapen
-journée | day (the whole day) | dag (de hele dag)
+journée | the whole day | de hele dag
 reconnaître | to recognise | herkennen
 soeur | sister | zus | la sœur
 docteur | doctor | dokter | le docteur
@@ -297,7 +297,7 @@ inviter | to invite | uitnodigen
 rouler | to roll | rollen
 hôpital | hospital | ziekenhuis
 pardonner | to forgive | vergeven
-+ | pardon?, sorry (small slip) | pardon?, sorry (klein foutje) | pardon
++ | sorry?, what did you say? (also: sorry, for a small slip) | sorry?, wat zei je? | pardon
 normal | normal | normaal
 retenir | to hold back, to remember | tegenhouden, onthouden
 secret | secret | geheim

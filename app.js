@@ -232,6 +232,7 @@ function show(next) {
   if (!next) {
     card.classList.remove('flipped', 'is-new');
     $('tag-front').textContent = '';
+    $('back-hint').textContent = '';
     setText($('en'), 'No cards to show');
     setText($('nl'), 'Turn on a word type in settings (⚙︎)');
     $('hint').textContent = '';
@@ -248,6 +249,7 @@ function show(next) {
   setText($('en'), next.w.en);
   setText($('nl'), next.w.nl);
   setText($('fr'), next.w.fr, true);
+  $('back-hint').textContent = next.w.hint || '';  // extra context only after flipping
   $('tag-front').textContent = next.w.tag || '';
   $('tag-back').textContent = next.w.tag || '';
   card.classList.toggle('is-new', next.mode === 'new');

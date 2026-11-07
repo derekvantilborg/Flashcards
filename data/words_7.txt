@@ -309,7 +309,7 @@ local | local | plaatselijk | local / locale
 pourri | rotten | rot | pourri / pourrie
 balader | to stroll | wandelen (slenteren) | se balader
 panique | panic | paniek
-anneau | ring (circle, band) | ring (kring)
+anneau | band, hoop | kring, band
 étrangler | to strangle | wurgen
 collier | necklace, collar | halsketting, halsband
 terreur | terror | angst, terreur

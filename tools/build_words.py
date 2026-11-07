@@ -13,6 +13,7 @@ import csv
 import json
 import re
 import sys
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -57,6 +58,52 @@ def say_text(fr):
     s = re.sub(r"\([^)]*\)", "", fr)
     s = s.replace(" / ", ", ").replace("?", "").replace("!", "")
     return re.sub(r"\s+", " ", s).strip(" ,")
+
+
+def split_hint(text):
+    """'urge (avoir envie de = to feel like)' -> ('urge', ['avoir envie de = to feel like']).
+    Bracketed parts are hints: they would give the answer away on the front of the card."""
+    hints = re.findall(r"\(([^)]*)\)", text)
+    clean = re.sub(r"\s*\([^)]*\)", "", text)
+    clean = re.sub(r"\s+([,;])", r"\1", clean)
+    clean = re.sub(r"\s{2,}", " ", clean).strip(" ,;")
+    return clean, hints
+
+
+def _plain(s):
+    return "".join(ch for ch in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(ch) != "Mn")
+
+
+def drop_answer_glosses(text, answer):
+    """'coffee, café' for le café -> ('coffee', ['café']): a translation that is just the French
+    word gives the answer away, so it moves to the back (only if another translation remains)."""
+    parts = re.split(r"(\s*[,;]\s*)", text)          # keep separators
+    glosses, seps = parts[0::2], parts[1::2]
+    keep = [i for i, g in enumerate(glosses) if _plain(g.strip()) != answer]
+    if not keep or len(keep) == len(glosses):
+        return text, []
+    moved = [glosses[i].strip() for i in range(len(glosses)) if i not in keep]
+    out = glosses[keep[0]]
+    for i in keep[1:]:
+        out += seps[i - 1] + glosses[i]
+    return out.strip(), moved
+
+
+def move_hints_to_back(card):
+    en, en_h = split_hint(card["en"])
+    nl, nl_h = split_hint(card["nl"])
+    if card.get("type") != "conj":
+        answer = _plain(re.sub(r"^(le|la|les|l')\s*|\s*\(.*?\)", "", card["fr"].split(" / ")[0]).strip())
+        en, en_moved = drop_answer_glosses(en, answer)
+        nl, nl_moved = drop_answer_glosses(nl, answer)
+        also = list({_plain(g): g for g in reversed(en_moved + nl_moved)}.values())[::-1]  # éclair/eclair once
+        if also:
+            en_h.append("also: " + ", ".join(also))
+    card["en"], card["nl"] = en, nl
+    hint = "; ".join(en_h) or "; ".join(nl_h)
+    if hint:
+        card["hint"] = hint
+    return card
 
 
 def main(lexique, n):
@@ -176,7 +223,15 @@ def main(lexique, n):
     types = defaultdict(int)
     for w in out:
         types[w["type"]] += 1
-    (ROOT / "words.json").write_text(json.dumps(out + conj, ensure_ascii=False, indent=0), encoding="utf-8")
+    cards = [move_hints_to_back(c) for c in out + conj]
+    same = defaultdict(list)
+    for c in cards:
+        same[(c["en"].lower(), c["nl"].lower())].append(c["fr"])
+    dupes = {k: v for k, v in same.items() if len(v) > 1}
+    print(f"{len(dupes)} fronts shared by more than one card once hints are hidden")
+    (ROOT / "data" / "same_fronts.txt").write_text(
+        "\n".join(f"{en} / {nl}: {' | '.join(frs)}" for (en, nl), frs in sorted(dupes.items())) + "\n", encoding="utf-8")
+    (ROOT / "words.json").write_text(json.dumps(cards, ensure_ascii=False, indent=0), encoding="utf-8")
     print(f"wrote words.json: {len(out)} words {dict(types)} ({len(words) - len(out)} in reserve) "
           f"+ {len(conj)} conjugation cards")
 
