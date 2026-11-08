@@ -358,3 +358,7 @@ body.empty .card { cursor: default; }
   opacity: .75;
 }
 .back-hint:empty { display: none; }
+
+/* Focus sets replace the word-type switches while they are on. */
+.focus-note { margin: 8px 4px 0; font-size: 13px; color: var(--muted); }
+#word-types.focused .type-row { opacity: .4; pointer-events: none; }

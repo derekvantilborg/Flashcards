@@ -68,6 +68,7 @@ femme | woman, wife | vrouw
 fois | time (once, twice...) | keer | la fois
 vie | life | het leven
 peu | a little | een beetje | un peu
++ | in, inside (dans la maison = in the house) | in, binnenin | dans
 demander | to ask | vragen
 rester | to stay | blijven
 seul | alone | alleen (eenzaam)
@@ -75,6 +76,7 @@ appeler | to call | roepen, opbellen
 pourquoi | why | waarom
 grand | big, tall | groot
 partir | to leave, to go away | vertrekken, weggaan
++ | at, to (à Paris = in/to Paris) | naar, bij, aan | à
 trop | too (much) | te (veel)
 connaître | to know (a person, a place) | kennen
 père | father | vader
@@ -82,6 +84,7 @@ peut-être | maybe | misschien
 autre | other | ander
 maintenant | now | nu
 heure | hour, o'clock | uur
++ | of, from (le livre de Paul; je viens de Lyon) | van, uit | de
 + | noon, midday | middag (12 uur) | midi
 monde | world | wereld
 an | year (with numbers: 3 years) | jaar (bij getallen)
@@ -89,6 +92,7 @@ main | hand | hand
 comprendre | to understand | begrijpen
 + | of course | natuurlijk | bien sûr
 + | six | zes | six
++ | in, by (en France = in France; en train = by train) | in, per | en
 + | seven | zeven | sept
 + | eight | acht | huit
 sortir | to go out | uitgaan, naar buiten gaan
@@ -96,6 +100,7 @@ arrêter | to stop | stoppen
 fille | girl, daughter | meisje, dochter
 oeil | eye | oog | l'œil (m) (pl. les yeux)
 enfant | child | kind
++ | next to, beside | naast | à côté de
 sûr | sure | zeker (overtuigd)
 entendre | to hear | horen
 mère | mother | moeder
@@ -103,6 +108,7 @@ mourir | to die | sterven, doodgaan
 dieu | God | God | Dieu
 vraiment | really | echt
 + | that is to say, I mean | dat wil zeggen | c'est-à-dire
++ | by, through (par la fenêtre = through the window) | door, via | par
 déjà | already | al
 vrai | true | waar (niet gelogen)
 tête | head | hoofd
@@ -110,6 +116,7 @@ beau | beautiful, handsome | mooi
 nuit | night | nacht
 tuer | to kill | doden
 comment | how | hoe
++ | there | daar | là
 coup | blow, hit | klap, slag
 sentir | to feel, to smell | voelen, ruiken
 chercher | to look for | zoeken
@@ -117,6 +124,7 @@ tenir | to hold | vasthouden
 maison | house, home | huis
 ami | friend | vriend, vriendin | l'ami / l'amie
 moins | less | minder
++ | around | rondom | autour de
 monsieur | sir, Mr., gentleman | meneer
 soir | evening | avond
 + | nine | negen | neuf
@@ -124,6 +132,7 @@ soir | evening | avond
 besoin | need (avoir besoin de = to need) | behoefte (avoir besoin de = nodig hebben)
 air | air; look (avoir l'air = to seem) | lucht; uiterlijk
 revenir | to come back | terugkomen
++ | until, up to | tot, tot aan | jusqu'à
 beaucoup | a lot, much | veel
 mieux | better (adverb) | beter (bijwoord)
 moment | moment | moment
@@ -131,6 +140,7 @@ moment | moment | moment
 + | during | tijdens | pendant
 + | between | tussen | entre
 essayer | to try | proberen
++ | towards, around (vers midi = around noon) | naartoe, omstreeks | vers
 gens | people | mensen | les gens
 accord | OK, agreed | oké, akkoord | d'accord
 finir | to finish | afmaken, eindigen
@@ -138,6 +148,7 @@ nom | name | naam
 premier | first | eerste
 rendre | to give back | teruggeven
 vivre | to live (be alive) | leven (werkwoord)
++ | against | tegen | contre
 perdre | to lose | verliezen
 jouer | to play | spelen
 aider | to help | helpen
@@ -145,6 +156,7 @@ devenir | to become | worden
 peur | fear (avoir peur = to be afraid) | angst (avoir peur = bang zijn)
 mort | death | de dood | la mort
 juste | fair, just, right | eerlijk, juist
++ | like, as | zoals, als | comme
 porte | door | deur
 ouvrir | to open | openen
 amour | love | liefde
@@ -152,6 +164,7 @@ vite | quickly | snel (bijwoord)
 rentrer | to go home, to come back in | naar huis gaan, terugkeren
 commencer | to begin, to start | beginnen
 entrer | to enter | binnengaan
++ | on top of it | erop | dessus
 tomber | to fall | vallen
 plaire | to please (s'il vous plaît) | bevallen
 + | please (formal) | alstublieft | s'il vous plaît
@@ -159,6 +172,7 @@ plaire | to please (s'il vous plaît) | bevallen
 dernier | last | laatst
 assez | enough, quite | genoeg, nogal
 mal | badly, wrong | slecht (bijwoord), verkeerd
++ | inside it | erin | dedans
 écouter | to listen | luisteren
 oublier | to forget | vergeten
 jeune | young | jong
@@ -166,6 +180,7 @@ raison | reason (avoir raison = to be right) | reden (avoir raison = gelijk hebb
 tirer | to pull, to shoot | trekken, schieten
 côté | side | kant
 manger | to eat | eten
++ | below | onder iets, lager dan | au-dessous de
 + | enjoy your meal | eet smakelijk | bon appétit
 + | vegetable | groente | le légume
 + | fruit | fruit | le fruit
@@ -173,6 +188,7 @@ manger | to eat | eten
 fait | fact | feit
 + | actually, in fact | eigenlijk | en fait
 mot | word | woord
++ | upstairs, at the top | boven, bovenaan | en haut
 fils | son | zoon
 argent | money, silver | geld, zilver
 porter | to carry, to wear | dragen
@@ -180,6 +196,7 @@ maman | mum | mama
 question | question | vraag
 vieux | old | oud | vieux / vieille
 voiture | car | auto
++ | downstairs, at the bottom | beneden, onderaan | en bas
 + | bike | fiets | le vélo
 + | bus | bus | le bus
 + | underground, metro | metro | le métro
@@ -187,6 +204,7 @@ travailler | to work | werken
 place | square, seat | plein, zitplaats
 eau | water | water
 sembler | to seem | lijken
++ | inside of | binnen in | à l'intérieur de
 idée | idea | idee
 bonjour | hello, good morning | hallo, goedendag | bonjour
 histoire | story, history | verhaal, geschiedenis
@@ -194,6 +212,7 @@ terre | earth, land | aarde, land
 asseoir | to sit down | gaan zitten | s'asseoir
 problème | problem | probleem
 marcher | to walk, to work (machine) | lopen, werken (apparaat)
++ | outside of | buiten iets | à l'extérieur de
 tard | late | laat
 changer | to change | veranderen
 retrouver | to find again, to meet up | terugvinden, weerzien
@@ -201,6 +220,7 @@ corps | body | lichaam
 famille | family | familie, gezin
 année | the whole year | het hele jaar
 travail | work, job | werk
++ | in the middle of | midden in | au milieu de
 dormir | to sleep | slapen
 chambre | bedroom | slaapkamer
 affaire | matter, business, case | zaak
@@ -208,6 +228,7 @@ répondre | to answer | antwoorden
 + | eleven | elf | onze
 + | twelve | twaalf | douze
 enfin | finally, at last | eindelijk
++ | at the end of (au bout d'une heure = after an hour) | aan het eind van | au bout de
 loin | far | ver
 monter | to go up, to get in (a car) | naar boven gaan, instappen
 seulement | only | slechts, maar
@@ -215,6 +236,7 @@ apprendre | to learn, to teach | leren
 matin | morning | ochtend
 voix | voice | stem
 pied | foot | voet
++ | at the bottom of, at the back of | achter in, onder in | au fond de
 frère | brother | broer
 écrire | to write | schrijven
 rue | street | straat
@@ -222,6 +244,7 @@ ville | town, city | stad
 boire | to drink | drinken
 + | sugar | suiker | le sucre
 + | salt | zout | le sel
++ | along | langs | le long de
 + | butter | boter | le beurre
 + | rice | rijst | le riz
 + | cake | taart | le gâteau
@@ -229,6 +252,7 @@ boire | to drink | drinken
 occuper | to take care of | zorgen voor | s'occuper de
 part | share, portion | aandeel, portie
 visage | face | gezicht
++ | from, as soon as (dès demain = from tomorrow on) | vanaf, zodra | dès
 payer | to pay | betalen
 mois | month | maand
 + | January | januari | janvier
@@ -236,6 +260,7 @@ mois | month | maand
 + | March | maart | mars
 + | April | april | avril
 demain | tomorrow | morgen
++ | according to | volgens | selon
 + | see you tomorrow | tot morgen | à demain
 longtemps | a long time | lang (tijd)
 montrer | to show | tonen, laten zien
@@ -243,6 +268,7 @@ garder | to keep | houden, bewaren
 coeur | heart | hart | le cœur
 gros | fat, thick | dik
 servir | to serve | dienen, serveren
++ | despite | ondanks | malgré
 lire | to read | lezen
 presque | almost | bijna
 poser | to put down, to ask (a question) | neerleggen, (een vraag) stellen
@@ -250,6 +276,7 @@ quitter | to leave (a place, a person) | verlaten
 envoyer | to send | sturen
 minute | minute | minuut
 bras | arm | arm (lichaamsdeel)
++ | except | behalve | sauf
 noir | black | zwart
 peine | trouble, sorrow (à peine = barely) | moeite, verdriet
 aujourd'hui | today | vandaag
@@ -257,6 +284,7 @@ combien | how much, how many | hoeveel
 long | long | lang
 lever | to get up | opstaan | se lever
 suite | right away | meteen | tout de suite
++ | among | te midden van | parmi
 souvenir | to remember | zich herinneren | se souvenir de
 continuer | to continue | doorgaan
 guerre | war | oorlog
@@ -264,6 +292,7 @@ type | type, guy | type, kerel
 plein | full | vol
 tourner | to turn | draaien
 chance | luck | geluk (toeval)
++ | apart from | afgezien van | à part
 train | train | trein
 madame | madam, Mrs. | mevrouw | madame
 sang | blood | bloed
@@ -271,6 +300,7 @@ point | point, dot | punt
 excuser | to excuse | excuseren
 + | excuse me | pardon, neem me niet kwalijk | excusez-moi
 truc | thing (informal), trick | ding, trucje
++ | in addition, on top of that | bovendien | en plus
 retourner | to go back, to turn over | teruggaan, omdraaien
 descendre | to go down, to get off | naar beneden gaan, uitstappen
 personne | person | persoon
@@ -278,6 +308,7 @@ fou | crazy, mad | gek | fou / folle
 raconter | to tell (a story) | vertellen
 garçon | boy | jongen
 cas | case | geval
++ | besides, moreover | overigens | d'ailleurs
 nouveau | new | nieuw | nouveau / nouvelle
 fin | end | einde | la fin
 semaine | week | week
@@ -285,6 +316,7 @@ jeter | to throw | gooien
 rappeler | to remind, to call back | herinneren aan, terugbellen
 instant | moment, instant | ogenblik
 façon | way, manner | manier
++ | instead of | in plaats van | au lieu de
 merci | thank you | dank je | merci
 + | you're welcome | graag gedaan | de rien
 gagner | to win, to earn | winnen, (geld) verdienen
@@ -292,6 +324,7 @@ lit | bed | bed
 blanc | white | wit
 tour | turn (c'est ton tour = it's your turn) | beurt | le tour
 plutôt | rather | eerder, liever
++ | thanks to | dankzij | grâce à
 toucher | to touch | aanraken
 prêt | ready | klaar
 bout | tip, bit (au bout de = at the end of) | uiteinde, stukje
@@ -299,13 +332,16 @@ feu | fire, traffic light | vuur, verkeerslicht
 espérer | to hope | hopen
 acheter | to buy | kopen
 livre | book | boek | le livre
++ | because of | vanwege | à cause de
 mauvais | bad | slecht
 envie | urge (avoir envie de = to feel like) | zin (avoir envie de = zin hebben in)
 manquer | to lack, to miss (someone) | ontbreken, missen (iemand)
 prier | to pray | bidden
 force | strength, force | kracht
 heureux | happy | gelukkig
+importer | to matter (n'importe quoi = anything), to import | ertoe doen, importeren
 ordre | order | orde, bevel
++ | on time | op tijd | à l'heure
 mec | guy (informal) | gast, vent
 table | table | tafel
 fermer | to close | sluiten, dichtdoen
@@ -313,6 +349,7 @@ rencontrer | to meet | ontmoeten
 pays | country | land (staat)
 compter | to count | tellen
 fond | bottom, background | bodem, achtergrond
++ | running late | te laat | en retard
 lieu | place (avoir lieu = to take place) | plaats (avoir lieu = plaatsvinden)
 ailleurs | elsewhere | ergens anders
 route | road | weg
@@ -320,6 +357,7 @@ expliquer | to explain | uitleggen
 imaginer | to imagine | zich voorstellen
 rire | to laugh | lachen
 reprendre | to take back, to resume | terugnemen, hervatten
++ | ahead of time | te vroeg | en avance
 valoir | to be worth | waard zijn
 décider | to decide | beslissen
 ensemble | together | samen
@@ -327,6 +365,7 @@ cause | cause (à cause de = because of) | oorzaak (à cause de = vanwege)
 mari | husband | echtgenoot, man
 chien | dog | hond | le chien
 soleil | sun | zon
++ | just now, in a moment | zojuist, straks | tout à l'heure
 pourtant | yet, still | toch
 + | still, all the same | desondanks | quand même
 ciel | sky | hemel, lucht
@@ -334,6 +373,7 @@ parfois | sometimes | soms
 regard | look, gaze | blik
 emmener | to take (a person) along | meenemen (iemand)
 surtout | especially, above all | vooral
++ | all of a sudden | opeens | tout à coup
 possible | possible | mogelijk
 chef | chef, head (leader) | chef, leider | le chef
 agir | to act | handelen

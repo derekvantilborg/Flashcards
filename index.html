@@ -61,18 +61,26 @@
         <button id="sheet-done">Done</button>
       </div>
 
-      <h3>Words</h3>
+      <h3>Focus</h3>
       <div class="group">
-        <label class="row"><span>Nouns</span><input type="checkbox" data-key="noun"><i class="switch"></i></label>
-        <label class="row"><span>Verbs</span><input type="checkbox" data-key="verb"><i class="switch"></i></label>
+        <label class="row"><span>Position &amp; time words <small>on, under, before, after, besides…</small></span><input type="checkbox" data-key="focusPrep"><i class="switch"></i></label>
+        <label class="row"><span>Core verbs <small>the 25 most common, with conjugations</small></span><input type="checkbox" data-key="focusCore"><i class="switch"></i></label>
+        <label class="row"><span>Top 100 verbs <small>with conjugations</small></span><input type="checkbox" data-key="focusTop100"><i class="switch"></i></label>
+      </div>
+      <p class="focus-note">Turn one or more on to study only those cards.</p>
+
+      <h3>Words</h3>
+      <div class="group" id="word-types">
+        <label class="row type-row"><span>Nouns</span><input type="checkbox" data-key="noun"><i class="switch"></i></label>
+        <label class="row type-row"><span>Verbs</span><input type="checkbox" data-key="verb"><i class="switch"></i></label>
         <div class="tenses" id="tenses">
           <p class="note">Conjugations · unlock once you know a verb; new verbs wait until they’re solid</p>
           <label class="row sub"><span>Present</span><input type="checkbox" data-key="pres"><i class="switch"></i></label>
           <label class="row sub"><span>Passé composé</span><input type="checkbox" data-key="pc"><i class="switch"></i></label>
           <label class="row sub"><span>Futur simple</span><input type="checkbox" data-key="fut"><i class="switch"></i></label>
         </div>
-        <label class="row"><span>Adjectives</span><input type="checkbox" data-key="adj"><i class="switch"></i></label>
-        <label class="row"><span>Other <small>adverbs, phrases, numbers</small></span><input type="checkbox" data-key="other"><i class="switch"></i></label>
+        <label class="row type-row"><span>Adjectives</span><input type="checkbox" data-key="adj"><i class="switch"></i></label>
+        <label class="row type-row"><span>Other <small>adverbs, phrases, numbers</small></span><input type="checkbox" data-key="other"><i class="switch"></i></label>
       </div>
 
       <h3>Sound</h3>

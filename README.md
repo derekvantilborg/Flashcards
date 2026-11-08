@@ -7,12 +7,13 @@ Meant to be added to the iPhone Home Screen from Safari.
 - Swipe **right** if you knew it, **left** if you didn't (or use the ✓ / ✗ buttons, or ← / → keys).
 - The French is read aloud when you flip a card (switch off in settings); 🔊 replays it. Uses the phone's built-in French voice.
 - Progress is stored on the device (localStorage). No account, no server.
+- ⚙︎ Focus: study only the position & time words, the 25 core verbs or the top 100 verbs (`data/sets.txt`).
 - ⚙︎ settings: switch nouns, verbs, adjectives and "other" (adverbs, phrases, numbers) on or off, pick
   conjugation tenses (présent, passé composé, futur simple) and turn sound effects off.
 
 ## Conjugations
 
-The 50 most common verbs (`data/verbs.txt`) get one card per tense and person, e.g. "you (informal) are /
+The 100 most common verbs (`data/verbs.txt`) get one card per tense and person, e.g. "you (informal) are /
 jij bent" → *tu es*. A verb's conjugation cards unlock once you know the verb, and new verbs wait until those are solid. French
 forms come from Lexique (`tools/conjugate.py` checks the ending of every form); the English and Dutch base
 forms are in `data/verbs.txt`.
@@ -22,8 +23,8 @@ forms are in `data/verbs.txt`.
 Every card has a level from 1 to 10, and each level waits longer before the card comes back:
 1 min, 5 min, 10 min, 1 hour, 1 day, 3 days, 1 week, 16 days, 35 days, 75 days.
 
-- Wrong → level 1. Right when due → one level up. Right *before* it's due → stays put
-  (except levels 1–2, which still move up).
+- Wrong when due → level 1. Right when due → one level up. Extra practice *before* a card is due changes nothing,
+  right or wrong (except levels 1–2, which still move up).
 - A new card you already know starts at level 4, so it still has to pass the 1-hour and 1-day checks.
 - A card counts as **learned** from level 5.
 - New cards only come in while fewer than 8 cards are below level 3, alternating between a *verb track*

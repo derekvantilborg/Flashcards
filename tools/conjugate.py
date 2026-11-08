@@ -17,6 +17,10 @@ NL_AUX = {
     "h": {"1s": "heb", "2s": "hebt", "3s": "heeft", "pl": "hebben"},
     "z": {"1s": "ben", "2s": "bent", "3s": "is", "pl": "zijn"},
 }
+REFLEXIVE = {"asseoir", "souvenir", "occuper"}
+IMPERSONAL = {"falloir"}  # only "il faut / il a fallu / il faudra"
+FR_REFL = {"1s": "me", "2s": "te", "3s": "se", "1p": "nous", "2p": "vous", "3p": "se"}
+NL_REFL = {"1s": "me", "2s": "je", "3s": "zich", "1p": "ons", "2p": "je", "3p": "zich"}
 NL_ZAL = {"1s": "zal", "2s": "zult", "3s": "zal", "pl": "zullen"}
 # English verbs that don't follow "base / 3sg / past / will + base".
 EN_SPECIAL = {
@@ -42,6 +46,19 @@ ENDINGS = {
 }
 
 
+# Regular forms that simply never occur in Lexique's corpus (written by hand).
+MISSING_FORMS = {
+    "importer": {"ind:pre:1p": "importons", "ind:pre:2p": "importez", "ind:fut:1s": "importerai", "ind:fut:2s": "importeras",
+                 "ind:fut:1p": "importerons", "ind:fut:2p": "importerez", "ind:fut:3p": "importeront"},
+    "plaire": {"par:pas": "plu", "ind:fut:1p": "plairons"},
+    "asseoir": {"ind:fut:1p": "assiérons", "ind:fut:2p": "assiérez"},
+    "espérer": {"ind:fut:2s": "espéreras", "ind:fut:3s": "espérera", "ind:fut:1p": "espérerons",
+                "ind:fut:2p": "espérerez", "ind:fut:3p": "espéreront"},
+    "suffire": {"ind:fut:2s": "suffiras", "ind:fut:1p": "suffirons", "ind:fut:2p": "suffirez"},
+    "sembler": {"ind:fut:1s": "semblerai", "ind:fut:2s": "sembleras", "ind:fut:1p": "semblerons", "ind:fut:2p": "semblerez"},
+}
+
+
 def load_forms(lexique, verbs):
     """verb -> {code: most frequent spelling with a plausible ending}."""
     best = defaultdict(dict)
@@ -60,7 +77,16 @@ def load_forms(lexique, verbs):
                 cur = best[row["lemme"]].get(code)
                 if cur is None or freq > cur[0]:
                     best[row["lemme"]][code] = (freq, row["ortho"])
-    return {v: {c: o for c, (_, o) in codes.items()} for v, codes in best.items()}
+    result = {v: {c: o for c, (_, o) in codes.items()} for v, codes in best.items()}
+    # s'asseoir has two valid series; use one throughout instead of mixing them.
+    if "asseoir" in result:
+        result["asseoir"].update({"ind:pre:3p": "asseyent", "ind:fut:1s": "assiérai", "ind:fut:2s": "assiéras",
+                                  "ind:fut:3s": "assiéra", "ind:fut:3p": "assiéront"})
+    for v, extra in MISSING_FORMS.items():
+        if v in result:
+            for code, form in extra.items():
+                result[v].setdefault(code, form)
+    return result
 
 
 def load_verbs(path):
@@ -101,9 +127,9 @@ def fr_pc(aux_form, pp, p, etre):
         "1s": f"je {aux_form} {pp}(e)",
         "2s": f"tu {aux_form} {pp}(e)",
         "3s": f"il {aux_form} {pp} / elle {aux_form} {pp}e",
-        "1p": f"nous {aux_form} {pp}(e){plural}",
-        "2p": f"vous {aux_form} {pp}(e)({plural})" if plural else f"vous {aux_form} {pp}(e)",
-        "3p": f"ils {aux_form} {pp}{plural} / elles {aux_form} {pp}e{plural}",
+        "1p": f"nous {aux_form} {pp}(e)s" if plural else f"nous {aux_form} {pp}(es)",
+        "2p": f"vous {aux_form} {pp}(e)(s)",
+        "3p": f"ils {aux_form} {pp}{plural} / elles {aux_form} {pp}es",
     }[p]
     said = {
         "1s": f"je {aux_form} {pp}",
@@ -111,12 +137,23 @@ def fr_pc(aux_form, pp, p, etre):
         "3s": f"il {aux_form} {pp}, elle {aux_form} {pp}e",
         "1p": f"nous {aux_form} {pp}{plural}",
         "2p": f"vous {aux_form} {pp}",
-        "3p": f"ils {aux_form} {pp}{plural}, elles {aux_form} {pp}e{plural}",
+        "3p": f"ils {aux_form} {pp}{plural}, elles {aux_form} {pp}es",
     }[p]
     return disp, said
 
 
+def refl(pron_key, form):
+    """me + assieds -> m'assieds; te + es -> t'es; nous + sommes -> nous sommes."""
+    pron = FR_REFL[pron_key]
+    if pron in ("me", "te", "se") and form[0].lower() in VOWELS:
+        return f"{pron[0]}'{form}"
+    return f"{pron} {form}"
+
+
 def en_form(v, tense, p):
+    if v["en_base"].startswith("be "):  # be worth, be enough
+        rest = v["en_base"][3:]
+        return f"{en_form({**v, 'en_base': 'be'}, tense, p)} {rest}".replace("will be " + rest + " " + rest, "will be " + rest)
     sp = EN_SPECIAL.get(v["en_base"], {}).get(tense)
     if isinstance(sp, dict):
         return sp.get(p, sp["*"])
@@ -130,12 +167,14 @@ def en_form(v, tense, p):
 
 
 def nl_form(v, tense, p):
+    is_refl = v["nl_particle"] == "REFL"
+    me = f"{NL_REFL[p]} " if is_refl else ""
     if tense == "pres":
         f = {"1s": v["nl_ik"], "2s": v["nl_jij"], "3s": v["nl_hij"]}.get(p, v["nl_pl"])
-        return f"{f} {v['nl_particle']}".strip()
+        return f"{f} {NL_REFL[p] if is_refl else v['nl_particle']}".strip()
     if tense == "pc":
-        return f"{NL_AUX[v['nl_aux']][_pl(p)]} {v['nl_pp']}"
-    return f"{NL_ZAL[_pl(p)]} {v['nl_inf']}"
+        return f"{NL_AUX[v['nl_aux']][_pl(p)]} {me}{v['nl_pp']}"
+    return f"{NL_ZAL[_pl(p)]} {me}{v['nl_inf']}"
 
 
 def build(lexique, verbs_path):
@@ -150,12 +189,16 @@ def build(lexique, verbs_path):
             if v["fr_aux"] not in ("avoir", "être") or v["nl_aux"] not in NL_AUX:
                 errors.append(f"{v['fr']}: bad auxiliary column")
                 continue
-            for p in PERSONS:
+            impersonal = v["fr"] in IMPERSONAL
+            for p in (["3s"] if impersonal else PERSONS):
+                is_refl = v["fr"] in REFLEXIVE
                 if tense == "pc":
                     aux = forms[v["fr_aux"]].get(f"ind:pre:{p}")
                     if not (aux and pp):
                         errors.append(f"{v['fr']}: missing participle or auxiliary for {p}")
                         continue
+                    if is_refl:
+                        aux = refl(p, aux)
                     fr, said = fr_pc(aux, pp, p, v["fr_aux"] == "être")
                 else:
                     code = f"ind:{'pre' if tense == 'pres' else 'fut'}:{p}"
@@ -163,12 +206,16 @@ def build(lexique, verbs_path):
                     if not form:
                         errors.append(f"{v['fr']}: no Lexique form for {code}")
                         continue
-                    fr, said = fr_simple(form, p)
+                    fr, said = fr_simple(refl(p, form) if is_refl else form, p)
+                en_pron, nl_pron = EN_PRON[p], NL_PRON[p]
+                if impersonal:
+                    fr, said = fr.replace("il / elle ", "il "), said.split(", ")[0]
+                    en_pron, nl_pron = "one", "het"
                 cards.append({
                     "id": f"{v['fr']}|{tense}|{p}",
                     "fr": fr,
-                    "en": f"{EN_PRON[p]} {en_form(v, tense, p)}",
-                    "nl": f"{NL_PRON[p]} {nl_form(v, tense, p)}",
+                    "en": f"{en_pron} {en_form(v, tense, p)}",
+                    "nl": f"{nl_pron} {nl_form(v, tense, p)}",
                     "say": said,
                     "type": "conj",
                     "verb": v["fr"],

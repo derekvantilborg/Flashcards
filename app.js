@@ -4,7 +4,7 @@
 // longer: 1 min, 5 min, 10 min, 1 h, 1 day, 3 days, 1 week, 16, 35, 75 days.
 //   wrong                 -> level 1
 //   right (when due)      -> one level up
-//   right (before due)    -> stays put (only the first two levels still move up)
+//   before due            -> extra practice: no change (only levels 1-2 still move up)
 //   new and already known -> level 4 (still has to pass the 1 h and 1 day checks)
 // A card counts as "learned" from level 5 (it survived the 1-hour check).
 //
@@ -17,7 +17,8 @@
 
 const STORE_KEY = 'mots-progress-v1';
 const SETTINGS_KEY = 'mots-settings-v1';
-const DEFAULT_SETTINGS = { noun: true, verb: true, adj: true, other: true, pres: true, pc: false, fut: false, sound: true, autoSpeak: true };
+const DEFAULT_SETTINGS = { noun: true, verb: true, adj: true, other: true, pres: true, pc: false, fut: false, sound: true, autoSpeak: true, focusPrep: false, focusCore: false, focusTop100: false };
+const FOCUS_SETS = { focusPrep: 'prep', focusCore: 'core', focusTop100: 'top100' };
 const MIN = 60e3, HOUR = 60 * MIN, DAY = 24 * HOUR;
 const INTERVALS = [0, 1 * MIN, 5 * MIN, 10 * MIN, 1 * HOUR, 1 * DAY, 3 * DAY, 7 * DAY, 16 * DAY, 35 * DAY, 75 * DAY];
 const MAX_BOX = INTERVALS.length - 1;
@@ -96,7 +97,15 @@ const level = (w) => (prog(w) ? prog(w).b : 0);
 const verbLevel = (fr) => (state.p[fr] ? state.p[fr].b : 0);
 
 // Is this card type switched on in settings? (ignores the verb-unlock rule)
+const activeFocus = () => Object.keys(FOCUS_SETS).filter((k) => settings[k]).map((k) => FOCUS_SETS[k]);
+
 function typeOn(w) {
+  // With a Focus set on, only that set's cards count; the word-type switches are ignored.
+  const focus = activeFocus();
+  if (focus.length) {
+    if (!(w.sets || []).some((s) => focus.includes(s))) return false;
+    return w.type !== 'conj' || !!settings[w.tense];
+  }
   return w.type === 'conj' ? settings.verb && settings[w.tense] : settings[w.type] !== false;
 }
 
@@ -154,17 +163,21 @@ function grade(correct) {
   if (mode === 'new') state.nextVerbTrack = !(w.type === 'conj' || w.type === 'verb');
 
   const early = mode !== 'new' && p.d > now;
-  if (!correct) {
-    p.b = 1;
-  } else if (mode === 'new') {
-    p.b = KNOWN_NEW_BOX;
-  } else if (early && p.b >= EARLY_PROMOTE_BOX) {
-    // Answered before it was due: keep its level and schedule.
-  } else {
-    p.b = Math.min(p.b + 1, MAX_BOX);
+  // Extra practice on a card that isn't due yet doesn't change it, right or wrong:
+  // otherwise one slip while waiting would keep small sets from ever moving on.
+  const extraPractice = mode === 'ahead' && early && p.b >= EARLY_PROMOTE_BOX;
+  if (!extraPractice) {
+    if (!correct) {
+      p.b = 1;
+    } else if (mode === 'new') {
+      p.b = KNOWN_NEW_BOX;
+    } else if (early && p.b >= EARLY_PROMOTE_BOX) {
+      // Early surprise review answered correctly: keep its level and schedule.
+    } else {
+      p.b = Math.min(p.b + 1, MAX_BOX);
+    }
+    if (!(correct && early && p.b >= EARLY_PROMOTE_BOX)) p.d = now + INTERVALS[p.b];
   }
-  if (!(correct && early && p.b >= EARLY_PROMOTE_BOX)) p.d = now + INTERVALS[p.b];
-
   p.m = Math.max(p.m || 0, p.b);
   state.p[key(w)] = p;
   if (state.day !== todayStr()) { state.day = todayStr(); state.today = 0; }
@@ -436,7 +449,10 @@ const sheetOpen = () => sheet.classList.contains('open');
 
 function syncSettingsUI() {
   for (const box of sheet.querySelectorAll('input[data-key]')) box.checked = !!settings[box.dataset.key];
-  $('tenses').classList.toggle('off', !settings.verb);
+  const focused = activeFocus().length > 0;
+  const verbFocus = settings.focusCore || settings.focusTop100;
+  $('tenses').classList.toggle('off', !(focused ? verbFocus : settings.verb));
+  $('word-types').classList.toggle('focused', focused);
 }
 
 function openSettings() {

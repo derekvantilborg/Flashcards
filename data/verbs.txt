@@ -6,8 +6,8 @@
 # - nl_aux: h = hebben, z = zijn
 être | avoir | be | is | was | zijn | ben | bent | is | zijn | geweest | z |
 avoir | avoir | have | has | had | hebben | heb | hebt | heeft | hebben | gehad | h |
-faire | avoir | do | does | did | doen | doe | doet | doet | doen | gedaan | h |
 aller | être | go | goes | went | gaan | ga | gaat | gaat | gaan | gegaan | z |
+faire | avoir | do | does | did | doen | doe | doet | doet | doen | gedaan | h |
 dire | avoir | say | says | said | zeggen | zeg | zegt | zegt | zeggen | gezegd | h |
 pouvoir | avoir | can | can | could | kunnen | kan | kunt | kan | kunnen | gekund | h |
 vouloir | avoir | want | wants | wanted | willen | wil | wilt | wil | willen | gewild | h |
@@ -15,42 +15,92 @@ savoir | avoir | know | knows | knew | weten | weet | weet | weet | weten | gewe
 voir | avoir | see | sees | saw | zien | zie | ziet | ziet | zien | gezien | h |
 devoir | avoir | must | must | had to | moeten | moet | moet | moet | moeten | gemoeten | h |
 venir | être | come | comes | came | komen | kom | komt | komt | komen | gekomen | z |
-prendre | avoir | take | takes | took | nemen | neem | neemt | neemt | nemen | genomen | h |
 parler | avoir | speak | speaks | spoke | spreken | spreek | spreekt | spreekt | spreken | gesproken | h |
+prendre | avoir | take | takes | took | nemen | neem | neemt | neemt | nemen | genomen | h |
 croire | avoir | believe | believes | believed | geloven | geloof | gelooft | gelooft | geloven | geloofd | h |
 aimer | avoir | love | loves | loved | houden van | hou | houdt | houdt | houden | gehouden van | h | van
+falloir | avoir | must | must | had to | moeten | moet | moet | moet | moeten | gemoeten | h |
+passer | être | pass by | passes by | passed by | langskomen | kom | komt | komt | komen | langsgekomen | z | langs
 penser | avoir | think | thinks | thought | denken | denk | denkt | denkt | denken | gedacht | h |
+attendre | avoir | wait | waits | waited | wachten | wacht | wacht | wacht | wachten | gewacht | h |
 trouver | avoir | find | finds | found | vinden | vind | vindt | vindt | vinden | gevonden | h |
 laisser | avoir | let | lets | let | laten | laat | laat | laat | laten | gelaten | h |
-regarder | avoir | watch | watches | watched | kijken | kijk | kijkt | kijkt | kijken | gekeken | h |
-attendre | avoir | wait | waits | waited | wachten | wacht | wacht | wacht | wachten | gewacht | h |
-donner | avoir | give | gives | gave | geven | geef | geeft | geeft | geven | gegeven | h |
 arriver | être | arrive | arrives | arrived | aankomen | kom | komt | komt | komen | aangekomen | z | aan
-mettre | avoir | put | puts | put | zetten | zet | zet | zet | zetten | gezet | h |
-demander | avoir | ask | asks | asked | vragen | vraag | vraagt | vraagt | vragen | gevraagd | h |
-rester | être | stay | stays | stayed | blijven | blijf | blijft | blijft | blijven | gebleven | z |
+donner | avoir | give | gives | gave | geven | geef | geeft | geeft | geven | gegeven | h |
+regarder | avoir | watch | watches | watched | kijken | kijk | kijkt | kijkt | kijken | gekeken | h |
 appeler | avoir | call | calls | called | roepen | roep | roept | roept | roepen | geroepen | h |
 partir | être | leave | leaves | left | vertrekken | vertrek | vertrekt | vertrekt | vertrekken | vertrokken | z |
+mettre | avoir | put | puts | put | zetten | zet | zet | zet | zetten | gezet | h |
+rester | être | stay | stays | stayed | blijven | blijf | blijft | blijft | blijven | gebleven | z |
+arrêter | avoir | stop | stops | stopped | stoppen | stop | stopt | stopt | stoppen | gestopt | h |
 connaître | avoir | know | knows | knew | kennen | ken | kent | kent | kennen | gekend | h |
+tuer | avoir | kill | kills | killed | doden | dood | doodt | doodt | doden | gedood | h |
+mourir | être | die | dies | died | sterven | sterf | sterft | sterft | sterven | gestorven | z |
+demander | avoir | ask | asks | asked | vragen | vraag | vraagt | vraagt | vragen | gevraagd | h |
 comprendre | avoir | understand | understands | understood | begrijpen | begrijp | begrijpt | begrijpt | begrijpen | begrepen | h |
 sortir | être | go out | goes out | went out | uitgaan | ga | gaat | gaat | gaan | uitgegaan | z | uit
-arrêter | avoir | stop | stops | stopped | stoppen | stop | stopt | stopt | stoppen | gestopt | h |
 entendre | avoir | hear | hears | heard | horen | hoor | hoort | hoort | horen | gehoord | h |
-mourir | être | die | dies | died | sterven | sterf | sterft | sterft | sterven | gestorven | z |
-sentir | avoir | feel | feels | felt | voelen | voel | voelt | voelt | voelen | gevoeld | h |
 chercher | avoir | look for | looks for | looked for | zoeken | zoek | zoekt | zoekt | zoeken | gezocht | h |
-revenir | être | come back | comes back | came back | terugkomen | kom | komt | komt | komen | teruggekomen | z | terug
-essayer | avoir | try | tries | tried | proberen | probeer | probeert | probeert | proberen | geprobeerd | h |
-finir | avoir | finish | finishes | finished | afmaken | maak | maakt | maakt | maken | afgemaakt | h | af
-vivre | avoir | live | lives | lived | leven | leef | leeft | leeft | leven | geleefd | h |
-perdre | avoir | lose | loses | lost | verliezen | verlies | verliest | verliest | verliezen | verloren | h |
-jouer | avoir | play | plays | played | spelen | speel | speelt | speelt | spelen | gespeeld | h |
 aider | avoir | help | helps | helped | helpen | help | helpt | helpt | helpen | geholpen | h |
-devenir | être | become | becomes | became | worden | word | wordt | wordt | worden | geworden | z |
-ouvrir | avoir | open | opens | opened | openen | open | opent | opent | openen | geopend | h |
+essayer | avoir | try | tries | tried | proberen | probeer | probeert | probeert | proberen | geprobeerd | h |
+revenir | être | come back | comes back | came back | terugkomen | kom | komt | komt | komen | teruggekomen | z | terug
+plaire | avoir | please | pleases | pleased | bevallen | beval | bevalt | bevalt | bevallen | bevallen | z |
+jouer | avoir | play | plays | played | spelen | speel | speelt | speelt | spelen | gespeeld | h |
+finir | avoir | finish | finishes | finished | afmaken | maak | maakt | maakt | maken | afgemaakt | h | af
+perdre | avoir | lose | loses | lost | verliezen | verlies | verliest | verliest | verliezen | verloren | h |
+sentir | avoir | feel | feels | felt | voelen | voel | voelt | voelt | voelen | gevoeld | h |
 rentrer | être | go home | goes home | went home | naar huis gaan | ga | gaat | gaat | gaan | naar huis gegaan | z | naar huis
-commencer | avoir | start | starts | started | beginnen | begin | begint | begint | beginnen | begonnen | z |
-entrer | être | come in | comes in | came in | binnenkomen | kom | komt | komt | komen | binnengekomen | z | binnen
-manger | avoir | eat | eats | ate | eten | eet | eet | eet | eten | gegeten | h |
+vivre | avoir | live | lives | lived | leven | leef | leeft | leeft | leven | geleefd | h |
+rendre | avoir | give back | gives back | gave back | teruggeven | geef | geeft | geeft | geven | teruggegeven | h | terug
+tenir | avoir | hold | holds | held | vasthouden | hou | houdt | houdt | houden | vastgehouden | h | vast
+oublier | avoir | forget | forgets | forgot | vergeten | vergeet | vergeet | vergeet | vergeten | vergeten | z |
 travailler | avoir | work | works | worked | werken | werk | werkt | werkt | werken | gewerkt | h |
 écouter | avoir | listen | listens | listened | luisteren | luister | luistert | luistert | luisteren | geluisterd | h |
+manger | avoir | eat | eats | ate | eten | eet | eet | eet | eten | gegeten | h |
+entrer | être | come in | comes in | came in | binnenkomen | kom | komt | komt | komen | binnengekomen | z | binnen
+devenir | être | become | becomes | became | worden | word | wordt | wordt | worden | geworden | z |
+commencer | avoir | start | starts | started | beginnen | begin | begint | begint | beginnen | begonnen | z |
+payer | avoir | pay | pays | paid | betalen | betaal | betaalt | betaalt | betalen | betaald | h |
+tirer | avoir | pull | pulls | pulled | trekken | trek | trekt | trekt | trekken | getrokken | h |
+ouvrir | avoir | open | opens | opened | openen | open | opent | opent | openen | geopend | h |
+changer | avoir | change | changes | changed | veranderen | verander | verandert | verandert | veranderen | veranderd | h |
+tomber | être | fall | falls | fell | vallen | val | valt | valt | vallen | gevallen | z |
+excuser | avoir | excuse | excuses | excused | excuseren | excuseer | excuseert | excuseert | excuseren | geëxcuseerd | h |
+dormir | avoir | sleep | sleeps | slept | slapen | slaap | slaapt | slaapt | slapen | geslapen | h |
+occuper | être | take care of | takes care of | took care of | zorgen voor | zorg | zorgt | zorgt | zorgen | gezorgd voor | h | voor
+marcher | avoir | walk | walks | walked | lopen | loop | loopt | loopt | lopen | gelopen | h |
+envoyer | avoir | send | sends | sent | sturen | stuur | stuurt | stuurt | sturen | gestuurd | h |
+apprendre | avoir | learn | learns | learned | leren | leer | leert | leert | leren | geleerd | h |
+boire | avoir | drink | drinks | drank | drinken | drink | drinkt | drinkt | drinken | gedronken | h |
+garder | avoir | keep | keeps | kept | bewaren | bewaar | bewaart | bewaart | bewaren | bewaard | h |
+montrer | avoir | show | shows | showed | tonen | toon | toont | toont | tonen | getoond | h |
+asseoir | être | sit down | sits down | sat down | gaan zitten | ga | gaat | gaat | gaan | gaan zitten | z | zitten
+porter | avoir | carry | carries | carried | dragen | draag | draagt | draagt | dragen | gedragen | h |
+souvenir | être | remember | remembers | remembered | herinneren | herinner | herinnert | herinnert | herinneren | herinnerd | h | REFL
+prier | avoir | pray | prays | prayed | bidden | bid | bidt | bidt | bidden | gebeden | h |
+servir | avoir | serve | serves | served | dienen | dien | dient | dient | dienen | gediend | h |
+écrire | avoir | write | writes | wrote | schrijven | schrijf | schrijft | schrijft | schrijven | geschreven | h |
+espérer | avoir | hope | hopes | hoped | hopen | hoop | hoopt | hoopt | hopen | gehoopt | h |
+retrouver | avoir | find again | finds again | found again | terugvinden | vind | vindt | vindt | vinden | teruggevonden | h | terug
+gagner | avoir | win | wins | won | winnen | win | wint | wint | winnen | gewonnen | h |
+acheter | avoir | buy | buys | bought | kopen | koop | koopt | koopt | kopen | gekocht | h |
+rappeler | avoir | call back | calls back | called back | terugbellen | bel | belt | belt | bellen | teruggebeld | h | terug
+lire | avoir | read | reads | read | lezen | lees | leest | leest | lezen | gelezen | h |
+monter | être | go up | goes up | went up | naar boven gaan | ga | gaat | gaat | gaan | naar boven gegaan | z | naar boven
+quitter | avoir | leave | leaves | left | verlaten | verlaat | verlaat | verlaat | verlaten | verlaten | h |
+emmener | avoir | take along | takes along | took along | meenemen | neem | neemt | neemt | nemen | meegenomen | h | mee
+toucher | avoir | touch | touches | touched | aanraken | raak | raakt | raakt | raken | aangeraakt | h | aan
+continuer | avoir | continue | continues | continued | doorgaan | ga | gaat | gaat | gaan | doorgegaan | z | door
+importer | avoir | matter | matters | mattered | ertoe doen | doe | doet | doet | doen | ertoe gedaan | h | ertoe
+manquer | avoir | miss | misses | missed | missen | mis | mist | mist | missen | gemist | h |
+raconter | avoir | tell | tells | told | vertellen | vertel | vertelt | vertelt | vertellen | verteld | h |
+répondre | avoir | answer | answers | answered | antwoorden | antwoord | antwoordt | antwoordt | antwoorden | geantwoord | h |
+sauver | avoir | save | saves | saved | redden | red | redt | redt | redden | gered | h |
+retourner | être | go back | goes back | went back | teruggaan | ga | gaat | gaat | gaan | teruggegaan | z | terug
+rencontrer | avoir | meet | meets | met | ontmoeten | ontmoet | ontmoet | ontmoet | ontmoeten | ontmoet | h |
+voler | avoir | fly | flies | flew | vliegen | vlieg | vliegt | vliegt | vliegen | gevlogen | h |
+fermer | avoir | close | closes | closed | sluiten | sluit | sluit | sluit | sluiten | gesloten | h |
+valoir | avoir | be worth | is worth | was worth | waard zijn | ben | bent | is | zijn | waard geweest | z | waard
+descendre | être | go down | goes down | went down | naar beneden gaan | ga | gaat | gaat | gaan | naar beneden gegaan | z | naar beneden
+suffire | avoir | be enough | is enough | was enough | volstaan | volsta | volstaat | volstaat | volstaan | volstaan | h |
+sembler | avoir | seem | seems | seemed | lijken | lijk | lijkt | lijkt | lijken | geleken | h |

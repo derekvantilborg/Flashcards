@@ -182,7 +182,7 @@ def main(lexique, n):
             if not skip_check:
                 check_gender(fr, where)
             cg = cand[lemma]["cgram"] if lemma != "+" else ""
-            words.append({"fr": fr, "en": en, "nl": nl, "say": say_text(fr),
+            words.append({"fr": fr, "en": en, "nl": nl, "say": say_text(fr), "_lemma": lemma,
                           "type": word_type(cg, lemma, fr), "_where": where})
 
     # Duplicates: same French is an error; same English or Dutch front is confusing.
@@ -207,9 +207,41 @@ def main(lexique, n):
     import conjugate
     conj, conj_errors = conjugate.build(lexique, DATA / "verbs.txt")
     errors.extend(conj_errors)
-    vocab_fr = {w["fr"] for w in words[:n]}
-    for v in sorted({c["verb"] for c in conj} - vocab_fr):
-        errors.append(f"verbs.txt: '{v}' is not one of the first {n} vocab words")
+    # A conjugation card unlocks from its verb's vocab card, whose text can differ
+    # from the lemma ("asseoir" -> "s'asseoir"), so link them by display text.
+    verb_card = {w["_lemma"]: w for w in words[:n] if w["_lemma"] != "+" and w["type"] == "verb"}
+    for c in conj:
+        lemma = c["verb"]
+        if lemma not in verb_card:
+            errors.append(f"verbs.txt: '{lemma}' is not one of the first {n} vocab verbs")
+            continue
+        c["verb"] = verb_card[lemma]["fr"]
+        c["tag"] = c["tag"].replace(lemma, re.sub(r"\s*\(.*?\)", "", c["verb"]), 1)
+        c["_lemma"] = lemma
+
+    # Focus sets (data/sets.txt).
+    by_fr = {w["fr"]: w for w in words[:n]}
+    for line in (DATA / "sets.txt").read_text(encoding="utf-8").splitlines():
+        if not line.strip() or line.startswith("#"):
+            continue
+        name, items = line.split(":", 1)
+        for item in (x.strip() for x in items.split(",")):
+            if name == "prep":
+                if item not in by_fr:
+                    errors.append(f"sets.txt: '{item}' is not a card")
+                    continue
+                by_fr[item].setdefault("sets", []).append(name)
+                by_fr[item]["type"] = "other"
+            else:
+                if item not in verb_card:
+                    errors.append(f"sets.txt: verb '{item}' has no vocab card")
+                    continue
+                verb_card[item].setdefault("sets", []).append(name)
+                for c in conj:
+                    if c.get("_lemma") == item:
+                        c.setdefault("sets", []).append(name)
+    for c in conj:
+        c.pop("_lemma", None)
 
     for w in warnings:
         print("WARN ", w)
@@ -219,7 +251,7 @@ def main(lexique, n):
     if errors:
         sys.exit(1)
 
-    out = [{k: v for k, v in w.items() if k != "_where"} for w in words[:n]]
+    out = [{k: v for k, v in w.items() if k not in ("_where", "_lemma")} for w in words[:n]]
     types = defaultdict(int)
     for w in out:
         types[w["type"]] += 1
